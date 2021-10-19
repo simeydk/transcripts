@@ -22,9 +22,9 @@ Let's start on framework wars. The framework wars, if we were gonna go in order 
 
 For those of you who are not familiar -- I mean, I'm sure everyone at this point is, because it was a huge conversation that happened from one of the Vue RFC recently... Well, semi-recently. A couple months it's been. So that was with the functions-based API. Kball, you were aware of that as it was happening, right?
 
-**Kevin Ball:** \[00:04:20\] Yeah. I thought it was awesome, but there was definitely some blowback going on there.
+**Kevin Ball:** \[04:20\] Yeah. I thought it was awesome, but there was definitely some blowback going on there.
 
-**Divya Sasidharan:** Yeah. So it's a huge change to the -- it's sort of a pattern that was being introduced into how you write Vue. Essentially, they took a page from React, and were moving towards a functions-based API, so writing more function-based things rather than your componentized -- it's still componentized, but the way you write it is slightly different. Instead of have your javascript, your script, your HTML markup and your CSS, you have just one single function that returns some markup.
+**Divya Sasidharan:** Yeah. So it's a huge change to the -- it's sort of a pattern that was being introduced into how you write Vue. Essentially, they took a page from React, and were moving towards a functions-based API, so writing more function-based things rather than your componentized -- it's still componentized, but the way you write it is slightly different. Instead of have your JavaScript, your script, your HTML markup and your CSS, you have just one single function that returns some markup.
 
 That whole thing caused a lot of controversy, mainly because people felt like that was a huge shift in the way you would write Vue. So the functions-based API was written in a way that seemed to indicate that Vue 3 would move away from Vue 2's current syntax... Which I think sent a lot of people up in arms, because the reason a lot of people love Vue and use Vue is because of the current syntax, and the functions-based API implying that there was gonna be a change basically pulled an Angular, in a sense... Or the community assumed it was pulling an Angular, and moving and shifting completely away from what the community had been used to.
 

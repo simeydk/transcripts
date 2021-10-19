@@ -3,8 +3,8 @@ JavaScript
 
 Adding valid text
 
-[00:01:17]
-javascript ml ops
+\[01:17\]
+JavaScript MLOps
 bears
 beets
 battlestar galactica
