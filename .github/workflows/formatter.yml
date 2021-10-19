@@ -55,4 +55,4 @@ jobs:
             It ran `npm run format` after the last push to master, which was
             *${{ github.event.head_commit.message }}*
           branch: action-format
-          delete: true
+          delete-branch: true
