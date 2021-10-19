@@ -1,4 +1,4 @@
-\[00:22:11.13]
-javascript
+\[22:11\]
+JavaScript
 
 Adding valid text
