@@ -30,13 +30,13 @@ You only really need the bulk data to get the analysis piece to understand which
 
 **Jake Lundberg:** Do you foresee adding that additional layer being an additional challenge to accurate analytics tracking? Because there's already an issue with the analytics not necessarily being 100% accurate. Do you see an extra layer adding to that?
 
-**Kevin Ball:** I don't know that it makes it worse than it already is. I mean, especially as you move to a world of single-page apps, or apps that are -- I love the universal JavaScript approach, where you render it server-side, but once it's loaded, it hydrates a single-page app... Those already have tons of problems with accuracy and keeping track of things, and you've already got to have an engineer involved, plugging that stuff in. I don't think it's any worse if what you're plugging in is a library that proxies through your local API, as compared to just dropping in some script tag and then having to use their programming interface to plug it in.
+**Kevin Ball:** I don't know that it makes it worse than it already is. I mean, especially as you move to a world of single-page apps, or apps that are -- I love the universal Javascript approach, where you render it server-side, but once it's loaded, it hydrates a single-page app... Those already have tons of problems with accuracy and keeping track of things, and you've already got to have an engineer involved, plugging that stuff in. I don't think it's any worse if what you're plugging in is a library that proxies through your local API, as compared to just dropping in some script tag and then having to use their programming interface to plug it in.
 
 **Jake Lundberg:** Gotcha. Well, thanks guys. I really appreciate it.
 
 **Jerod Santo:** Thanks, Jake.
 
-**Break:** \[07:50\]
+**Break:** \[00:07:50\]
 
 **Jerod Santo:** Next up we have Amal Hussein talking about finding your tribe at conferences. Take a listen.
 
