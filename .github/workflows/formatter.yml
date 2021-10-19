@@ -41,7 +41,9 @@ jobs:
         run: npm install
         
       - name: run formatter
-        run: npm run format
+        run: |-
+          npm run format
+          git status
         
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
