@@ -1,6 +1,6 @@
-**Tim Smith:** \[01:46\] Describing what Jason Snell does really can't be done with one word. He's been covering Apple and other technology companies for more than 20 years, ten of those as a lead editor at Macworld. But personally, I first came to know Jason from The Incomparable, a podcast that turned into a whole network of shows on Pop Culture.
+**Tim Smith:** \[00:01:46\] Describing what Jason Snell does really can't be done with one word. He's been covering Apple and other technology companies for more than 20 years, ten of those as a lead editor at Macworld. But personally, I first came to know Jason from The Incomparable, a podcast that turned into a whole network of shows on Pop Culture.
 
-He's still doing that show, and if I'm counting right, he's on at least five podcasts a week. On top of that, he's the editor-in-chief of Six Colors, a site he started a little over four years ago.
+He's still doing that javascript show, and if I'm counting right, he's on at least five podcasts a week. On top of that, he's the editor-in-chief of Six Colors, a site he started a little over four years ago.
 
 All in all, one thing is for sure - a typical day in Jason's life doesn't really exist.
 
