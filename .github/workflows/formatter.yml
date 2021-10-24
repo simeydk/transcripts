@@ -14,8 +14,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.actions_pat }}
+        # with:
+          # token: ${{ secrets.actions_pat }}
         
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
