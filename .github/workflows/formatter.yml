@@ -6,7 +6,7 @@ name: Run Formatter on episode transcripts
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, '*' ]
   workflow_dispatch: # create a button to run on demand
 jobs:
   run-formatter:
