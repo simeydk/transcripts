@@ -9,6 +9,7 @@ on:
   workflow_dispatch: # create a button to run on demand
 jobs:
   add-timestamp:
+    if: ${{ github.actor}} != 'simeycodes'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
