@@ -18,7 +18,9 @@ jobs:
           token: ${{ secrets.actions_pat }}
         
       - name: create timestamp
-        run: date >> timestamps.txt
+        run: |-
+          date >> timestamps.txt
+          echo ${{ github.actor }}
       
       - name: Commit and push if it changed
         run: |-
