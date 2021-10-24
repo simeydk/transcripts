@@ -40,7 +40,7 @@ But yeah, I've been listening to Changelog for a few years now. I don't know exa
 
 **Owen Bickford:** You had your header frame, your menu frame on the side, and then your content frame off to the right... So that's where I started, just kind of handwriting HTML files for what you'd think of as a post, or an article now. You'd go in and just type everything right there in the HTML files. I don't think we had an IDE back then. It was all probably Notepad.
 
-**Jerod Santo:** \[00:04:14\] A guy at least rocked Notepad++, or something...
+**Jerod Santo:** \[04:14\] A guy at least rocked Notepad++, or something...
 
 **Owen Bickford:** In public school -- I don't know if it was licensing, or if no one knew that it existed... We were using Windows Notepad to do everything. Then we probably graduated to Dreamweaver at some point.
 
