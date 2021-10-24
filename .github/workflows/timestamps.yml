@@ -5,13 +5,17 @@
 name: Commit timestamp to repo
 
 on:
-  # push:
+  push:
   workflow_dispatch: # create a button to run on demand
 jobs:
   add-timestamp:
-    if: ${{ github.actor}} != 'simeycodes'
     runs-on: ubuntu-latest
     steps:
+      - name: Check if triggered by this action
+        if: ${{ github.actor}} == 'simeycodes'
+        run: |-
+          echo "exiting to prevent infinite loop"
+          exit 0 
       - name: Checkout code
         uses: actions/checkout@v2
         with:
