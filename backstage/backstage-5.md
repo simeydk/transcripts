@@ -118,7 +118,7 @@ However, one thing I'll note is that whenever they -- it was late in the present
 
 **Adam Stacoviak:** Don't forget AppleCare.
 
-**Jerod Santo:** \[07:57\] So it's six thousand... Yeah, if you're gonna AppleCare that thing up, you've got a $40,000 workstation.
+**Jerod Santo:** \[00:07:57\] So it's six thousand... Yeah, if you're gonna AppleCare that thing up, you've got a $40,000 workstation.
 
 **Adam Stacoviak:** I think you definitely wanna AppleCare that one. You wanna AppleCare it, you wanna get an IRA, you wanna ensure it...
 
