@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check if triggered by this action
-        if: ${{ github.actor}} == 'simeycodes'
+        if: github.actor == "simeycodes"
         run: |-
           echo "exiting to prevent infinite loop"
           exit 1 
