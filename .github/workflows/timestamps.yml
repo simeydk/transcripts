@@ -37,6 +37,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.ACTIONS_PAT }}
+          branch: ${{ github.ref }}
 
       ## Alternative to Automatic Push. 
       ## Left here in case we ever want to go back to PR instead of push
