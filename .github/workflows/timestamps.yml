@@ -8,7 +8,7 @@ on:
   push:
   workflow_dispatch: # create a button to run on demand
 jobs:
-  run-formatter:
+  add-timestamp:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
