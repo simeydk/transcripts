@@ -23,6 +23,7 @@ jobs:
           echo ${{ github.actor }}
       
       - name: Commit and push if it changed
+        if: ${{ github.actor}} != 'simeycodes'
         run: |-
           git config user.name "simeycodes"
           git config user.email "92826264+simeycodes@users.noreply.github.com"
