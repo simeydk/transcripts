@@ -1,7 +1,3 @@
-# This workflow runs the `format` script on the codebase when 
-# code is pushed to master.
-
-
 name: Commit timestamp to repo
 
 on:
@@ -12,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check if triggered by this action
-        if: github.actor == simeycodes
+        if: github.actor == 'simeycodes'
         run: |-
           echo "exiting to prevent infinite loop"
           echo ${{ github.actor }}
