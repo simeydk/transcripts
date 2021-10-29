@@ -8,9 +8,9 @@
 
 **Rico Sta. Cruz:** Very interesting question. The guy who nominated me (kzap), he's actually part of a local Slack group that we have, called PHackers.com; just Philippine tech hackers... Which is pretty good, because it's only in the last few two years maybe (2-4 years) that we were getting people online, and people are starting to congregate online and... The way Philippines is - it's pretty fragmented, there's lots of cities, and we have some meetups, but it's not as active as it would be in other countries, so a lot of things happen online.
 
-But we do also have local meetups for interest groups like JavaScript and Ruby, so it's very nice to see that people are actually getting interested into open source, especially now that the open source community is getting pretty big as well.
+But we do also have local meetups for interest groups like JavScript and Ruby, so it's very nice to see that people are actually getting interested into open source, especially now that the open source community is getting pretty big as well.
 
-**Jerod Santo:** Very cool. The main one I believe that you're a part of is the Manila JavaScript community meetup... It sounds like a lot of folks are interested in that, and you've got some big speakers, as well as yourself talking about such topics as "Why is NPM slow?" - of course, we'll get a little bit into NPM down the road, but... Great to hear that there's at least a start of a local community where people are getting together and doing cool stuff.
+**Jerod Santo:** Very cool. The main one I believe that you're a part of is the Manila JavScript community meetup... It sounds like a lot of folks are interested in that, and you've got some big speakers, as well as yourself talking about such topics as "Why is NPM slow?" - of course, we'll get a little bit into NPM down the road, but... Great to hear that there's at least a start of a local community where people are getting together and doing cool stuff.
 
 Before we get to the major topic, which we want to talk about your cheatsheets - these are things you've been working on for a long time and you finally gave them their own home on the web at Devhints... But before, let's hear a little bit about you, Rico. Tells us a little bit of your origin story; how did you get into the software game, what was that all about?
 
@@ -20,7 +20,7 @@ I didn't really have any professional experience with web development at all bef
 
 Eventually, I started being somewhere in between. I was a developer/designer, and that was 2009, I think... I was just kind of the person who would like to make things, and every now and then I'd make a project and realize how easy it is to get things online, now that we have Git, we have GitHub and all these platforms.
 
-\[08:05\] I remember asking my friend, "How do you get something out there? Is there a process?" and he told me "Well, I don't know. Push it out there and tweet about it", and that's what we did. \[laughter\]
+\{08:05\} I remember asking my friend, "How do you get something out there? Is there a process?" and he told me "Well, I don't know. Push it out there and tweet about it", and that's what we did. \[laughter\]
 
 **Adam Stacoviak:** That's funny, we've been hearing that for years... We've started this podcast in 2009; that's been somewhat of the maintainer/open source inventor feeling, as like "I created it. How do I market it, how do I share it with the world?" That's generally what people did, but part of the motivation for us to do this show, and the blog we've done in the past, the newsletter we created was to shed light on the interesting things happening in open source.
 
@@ -30,7 +30,7 @@ Eventually, I started being somewhere in between. I was a developer/designer, an
 
 **Adam Stacoviak:** What worked for you? What were some of the things you did that seemed to work?
 
-**Rico Sta. Cruz:** I could tell you a couple of things and what I think worked, but I can't really say if it is what contributed to success... One of the interesting anecdotes I would tell my friends is that there would be times where I would pour my heart and soul into something that I really like doing. I would basically make an entire compiler of JavaScript, because that's what I like to do, I like to tinker around with compilers. I've built js2coffee based on another AST generator, but the thing is these are the things that I like to do, these are the things that I would stay up all night sometimes just to build... And sometimes the smaller things that seem like they don't matter -- I made a small progress bar, and suddenly that's a lot more popular than something I've put so much effort into.
+**Rico Sta. Cruz:** I could tell you a couple of things and what I think worked, but I can't really say if it is what contributed to success... One of the interesting anecdotes I would tell my friends is that there would be times where I would pour my heart and soul into something that I really like doing. I would basically make an entire compiler of JavScript, because that's what I like to do, I like to tinker around with compilers. I've built js2coffee based on another AST generator, but the thing is these are the things that I like to do, these are the things that I would stay up all night sometimes just to build... And sometimes the smaller things that seem like they don't matter -- I made a small progress bar, and suddenly that's a lot more popular than something I've put so much effort into.
 
 You just never really know which things would become popular. But I think what really helped in general is you have to understand that the people who go to your project on GitHub or on your website are not necessarily people who would be using your work. So your intention should be "How do I make something and explain it in a way that would interest people?"
 
@@ -42,7 +42,7 @@ Let's say for example you're making a React component, and you might be talking 
 
 Compare that something that even though it might be a simple project, but it has a very clear screenshot describing what it is, at a first glance, in 30 seconds, instead of a readme, and you kind of already know what it is.
 
-**Adam Stacoviak:** \[12:01\] Well, for you as your nprogress project, since you've mentioned that, I think the landing page for that is just perfect because you've got four examples there, you click it and you see it literally in progress. You see it working, which is the point. I think that's sort of like the "Get to the point", it's kind of what you mean by selling.
+**Adam Stacoviak:** \{12:01\} Well, for you as your nprogress project, since you've mentioned that, I think the landing page for that is just perfect because you've got four examples there, you click it and you see it literally in progress. You see it working, which is the point. I think that's sort of like the "Get to the point", it's kind of what you mean by selling.
 
 **Rico Sta. Cruz:** Yeah, exactly. It's something that you go through the website and in 20 seconds you know what this thing does.
 
@@ -86,7 +86,7 @@ Compare that something that even though it might be a simple project, but it has
 
 At first I was very down on them. I thought these were for kids, and silly, and I don't know... And then over time, they just swayed me. Does that resonate with you guys, or was I just curmudgeon to start with and you all thought they were awesome from the start?
 
-**Adam Stacoviak:** \[15:47\] I'm with you... My at the time girlfriend, now wife, Heather, she was before the Apple swing; it was when you had to actually install that separate keyboard. It was like an app you could download, and you had to go into your keyboard settings and add this Chinese or Japanese -- it was some sort of...
+**Adam Stacoviak:** \{15:47\} I'm with you... My at the time girlfriend, now wife, Heather, she was before the Apple swing; it was when you had to actually install that separate keyboard. It was like an app you could download, and you had to go into your keyboard settings and add this Chinese or Japanese -- it was some sort of...
 
 **Jerod Santo:** Character set?
 
@@ -112,13 +112,13 @@ So it's funny how it's pretty trivial aspects... I mean, for people who -- the d
 
 The thing about our culture here in the Philippines is a lot of people are pretty shy, a lot of people aren't that outgoing, so as a result sometimes they don't get a lot of people attending meetups, or when they attend meetups it's just a different kind of vibe than it would be in other places. One thing I think is great is now that we have online communities, we're starting to get people out there connecting to more people, not just offline, but also online. I think that's great, because it really goes well with our culture of being reserved people.
 
-\[20:02\] I remember a couple years ago there would be a lot of great talent, there would be people who are really great at what they do, but you'd just never really hear about them because they would never go out, they would never really put themselves out there. Now that we have more avenues to express ourselves - we've got Facebook, we've got Twitter - I think it's just fostering this really good sense of community.
+\{20:02\} I remember a couple years ago there would be a lot of great talent, there would be people who are really great at what they do, but you'd just never really hear about them because they would never go out, they would never really put themselves out there. Now that we have more avenues to express ourselves - we've got Facebook, we've got Twitter - I think it's just fostering this really good sense of community.
 
 **Jerod Santo:** Do you find that you're less shy, more outgoing, more confident online than in real life? Does the community reflect you in that way, or do you feel like you're somewhat different from your surroundings in that regard?
 
 **Rico Sta. Cruz:** I don't really know... There are times where I would feel a little more seclusive, there are times where I would feel pretty outgoing. Just like any other person, I probably have different moods and swings... So I'm not sure I would be a good representation of everyone.
 
-**Jerod Santo:** Looking back a little bit to the sale side, which is a term that probably a lot of us don't love, like selling your open source projects or getting people interested (whatever you wanna call it), you mentioned that you really came from a design perspective into software and open source, and that's very much reflected in all of your work. If you go to devhints.io, and then on your others projects, RSCSS.io, and the JavaScript one (which is very similar), they all have very thoughtful and aesthetically pleasing design. That seems to also play to the strengths of getting people interested in your work. Have you found that to be something that resonates with folks in terms of the design effort you put into it?
+**Jerod Santo:** Looking back a little bit to the sale side, which is a term that probably a lot of us don't love, like selling your open source projects or getting people interested (whatever you wanna call it), you mentioned that you really came from a design perspective into software and open source, and that's very much reflected in all of your work. If you go to devhints.io, and then on your others projects, RSCSS.io, and the JavScript one (which is very similar), they all have very thoughtful and aesthetically pleasing design. That seems to also play to the strengths of getting people interested in your work. Have you found that to be something that resonates with folks in terms of the design effort you put into it?
 
 **Rico Sta. Cruz:** I can't really say definitively that it's yes or no, but there are people who would say that it is; there will be people who would say that they are more interested in something because it doesn't look ugly. So I definitely think there's something there. Like I said, I came from a background of design, so sometimes just to make an open source project is probably one of my excuses to design something, so... Yeah.
 
@@ -132,11 +132,11 @@ It seems like so many open source projects could benefit so immensely from desig
 
 **Adam Stacoviak:** Just like Jerod said, I think that you come into your documentation, your sites - even nprogress was a very aesthetically pleasing site. I think what you see there when you have good design is not so much like "Oh, because of the good design, I love this project", it's more like the thoughtfulness, the care, the intention is what comes across in those moments. Because if you go to somebody's projects that -- not that using the default GitHub pages designs as bad, there's nothing wrong with it at all, it's a great starting point, and it may be a great forever point for some projects, but going above and beyond like Rico has shown this person has a significant care for how this project is perceived to the community, so it deserves an extra look.
 
-**Rico Sta. Cruz:** \[24:27\] I see.
+**Rico Sta. Cruz:** \{24:27\} I see.
 
 **Jerod Santo:** Maybe not even just care, but also skill, to be blunt... Because the sentiment that I'm displaying is like "Even though I do care a lot, and I have the thoughtfulness, and maybe my API design is spectacular and I'm good at things like that, or the CLI interface is really easy to use, so I have user experience, but I just can't put together the design", and I'm just using me as a proxy for people who are in this particular situation - maybe in that case it's like "Well, just use the GitHub pages default theme and just rock your API design right upfront there", but... Rico definitely has a design skill that -- I guess I'll just say it's enviable.
 
-**Adam Stacoviak:** Yeah, I like it, I want it. I want it to be mine. Very enviable. So you mentioned Flatdoc; I didn't look at the details further in this... So this is powered by -- Flatdoc is the fastest, as you say in your sales process; you have the fastest way to create a site for your open source project. That essentially is a JavaScript framework that fetches the pages, like markdown and stuff, but then you also have this theme option as part of this. We'll get probably into it further, but maybe before we hit the first break, give us a tee up to this one.
+**Adam Stacoviak:** Yeah, I like it, I want it. I want it to be mine. Very enviable. So you mentioned Flatdoc; I didn't look at the details further in this... So this is powered by -- Flatdoc is the fastest, as you say in your sales process; you have the fastest way to create a site for your open source project. That essentially is a JavScript framework that fetches the pages, like markdown and stuff, but then you also have this theme option as part of this. We'll get probably into it further, but maybe before we hit the first break, give us a tee up to this one.
 
 **Jerod Santo:** And also Docpress... There's lots of stuff to move in here - Flatdoc, Docpress... Tee us up.
 
@@ -154,7 +154,7 @@ It seems like so many open source projects could benefit so immensely from desig
 
 **Rico Sta. Cruz:** Thank you, thank you. There are a couple of other projects out there that do the same thing, and probably even better. For example, GitBook is very similar to Docpress... One of the things that really interests me as well, that I might be making a couple of things, but other people were doing better, or put more effort into it - that's just kind of how it is, but it feels humbling to be part of that collective effort of many people across the globe, just honing an idea, making implementations of it, and even if other people will be using other projects, like you would be using GitBook instead of Docpress, I kind of feel like I still had some part of it in some way into shaping the idea of what, say, a documentation site generator would be.
 
-**Break:** \[29:00\]
+**Break:** \{29:00\}
 
 **Jerod Santo:** Rico, the thing that I knew you for prior to kzap telling us we should interview you is your cheatsheets, which I'm a sucker for a good cheatsheet; I love learning by example, I love that TL;DR pages project that blew up on Twitter maybe a month ago. Adam, remember that one? It was saying main pages are too dense and difficult to read; I don't think that's necessarily true, but they hide the examples at the bottom; that's absolutely true. Let's have a new thing that's just examples - I love all that, and I've enjoyed your cheatsheets for some time.
 
@@ -166,7 +166,7 @@ It started getting traffic, and I decided to put it online on my website, on my 
 
 **Adam Stacoviak:** Certainly nice for just pointing somebody to, you know, /sass, /react, and for those just looking for a refresher on certain things, like if you go to /sass, you're doing Sass style sheets... It's very easy to be like "Oh, that's how you do variables" or "Oh, that's how you do nesting, that's how you implement an extender etc." That's really -- not every language is the same, so you can probably rinse and repeat that for most of the different languages, but if you go to React for example, you've got different components and some of them are more complex than others... And the design is pretty awesome, but you can go there very easily and just point anybody to it (obviously) and they get kind of a bird's eye view of what you can expect with certain common implementations in the language.
 
-**Rico Sta. Cruz:** \[33:59\] Oh yeah, and I do like how it's very bite-sized. You could go to any cheatsheet on Devhints and digest and soak up everything, in a minute. One of the things that I'm trying to do is run a Twitter account where I just kind of tweet a random Devhints page with a random snippet, for a daily TL;DR sort of thing.
+**Rico Sta. Cruz:** \{33:59\} Oh yeah, and I do like how it's very bite-sized. You could go to any cheatsheet on Devhints and digest and soak up everything, in a minute. One of the things that I'm trying to do is run a Twitter account where I just kind of tweet a random Devhints page with a random snippet, for a daily TL;DR sort of thing.
 
 **Jerod Santo:** That's a good idea.
 
@@ -208,7 +208,7 @@ It started getting traffic, and I decided to put it online on my website, on my 
 
 **Jerod Santo:** Just me. Well, he said a couple people...
 
-**Adam Stacoviak:** \[37:58\] Two people. Okay... Two people. Anyways, I'm just playing devil's advocate here. I was just thinking like, do people print these?
+**Adam Stacoviak:** \{37:58\} Two people. Okay... Two people. Anyways, I'm just playing devil's advocate here. I was just thinking like, do people print these?
 
 **Jerod Santo:** No, I get it, and I agree that printing is on its way out. I feel like if you're trying to learn something and it's complex... I mean, if you look at all those different things you can do in Vim - I'm still learning Vim, after 12-13 years of using it - and you want to commit it to memory, print it off... Even, heck, if you're \[unintelligible 00:38:23.09\] retentive laminate it. Lamination is great.
 
@@ -236,7 +236,7 @@ It started getting traffic, and I decided to put it online on my website, on my 
 
 **Jerod Santo:** Well, you are not lying, because I'm looking now at the open issues, and they're almost all cheatsheet requests: Mercurial, Polymer 2, elm, Rust, Markojs... One says "APP\_NAME\_HERE" They didn't actually figure out they were supposed to put the app name right there... Actually, two of them. Anyways...
 
-**Adam Stacoviak:** \[42:01\] I think something interesting too, Jerod, is something that comes a little closer to the hacker heart of Changelog.com is José Valim contributed an update to the Phoenix cheatsheet, which was to use proper directory structure for Phoenix... So you kind of have this language creator, somebody who is playing heavily in Elixir and Phoenix saying "Oh, let me help you out here." It's already in place, somebody has already contributed, but something's been updated and somebody like José comes by and says "Oh, let me send a PR for this." That's awesome.
+**Adam Stacoviak:** \{42:01\} I think something interesting too, Jerod, is something that comes a little closer to the hacker heart of Changelog.com is José Valim contributed an update to the Phoenix cheatsheet, which was to use proper directory structure for Phoenix... So you kind of have this language creator, somebody who is playing heavily in Elixir and Phoenix saying "Oh, let me help you out here." It's already in place, somebody has already contributed, but something's been updated and somebody like José comes by and says "Oh, let me send a PR for this." That's awesome.
 
 **Rico Sta. Cruz:** That's actually pretty interesting... As you said, José Valim is one of the people who have put together Elixir as a language. Phoenix was the project of someone else (Chris McCord), but anyway, I worked with these two guys before, because when they were building Phoenix and Plug and their error pages, they took a template that I did, started up with that, and I basically told them "Hey, why don't we build one from scratch?" and I built something and contributed to Plug and Phoenix with their help.
 
@@ -260,7 +260,7 @@ I was really surprised to see José Valim's name in a very recent PR in Devhints
 
 Considering how simple I guess the style guideline may be in terms of how you implement a new cheatsheet, have you had any pushback Rico? Do you actually have a styleguide? I know you have the contributing document, but is there anything that says more clearly "Hey, when you create a heading that's H2 in a markdown and follow it up with a table or a code example, expect that to fall in line or fall into this grid and it'll look beautiful on the site." How do you instill good guidelines for people to follow?
 
-**Rico Sta. Cruz:** \[46:23\] Good question. There's actually a cheatsheet for that...
+**Rico Sta. Cruz:** \{46:23\} Good question. There's actually a cheatsheet for that...
 
 **Adam Stacoviak:** Is that right?
 
@@ -294,7 +294,7 @@ Considering how simple I guess the style guideline may be in terms of how you im
 
 For the command line - it's interesting, I've been actually thinking about this, like "What's the best way to bring it to the command line?" and the way I do it at the moment is you just use a command line browser like w3m or lynx, and Devhints is mostly just markdown and it's mostly just simple HTML; they come out pretty great in the command line as well.
 
-**Jerod Santo:** \[50:07\] Well, that's a good hack for now. I think ideally I'd love to just type like "hint es6" and then have like an actual ncurses-based rendered thing that's like native. But I'll try that here... So you can just -- I'll use lynx, and just put a full URL in, /es6... Should I allow cookies? Oh, man... Am I allowing cookies? Hopefully, that's a -- eh, not bad. Got pagination there... I haven't used lynx since I was a kid, so that's cool. Good idea, I like that.
+**Jerod Santo:** \{50:07\} Well, that's a good hack for now. I think ideally I'd love to just type like "hint es6" and then have like an actual ncurses-based rendered thing that's like native. But I'll try that here... So you can just -- I'll use lynx, and just put a full URL in, /es6... Should I allow cookies? Oh, man... Am I allowing cookies? Hopefully, that's a -- eh, not bad. Got pagination there... I haven't used lynx since I was a kid, so that's cool. Good idea, I like that.
 
 **Adam Stacoviak:** And you just have it handy? Lynx is just handy for you?
 
@@ -346,7 +346,7 @@ For the command line - it's interesting, I've been actually thinking about this,
 
 **Rico Sta. Cruz:** A pull request.
 
-**Jerod Santo:** \[54:01\] A pull request... But you've got a lot of them pull requests; how do you float to the top of the pile? How do you get an easy merge button?
+**Jerod Santo:** \{54:01\} A pull request... But you've got a lot of them pull requests; how do you float to the top of the pile? How do you get an easy merge button?
 
 **Rico Sta. Cruz:** Good question... I'm just trying to clear out the pull request queue right now, actually...
 
@@ -362,9 +362,9 @@ For the command line - it's interesting, I've been actually thinking about this,
 
 **Adam Stacoviak:** I have to say something too, because I saw the two PR's get closed earlier this morning, and they both had "Thank you for your changes, they're live here" - very our style, very intentional, very clear, and Chris, thank you so much for that. To wake up to some pull requests being merged that we didn't have to manage is very appreciated. It's nice having that burden spread, that's really sweet.
 
-**Break:** \[56:30\]
+**Break:** \{56:30\}
 
-**Jerod Santo:** Alright Rico, so a couple other projects that you are up to, we mentioned them when we were talking about your design and your different documentation-based generator tools... You have RSJS, which is a Reasonable System for JavaScript Structure, and then you have RSCSS, which is - you can guess it - a Reasonable System for CSS Stylesheet Structure... So have opinions, and are willing to lay them out there for people, which is always appreciated when people have well thought through opinions.
+**Jerod Santo:** Alright Rico, so a couple other projects that you are up to, we mentioned them when we were talking about your design and your different documentation-based generator tools... You have RSJS, which is a Reasonable System for JavScript Structure, and then you have RSCSS, which is - you can guess it - a Reasonable System for CSS Stylesheet Structure... So have opinions, and are willing to lay them out there for people, which is always appreciated when people have well thought through opinions.
 
 Tell us about these two projects, why you decided to put effort into these, and really the message that they're trying to send.
 
@@ -410,11 +410,11 @@ I also have to compliment you on doing a great job of using readme's very well. 
 
 **Jerod Santo:** I think when it comes to CSS, many of us are like "Just give me some sort of system. I just need something, because the Wild West leaves me in a terrible position." Having a system in place, at least then we can all follow a convention and live with the ups and downs of the particular system.
 
-\[01:08:12.10\] With JavaScript it's way more flame wars... I mean, that's just in my experience. With CSS we're like, "Okay, this could be better than BEM, or worse... I don't know. But it sounds cool." With JavaScript, all of a sudden \[unintelligible 01:08:23.22\] So you have RSJS, which is a Reasonable System for JavaScript Structure; it's living off of RicoStaCruz.com, so it doesn't have its own domain like the other one does, and you said the other one came first... So I'm wondering where you are with RSJS and if people have given you the feedback about it, that probably I'm expecting will come if it hasn't yet.
+\[01:08:12.10\] With JavScript it's way more flame wars... I mean, that's just in my experience. With CSS we're like, "Okay, this could be better than BEM, or worse... I don't know. But it sounds cool." With JavScript, all of a sudden \[unintelligible 01:08:23.22\] So you have RSJS, which is a Reasonable System for JavScript Structure; it's living off of RicoStaCruz.com, so it doesn't have its own domain like the other one does, and you said the other one came first... So I'm wondering where you are with RSJS and if people have given you the feedback about it, that probably I'm expecting will come if it hasn't yet.
 
-**Rico Sta. Cruz:** Right. So we build Rails apps at work... We build Rails apps, and we write a bunch of JavaScript for those Rails apps, and one of the things that we couldn't really figure out is how do we organize everything that we write? How do we organize all those JavaScript files? Because Rails doesn't have all those conventions; it just gives you a file, like application.js says "Put your JavaScript here", which is not very helpful. Anyway, so again, just like RSCSS, RSJS is a bunch of guidelines that we had, built organically, based on what we thought worked, what we thought didn't work, and it's kind of an iterative process until we settled on "Okay, this is how we kind of think about it."
+**Rico Sta. Cruz:** Right. So we build Rails apps at work... We build Rails apps, and we write a bunch of JavScript for those Rails apps, and one of the things that we couldn't really figure out is how do we organize everything that we write? How do we organize all those JavScript files? Because Rails doesn't have all those conventions; it just gives you a file, like application.js says "Put your JavScript here", which is not very helpful. Anyway, so again, just like RSCSS, RSJS is a bunch of guidelines that we had, built organically, based on what we thought worked, what we thought didn't work, and it's kind of an iterative process until we settled on "Okay, this is how we kind of think about it."
 
-Now, it's not like something that you could use on everything, because obviously there's probably so many ways to write your JavaScript... Someone who would be writing a single-page app would be doing things a little differently than someone doing a more traditional Rails app. So anyway, this is one of the ways that we try to manage our JavaScript in an app that is a bit more traditional, and I just kind of thought, like, why not write it into a small document as well, so there's just more formality into the way we do things?
+Now, it's not like something that you could use on everything, because obviously there's probably so many ways to write your JavScript... Someone who would be writing a single-page app would be doing things a little differently than someone doing a more traditional Rails app. So anyway, this is one of the ways that we try to manage our JavScript in an app that is a bit more traditional, and I just kind of thought, like, why not write it into a small document as well, so there's just more formality into the way we do things?
 
 **Adam Stacoviak:** Before we ask a couple more questions, I wanna go back into RSCSS, because Jerod, you were mentioning the pitfalls, apprehensions in other resources, and I have to say I clicked on those links and I found them, and I got lost... And I loved it. \[laughter\]
 
@@ -434,11 +434,11 @@ Now, it's not like something that you could use on everything, because obviously
 
 **Rico Sta. Cruz:** It's just a way to differentiate itself from elements which would have one word. There's not really much science to it, it's just a convention that we could implement so that when you look at a classname you know what it is. It's two words - oh, it's a component; it's one word - oh, it's an element; it starts with a dash - oh, it's a modifier.
 
-**Adam Stacoviak:** And coming back to RSJS - this is very similar to... You're obviously trying to accomplish a similar goal, which is "You know, this isn't a framework, this is kind of a guideline of how we write JavaScript."
+**Adam Stacoviak:** And coming back to RSJS - this is very similar to... You're obviously trying to accomplish a similar goal, which is "You know, this isn't a framework, this is kind of a guideline of how we write JavScript."
 
 **Rico Sta. Cruz:** That's true.
 
-**Jerod Santo:** And also specifically for non-SPA's. When I was talking about a lot of the argumentation that happens, it's usually around how to structure single-page applications. So actually, this is something I haven't seen... I have myself what I believe is a reasonable system (which I have never written down) for structuring JavaScript in these more (let's just call it) classic server-side rendered -- you know, what DHH lovingly calls "JavaScript sprinkles" types of applications, and I've never seen anybody else... I've never seen anybody (I can't say anybody else, because I've never done it) write down a system for those, similar to how we have ideas around how to do them with single-page apps, so that's interesting.
+**Jerod Santo:** And also specifically for non-SPA's. When I was talking about a lot of the argumentation that happens, it's usually around how to structure single-page applications. So actually, this is something I haven't seen... I have myself what I believe is a reasonable system (which I have never written down) for structuring JavScript in these more (let's just call it) classic server-side rendered -- you know, what DHH lovingly calls "JavScript sprinkles" types of applications, and I've never seen anybody else... I've never seen anybody (I can't say anybody else, because I've never done it) write down a system for those, similar to how we have ideas around how to do them with single-page apps, so that's interesting.
 
 **Rico Sta. Cruz:** Yeah, thank you. That's precisely why we wrote it... Just to get things formalized into an actual document, which are probably just kind of knowledge floating around between the team, and now we have a document that we \[unintelligible 01:14:59.10\]
 

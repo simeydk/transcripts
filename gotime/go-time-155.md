@@ -30,7 +30,7 @@
 
 **Mat Ryer:** So that is interesting then, yeah... A smaller language tends to only have one way to do something, and that is quite a good goal for readability and for maintainability purposes... And also for learning. If you wanna know how to do something and you wanna figure that out, it's easier if there's only one way you can do it.
 
-You should see the number of ways you can add arrays together in JavaScript, and stuff like that... There are some amazing and wonderful and scary things... And you don't really get that in Go. I think sometimes people's opinion from the outside, when they first see it, is that it's a drawback of the language that it's so simple... But it turns out to be one of its greatest strengths, doesn't it?
+You should see the number of ways you can add arrays together in JavScript, and stuff like that... There are some amazing and wonderful and scary things... And you don't really get that in Go. I think sometimes people's opinion from the outside, when they first see it, is that it's a drawback of the language that it's so simple... But it turns out to be one of its greatest strengths, doesn't it?
 
 **Jon Calhoun:** And I think it's multiplicative, because for example back when I used to do Java, at least in the context of Android, you would look at the Android APIs and you would wonder "Oh, exactly what does this API do, if it's not very well documented?", to go see the code. But then you would find a class that extends another class, that extends an abstract class, and then you end up with five layers of abstraction... And at least to me, that made it very difficult to actually see what was going on... Whereas in Go, you click on the GoDoc and you almost always just reach the code directly.
 
@@ -194,7 +194,7 @@ But if you need to do anything slightly more computational to prepare or maybe d
 
 **Mat Ryer:** You're absolutely brutal today.
 
-**Break:** \[25:51\]
+**Break:** \{25:51\}
 
 **Mat Ryer:** Okay, so what about some others? Anything else you feel like you would remove?
 
@@ -476,7 +476,7 @@ Again, it's part of the language; that doesn't mean you should avoid using it, a
 
 **Johnny Boursiquot:** Yeah.
 
-**Break:** \[48:25\]
+**Break:** \{48:25\}
 
 **Mat Ryer:** So this is quite a simple thing if you're new to writing Go; that is a little cognitive check just to do. There are definitely cases where the clearest thing is just a kind of five or six-line "if this, then set something else". Sometimes that logic is exactly what you need. But yeah, what happens if you don't protect against that, of course is - once you have 2-3 of these in a function, you really are nesting quite deep, and you're wasting a lot of tabs there. You don't need that many tabs in your code... It's a waste, so \[unintelligible 00:50:13.25\]
 

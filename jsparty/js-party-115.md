@@ -1,4 +1,4 @@
-**Divya Sasidharan:** Hello, JS Party listeners. Welcome to another new episode where we talk about JavaScript and argue about everything JavaScript. I'm your host, Divya, and with us today we have a wonderful panel. We have Kball...
+**Divya Sasidharan:** Hello, JS Party listeners. Welcome to another new episode where we talk about JavScript and argue about everything JavScript. I'm your host, Divya, and with us today we have a wonderful panel. We have Kball...
 
 **Kevin Ball:** Hello!
 
@@ -32,9 +32,9 @@ We will particularly be talking about what is stagnating in browsers, what parti
 
 **Jerod Santo:** What's missing? What would you love to have there? I agree that there hasn't been much change, but what's the pain?
 
-**Divya Sasidharan:** I think it's just the way of styling it. I think styling is still a pain. It's frustrating that a lot of the interactions are not native, so you have to add extra styling to make input elements easy to interact with, because a lot of the browser attributes make it really hard to work with. It adds extra burden for the developer to add all these extra things, because they have to style it, they have to add interaction using JavaScript if they wanna make things work in a certain way... Which I think is just a lot of work.
+**Divya Sasidharan:** I think it's just the way of styling it. I think styling is still a pain. It's frustrating that a lot of the interactions are not native, so you have to add extra styling to make input elements easy to interact with, because a lot of the browser attributes make it really hard to work with. It adds extra burden for the developer to add all these extra things, because they have to style it, they have to add interaction using JavScript if they wanna make things work in a certain way... Which I think is just a lot of work.
 
-\[03:53\] I think one thing that we'll talk about in a bit that is related is the button attribute. It's related to forms, in a way, because every form has a button; even though you use input type button, it's still a button... But one of the things that I'm annoyed by with buttons specifically is that I always have to do button cursor pointer, which I'm just like -- everyone has to do that. It should be default by now. And there's so many others within input elements that are just really terrible to style. What do you all think?
+\{03:53\} I think one thing that we'll talk about in a bit that is related is the button attribute. It's related to forms, in a way, because every form has a button; even though you use input type button, it's still a button... But one of the things that I'm annoyed by with buttons specifically is that I always have to do button cursor pointer, which I'm just like -- everyone has to do that. It should be default by now. And there's so many others within input elements that are just really terrible to style. What do you all think?
 
 **Kevin Ball:** I 100% agree. That has been a pain point forever. That said, there is some progress. There's the CSS appearance property that I just saw an article go by around (that I can link to) where so long as you can ditch IE11 - and let's be honest, if you're not supporting governments and massive enterprises, by now you should be able to ditch IE11 - then you can style more. You can style checkboxes, you can style radio buttons, you can style switches doing these things that used to take ridiculous hacks... Now you can do it with just CSS. I'll drop a link in the chat and in the show notes for that, but... There has been progress.
 
@@ -58,11 +58,11 @@ We will particularly be talking about what is stagnating in browsers, what parti
 
 So every browser had specific implementations of what worked and what didn't work. Some browsers will put padding around certain input elements, while others won't, and you always have to identify those edge cases, which is really frustrating. So I don't actually know if Chrome fixing that is pushing standards forward...
 
-**Jerod Santo:** \[07:48\] Even where they've moved on input elements, for example adding additional types, like type=number, and stuff like that, you have different implementations across browsers, like you were talking about... And then you also have it being like -- it's almost like the uncanny valley of a good input. You're like "Oh, cool, I could use number, but it has these seven limitations... So it doesn't work the way I want it to, and it's not that easy to customize."
+**Jerod Santo:** \{07:48\} Even where they've moved on input elements, for example adding additional types, like type=number, and stuff like that, you have different implementations across browsers, like you were talking about... And then you also have it being like -- it's almost like the uncanny valley of a good input. You're like "Oh, cool, I could use number, but it has these seven limitations... So it doesn't work the way I want it to, and it's not that easy to customize."
 
 Anytime that most developers are throwing out elements completely, wholesale, and just doing their own thing with select boxes, anytime you go beyond a very simple select, most people grab a widget that just completely replaces it, and is built with divs, or some sort of weird thing - that's a place where I think the browser vendors (or whoever; the powers that be, the W3C and whatnot) have let us down.
 
-**Divya Sasidharan:** There's of course also the hope that if browser standards around that were better, then we don't have to always reach for JavaScript... Because technically, with a bit of HTML and CSS, you should be able to get pretty far. But because a lot of these input elements are really hard to style and work with, you end up having to reach for JavaScript. Or you need to know CSS super-well to get around a lot of these hacks, which I think ends up dividing the community, in a sense, with people who are like "You should know CSS so well that you can hack your way through input elements", and others who are like "Browser standards suck. We're just gonna rewrite an entire input element from scratch, without using the standards at all."
+**Divya Sasidharan:** There's of course also the hope that if browser standards around that were better, then we don't have to always reach for JavScript... Because technically, with a bit of HTML and CSS, you should be able to get pretty far. But because a lot of these input elements are really hard to style and work with, you end up having to reach for JavScript. Or you need to know CSS super-well to get around a lot of these hacks, which I think ends up dividing the community, in a sense, with people who are like "You should know CSS so well that you can hack your way through input elements", and others who are like "Browser standards suck. We're just gonna rewrite an entire input element from scratch, without using the standards at all."
 
 **Jerod Santo:** Exactly.
 
@@ -88,31 +88,31 @@ Anytime that most developers are throwing out elements completely, wholesale, an
 
 I believe that it has a lot of technical challenges. There's all sorts of different things... Oh, no - looking at this article, actually, it started back in 2010; that's when they first started talking about it. So it's been ten years that people have been talking about this. It's never gotten anywhere. I think there are some proposals to do something that is sort of like this, but it's never gone anywhere... And it would completely change the way you could think about front-end development, and responsive design, and all of that, because suddenly you could design components that were themselves responsive, without having to have a global understanding of the page. So you could ship naturally-responsive sets of component libraries where you could plug them into whatever space you have available on your page, and count that they would render in a reasonable way.
 
-**Divya Sasidharan:** \[11:48\] Yeah, that's fair. I think whenever you do responsive design or anything it's frustrating that you always have to seed to the parent, and the parent needs to tell how much width it has, and then every child element can then be like a percentage of that... Which is really frustrating, because then you always have to go up this stack to figure out who the parent is, and what the parent sizing is... And it can lead to really frustrating edge cases, especially when you're dealing with one specific component only that needs to do one particular type of style within a layout. So I agree.
+**Divya Sasidharan:** \{11:48\} Yeah, that's fair. I think whenever you do responsive design or anything it's frustrating that you always have to seed to the parent, and the parent needs to tell how much width it has, and then every child element can then be like a percentage of that... Which is really frustrating, because then you always have to go up this stack to figure out who the parent is, and what the parent sizing is... And it can lead to really frustrating edge cases, especially when you're dealing with one specific component only that needs to do one particular type of style within a layout. So I agree.
 
 I think there was rumblings of moving that forward with CSS nesting, but I'm not sure that went farther than -- because from what I'm seeing, there's a W3C proposal for CSS nesting, but that was closed, so... I don't know if that's gonna move forward. And Chris Coyier wrote an article similar to Zach's article about container queries (this was in 2019), about the fact that we still don't have them, which - yeah, very frustrating.
 
-Alongside that, there are some other things that are not implemented in browsers. I think one of the things that is often talked about, especially in the JavaScript side of things, is Web Components. That comes up whenever we talk about frameworks, because frameworks are arguably a reimplementation of Web Components, or a specific implementation of Web Components. I think React got a lot of criticism for that... What do you all think in particular to that?
+Alongside that, there are some other things that are not implemented in browsers. I think one of the things that is often talked about, especially in the JavScript side of things, is Web Components. That comes up whenever we talk about frameworks, because frameworks are arguably a reimplementation of Web Components, or a specific implementation of Web Components. I think React got a lot of criticism for that... What do you all think in particular to that?
 
 **Nick Nisi:** I like the idea of Web Components. Last time I looked at them though, the implementation just seems way more complicated and difficult than it needs to be, compared to something like React.
 
 **Kevin Ball:** I think the biggest barrier is that folks have really come around to loving the declarative model of programming that most modern frameworks provide... And the implementation of Web Components is (at least the last time I looked) entirely imperative. So there's a mismatch. What I have seen is "compile to Web Components" type things, so that frameworks that offer this declarative programming model can then compile down to Web Components. And as we see growth in runtimeless or very light runtime frameworks like Svelte, I think that becomes more of a model, where Web Components can become essentially a compile target, where you are building whatever you want, in whatever programming model you want, and then you compile it down to a web component that can be shipped as a reusable thing.
 
-I'd be curious actually to look at -- I don't know if it's possible to do Web Components with Web Assembly, but it might be really interesting to see if there is the opportunity to create frameworks in non-JavaScript languages that allow you to build reusable Web Components.
+I'd be curious actually to look at -- I don't know if it's possible to do Web Components with Web Assembly, but it might be really interesting to see if there is the opportunity to create frameworks in non-JavScript languages that allow you to build reusable Web Components.
 
 **Divya Sasidharan:** That would be really cool. I like the promise of Web Components in the shareability of things... Because when we talk about frameworks, what happens is that if you write a component in React, it's really hard to embed it in a separate framework like Vue without creating all this extra wrapper and spaghetti code around it, so that it works automatically. It's less work for you to just recreate that in that framework. So Web Components was super-nice as a concept, because it was this ability for you to create a component that you can easily share, and someone could just pull it down and it automatically works, in whatever framework or whatever project that they're using.
 
 But I think there was a lot of disagreement as to how that would work... I think the implementation details or something like that, with regards to it. But the thing that is cool is that Web Components did introduce the shadow DOM, which has a lot more potential. And I think shadow DOM has been something that the community has picked up on. Web Components not so much. But certain aspects of Web Components are actually pretty useful.
 
-**Kevin Ball:** \[16:01\] Do you wanna explain shadow DOM?
+**Kevin Ball:** \{16:01\} Do you wanna explain shadow DOM?
 
 **Divya Sasidharan:** I'm so bad at explaining shadow DOM... Can someone else do it?
 
 **Jerod Santo:** It's like the DOM, but there's a shadow...
 
-**Nick Nisi:** It's like the DOM, but it's like a containerized version of it, that's not able to affect the outer page that it exists in... So you can style and run JavaScript and manipulate things as if they were global, but they're only global to that shadow. I don't know if you call an individual on a shadow, or whatever, but... Only to that component. So then you can have styles and JavaScript running that only affect that element and can't actually read outside of that, so they can't have any effect on the outer page.
+**Nick Nisi:** It's like the DOM, but it's like a containerized version of it, that's not able to affect the outer page that it exists in... So you can style and run JavScript and manipulate things as if they were global, but they're only global to that shadow. I don't know if you call an individual on a shadow, or whatever, but... Only to that component. So then you can have styles and JavScript running that only affect that element and can't actually read outside of that, so they can't have any effect on the outer page.
 
-**Divya Sasidharan:** Yeah. So it's sort of like a DOM within a DOM, so that you can do things globally without doing things globally, which I think is the upside. So you don't have issues with scoping in closures, which tends to happen when you're trying to do weird JavaScripty things that only affect one single part of your application. So that's a really neat aspect of it... Which you can use in browsers today, I believe.
+**Divya Sasidharan:** Yeah. So it's sort of like a DOM within a DOM, so that you can do things globally without doing things globally, which I think is the upside. So you don't have issues with scoping in closures, which tends to happen when you're trying to do weird JavScripty things that only affect one single part of your application. So that's a really neat aspect of it... Which you can use in browsers today, I believe.
 
 **Jerod Santo:** One of the things that Glenn mentioned in his request for the episode is discussing some of the why's behind some of the stagnation, and things that haven't come to pass, or we don't think are going to come to pass, or very slowly coming to pass. I think with each particular feature or aspect of browsers and the web it's probably a different answer... But with Web Components one of y'all linked in a very interesting, scathing piece about the broken promise of Web Components...
 
@@ -124,9 +124,9 @@ Web Components is complex. It's difficult to get buy-in to an implementation, or
 
 **Divya Sasidharan:** I think one of the things that made it really hard was just -- so Web Components has been pushed forward for a very long time. I don't even know when it started, but I feel like it's over ten years. And Polymer was created as a way of implementing the Web Components spec. There's a lot of intricacies to Polymer, so there's a lot of decisions that Google made in terms of how they think Web Components should be implemented.
 
-\[20:09\] So when you're working with Polymer, it's very specific. And in a way, I think that is what might have moved people away from Web Components as a whole - just a disagreement on implementation details. And then when Polymer was created, it was a way of moving the spec forward, but Google was leading the charge on that, which meant that they were calling all the shots with regards to how the implementation was gonna be done, and how the syntax was gonna look like, and so on... Which I think might have been counter-intuitive in terms of pushing the spec forward.
+\{20:09\} So when you're working with Polymer, it's very specific. And in a way, I think that is what might have moved people away from Web Components as a whole - just a disagreement on implementation details. And then when Polymer was created, it was a way of moving the spec forward, but Google was leading the charge on that, which meant that they were calling all the shots with regards to how the implementation was gonna be done, and how the syntax was gonna look like, and so on... Which I think might have been counter-intuitive in terms of pushing the spec forward.
 
-The idea was to push it forward, but in making decisions, they did not push it forward... Because there was more disagreement, and people overall just didn't like how things were done. So you had that fragmentation that happened, which no one could decide how things were supposed to be implemented... One, because it's a really complex problem. Not only are you dealing with JavaScript, you also have to deal with CSS scoping and how that's gonna work.
+The idea was to push it forward, but in making decisions, they did not push it forward... Because there was more disagreement, and people overall just didn't like how things were done. So you had that fragmentation that happened, which no one could decide how things were supposed to be implemented... One, because it's a really complex problem. Not only are you dealing with JavScript, you also have to deal with CSS scoping and how that's gonna work.
 
 **Jerod Santo:** Right. It's a huge problem, it's very difficult to solve that.
 
@@ -144,11 +144,11 @@ The idea was to push it forward, but in making decisions, they did not push it f
 
 **Kevin Ball:** I don't think even the browsers think that at this point...
 
-**Break:** \[22:51\]
+**Break:** \{22:51\}
 
 **Divya Sasidharan:** So we were just talking about Web Components and various other things, like container queries... Are there any other things and APIs that you think haven't moved forward? I can propose one, which is I think dates on the web still suck, and working with dates is still terrible... Because I often have to be like "Oh, I have to work with this date. I'm gonna pull in Moment.js" and it's a giant library, and automatically my project just jumps in size and the performance goes down. It's pretty dreadful.
 
-\[23:56\] But I do know there's work that's being done there, so I do wanna acknolwedge that. I see in TC39 that Maggie Pint and a couple of people are working on that, moving dates forward and making that much better... But currently, if you wanna work with dates, there's a lot of issues with it. I don't know, how do you guys solve that, or what are your experiences?
+\{23:56\} But I do know there's work that's being done there, so I do wanna acknolwedge that. I see in TC39 that Maggie Pint and a couple of people are working on that, moving dates forward and making that much better... But currently, if you wanna work with dates, there's a lot of issues with it. I don't know, how do you guys solve that, or what are your experiences?
 
 **Jerod Santo:** Well, there's OkCupid, there's Match.com, there's Tinder... I don't know, there's lots of choices for dates on the web, aren't there?
 
@@ -176,7 +176,7 @@ The idea was to push it forward, but in making decisions, they did not push it f
 
 **Divya Sasidharan:** And considering that everyone uses dates at some point when you build a web application, that seems like it should be out-of-the-box, included in the browser, or the browser should have a spec or an API that makes it easy to work with... But that hasn't happened, and it's only recently -- I think people have pushed it for a long time, but I actually don't know the politics of why that has not moved forward until very recently.
 
-**Kevin Ball:** I will say while JavaScript's Date is particularly bad, I don't think I've ever worked with a language where dealing with dates and timezones and all of that mess was something that made me happy.
+**Kevin Ball:** I will say while JavScript's Date is particularly bad, I don't think I've ever worked with a language where dealing with dates and timezones and all of that mess was something that made me happy.
 
 **Divya Sasidharan:** That's a fair criticism, yeah.
 
@@ -186,11 +186,11 @@ The idea was to push it forward, but in making decisions, they did not push it f
 
 **Jerod Santo:** It's way better.
 
-**Kevin Ball:** It is way better. JavaScript is particularly bad, I'm not arguing that. I'm also just highlighting that our expectations may need to be tampered down a little bit. This is a really messy problem, because it is not a clean abstraction. There's so many weird edge cases when it comes to times and dates and all of these things, and getting an implementation that makes it feel clean may not actually be very possible, or may at least be very hard. Moment does pretty well. Moment is pretty darn good on that front.
+**Kevin Ball:** It is way better. JavScript is particularly bad, I'm not arguing that. I'm also just highlighting that our expectations may need to be tampered down a little bit. This is a really messy problem, because it is not a clean abstraction. There's so many weird edge cases when it comes to times and dates and all of these things, and getting an implementation that makes it feel clean may not actually be very possible, or may at least be very hard. Moment does pretty well. Moment is pretty darn good on that front.
 
 **Jerod Santo:** The advantage of server-side languages is that they can augment the language itself without sending additional kilobytes down the wire. Python, Ruby - they all have these extenders to the built-ins, or the standard library, and you can make the APIs as extensible and readable and expressionful as you want, but you're not making your user pay for it. Maybe you are in server memory heap allocation, and that all adds up, but it's not like, you know, time to paint.
 
-**Divya Sasidharan:** \[27:59\] I think it'd be better if it just worked in browsers, instead of having to be like "I need a server to fix this for me."
+**Divya Sasidharan:** \{27:59\} I think it'd be better if it just worked in browsers, instead of having to be like "I need a server to fix this for me."
 
 **Jerod Santo:** Agreed.
 
@@ -198,7 +198,7 @@ The idea was to push it forward, but in making decisions, they did not push it f
 
 **Jerod Santo:** Quick, real-time follow-up - the thought I was having about Moment actually is Luxon, and team \[unintelligible 00:28:13.20\] helped putting the dots together... And you mentioned Luxon, Divya; that is actually written by one of Moment's maintainers, and is kind of like a lighter-weight thing.
 
-**Divya Sasidharan:** Yeah, Moment is a great library in terms of implementation, it's just the size that I think is-- because I think at the time when they created it JavaScript needed something to work with dates... So I don't believe that performance and size of package were considered at all. I'm not sure, I have no idea; I'm just hypothesizing here, but... I think that as people are like "Hey, this is a problem. We care about performance now. We wanna make sure that just because we're dealing with dates, our application is not giant." That's front of mind for a lot of people.
+**Divya Sasidharan:** Yeah, Moment is a great library in terms of implementation, it's just the size that I think is-- because I think at the time when they created it JavScript needed something to work with dates... So I don't believe that performance and size of package were considered at all. I'm not sure, I have no idea; I'm just hypothesizing here, but... I think that as people are like "Hey, this is a problem. We care about performance now. We wanna make sure that just because we're dealing with dates, our application is not giant." That's front of mind for a lot of people.
 
 Alright, I think we talked a lot about dates, and I don't actually know how much more we can talk about that, because we've covered quite a lot of ground with that. There's lots of other APIs that have not been developed... Let's pick another one. Let's start with accessibility, because we've talked about this on the podcast before, but I think there's so many things with regards to accessibility that are not very well done in browsers at the moment, so it makes it really hard if you're visually-impaired or if you have difficulty with movement... It makes it just impossible to work on the web. That's particularly also because it is, again, on the onus of the developer to do a lot of those things, so browsers don't have automatic ways to optimize for use cases that make it super-accessible... And because of the burden it puts on the developer, people don't tend to focus on it or put a lot of effort onto that.
 
@@ -216,7 +216,7 @@ Are there things that you all feel browsers could do better in terms of improvin
 
 **Kevin Ball:** One challenge with this, and something I was gonna bring up with one of the reasons why we sometimes don't see progress that we'd like to is that the number one imperative of all of the people working on this is "Don't break the web. Don't break backwards-compatibility." There are websites that have been up for 20 years that are still readable, and are ugly as sin, but they are still readable, and they still work, and that needs to continue being true.
 
-\[31:40\] That said, I think there are transformations that they could do. There's this Reader View approach that Safari and Firefox have done, where they will ignore a bunch of the elements and CSS on a page, and just make it readable... And I think that that's something that -- maybe it's in a mode, or I don't know, but certainly Chrome could learn from and do something interesting on. There's stuff we could do around contrast ratios... So it's entirely possible to create websites right now that are essentially not readable by anyone who has trouble with colors, and there could be some sort of browser mode that just forces that, and if it makes the website ugly - well, so be it.
+\{31:40\} That said, I think there are transformations that they could do. There's this Reader View approach that Safari and Firefox have done, where they will ignore a bunch of the elements and CSS on a page, and just make it readable... And I think that that's something that -- maybe it's in a mode, or I don't know, but certainly Chrome could learn from and do something interesting on. There's stuff we could do around contrast ratios... So it's entirely possible to create websites right now that are essentially not readable by anyone who has trouble with colors, and there could be some sort of browser mode that just forces that, and if it makes the website ugly - well, so be it.
 
 There was an article that I'm including in my newsletter this week that looks at a number of these. Some of the items they also bring up are things like fixing focus styles, forcing that to be there... Because one of the lovely things that so many folks do when they start a new site is get rid of focus styles because the default focus styles are ugly...
 
@@ -242,7 +242,7 @@ So from that perspective, it's just really hard for some people to get on board 
 
 But one of the things I've found recently was this concept of an accessibility object model. With accessibility, there's the accessibility tree, which is how if you're on a screen reader you would navigate through a website... Which is slightly different from the DOM tree, because the DOM tree exposes everything, and the accessibility tree parses the pieces that are very important for interaction. But the accessibility object model is this idea of creating a completely separate, almost like a DOM, so to speak, where you can build a website from the ground up, where it focuses on how that experience will look like... Which I think is interesting, because then you're no longer looking at the visual element of it, of how the page looks like, but how a page is navigated, and then building from that perspective... Which I think is a really interesting way of thinking about it. I have no idea at what stage that is. There's a spec for it. It is unofficial, and I don't actually know what stage it's in... But it's interesting just as a way of thinking about accessibility and building for accessibility, or getting people on board with building for things.
 
-\[36:27\] Overall, I still think that browsers themselves need to have implementation in-built, that optimizes for that. Because when you rely on developers to do a lot of that work, the chances of them doing it are super-low... Because they're gonna optimize for developer ergonomics, what works for them, their own use cases... You know, if I were building a website, I'd build for someone who has a similar experience to me, rather than someone who doesn't... Because it's very hard to look outside of your perspective.
+\{36:27\} Overall, I still think that browsers themselves need to have implementation in-built, that optimizes for that. Because when you rely on developers to do a lot of that work, the chances of them doing it are super-low... Because they're gonna optimize for developer ergonomics, what works for them, their own use cases... You know, if I were building a website, I'd build for someone who has a similar experience to me, rather than someone who doesn't... Because it's very hard to look outside of your perspective.
 
 **Kevin Ball:** It is. And the earlier you are in your career, the narrower the perspective that you have, just by necessity. You're doing everything you can to understand the basics, and starting from what you can see and touch and feel. So if we want accessibility to be something, we either need to have it baked in or have it be something that you are forced to see and touch and feel from the beginning.
 
@@ -256,13 +256,13 @@ Alright, let's look at something else, which is -- I think it's worth talking ab
 
 **Kevin Ball:** I think one of the big things is that the set of thing that you can do in SVG and the set of things you can do in HTML are close, but there's an uncanny valley where some things just don't work quite the same; some things don't work in one or the other... And I saw something fly by, I believe it was in Firefox. There's work underway now to unify the rendering pathways for SVG and HTML, which would potentially fix that problem of the subtle differences there.
 
-It's fascinating, because SVG as a spec is essentially like HTML. It's another document language. It's arranged the same way, CSS is supposed to work the same way, JavaScript should work the same way... It should just work. And it doesn't quite.
+It's fascinating, because SVG as a spec is essentially like HTML. It's another document language. It's arranged the same way, CSS is supposed to work the same way, JavScript should work the same way... It should just work. And it doesn't quite.
 
 **Divya Sasidharan:** Yeah.
 
 **Kevin Ball:** And there's also subtle differences depending on how you use the SVG. Are you in-lining the SVG? Are you using it in an object, and do you get like a shadow DOM of your own there? Are you just dumping it in an image? There's all these subtle nuances that make it hard to just use it in the same way.
 
-**Divya Sasidharan:** \[40:14\] Yeah, definitely. I don't actually know what the current work for SVG standards are.
+**Divya Sasidharan:** \{40:14\} Yeah, definitely. I don't actually know what the current work for SVG standards are.
 
 **Jerod Santo:** I've been trying to look that up as we talk here... SVG 2 Working Group.
 
@@ -292,7 +292,7 @@ It's fascinating, because SVG as a spec is essentially like HTML. It's another d
 
 **Divya Sasidharan:** Yeah. I really like the Lighthouse scores as a way of highlighting just your score with regards to accessibility, just because it surfaces it, and so people see that automatically in their dashboard when they pull up their Lighthouse scores... So that is an important thing. It's not super-harsh, but it is something to encourage bringing up that number and improving that altogether.
 
-**Break:** \[42:10\]
+**Break:** \{42:10\}
 
 **Divya Sasidharan:** So I guess we'll dive into our next section. We're doing shout-outs. Does anybody wanna volunteer to start, or should I just pick a name? Kball, do you wanna go first?
 
@@ -316,7 +316,7 @@ It's fascinating, because SVG as a spec is essentially like HTML. It's another d
 
 **Divya Sasidharan:** Exactly. Alright, Jerod, do you wanna go next?
 
-**Jerod Santo:** \[47:37\] Absolutely. So I've found this amazing little project called Rotary Cell Phone. It is open source, do-it-yourself. Rotary Cell Phone, built by Justine Haupt. Shout-out to Justine for this amazing little project. I just thought it was so cool, I wanted to give her a shout-out. One thing she says is she answers "Why? Why would you build a rotary cell phone?" She says "Because in a finicky, annoying touchscreen world of hyper-connected people using phones they have no control over or understanding of, I wanted something that would be entirely mine, personal, and absolutely tactile, while also giving me an excuse for not texting."
+**Jerod Santo:** \{47:37\} Absolutely. So I've found this amazing little project called Rotary Cell Phone. It is open source, do-it-yourself. Rotary Cell Phone, built by Justine Haupt. Shout-out to Justine for this amazing little project. I just thought it was so cool, I wanted to give her a shout-out. One thing she says is she answers "Why? Why would you build a rotary cell phone?" She says "Because in a finicky, annoying touchscreen world of hyper-connected people using phones they have no control over or understanding of, I wanted something that would be entirely mine, personal, and absolutely tactile, while also giving me an excuse for not texting."
 
 **Divya Sasidharan:** Interesting.
 
@@ -380,7 +380,7 @@ And then I was going to recommend a talk by Tatiana Mac, called "How privilege d
 
 **Jerod Santo:** It sounded good.
 
-**Divya Sasidharan:** \[52:12\] Okay, cool.
+**Divya Sasidharan:** \{52:12\} Okay, cool.
 
 **Jerod Santo:** I don't know how to say it either, but...
 

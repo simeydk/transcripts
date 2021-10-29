@@ -24,7 +24,7 @@ We have surveyed 112 JS Party listeners, and asked them various questions about 
 
 **Jem Young:** Hello! Thanks, Nick, and thanks for having me on. I just wanna say, you're gonna regret having me on your team. Just letting you know that... \[laughter\]
 
-**Jerod Santo:** \[04:15\] We already do... Alright, well let's feud, shall we? First up in the battle round -- the battle round works with two contestants, one from each team, comes up and tries to match the highest surveyed response. Whoever goes highest on the board gets to win the board, and they can either play or pass. First up, we have team captains Emma versus Nick. Step right up...
+**Jerod Santo:** \{04:15\} We already do... Alright, well let's feud, shall we? First up in the battle round -- the battle round works with two contestants, one from each team, comes up and tries to match the highest surveyed response. Whoever goes highest on the board gets to win the board, and they can either play or pass. First up, we have team captains Emma versus Nick. Step right up...
 
 You will buzz in when you think you have an answer. You can buzz in by saying "Buzz!", "Bzz!", "FizzBuzz!", or any sound that makes me think that you buzzed. Are you ready?
 
@@ -120,7 +120,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Jerod Santo:** This is Nick versus Emma here. \[laughter\]
 
-**Nick Nisi:** Something that frontend developers complain about. They complain about JavaScript.
+**Nick Nisi:** Something that frontend developers complain about. They complain about JavScript.
 
 **Jerod Santo:** \[win sound\] Correct!
 
@@ -128,7 +128,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Emma Bostian:** Arrghh! I have Stockholm syndrome. I live here. \[laughter\]
 
-**Jerod Santo:** \[07:54\] So 15 people said either JavaScript, or JavaScript fatigue, something along those lines... And that's correct. So you win the board, and you can now either play or pass. There are five things on the board. That was the number two answer. So you have one, three, four and five, and you have three strikes for your team to name those other four answers. Will you play or pass?
+**Jerod Santo:** \{07:54\} So 15 people said either JavScript, or JavScript fatigue, something along those lines... And that's correct. So you win the board, and you can now either play or pass. There are five things on the board. That was the number two answer. So you have one, three, four and five, and you have three strikes for your team to name those other four answers. Will you play or pass?
 
 **Nick Nisi:** Let's play.
 
@@ -290,7 +290,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Jem Young:** Something you do in a Zoom meeting would be tell someone that they're muted.
 
-**Jerod Santo:** \[12:11\] Survey says... \[win sound\] Number one answer, with 22.
+**Jerod Santo:** \{12:11\} Survey says... \[win sound\] Number one answer, with 22.
 
 **Nick Nisi:** Nice...
 
@@ -430,7 +430,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Jem Young:** Hm...
 
-**Amal Hussein:** \[16:04\] You're the best frontend developer ever, Jem... \[laughter\]
+**Amal Hussein:** \{16:04\} You're the best frontend developer ever, Jem... \[laughter\]
 
 **Jem Young:** I know. What does that say about the state of frontend development...? \[laughter\] Something people do on a Zoom meeting... I guess for five and six we have to get meta, so I'm gonna say "Complain about video chat meetings."
 
@@ -560,7 +560,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Nick Nisi:** Boooo...
 
-**Break:** \[19:42\]
+**Break:** \{19:42\}
 
 **Jerod Santo:** Divya and Amal, you are now to battle off in our next round... Please step up to the board...
 
@@ -688,7 +688,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Jem Young:** Nah... How many answers are left? Two or one?
 
-**Jerod Santo:** \[24:07\] Just one. The number three answer is the only one left.
+**Jerod Santo:** \{24:07\} Just one. The number three answer is the only one left.
 
 **Jem Young:** Oh, okay.
 
@@ -700,7 +700,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Jem Young:** I would say Java... No, seriously.
 
-**Emma Bostian:** I thought you said JavaScript, and I was like "Huh...!" \[laughter\]
+**Emma Bostian:** I thought you said JavScript, and I was like "Huh...!" \[laughter\]
 
 **Neil Roberts:** That would be a good answer.
 
@@ -848,7 +848,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Jerod Santo:** Oh, for sure.
 
-**Divya:** \[28:12\] Maybe I just follow people with that.
+**Divya:** \{28:12\} Maybe I just follow people with that.
 
 **Jerod Santo:** Well, we have two answers left, and we are back to Emma.
 
@@ -992,7 +992,7 @@ What you're trying to do is name something on the board, but you wanna hit the b
 
 **Neil Roberts:** HTTP...
 
-**Emma Bostian:** \[32:03\] Yeah, and TCP/IP probably... What other ones are there?
+**Emma Bostian:** \{32:03\} Yeah, and TCP/IP probably... What other ones are there?
 
 **Amal Hussein:** Are we talking about HTTP protocols, or...
 
@@ -1138,7 +1138,7 @@ What you're trying to do is name something on the board, but you wanna hit the b
 
 **Amal Hussein:** Well, I was, but that's okay... You don't have to listen to me, Jem... \[laughs\]
 
-**Jem Young:** \[36:14\] I assumed REST would be the most prominent answer...
+**Jem Young:** \{36:14\} I assumed REST would be the most prominent answer...
 
 **Divya:** Yeah, exactly. I thought it'd be way higher than HTTP...
 
@@ -1196,7 +1196,7 @@ What you're trying to do is name something on the board, but you wanna hit the b
 
 **Amal Hussein:** True Losers... \[laughter\]
 
-**Break:** \[37:47\]
+**Break:** \{37:47\}
 
 **Jerod Santo:** We now go to the final round. This is Fast Money Round. The way this round works is just the winning team - that's Nick, Jem and Amal - you pick two participants to do Fast Money. The way Fast Money Works is one of you goes in a cone of silence, the other one participates. I have five questions. You just try to hit the number one answer on each one. So it's a rapid-fire.
 
@@ -1250,7 +1250,7 @@ So Nick, who should be playing Fast Money Round for your team?
 
 **Jerod Santo:** Two people play, one person sits.
 
-**Amal Hussein:** \[40:22\] Okay, fine. Then both of us. Yeah, that's fine.
+**Amal Hussein:** \{40:22\} Okay, fine. Then both of us. Yeah, that's fine.
 
 **Emma Bostian:** They're gonna do so well, since they don't know the rules... It's gonna be great. \[laughter\]
 
@@ -1322,7 +1322,7 @@ So Nick, who should be playing Fast Money Round for your team?
 
 **Jerod Santo:** Let me send Amal a DM to get her back...
 
-**Break:** \[42:19\]
+**Break:** \{42:19\}
 
 **Amal Hussein:** I am back!
 
@@ -1392,7 +1392,7 @@ So Nick, who should be playing Fast Money Round for your team?
 
 **Jem Young:** As the only person here in Silicon Valley, that hurts... You know?
 
-**Amal Hussein:** \[44:02\] Sorry...
+**Amal Hussein:** \{44:02\} Sorry...
 
 **Emma Bostian:** I mean...
 
@@ -1518,7 +1518,7 @@ So Nick, who should be playing Fast Money Round for your team?
 
 **Amal Hussein:** Wait, what?! Like S-P-I-T? \[laughter\]
 
-**Jerod Santo:** \[47:58\] Yeah, like they swap spit.
+**Jerod Santo:** \{47:58\} Yeah, like they swap spit.
 
 **Emma Bostian:** Yeah, just because that's a phrase. Like, swapping spit. I don't know.
 
@@ -1572,7 +1572,7 @@ So Nick, who should be playing Fast Money Round for your team?
 
 **Divya:** We gave you moral support.
 
-**Jem Young:** That's true, I felt it. \[49:28\] I believed in you from the beginning, as you can tell. And you won...
+**Jem Young:** That's true, I felt it. \{49:28\} I believed in you from the beginning, as you can tell. And you won...
 
 **Amal Hussein:** Yeah. Thanks.
 

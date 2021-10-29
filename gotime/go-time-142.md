@@ -90,7 +90,7 @@ And that's the thing, I was always interested in what I could do as a developer 
 
 So as someone who's spent the last couple of months looking for a job, I avoided all jobs with the title SRE, because of this reason. Because 9 times out of 10 they actually turn out to be just like sysadmin or a pure ops role with a different title, and probably a higher salary. And that's not obvious, because we don't have common definitions or a common understanding of what it actually means to have SRE as a culture. We have Google SRE, but that doesn't apply to 99.99% of the companies out there. So that just makes that super-duper hard.
 
-The other thing which is sort of related to that is that because of that, it's really hard to break into this field. I used to be a frontend engineer, and I started doing frontend when I first got into tech. Then I quickly realized that I don't actually like frontend as much; I enjoy distributed systems and backend a lot more. So while I was in college, I took up a distributed systems course in one of my later semesters, and it was like a whole new world opened to me. Before that, everyone around me was just doing JavaScript and web development, so I was never aware there's this whole domain of problems and jobs out there which is also an option, and not just web development.
+The other thing which is sort of related to that is that because of that, it's really hard to break into this field. I used to be a frontend engineer, and I started doing frontend when I first got into tech. Then I quickly realized that I don't actually like frontend as much; I enjoy distributed systems and backend a lot more. So while I was in college, I took up a distributed systems course in one of my later semesters, and it was like a whole new world opened to me. Before that, everyone around me was just doing JavScript and web development, so I was never aware there's this whole domain of problems and jobs out there which is also an option, and not just web development.
 
 I have nothing against web development; I have lots of respect for frontend engineers. I cannot do what they do... But yeah, that's just something I really liked, and I wanted to eventually switch to... So I started on my own, I started learning about distributed systems in general by reading papers, blog posts, and consuming whatever material was already out there... And then very quickly I ran up a wall and I realized that you can only do so much on a single machine, unless you have lots of money and access to a cloud provider. That's when I started looking for a job in this domain. That was right after I got out of college; I ended up at Microsoft, and I was doing weird things with databases and stored procedures, which was not a lot of fun, so I wanted to move on and do other things... And I was getting more and more interested in infra and distributed systems and related domains.
 
@@ -144,7 +144,7 @@ It's such a shame, because it's such an interesting field, with so many really i
 
 **Shubheksha Jalan:** Yeah. That's the plus side.
 
-**Break:** \[26:29\]
+**Break:** \{26:29\}
 
 **Mat Ryer:** I'm interested in Go's relationship in this world... Because I remember from the very first GopherCon - I remember that was the time when I started getting exposed to a lot more talks and ideas and things from this world. Docker obviously is a big, famous Go project... So I think Docker gave Go quite a lot of credibility in those early days, because we think of this world as very grown-up; this might be linked to what we were talking about, why it's difficult for juniors... But I certainly have this idea that infrastructure is very grown-up, it's very serious. Maybe you can't be as creative as you can - another perception I had, that it's not so creative, it's just very serious; it takes very grown-up attitudes and a very grown-up approach to it.
 
@@ -240,11 +240,11 @@ So yeah, there's always that, and I think the other danger is that it sort of se
 
 **Mat Ryer:** Brilliant.
 
-**Break:** \[46:57\]
+**Break:** \{46:57\}
 
 **Mat Ryer:** Well, it's that time again... It's time for our Unpopular Opinions!
 
-**Jingle:** \[48:14\]
+**Jingle:** \{48:14\}
 
 **Mat Ryer:** ...and the music plays... \[laughter\]
 

@@ -14,7 +14,7 @@
 
 **Jason Miller:** Yeah, I think I remember what the team decided on... To say it was an argument would be a miscategorization. It's more -- you know the npm header, how they scroll through random definitions of what npm might mean? We essentially just have a joke where we continue to do that in our chat. So I think the dry, boring version is originally I started this project as a joke, and the joke was it was going to be called Warm Module Replacement, which is...
 
-**Jerod Santo:** \[04:28\] Not quite hot.
+**Jerod Santo:** \{04:28\} Not quite hot.
 
 **Jason Miller:** Like, less hot than hot module replacement... \[laughter\] Like, it's module replacement that you can touch... I don't know. It seemed funny at the time. And the npm name was free. And then we spent a week or two trying to come up with a better name, and failed. So we called the company Apple -- or, we called the project WMR. \[laughter\]
 
@@ -102,7 +102,7 @@
 
 **Jerod Santo:** Well, I would say enough tomfoolery, but there'll probably be some more upcoming... But in-between the ridiculousness, let's get some actual content out there. WMR - who cares what it stands for...? As I said, your little tagline is a tiny all-in-one development tool for modern web apps, and so that begs the question then "What is a modern web app?" That's the one you knew I was gonna ask, right?
 
-**Jason Miller:** \[08:10\] Yeah, that's right.
+**Jason Miller:** \{08:10\} Yeah, that's right.
 
 **Jerod Santo:** So have at it... What's a modern web app?
 
@@ -116,7 +116,7 @@
 
 **Jerod Santo:** Right.
 
-**Jason Miller:** The maybe more appropriate answer is it's a web app where the thing that you have front of mind and the constraints that you have on your mind as you develop are modern browsers, modern UX, modern dependencies... Sort of this general assumption that this is not going to be trying to use code from the late 2000's, this is not going to be trying to service necessarily browsers from the late 2000's... Certainly, it would be written in modern JavaScript, which -- yeah, another recursive definition there, but... You know, ES2017 or newer kind of thing.
+**Jason Miller:** The maybe more appropriate answer is it's a web app where the thing that you have front of mind and the constraints that you have on your mind as you develop are modern browsers, modern UX, modern dependencies... Sort of this general assumption that this is not going to be trying to use code from the late 2000's, this is not going to be trying to service necessarily browsers from the late 2000's... Certainly, it would be written in modern JavScript, which -- yeah, another recursive definition there, but... You know, ES2017 or newer kind of thing.
 
 And the most important one, I think, at least for me, is the toolchain is optimized to give you the best experience possible for ES modules, and TypeScript, and some of these things that are now only present on npm... But there are still large swathes of modules on npm that have not moved over to those things, or that sort of exist from an era prior to all of that.
 
@@ -134,7 +134,7 @@ So the idea is "Okay, well, let's build a tool that tries to still sort of suppo
 
 **Jerod Santo:** Right.
 
-**Jason Miller:** \[12:08\] But that's also -- as somebody who is a fairly severe ADHD sufferer, and who does a lot of prototyping to manage to be productive, despite all of those "Stop. Configure..." Those are all steps that kind of get in the way of you actually starting a project. Or at the very least, they eat into the time that you might spend... You know, if you have two hours to prototype something, you really don't wanna spend the first hour and a half configuring your bundler. I've definitely failed hackathons for that very reason.
+**Jason Miller:** \{12:08\} But that's also -- as somebody who is a fairly severe ADHD sufferer, and who does a lot of prototyping to manage to be productive, despite all of those "Stop. Configure..." Those are all steps that kind of get in the way of you actually starting a project. Or at the very least, they eat into the time that you might spend... You know, if you have two hours to prototype something, you really don't wanna spend the first hour and a half configuring your bundler. I've definitely failed hackathons for that very reason.
 
 **Jerod Santo:** So it's very much about greasing the skids, right? Like, "Just get me running." No config, or out-of-the-box, preconfigured for you, don't-make-me-think style tooling.
 
@@ -150,7 +150,7 @@ So the idea is "Okay, well, let's build a tool that tries to still sort of suppo
 
 So it really tries to stay out of your way not by telling you what to do, but by finding concrete -- I don't wanna say evidence-based; I feel like that's giving it too much credit. Finding concrete, obvious defaults that you're gonna tell the bundler at some point anyway, when you're doing your optimization... And just saying "Yeah, we're just gonna do that by default. That's a logical default to have."
 
-**Jerod Santo:** \[15:51\] I'm listening to you talk about it and it almost sounds like akin to a compiler doing type inference, where it's like "I think you must be using an int right now, so I'm just gonna infer that that's what it is, and not make you declare it, like you might in some other typed languages." This is kind of like config inference, or style inference, to a certain degree. Not trying to give you too much credit again, but it's kind of akin to that. You're like, "Well, find out what they're doing, and also what's the best practice here", if they don't wanna defer from that or divert from that, and just do that... But also like what style are you using - we'll just go ahead and just do that.
+**Jerod Santo:** \{15:51\} I'm listening to you talk about it and it almost sounds like akin to a compiler doing type inference, where it's like "I think you must be using an int right now, so I'm just gonna infer that that's what it is, and not make you declare it, like you might in some other typed languages." This is kind of like config inference, or style inference, to a certain degree. Not trying to give you too much credit again, but it's kind of akin to that. You're like, "Well, find out what they're doing, and also what's the best practice here", if they don't wanna defer from that or divert from that, and just do that... But also like what style are you using - we'll just go ahead and just do that.
 
 **Jason Miller:** Right. So the similarity there is actually pretty reasonable. You could almost think of WMR as -- let's say in production mode only, because development mode is this whole other story... But in production mode, it's almost like WMR looks at your codebase and generates a Rollup config that is optimal for that codebase and then runs it. That's actually sort of how it works. It's a little bit more complex and contextual than that, but at least in terms of our production output; you can kind of think of it like that.
 
@@ -166,9 +166,9 @@ So what we try to do with WMR is working back from that model of "In development
 
 So if you ever built a Rollup plugin, that whole API is actually supported by WMR, even though WMR is not running Rollup. We just call all the same hooks in the same order, we expose the same \[unintelligible 00:19:17.26\] But at the end of the day, what it means is we read a module off-disk and put it in memory cache, we pass it through, at most, one AST transformation that will parse all the code, but in almost no cases will it stringify all of the code. It's only going to reserialize mutated AST nodes, so it's extremely fast... But actually, in most cases no AST transformations. We're using Guy Bedford's es-module-lexer to do basically token-based transformations. We don't make a whole graph of your code, we literally just know that "Oh, this is an import statement. Here's the string that was imported. What are you gonna do with this string?" And then that all feeds back through this Rollup-based plugin API, or Rollup-compatible plugin API.
 
-\[20:04\] But the idea is, basically, WMR should get modules into the browser roughly as fast as it can read the module off disk, and stream it to the browser. It really shouldn't be adding overhead to each request in order to do transformations. And that originally actually just comes from -- I work on Glitch a lot; it's cheap... It's just a habit I've gotten into. And Glitch has a static mode, but the static mode just supports JSX, or TypeScript, or bare imports, or ES modules, or Node modules, for that matter... Which is just slightly too limited.
+\{20:04\} But the idea is, basically, WMR should get modules into the browser roughly as fast as it can read the module off disk, and stream it to the browser. It really shouldn't be adding overhead to each request in order to do transformations. And that originally actually just comes from -- I work on Glitch a lot; it's cheap... It's just a habit I've gotten into. And Glitch has a static mode, but the static mode just supports JSX, or TypeScript, or bare imports, or ES modules, or Node modules, for that matter... Which is just slightly too limited.
 
-So originally, I started WMR as like a better Glitch static; basically, a static file server that does some intelligent stuff with JavaScript, but very little. Just what's necessary to make it usable. So that's kind of the premise there.
+So originally, I started WMR as like a better Glitch static; basically, a static file server that does some intelligent stuff with JavScript, but very little. Just what's necessary to make it usable. So that's kind of the premise there.
 
 That's also where this whole concept of not having to install dependencies came from... So it's a pain in the butt to manage your package.json; and especially on Glitch, every edit you make to the package.json redownloads all the Node modules via Pnpm and populates them in the Node modules directory.
 
@@ -198,7 +198,7 @@ But we can sort of infer, "Oh, this isn't just a random package. This is not a c
 
 **Jerod Santo:** It's specific.
 
-**Jason Miller:** \[24:01\] Yeah. So when we do that, again, with the inference thing - we stream it to disk, and we send you the file... Because you're waiting on this request in the browser, the browser will either have reloaded, or hot module updated, or whatever; you're sitting there, waiting for this dependency to download... We get the dependency to the browser right away; it runs through an extremely lightweight Rollup pass, but doesn't do any minification, doesn't do any \[unintelligible 00:24:26.29\] anything like that. It basically just concatenates modules together that wouldn't have been individually addressable anyways, so that we're not shipping thousands of ES modules over the wire, but as close to zero milliseconds as we can get there...
+**Jason Miller:** \{24:01\} Yeah. So when we do that, again, with the inference thing - we stream it to disk, and we send you the file... Because you're waiting on this request in the browser, the browser will either have reloaded, or hot module updated, or whatever; you're sitting there, waiting for this dependency to download... We get the dependency to the browser right away; it runs through an extremely lightweight Rollup pass, but doesn't do any minification, doesn't do any \[unintelligible 00:24:26.29\] anything like that. It basically just concatenates modules together that wouldn't have been individually addressable anyways, so that we're not shipping thousands of ES modules over the wire, but as close to zero milliseconds as we can get there...
 
 And then behind the scenes, after you've actually requested that module and after it's been loaded in the browser, we then schedule it to go off into a minification and Brotli compression pass... So if you import Preact, you'll get Preact right away, but then after a second(ish) or two of idle time, WMR will have already generated a hyper-optimized version of that dependency and written it back to disk, so that the next time you request it, you get the optimized Brotli-compressed version, but just straight from disk; there's no overhead on the request itself. It's a funky setup, but...
 
@@ -214,7 +214,7 @@ And then behind the scenes, after you've actually requested that module and afte
 
 **Jason Miller:** It's a pattern, it always looks like that, and you kind of get used to seeing it on the frontend. And in your browser's network console you'll just see foo, because it shows the base name, not the path name.
 
-In the case of something like TypeScript, or if you're using JavaScript files and you don't want to use file extensions, WMR in its current state will infer the file extension and correct it. So in the browser, if you imported /utils, and the file on disk was called utils.ts, in the browser I believe you will /utils.ts.
+In the case of something like TypeScript, or if you're using JavScript files and you don't want to use file extensions, WMR in its current state will infer the file extension and correct it. So in the browser, if you imported /utils, and the file on disk was called utils.ts, in the browser I believe you will /utils.ts.
 
 **Nick Nisi:** Oh, really?
 
@@ -222,13 +222,13 @@ In the case of something like TypeScript, or if you're using JavaScript files an
 
 **Nick Nisi:** Interesting.
 
-**Jason Miller:** Yeah. Basically, that happens because, as I'd mentioned, we support the Rollup plugin API during development. Originally, we did not do file extension inference. So if you wanted to import a file that had an extension, whether it's TypeScript, JavaScript, TSX, whatever, you just type the file out with the extension.
+**Jason Miller:** Yeah. Basically, that happens because, as I'd mentioned, we support the Rollup plugin API during development. Originally, we did not do file extension inference. So if you wanted to import a file that had an extension, whether it's TypeScript, JavScript, TSX, whatever, you just type the file out with the extension.
 
 I actually personally really like that approach, because I know that behind the scenes that means that WMR never ever has to read a directory, or call into Node's file system API to check if something exists. Basically, when you do an import, \[unintelligible 00:27:52.06\] That's it.
 
 **Nick Nisi:** So even if you were writing TypeScript, you would do a .ts extension for all of those?
 
-**Jason Miller:** \[28:01\] Yes. Or you could also use a .js extension, but that's a \[unintelligible 00:28:02.28\] .js extension when there's a .ts file on disk, it's the .ts file.
+**Jason Miller:** \{28:01\} Yes. Or you could also use a .js extension, but that's a \[unintelligible 00:28:02.28\] .js extension when there's a .ts file on disk, it's the .ts file.
 
 **Nick Nisi:** Okay.
 
@@ -250,13 +250,13 @@ The other piece of this is I think the file extensions thing, especially for Typ
 
 **Nick Nisi:** Yeah. I noticed that there was a tsconfig in there that it created... And then I just went into -- there's a header.js file, and I just renamed it to header.ts, and it still worked.
 
-**Jason Miller:** Yeah. That's actually an interesting point. WMR -- obviously, there's a whole bunch of stuff that it's doing, its goals, or whatever, but the other piece is... This is coming from the Preact team; and the Preact team - we still by and large write everything in vanilla JavaScript, but over the past year or two have all but replatformed onto JSDoc-based TypeScript that is actually just JavaScript, to the point where WMR itself is written in JS and JSDoc, but is strictly-typed...
+**Jason Miller:** Yeah. That's actually an interesting point. WMR -- obviously, there's a whole bunch of stuff that it's doing, its goals, or whatever, but the other piece is... This is coming from the Preact team; and the Preact team - we still by and large write everything in vanilla JavScript, but over the past year or two have all but replatformed onto JSDoc-based TypeScript that is actually just JavScript, to the point where WMR itself is written in JS and JSDoc, but is strictly-typed...
 
 **Nick Nisi:** Gotcha.
 
 **Jason Miller:** ...like a type error breaks the build... Which is less crazy than you'd think, because there's this clever thing where you can stick all your types as ambient types in the source directory, and then just reference them without even having to import anything from your JSDoc annotations... And the TypeScript team has been really good over the past year about extending the JSDoc functionality and finding that nice balance of JSDoc that isn't entirely TypeScript-specific... So we're all on board on that. Even the main Preact codebase right now is basically being rewritten to use this strict variant.
 
-\[31:56\] So we kind of wanted to scaffold something that shows people "Hey, you can turn on checkJs and get all these lovely compilerisms that you wouldn't expect from a standard JavaScript environment, as long as you're using an editor that cares about TypeScript."
+\{31:56\} So we kind of wanted to scaffold something that shows people "Hey, you can turn on checkJs and get all these lovely compilerisms that you wouldn't expect from a standard JavScript environment, as long as you're using an editor that cares about TypeScript."
 
 And then the other piece is we support CSS modules and some import prefixes. You can do -- it's url: and then the path to something, and the thing you import is the URL of that file... Which I think Parcel supports the same thing.
 
@@ -272,7 +272,7 @@ And then the other piece is we support CSS modules and some import prefixes. You
 
 **Jason Miller:** And again, we are providing you the thing, and it's technically configurable. You can turn this off, but that's the default, so we provide you the type definitions for that default... Which is nice. It's something that I think we always wanted to do in Preact's CLI, but we didn't have the .module.css thing, that convention... And we maybe couldn't guess as much about the type of code you were trying to write to be able to infer these things.
 
-**Break:** \[33:23\]
+**Break:** \{33:23\}
 
 **Nick Nisi:** So as I mentioned, I was playing with the create-wmr, or the npm init WMR, which was really cool, and playing with the project that it creates there. I really love just how, like you said, I wasn't spending any time configuring things, I was just going. And I wanted to use TypeScript, so I renamed the file to .ts, and it just worked. That was really awesome.
 
@@ -284,9 +284,9 @@ But the create-wmr package, or the project template that it uses ships with Prea
 
 **Jason Miller:** We have a WebPack-based tool that's used in production by a bunch of high-profile sites, but that's the heavyweight tool. Where's the prototyping tool? So that was the one hand. But then the other hand is myself and a bunch of others, who just happened to be on the Preact team. We've been kind of on the sidelines in the bundler ecosystem for a little while, at least leading through 2019 and 2020... You know, prodding people, kind of trying to get consensus on a direction that we can move in to further this idea of writing modern code and shipping modern code, and getting these things right.
 
-I feel like everybody in the community at this point is at least mostly rallying around like "We want to start shipping modern code, given that it's supported in the overwhelming majority of browsers." 95% of browsers support ES2017. So actually the thing that my Google work has been focused on for the last two years has been going and finding all the chokepoints there, and trying to do the research and outline a solution that might not be the perfect solution, but it might be the way forward... So part of that is trying to convince folks to use export maps, the new Node feature, as a way to publish modern JavaScript packages.
+I feel like everybody in the community at this point is at least mostly rallying around like "We want to start shipping modern code, given that it's supported in the overwhelming majority of browsers." 95% of browsers support ES2017. So actually the thing that my Google work has been focused on for the last two years has been going and finding all the chokepoints there, and trying to do the research and outline a solution that might not be the perfect solution, but it might be the way forward... So part of that is trying to convince folks to use export maps, the new Node feature, as a way to publish modern JavScript packages.
 
-\[36:23\] So you can publish a package that has modern and legacy JavaScript, and now bundlers have a way to use one if they know how to get to it. And there's various reasons why -- in the article that I released in the December and the video that went along with it, I kind of explain how that could be justified. Node started supporting export maps in 12.7 (or 12.8?) and that version of Node supports ES2019. So if you ship an export map, it only works in a version of Node that supports modern JS, and thus you would assume that that code would be potentially modern JS, because it's a modern package.
+\{36:23\} So you can publish a package that has modern and legacy JavScript, and now bundlers have a way to use one if they know how to get to it. And there's various reasons why -- in the article that I released in the December and the video that went along with it, I kind of explain how that could be justified. Node started supporting export maps in 12.7 (or 12.8?) and that version of Node supports ES2019. So if you ship an export map, it only works in a version of Node that supports modern JS, and thus you would assume that that code would be potentially modern JS, because it's a modern package.
 
 So to kind of extrapolate that - okay, well what if bundlers also jumped on that same assumption? Could this be finally the modern field that we've been not able to standardize for five years? So that and the timing of browser support kind of converging on that 2017 baseline - there was a very clear need for a tool or really a bunch of tools to basically stake the claim here, saying "Actually, it's not just that we can ship smaller bundles using modern code, but also, we can do a better development experience." We can ship readable code in development that's not one line of a val for a 2 MB module.
 
@@ -306,7 +306,7 @@ In here, I said dynamically import the current module and replace it... You can 
 
 So then getting back to the Preact thing, our goal with this was basically keep WMR as agnostic as it can possibly be to Preact, so that all of the little pieces inside WMR -- because WMR is literally just built as like 20 Rollup plugins and a couple of standalone libraries, that we haven't published yet, but they're all independent... Keep that totally separate, so that Vite can grab the plugin API and use it, or... I've actually just this morning been making the rounds, looking at all of the export maps implementations in these bundlers, finding some issues with them, and it's very clear that -- it's not to say that WMR gets this right, but... Having a package, possibly WMR's export maps implementation, that just gets extracted out and published to npm as like a "Here's how you resolve export maps" type package, that's valuable.
 
-**Jerod Santo:** \[40:30\] Yeah.
+**Jerod Santo:** \{40:30\} Yeah.
 
 **Jason Miller:** And it would be really shameful for us to do the work of building this and hopefully getting things correct, but have it be weirdly Preact-specific, right? That doesn't make sense to me.
 
@@ -322,11 +322,11 @@ And then the create-wmr package, which - that was built the day before launch, s
 
 And then the last piece is WMR in about the last two months leading up to the launch -- originally, we were gonna launch it in August, and we kind of had to sit down and decide "Oh, you know what - maybe there's more we can do here. Maybe we can ship more than just a good hot module replacement solution."And we kind of went back to the drawing board and added things like the prerendering and the CSS optimization stage... And a lot of that, a lot of the reason why you see Preact as the default now is because Preact was the testbed that we used for all of this.
 
-So create-wmr will scaffold a project that when you do wmr build or npm run build, you don't need JavaScript to run the output at all. And Preact in the scaffolded thing is how that works, but the API is actually completely independent. Prerendering in WMR is just you export a function called prerender from whatever the first script tag in your HTML file, and that function -- it's an async function, so it returns a promise resulting into an object, with an HTML string property, and the links property that is an array of strings. So the HTML is the stuff that you prerendered, however you chose to do that; it could just be returning a string if you wanted... But you can could see how that would work in Vue, and React, and Svelte, and whatever... And then the links property is, if you want, other URLs to then go and prerender. WMR won't prerender if it's already prerendered stuff, but that's actually the guts of how our automatic prerendering works, and it has nothing to do with Preact. It happens that Preact can use that in a way that is extremely optimal; we don't ever have to parse the HTML, because we generated it, and the thing that looks for links happens during the generation of the HTML... But it's just an array of strings.
+So create-wmr will scaffold a project that when you do wmr build or npm run build, you don't need JavScript to run the output at all. And Preact in the scaffolded thing is how that works, but the API is actually completely independent. Prerendering in WMR is just you export a function called prerender from whatever the first script tag in your HTML file, and that function -- it's an async function, so it returns a promise resulting into an object, with an HTML string property, and the links property that is an array of strings. So the HTML is the stuff that you prerendered, however you chose to do that; it could just be returning a string if you wanted... But you can could see how that would work in Vue, and React, and Svelte, and whatever... And then the links property is, if you want, other URLs to then go and prerender. WMR won't prerender if it's already prerendered stuff, but that's actually the guts of how our automatic prerendering works, and it has nothing to do with Preact. It happens that Preact can use that in a way that is extremely optimal; we don't ever have to parse the HTML, because we generated it, and the thing that looks for links happens during the generation of the HTML... But it's just an array of strings.
 
 So anybody -- I think there was somebody working on a Svelte test for this... And we've got one bug we need to fix for having Svelte templates, but... You could easily adapt this to any framework. So my hope would be like -- because WMR supports config files, and anyone can create their own replacement for create-wmr (it's a really simple package), somebody could create a package that scaffolds a WMR-based React app, or Vue app, or Svelte app. And it would be just as much of a first-class citizen as Preact, it just would have a one-line config file that just says "export default react plugin".
 
-**Jerod Santo:** \[44:24\] Right. Just minimal changes. So somebody could create that, and somebody will probably create that...
+**Jerod Santo:** \{44:24\} Right. Just minimal changes. So somebody could create that, and somebody will probably create that...
 
 **Jason Miller:** Yeah, that's my hope.
 
@@ -346,11 +346,11 @@ I think the difficulty is always with the thing you said, which is like -- okay,
 
 **Jerod Santo:** Factual.
 
-**Jason Miller:** ...fits their need. Yeah. The other things are hairier. So we wrote that custom AST transformer that is largely Babel-compatible. What do we do with that? Is that a WMR thing? We literally built it to optimize WMR's performance while still supporting Babel plugins... But does the community need a potentially lighter-weight Babel alternative? Not sure about that. My default answer would be "No, that's actually something we don't need, or potentially don't want." Yeah, that gets tricky. And all these things were also written in JavaScript, and right now there's that whole move towards "Okay, could we use a faster language?" We even have an experimental PR from a while back that uses esbuild for JS transformations and minification, which was very fast.
+**Jason Miller:** ...fits their need. Yeah. The other things are hairier. So we wrote that custom AST transformer that is largely Babel-compatible. What do we do with that? Is that a WMR thing? We literally built it to optimize WMR's performance while still supporting Babel plugins... But does the community need a potentially lighter-weight Babel alternative? Not sure about that. My default answer would be "No, that's actually something we don't need, or potentially don't want." Yeah, that gets tricky. And all these things were also written in JavScript, and right now there's that whole move towards "Okay, could we use a faster language?" We even have an experimental PR from a while back that uses esbuild for JS transformations and minification, which was very fast.
 
-**Jerod Santo:** \[48:11\] Which is a Go tool, right?
+**Jerod Santo:** \{48:11\} Which is a Go tool, right?
 
-**Jason Miller:** Yeah, it's written in Go. It has a great JavaScript interface. We used it prior to it being pluggable, but for our need -- we use Terser for minification, and we use this custom Babely thing for transformation. It does both of those things, and it does them faster than both of those things, by a lot.
+**Jason Miller:** Yeah, it's written in Go. It has a great JavScript interface. We used it prior to it being pluggable, but for our need -- we use Terser for minification, and we use this custom Babely thing for transformation. It does both of those things, and it does them faster than both of those things, by a lot.
 
 So I think there's potential there. But we didn't want to -- this is actually the reason why WMR wasn't published as "WMR and 16 packages that power WMR." There's lots of packages in there that are independent and publishable, but the rationale or the logic for why we would publish those things as independent is not clear, or we already know that we don't want to. So some of the stuff that's in there is stopgaps while we wait for the ecosystem to settle, so that we can use someone else's thing.
 
@@ -392,7 +392,7 @@ So I think there's potential there. But we didn't want to -- this is actually th
 
 **Jason Miller:** So there's two halves to this. The first is it's new, so like with every new tool, there's obviously always going to be warts. I don't know whether me not running into them is more because I know what the warts are, or maybe it's the other half, which is that I don't tend to be the person using the legacy packages. I mostly write my software, I don't install a lot of it... With the exception of UI toolkits, which was always the big challenge with WMR that we had to overcome... Because they're big, and early in the use, weird package semantics that aren't always correct... But those work in WMR at least.
 
-\[52:10\] The other piece is the actual physical scaling of the development time approach of shipping ES modules. There have been some maybe not super-scientific experiments, and right now the answers we have is whatever the opposite of definitive is. We know that if you ship 10,000 individual ES modules, especially if you're using HTTP 1, that's going to be somewhat slow. And I'm actually in a unique position where I am building WMR on one hand with the Preact team, and we're relying on that... But then also, I'm talking to my V8 teams on the other side, who are investigating module streaming performance. So we're actually using this, and things that look like this in benchmarks right now.
+\{52:10\} The other piece is the actual physical scaling of the development time approach of shipping ES modules. There have been some maybe not super-scientific experiments, and right now the answers we have is whatever the opposite of definitive is. We know that if you ship 10,000 individual ES modules, especially if you're using HTTP 1, that's going to be somewhat slow. And I'm actually in a unique position where I am building WMR on one hand with the Preact team, and we're relying on that... But then also, I'm talking to my V8 teams on the other side, who are investigating module streaming performance. So we're actually using this, and things that look like this in benchmarks right now.
 
 **Jerod Santo:** Gotcha.
 
@@ -410,7 +410,7 @@ The other side of the coin, which is "What about production?" I don't think I'm 
 
 We use our Node modules resolution, but it's never gonna be different in production than it was in development, because that would be very awful. And some similar things for transpiling. We use the custom transpiler, again, because we don't want it to be different. But then when we go to minify, we minify with Terser standard tool; we bundle with Rollup standard tool. By default, the browser support for WMR is modern browsers...(?) You know, question mark. Essentially, Edge 16+ \[unintelligible 00:55:39.15\] But there is a one-file plugin that runs those bundles through Babel, and creates copies of them. So now you have the modern files, served via a script type module to 95% of browsers, and then it creates a second set of files that it automatically injects script no-module tags \[unintelligible 00:56:01.05\] legacy browsers, and polyfills them.
 
-\[56:05\] So in terms of the production output quality, the production output -- like, what has been taken into consideration, there's not really a consequential difference between what WMR can produce and what other tools can produce.
+\{56:05\} So in terms of the production output quality, the production output -- like, what has been taken into consideration, there's not really a consequential difference between what WMR can produce and what other tools can produce.
 
 **Jerod Santo:** Yeah.
 
@@ -438,7 +438,7 @@ The prod server that we bundled - its goal was to give you a very accurate local
 
 **Jason Miller:** No. And to the point where like -- I think in order to do that, we would end up having to compromise on being good at generating static apps. If there was a need there, I would rather have it be a separate tool, or like a tool that uses WMR for bundling, but that's it.
 
-\[59:55\] There's a bunch of folks right now who are trying out wiring up Eleventy, the static site generator, and then just using WMR as the frontend thing. So you can have Eleventy with a script-type module tag that just points at WMR, or even use WMR's middleware thing to proxy to Eleventy. But then when you do a production build, you're just saying "Hey, WMR, give me your assets" - okay, those are in Eleventy now. Eleventy is ultimately the stack. And to me, that just fits a lot better with the model. It's generative, not runtime.
+\{59:55\} There's a bunch of folks right now who are trying out wiring up Eleventy, the static site generator, and then just using WMR as the frontend thing. So you can have Eleventy with a script-type module tag that just points at WMR, or even use WMR's middleware thing to proxy to Eleventy. But then when you do a production build, you're just saying "Hey, WMR, give me your assets" - okay, those are in Eleventy now. Eleventy is ultimately the stack. And to me, that just fits a lot better with the model. It's generative, not runtime.
 
 **Jerod Santo:** Gotcha. Anything, Nick?
 

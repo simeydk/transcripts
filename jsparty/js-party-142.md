@@ -16,7 +16,7 @@
 
 **Jerod Santo:** So it's not a big release, it just looks like another release. \[laughter\]
 
-**Nick Nisi:** There are some cool things in there, and I'm excited to upgrade to it sometime soon... But some of the cool things that are in it - probably the biggest thing is variadic tuple types. This is pretty cool, because it lets you be more expressive with your TypeScript code without having to write too much TypeScript, which - one thing that I always hate with TypeScript is spending too much time writing TypeScript that I know never actually gets run by the frontend, or in JavaScript. It's just there to make me feel better about being type-complete. And variadic tuple types will help with that quite a bit.
+**Nick Nisi:** There are some cool things in there, and I'm excited to upgrade to it sometime soon... But some of the cool things that are in it - probably the biggest thing is variadic tuple types. This is pretty cool, because it lets you be more expressive with your TypeScript code without having to write too much TypeScript, which - one thing that I always hate with TypeScript is spending too much time writing TypeScript that I know never actually gets run by the frontend, or in JavScript. It's just there to make me feel better about being type-complete. And variadic tuple types will help with that quite a bit.
 
 **Jerod Santo:** What's a tuple, and how do you say it?
 
@@ -42,7 +42,7 @@
 
 **Divya:** Hm...
 
-**Jerod Santo:** \[04:00\] Hm... Argumentation. Anyway, it doesn't matter... It just matters on podcasts because we have to say it out loud, and most of us just type it and never have to think about it again. But forgetting how you say tuple, what is a tuple? Nick?
+**Jerod Santo:** \{04:00\} Hm... Argumentation. Anyway, it doesn't matter... It just matters on podcasts because we have to say it out loud, and most of us just type it and never have to think about it again. But forgetting how you say tuple, what is a tuple? Nick?
 
 **Nick Nisi:** So the way that I think of tuples is that they're like a fixed-length array. You can use that as like a return type, and then you're technically returning two things, just wrapped in an array... Or more; two or more things. You know, it's two-ple...
 
@@ -88,7 +88,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Jerod Santo:** What else is new?
 
-**Nick Nisi:** \[08:01\] Another cool thing with tuples is they can be labeled as well. So before, in TypeScript 3.9 and before, if you were going to say "This function is going to return you this tuple type", and it would be a string, followed by a string, followed by a string, and as you're looking at that in your autocomplete in your editor, you're just like "Well, what does that mean?" I'm getting three strings back, but now I have to go research what that actually means." Well, you can now label those types; you can say it's string:foo, and string:name, and string:lastname, and then your editor will help you determine what those are... So it'll just help with autocomplete and overall understanding of the data that you're working with.
+**Nick Nisi:** \{08:01\} Another cool thing with tuples is they can be labeled as well. So before, in TypeScript 3.9 and before, if you were going to say "This function is going to return you this tuple type", and it would be a string, followed by a string, followed by a string, and as you're looking at that in your autocomplete in your editor, you're just like "Well, what does that mean?" I'm getting three strings back, but now I have to go research what that actually means." Well, you can now label those types; you can say it's string:foo, and string:name, and string:lastname, and then your editor will help you determine what those are... So it'll just help with autocomplete and overall understanding of the data that you're working with.
 
 **Jerod Santo:** So the label represents the kind of string or the kind of data that you are expecting that string to contain? Like, this is name? It's a string, but it's a name.
 
@@ -144,7 +144,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Divya:** That's so cool!
 
-**Nick Nisi:** \[11:45\] Yeah. That always seemed like one of the main things that I would want decorators for... In my very limited thinking about decorators, it's like "Oh, I wanna be able to decorate this method as being this way", but that always generated a runtime result, like a console log that said "Oh, you're using this method. Maybe you should use this method instead", whereas this is at edit time, in your editor. This is squiggled out because you shouldn't be using this anymore.
+**Nick Nisi:** \{11:45\} Yeah. That always seemed like one of the main things that I would want decorators for... In my very limited thinking about decorators, it's like "Oh, I wanna be able to decorate this method as being this way", but that always generated a runtime result, like a console log that said "Oh, you're using this method. Maybe you should use this method instead", whereas this is at edit time, in your editor. This is squiggled out because you shouldn't be using this anymore.
 
 **Jerod Santo:** That begs the existential question, "Why would you write a method that you don't want anybody to use, Nick?"
 
@@ -172,7 +172,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Jerod Santo:** Come on, Divya...
 
-**Nick Nisi:** I swear, right? JavaScript, and TypeScript.
+**Nick Nisi:** I swear, right? JavScript, and TypeScript.
 
 **Divya:** I don't actually know that one...
 
@@ -198,7 +198,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Divya:** Wait, so how does it work? What's the process in which it would work?
 
-**Nick Nisi:** So in my limited deep-dive into it, it seems like it's a collection of code mods that will help you to migrate to TypeScript. They kind of have a diagram in the blog post that kind of shows -- you know, you start with your JavaScript code and you create a ts-config, so you configure TypeScript in the way that you would want it, with all of your hopefully strict set to true, and all of that. Then you can go through and rename all of your JS files to ts, or tsx, depending on what you're writing... And then you can run these code mods. And the code modes will do things like declare any missing class properties; anything that you didn't really have to do before in JavaScript because it didn't care, it will help you to infer that in your new code, and write that for you. So it'll output updated versions of that, of your code.
+**Nick Nisi:** So in my limited deep-dive into it, it seems like it's a collection of code mods that will help you to migrate to TypeScript. They kind of have a diagram in the blog post that kind of shows -- you know, you start with your JavScript code and you create a ts-config, so you configure TypeScript in the way that you would want it, with all of your hopefully strict set to true, and all of that. Then you can go through and rename all of your JS files to ts, or tsx, depending on what you're writing... And then you can run these code mods. And the code modes will do things like declare any missing class properties; anything that you didn't really have to do before in JavScript because it didn't care, it will help you to infer that in your new code, and write that for you. So it'll output updated versions of that, of your code.
 
 It's unclear to me if this is like you run these step-by-step, or all at once, or how that works... But that does seem like the -- they're utilizing code mods to do that, which is really cool. Code mods are so cool.
 
@@ -206,13 +206,13 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Nick Nisi:** Yeah. Have you written any?
 
-**Divya:** I have not. But I think there was -- what made it more compelling for me was one of my friends, Simon, gave a talk at CascadiaJS last year, which was really good, where he talks about code mods, and just like the walkthrough of how to write them... Because oftentimes when you hear code mods, you're like "Oh, it seems complicated, and I don't even know where to start", and he does a walkthrough. It's really good. I think his talk is called "Refactoring JavaScript with JavaScript". It's not TypeScript, but it's the idea of explaining code mods, and he does it in a really excellent way, because it's sort of like walking you through the process of what a project is before a code mod, what the process is without using a code mod, and then writing the code mod, and then how it actually makes your process so much easier when you migrate code...
+**Divya:** I have not. But I think there was -- what made it more compelling for me was one of my friends, Simon, gave a talk at CascadiaJS last year, which was really good, where he talks about code mods, and just like the walkthrough of how to write them... Because oftentimes when you hear code mods, you're like "Oh, it seems complicated, and I don't even know where to start", and he does a walkthrough. It's really good. I think his talk is called "Refactoring JavScript with JavScript". It's not TypeScript, but it's the idea of explaining code mods, and he does it in a really excellent way, because it's sort of like walking you through the process of what a project is before a code mod, what the process is without using a code mod, and then writing the code mod, and then how it actually makes your process so much easier when you migrate code...
 
 **Nick Nisi:** Nice.
 
 **Divya:** I'll link that in the show notes. it's a really good talk.
 
-**Nick Nisi:** \[16:12\] Yeah, they're really cool. Once you get your head around the AST, then it opens up so many possibilities for things that you can do... But that could be a tough thing to do.
+**Nick Nisi:** \{16:12\} Yeah, they're really cool. Once you get your head around the AST, then it opens up so many possibilities for things that you can do... But that could be a tough thing to do.
 
 **Divya:** Yeah, I think it's also understanding the AST itself, and oftentimes -- I understand ASTs, but every time I use the AST Explorer, which is the tool that people use, it's so confusing. I don't know how it works, and it's really frustrating. So if anyone has any tips on how to use that, that would be swell.
 
@@ -234,13 +234,13 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Jerod Santo:** So that's what that's called, so thank you, Nathan for getting that. You do get 500 points, congratulations.
 
-**Break:** \[18:33\]
+**Break:** \{18:33\}
 
 **Jerod Santo:** In other news, which should be more fun news and maybe not quite as useful news...
 
 **Nick Nisi:** What...?!
 
-**Jerod Santo:** ...but definitely JS news, is that the jf13kGames are underway. Once again, this is a JavaScript coding competition for HTML5 game developers. The cool thing about this competition - you're not just creating a game, but you're creating it with a file size of just 13 kilobytes. It started a few weeks back, August 13th, but it doesn't end yet until mid-September, so there's still time to get involved... And the cool thing about this is they have a theme this year which is 404. Does anybody know what 404 means? I tried to look it up, but I couldn't find the definition.
+**Jerod Santo:** ...but definitely JS news, is that the jf13kGames are underway. Once again, this is a JavScript coding competition for HTML5 game developers. The cool thing about this competition - you're not just creating a game, but you're creating it with a file size of just 13 kilobytes. It started a few weeks back, August 13th, but it doesn't end yet until mid-September, so there's still time to get involved... And the cool thing about this is they have a theme this year which is 404. Does anybody know what 404 means? I tried to look it up, but I couldn't find the definition.
 
 **Nick Nisi:** \[laughs\]
 
@@ -250,7 +250,7 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Jerod Santo:** I did not.
 
-**Divya:** \[20:11\] It was inspired by the Dino game that's on Chrome, when you essentially are not connected to the internet - you can play that Dino game.
+**Divya:** \{20:11\} It was inspired by the Dino game that's on Chrome, when you essentially are not connected to the internet - you can play that Dino game.
 
 **Jerod Santo:** Oh, that dinosaur, yeah.
 
@@ -292,7 +292,7 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Jerod Santo:** So if you are into games and you wanna make a game, you can make a tiny little game, squeeze it into 13k. There's some pretty cool prizes. They have 20+ different licenses, plans, accounts etc, all those kind of things. You can win a Magic Leap One. Pretty cool stuff, so check it out. We'll link it up in the show notes. And if you don't wanna make a game, at least you can wait till September - I believe it's the 13th - and just go play all the awesome ones that other folks come up with. That's usually what I do. I spend about 20 minutes just working around and being amazed by what people create, and I create nothing myself.
 
-**Nick Nisi:** It reminds me of this... And it's probably based on another thing called JS1k, which was not necessarily a gaming contest, but just "What's something cool you can do in 1k of JavaScript or less?"
+**Nick Nisi:** It reminds me of this... And it's probably based on another thing called JS1k, which was not necessarily a gaming contest, but just "What's something cool you can do in 1k of JavScript or less?"
 
 **Jerod Santo:** Right.
 
@@ -302,7 +302,7 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Nick Nisi:** I think so.
 
-**Divya:** \[24:02\] What?!
+**Divya:** \{24:02\} What?!
 
 **Jerod Santo:** I hope that's canonical, because it's not worth spreading rumors... But that'd be awesome! It came out of Java 4k? And if not, we're just fake news over here. You guys can fact-check that in the chat room. Nick, you can look it up as I move on, and we'll get a real-time follow-up - did Minecraft come out of a Java 4k competition?
 
@@ -342,33 +342,33 @@ It's just cool to see more projects rallying around and building out an ecosyste
 
 **Divya:** It's a hybrid.
 
-**Jerod Santo:** Last bit of news, or I guess noteworthy things... Elijah Manor has a brand new cheatsheet out, which I thought was pretty cool. He creates these from time to time. This one helps you natively format JavaScript numbers, and it's a follow-up to his previous cheat, which was natively formatting JS dates and times. Now, every time JavaScript dates and times comes up, we mention MomentJS, and Date Functions, and all these different efforts... And those are nice to have. That being said, sometimes all you need is just to do it once, or a couple of times, and your own little function will do the trick. So it's nice to have a cheat sheet of "How do I just do this this one time, and move on with my life, versus pulling in a dependency that's either large - or even a small dependency is still a dependency."
+**Jerod Santo:** Last bit of news, or I guess noteworthy things... Elijah Manor has a brand new cheatsheet out, which I thought was pretty cool. He creates these from time to time. This one helps you natively format JavScript numbers, and it's a follow-up to his previous cheat, which was natively formatting JS dates and times. Now, every time JavScript dates and times comes up, we mention MomentJS, and Date Functions, and all these different efforts... And those are nice to have. That being said, sometimes all you need is just to do it once, or a couple of times, and your own little function will do the trick. So it's nice to have a cheat sheet of "How do I just do this this one time, and move on with my life, versus pulling in a dependency that's either large - or even a small dependency is still a dependency."
 
 So these cheat sheets are out there on his website, Elijahmanor.com. We'll provide them in the show notes for those who want to bookmark or print off. They're pretty well done.
 
-**Nick Nisi:** \[28:04\] Yeah, it's really cool. It's a good helper for those built-in methods, to be able to do all of this... Because like so many built-in things in JavaScript, the APIs are so hard to follow along...
+**Nick Nisi:** \{28:04\} Yeah, it's really cool. It's a good helper for those built-in methods, to be able to do all of this... Because like so many built-in things in JavScript, the APIs are so hard to follow along...
 
 **Jerod Santo:** Totally.
 
 **Nick Nisi:** ...but it's a good cheat sheet for that.
 
-**Jerod Santo:** That's the best thing to learn an API, is get a cheat sheet, print it off, or have it as your background wallpaper, whatever it is. Keep it there visual, and refer to it. It saves you tons of time, and eventually you'll stop needing it, and you'll realize "Wow, I actually learned this API - not because I had to go look it up every time, but because I have it staring at me in the face." So these are great resources for anybody who is doing a lot of JavaScript.
+**Jerod Santo:** That's the best thing to learn an API, is get a cheat sheet, print it off, or have it as your background wallpaper, whatever it is. Keep it there visual, and refer to it. It saves you tons of time, and eventually you'll stop needing it, and you'll realize "Wow, I actually learned this API - not because I had to go look it up every time, but because I have it staring at me in the face." So these are great resources for anybody who is doing a lot of JavScript.
 
 Alright, there is your news. We'll be right back with a special mystery guest.
 
-**Break:** \[28:53\]
+**Break:** \{28:53\}
 
-**Horse JS:** [Hello JavaScript developers I just want to take a moment](https://twitter.com/horse_js/status/1210968330456174593)
+**Horse JS:** [Hello JavScript developers I just want to take a moment](https://twitter.com/horse_js/status/1210968330456174593)
 
 **Jerod Santo:** Wow. Well, thanks so much for joining us. Horse JS, everybody. Horse JS is here... A little birdy actually told me that you're a big fan of JS Party.
 
-**Horse JS:** [keep wondering about why JavaScript developed this culture](https://twitter.com/horse_js/status/1265859663469383686)
+**Horse JS:** [keep wondering about why JavScript developed this culture](https://twitter.com/horse_js/status/1265859663469383686)
 
 **Nick Nisi:** Hah! We ask ourselves that same thing every day... But I'm curious, what's your favorite episode so far?
 
-**Horse JS:** [what if. what if we only call it "JavaScript"](https://twitter.com/horse_js/status/1280680602765836288)
+**Horse JS:** [what if. what if we only call it "JavScript"](https://twitter.com/horse_js/status/1280680602765836288)
 
-**Jerod Santo:** Oh, you must be thinking about that episode, 101 -- do you guys remember the Yep/Nope debate on rebranding JavaScript? What if we renamed it...? I don't really remember -- what was the final conclusion of that? Did we decide to keep the name, or...? Do you remember, Divya?
+**Jerod Santo:** Oh, you must be thinking about that episode, 101 -- do you guys remember the Yep/Nope debate on rebranding JavScript? What if we renamed it...? I don't really remember -- what was the final conclusion of that? Did we decide to keep the name, or...? Do you remember, Divya?
 
 **Divya:** I think so... Didn't we? Yep/Nope? Oh, wait... No, we kept the name. No, wait - did we?
 
@@ -396,9 +396,9 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Nick Nisi:** Well, it's kind of hard to listen to, honestly...
 
-**Horse JS:** [I have no time for JavaScript haters](https://twitter.com/horse_js/status/1195133103406231552)
+**Horse JS:** [I have no time for JavScript haters](https://twitter.com/horse_js/status/1195133103406231552)
 
-**Divya:** Wow... We're not haters. We're really not. We talk a lot about JavaScript. Didn't you know this whole podcast is called JS Party?
+**Divya:** Wow... We're not haters. We're really not. We talk a lot about JavScript. Didn't you know this whole podcast is called JS Party?
 
 **Jerod Santo:** Right.
 
@@ -432,7 +432,7 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Jerod Santo:** No, he said TypeScript, Horse JS.
 
-**Horse JS:** \[32:08\] [React. It's okay.](https://twitter.com/horse_js/status/1279264003768881152)
+**Horse JS:** \{32:08\} [React. It's okay.](https://twitter.com/horse_js/status/1279264003768881152)
 
 **Jerod Santo:** I guess that's your Reac-tion to TypeScript?
 
@@ -456,9 +456,9 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Nick Nisi:** Wow, you seem so negative. There's so much hate in your heart. Why?
 
-**Horse JS:** [JavaScript, I just want you to know that I’ve cried](https://twitter.com/horse_js/status/1224472331566886919)
+**Horse JS:** [JavScript, I just want you to know that I’ve cried](https://twitter.com/horse_js/status/1224472331566886919)
 
-**Divya:** Oh, that's sad... But let's try to make this a little bit more uplifting. I think it took a negative turn. You must have something good to say about JavaScript, right? I mean, you are after all Horse JS.
+**Divya:** Oh, that's sad... But let's try to make this a little bit more uplifting. I think it took a negative turn. You must have something good to say about JavScript, right? I mean, you are after all Horse JS.
 
 **Horse JS:** [array.reduce is the best](https://twitter.com/horse_js/status/1213274114993119233) \[laughter\]
 
@@ -468,7 +468,7 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Nick Nisi:** There's a lot of funny people. Maybe not right on this show, but... \[laughter\] There's a lot of funny people. You're kind of full of yourself though, aren't you?
 
-**Horse JS:** [Any JavaScript nerds wanna get rekt?](https://twitter.com/horse_js/status/1212155205489430530)
+**Horse JS:** [Any JavScript nerds wanna get rekt?](https://twitter.com/horse_js/status/1212155205489430530)
 
 **Divya:** Wow... \[laughter\] Okay, Horse JS, I think you can air your grievances on TikTok. Maybe it's time for a new platform. Any final words before we let you go?
 
@@ -484,13 +484,13 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Divya:** That's not even a sentence. \[laughter\]
 
-**Outro:** \[34:24\]
+**Outro:** \{34:24\}
 
 **Divya:** There was a project that I've found recently... It's a project called Metatyping, and he essentially wrote functions and algorithms in TypeScript. So he's just using various TypeScript hacks. Which is insane.
 
 **Nick Nisi:** I was looking at that. That is amazing.
 
-**Divya:** Yeah. I was like "Oh, that is a great way to learn TypeScript." I mean, I think this guy created that project as an endeavor to get better at TypeScript... So you're not actually writing JavaScript algorithms, you're essentially trying to use TypeScript to do things for you... Whether that be like merging an array, or flattening whatever... Yeah, it's really cool. And wild. It's just really complex if you go down. And it's organized in a way -- if you look at it, he does quicksort in TypeScript, and... Yeah. I thought that was cool.
+**Divya:** Yeah. I was like "Oh, that is a great way to learn TypeScript." I mean, I think this guy created that project as an endeavor to get better at TypeScript... So you're not actually writing JavScript algorithms, you're essentially trying to use TypeScript to do things for you... Whether that be like merging an array, or flattening whatever... Yeah, it's really cool. And wild. It's just really complex if you go down. And it's organized in a way -- if you look at it, he does quicksort in TypeScript, and... Yeah. I thought that was cool.
 
 **Nick Nisi:** I don't feel like this would help you learn TypeScript. I mean, it really would, but...
 
@@ -498,4 +498,4 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Nick Nisi:** Yes, yes.
 
-**Horse JS:** [JavaScript, I just want you to know that I’ve cried](https://twitter.com/horse_js/status/1224472331566886919)
+**Horse JS:** [JavScript, I just want you to know that I’ve cried](https://twitter.com/horse_js/status/1224472331566886919)

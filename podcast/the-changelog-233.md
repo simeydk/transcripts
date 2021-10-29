@@ -2,7 +2,7 @@
 
 We have three sponsors for this show today - Code School, Toptal and Rollbar.
 
-**Break:** \[00:52\]
+**Break:** \{00:52\}
 
 **Adam Stacoviak:** Alright, we're back, we're talking to Sean Larkin. Jerod, Sean is, as you said, one of the most enthusiastic people for Webpack.
 
@@ -38,9 +38,9 @@ We have three sponsors for this show today - Code School, Toptal and Rollbar.
 
 **Sean Larkin:** But dialing back... Man, get some popcorn or whatever you want; I'll try and not make it a long story. Long story short, I'm a previous technical support rep who kind of went rogue, and got tired of not being able to fix people's problems. The first place I worked at in the tech community was when I moved here to Nebraska - my wife's from here - and I just wanted to get a job that was consistent. So I did tech support, and I did a really great job at it, but it was just so frustrating having to work around issues, getting the same calls every day... So I kind of took an interesting quality assurance in programming, and started from just doing like little Apple scripts, to learning Ruby...
 
-\[04:16\] I worked hard enough at that company and kind of proved my worth, and they eventually hired me to work on Objective-C for their native application product that they sold. From there, I had the official title as a software engineer.
+\{04:16\} I worked hard enough at that company and kind of proved my worth, and they eventually hired me to work on Objective-C for their native application product that they sold. From there, I had the official title as a software engineer.
 
-Nine days later I got fired on my birthday for sharing one line of source code. TL;DR version is some people were not very happy that I had been able to make it as a software engineer, people on the support side of the company. So I think they were just looking for a reason to get rid of me. But I tell people that because it's like the best thing that's ever happened to me. I was able to work at a small digital agency and got to kind of bust my chops with Ruby, Ruby on Rails and some other web technologies, and then I had the opportunity to work in Omaha for the first time at a retail company called Hayneedle, who got bought by WalMart now. I did a lot of almost fully exclusive JavaScript.
+Nine days later I got fired on my birthday for sharing one line of source code. TL;DR version is some people were not very happy that I had been able to make it as a software engineer, people on the support side of the company. So I think they were just looking for a reason to get rid of me. But I tell people that because it's like the best thing that's ever happened to me. I was able to work at a small digital agency and got to kind of bust my chops with Ruby, Ruby on Rails and some other web technologies, and then I had the opportunity to work in Omaha for the first time at a retail company called Hayneedle, who got bought by WalMart now. I did a lot of almost fully exclusive JavScript.
 
 Then I worked shortly at another contracting job where I got introduced to Webpack, called Infogroup. I was kind of blown away at how incredible the dev experience was. Mind you, I didn't have to set it up myself... I've heard the stories from people. But it was already set up and it was just an awesome development environment, and there was a React shop... It was kind of my first time experiencing a bunch of different technologies, but it was a great learning experience.
 
@@ -50,7 +50,7 @@ From there... I didn't even know you could submit talks to conferences... That w
 
 The first thing I did was try and really stress how to get funding for the team. I kind of put myself out there and jumped in the Gitter chat that was there (a web-based chat, kind of like Slack, but for GitHub repos) and at private I mentioned all of them and pulled them into a private channel and I was like, "Hey, I wanna get you guys paid. I really believe in your tool. How can I help?"
 
-\[08:00\] We talked for about three weeks off and on, and I found out that Kent C. Dodds was doing a podcast - JS Air - with that core team on it, and I was like "Oh my gosh! I need to meet them!" I think I talked to Jeff Whelpley and I said, "Hey, can you get me on this panel? I just wanna be there as like a panelist and just talk, or sit behind the scenes." I don't know if it was because Kent wanted to save face or something, but the week before it was announced, he goes "Introducing the Webpack core team", and I'm there, right next to those three, and I'm like "Oh my gosh...!"
+\{08:00\} We talked for about three weeks off and on, and I found out that Kent C. Dodds was doing a podcast - JS Air - with that core team on it, and I was like "Oh my gosh! I need to meet them!" I think I talked to Jeff Whelpley and I said, "Hey, can you get me on this panel? I just wanna be there as like a panelist and just talk, or sit behind the scenes." I don't know if it was because Kent wanted to save face or something, but the week before it was announced, he goes "Introducing the Webpack core team", and I'm there, right next to those three, and I'm like "Oh my gosh...!"
 
 The day of the podcast/live stream they asked me "Do you want to be on the core team?" and I said "I would love to."
 
@@ -84,7 +84,7 @@ Well, there is an if statement in there that I wasn't a hundred percent sure abo
 
 **Jerod Santo:** So they were no longer employed there, so you were breaking some sort of rule, I guess?
 
-**Sean Larkin:** \[11:52\] Yeah, the official was "Sharing trade secrets" for something that didn't even sell.
+**Sean Larkin:** \{11:52\} Yeah, the official was "Sharing trade secrets" for something that didn't even sell.
 
 **Adam Stacoviak:** Wow.
 
@@ -106,7 +106,7 @@ Retrospectively, it's the greatest thing that could have ever happened to me to 
 
 **Adam Stacoviak:** It was like you were in the club, you got past the velvet rope.
 
-**Sean Larkin:** Yeah, exactly. Once you're in, you're good. I've maybe only been doing full-time JavaScript for about two years, and maybe some other technologies for no more than a year and a half, so it's like... You know, I'm a quick learner and I think some people saw that, and the people who did believe in me at the company were happy to make it happen.
+**Sean Larkin:** Yeah, exactly. Once you're in, you're good. I've maybe only been doing full-time JavScript for about two years, and maybe some other technologies for no more than a year and a half, so it's like... You know, I'm a quick learner and I think some people saw that, and the people who did believe in me at the company were happy to make it happen.
 
 **Jerod Santo:** Do you think that title gave you a certain level of confidence that you could have achieved otherwise, but it was like somebody else named you this, so now it felt like you were one? Or did you already feel like you were a software engineer and finally somebody put the title on your desk?
 
@@ -116,11 +116,11 @@ Retrospectively, it's the greatest thing that could have ever happened to me to 
 
 **Sean Larkin:** ...to the community.
 
-**Jerod Santo:** And like I said during the intro, you're out there really in the trenches - on Twitter... Tell us a little bit -- we're gonna get into Webpack probably on the other side of the break, and why you're so excited about it, and why everybody in the greater JavaScript community is kind of letting the Webpack tractor beam pull us in... Even us at the Changelog have been pulled in; we use Webpack to build our assets. But what is (not about Webpack) about you -- first of all, tell everybody what you do in terms of Webpack and the community, helping people, searching hashtags, staying up late at night...? Give us a little bit of your workflow and what you've been doing for Webpack users.
+**Jerod Santo:** And like I said during the intro, you're out there really in the trenches - on Twitter... Tell us a little bit -- we're gonna get into Webpack probably on the other side of the break, and why you're so excited about it, and why everybody in the greater JavScript community is kind of letting the Webpack tractor beam pull us in... Even us at the Changelog have been pulled in; we use Webpack to build our assets. But what is (not about Webpack) about you -- first of all, tell everybody what you do in terms of Webpack and the community, helping people, searching hashtags, staying up late at night...? Give us a little bit of your workflow and what you've been doing for Webpack users.
 
-**Sean Larkin:** \[15:43\] Yeah, so initially I wasn't very comfortable with making core changes to the library; I just wanted to do whatever I could to help encourage smarter people, people who are way more brilliant than I am, to get involved, but at the same time learn a bit along the way.
+**Sean Larkin:** \{15:43\} Yeah, so initially I wasn't very comfortable with making core changes to the library; I just wanted to do whatever I could to help encourage smarter people, people who are way more brilliant than I am, to get involved, but at the same time learn a bit along the way.
 
-My role literally represents the voice to the community, but at the same time the voice of the community back to the core team and the organization. From day to day I probably spend about four hours on Twitter just searching Webpack, and sometimes JavaScript on the side, depending on if there's something controversial or whatnot. But literally, 98% of the time, if your tweet had Webpack in it and it's something that I could probably assist with or share guidance, or maybe convince you to help add a PR for our docs page or what not - I'll respond to almost all of those tweets.
+My role literally represents the voice to the community, but at the same time the voice of the community back to the core team and the organization. From day to day I probably spend about four hours on Twitter just searching Webpack, and sometimes JavScript on the side, depending on if there's something controversial or whatnot. But literally, 98% of the time, if your tweet had Webpack in it and it's something that I could probably assist with or share guidance, or maybe convince you to help add a PR for our docs page or what not - I'll respond to almost all of those tweets.
 
 I guess aside from that, I think you could see on the GitHub, under my face it says "pushed for the core team to form." So initially we didn't really have a core team, and we didn't really have any transparency organization, a Medium publication or anything. Those are some of the things I thought really would be... We really needed people to have a glimpse to the inside of what's happening behind the scenes, even if there wasn't much.
 
@@ -152,7 +152,7 @@ But at the same time, when I started there were a lot of negative tweets about W
 
 **Jerod Santo:** Yeah, absolutely. It just speaks to the benefit of having someone like yourself around and supporting people who are more technical, or doing -- you know, we talked about the Webpack core team... You have Sokra (Tobias), these developers who are doing really groundbreaking work in many ways, interesting technical challenges, and solving needs, and yet you kind of gotta put a package on it, you have to have... You don't HAVE to have; sometimes meritocracy works, but lots of times, especially a tool that is dense like this, it's difficult to get into.
 
-\[20:21\] You see the configs and as an outsider you're like, "Wow, this is too hard for me to use. I'm gonna go back to whatever scripting I had, or just script tags" or whatever, but the value of having a well-rounded team is striking to me, and having somebody of your skill set who's technical and on the inside, but is doing more of the Docs, the helps, thinking about it as more of a product or an overall package.
+\{20:21\} You see the configs and as an outsider you're like, "Wow, this is too hard for me to use. I'm gonna go back to whatever scripting I had, or just script tags" or whatever, but the value of having a well-rounded team is striking to me, and having somebody of your skill set who's technical and on the inside, but is doing more of the Docs, the helps, thinking about it as more of a product or an overall package.
 
 **Sean Larkin:** Yeah, absolutely. I'm always thinking about sustainability and the future; every day I spend at least an hour and a half just reading the source code and trying to learn more, because I'm only at about 70%. I've gotten maybe about 10 or 20 commits now into core, but there's so much more that I need to learn to be able to help people, especially when it comes to more difficult challenges.
 
@@ -178,7 +178,7 @@ So he's out there on the Webpack hashtag. If you wanna troll him, just put somet
 
 **Sean Larkin:** Absolutely. I did, I thought it was funny, too. It was good.
 
-**Jerod Santo:** \[23:50\] Alright, well that's gonna be our first break opportunity. We've been talking about Sean and his history with Webpack, and Webpack as a movement, and kind of one that he's been ushering in and helping along, but we haven't talked about Webpack the tool, the project, the technical merits, those kinds of things. So we'll take that up on the other side of this short break.
+**Jerod Santo:** \{23:50\} Alright, well that's gonna be our first break opportunity. We've been talking about Sean and his history with Webpack, and Webpack as a movement, and kind of one that he's been ushering in and helping along, but we haven't talked about Webpack the tool, the project, the technical merits, those kinds of things. So we'll take that up on the other side of this short break.
 
 **Break:** \[\\00:24:13.21\]
 
@@ -186,13 +186,13 @@ So he's out there on the Webpack hashtag. If you wanna troll him, just put somet
 
 **Sean Larkin:** Maybe I'll describe the problem or what things were like two years ago in the web development community. Before we had module bundlers, which is what Webpack is, the primary way to add code to your website was to either include it as script tags, whether it be multiples, or just have one script tag. Now, a lot of times maybe you can think back - I can remember cases for me, some places I've worked, we had like 30 or 40 script tags in the browser, and we struggled from all sort of issues... From race conditions, some code was relying on other code that didn't execute quick enough, or you were loading libraries like Lodash or Underscore, that maybe you'll only use two functions from, but you've got the whole library (I know that happens with Moment.js also). So things like that, and we're ending up with these huge, slow... Tons of network requests that are caused by doing so, but then also at the same time we were using so much duplicate code, and code that never even was run in the browser when you used it.
 
-The Node community, when it comes to running JavaScript, uses a slightly different approach. You start with one file, and then kind of a module loading system which is, you know, CommonJS are using the require statement. So it allowed you to create modules that you could require code from one file to another, and so it allowed code to be encapsulated, as well as allowed you to only pull a require in parts that you're using etc.
+The Node community, when it comes to running JavScript, uses a slightly different approach. You start with one file, and then kind of a module loading system which is, you know, CommonJS are using the require statement. So it allowed you to create modules that you could require code from one file to another, and so it allowed code to be encapsulated, as well as allowed you to only pull a require in parts that you're using etc.
 
-\[28:20\] Back in the day, maybe about two years ago, Tobias Koppers created Webpack. Webpack is a module bundler that takes that idea of using requires and import statements like in ES2015, starting at a single file, which we call an entry point, and then it collects all of the dependencies through each of the files that are referenced in it. The result is one, two, or maybe even four or five bundles of code that only contain the code that you're actually using.
+\{28:20\} Back in the day, maybe about two years ago, Tobias Koppers created Webpack. Webpack is a module bundler that takes that idea of using requires and import statements like in ES2015, starting at a single file, which we call an entry point, and then it collects all of the dependencies through each of the files that are referenced in it. The result is one, two, or maybe even four or five bundles of code that only contain the code that you're actually using.
 
-On top of it, you could go even deeper and say that Webpack automates tools or takes care for you - certain tasks like uglifying your code, minifying, creating source maps... It performs a feature called code splitting which allows you to split your JavaScript into many asynchronous chunks, so that you can load code after the initial render.
+On top of it, you could go even deeper and say that Webpack automates tools or takes care for you - certain tasks like uglifying your code, minifying, creating source maps... It performs a feature called code splitting which allows you to split your JavScript into many asynchronous chunks, so that you can load code after the initial render.
 
-Webpack is a developer experience tool, it's a performance enabler with all these design patterns like lazy loading and code splitting, but it also allows you to do some really crazy things. It treats everything as a module. It could be CSS, HTML, images, PNGs or fonts, and you can require all of those into your JavaScript. And as long as you have the right set of transforms, which we call loaders, you can use that code and bundle it also into your application. We say it's a static asset bundler, or a static build tool.
+Webpack is a developer experience tool, it's a performance enabler with all these design patterns like lazy loading and code splitting, but it also allows you to do some really crazy things. It treats everything as a module. It could be CSS, HTML, images, PNGs or fonts, and you can require all of those into your JavScript. And as long as you have the right set of transforms, which we call loaders, you can use that code and bundle it also into your application. We say it's a static asset bundler, or a static build tool.
 
 **Jerod Santo:** So it does a lot of things.
 
@@ -208,21 +208,21 @@ Webpack is a developer experience tool, it's a performance enabler with all thes
 
 **Jerod Santo:** Something that's useful sometimes - and I like the way that you cast it in terms of "This is how things used to be and this is how things are possibly with Webpack", but what about in the context of other tools? Many people may be familiar for instance with Rails asset pipeline, they may be familiar with Gulp or Grunt, they may be familiar with Brunch or these other tools that do similar things, they have some sort of overlapping features, but they don't all do the same things. Can you cast it in light of existing tooling?
 
-**Sean Larkin:** Yeah. For example, Grunt and Gulp are just task runners; they're gonna perform operations, and you write tasks that do things to your code. The example I like is let's say you're using Lodash and you wanna create a bigger monolith JavaScript bundle; Grunt and Gulp don't understand the dependency graph that Webpack creates when it runs. So what's happening is that you're getting that entire... You're just smashing a bunch of JavaScript files together and concatenating them, instead of only requiring the dependencies and parts of those libraries that you're using. That would be one thing.
+**Sean Larkin:** Yeah. For example, Grunt and Gulp are just task runners; they're gonna perform operations, and you write tasks that do things to your code. The example I like is let's say you're using Lodash and you wanna create a bigger monolith JavScript bundle; Grunt and Gulp don't understand the dependency graph that Webpack creates when it runs. So what's happening is that you're getting that entire... You're just smashing a bunch of JavScript files together and concatenating them, instead of only requiring the dependencies and parts of those libraries that you're using. That would be one thing.
 
-\[32:05\] I think also instead of having separate tasks for each of your types of files, which you would probably do with Grunt or Gulp, Webpack is like the single one running ahead of time compiler that handles all of those things for you.
+\{32:05\} I think also instead of having separate tasks for each of your types of files, which you would probably do with Grunt or Gulp, Webpack is like the single one running ahead of time compiler that handles all of those things for you.
 
 **Jerod Santo:** Say that again, "one single ahead of time compiler..."?
 
 **Sean Larkin:** You run it once, but it's performing all those tasks behind the scenes that you configure. But it's like an ahead of time compiler for the web.
 
-**Jerod Santo:** Gotcha. One thing that you've mentioned and I've seen it in practice - I still don't completely understand the advantage, so maybe you can help with that... Bringing your CSS in, bringing your images is - I can probably enumerate a few advantages, but I prefer you did. Because, you know, traditionally I've been down with like, "Let's minify it and concatenate... Let's uglify all the JavaScript, let's uglify everything, but keep them separate, keep them safe", you know?
+**Jerod Santo:** Gotcha. One thing that you've mentioned and I've seen it in practice - I still don't completely understand the advantage, so maybe you can help with that... Bringing your CSS in, bringing your images is - I can probably enumerate a few advantages, but I prefer you did. Because, you know, traditionally I've been down with like, "Let's minify it and concatenate... Let's uglify all the JavScript, let's uglify everything, but keep them separate, keep them safe", you know?
 
 **Sean Larkin:** Sure.
 
-**Jerod Santo:** But this is a whole new world where it's like, "Let's just put it all in one big JavaScript bundle and then break that up into chunks that make sense and ship it." Why is that better?
+**Jerod Santo:** But this is a whole new world where it's like, "Let's just put it all in one big JavScript bundle and then break that up into chunks that make sense and ship it." Why is that better?
 
-**Sean Larkin:** Well, what I like to say is you don't have to bundle your images into your JavaScript, but you wanna have those images managed by Webpack. We can use one of the loaders or transforms that I talked about as an example... So let's say you want to have an image that's loaded into JavaScript, or you require it into a JavaScript file - you have two options on that loader that say "Specify a limit", which is just the file size, and if that images over that limit, then just go ahead and emit it to your build directory or your dist folder. Otherwise, if it's under a certain limit, then go ahead and base64 inline it, because the cost of an extra network request is greater than the cost of the bundle size.
+**Sean Larkin:** Well, what I like to say is you don't have to bundle your images into your JavScript, but you wanna have those images managed by Webpack. We can use one of the loaders or transforms that I talked about as an example... So let's say you want to have an image that's loaded into JavScript, or you require it into a JavScript file - you have two options on that loader that say "Specify a limit", which is just the file size, and if that images over that limit, then just go ahead and emit it to your build directory or your dist folder. Otherwise, if it's under a certain limit, then go ahead and base64 inline it, because the cost of an extra network request is greater than the cost of the bundle size.
 
 **Jerod Santo:** I'm sure that they do because you guys are on top of the curve, but in the up-and-coming HTTP/2 protocol is it still the case that that's better with HTTP/2 because of the pipelining and the single connections and all the other things that they have?
 
@@ -232,7 +232,7 @@ Webpack is a developer experience tool, it's a performance enabler with all thes
 
 **Adam Stacoviak:** Who is this for? Who primarily uses it? What kind of developer? Who cares to this degree? People who care about performance? That's kind of everybody to a degree, but who in particular...?
 
-**Sean Larkin:** \[35:52\] Well, you'd be surprised... \[laughter\] In a perfect world, I'd want it to be for everybody. There's some people - let's say like Dan Abramov of the React and Redux team... He thinks Webpack is a very low-level tool. And in some cases, if you look at all the wrappers that sit around it, maybe that's the case. But in my opinion, we wanna make it as usable for anybody to take and just say, "I wanna be able to split my code up, I wanna know how performant these bundles are, I still wanna be able to work in any dev flow or dev stack, using any type of templating or pre-processing, and have it just work." That's kind of our goal, to be able to make it easy for anybody to use, but at the same time not sacrifice performance.
+**Sean Larkin:** \{35:52\} Well, you'd be surprised... \[laughter\] In a perfect world, I'd want it to be for everybody. There's some people - let's say like Dan Abramov of the React and Redux team... He thinks Webpack is a very low-level tool. And in some cases, if you look at all the wrappers that sit around it, maybe that's the case. But in my opinion, we wanna make it as usable for anybody to take and just say, "I wanna be able to split my code up, I wanna know how performant these bundles are, I still wanna be able to work in any dev flow or dev stack, using any type of templating or pre-processing, and have it just work." That's kind of our goal, to be able to make it easy for anybody to use, but at the same time not sacrifice performance.
 
 **Jerod Santo:** What are some of the steps that you guys have done to get there? We've had Webpack 1 for a while, now Webpack 2 is coming out... It'll be here - fingers crossed - 2016 calendar year Webpack 2 will ship; right now it's in release candidate stage. I know you put a lot of work in the documentation, you have example Webpack configs... That's actually a huge boon, because you have to basically config your Webpack with a config file, and having like "This is what I wanna accomplish, here's a config file that looks like that" - that's very helpful... But what are some other ways that you've smoothed out with Webpack 2 and tried to bring it up a level so that people can use it without feeling like it's a little level 2, like Dan says?
 
@@ -246,7 +246,7 @@ I'd say another huge thing is our configuration validation. This is something th
 
 **Jerod Santo:** I can attest to that first one, because when I was first getting going I got Webpack working really quickly, which was great, but then when I wanted to do slightly more fancy things... You start looking at examples, and because there is, like you said, maybe 30 ways -- there are lots of different ways to go at the same thing, all of the examples out there are different, and they're all trying to accomplish the same thing, and they look different than my config. So just in your example, mine says "sass" and then an exclamation mark and then "css", or whatever... But this one says "sass-loader", and it uses ampersands, or.... There was no continuity or consistency in the examples of other people's Webpack configs. That makes it very difficult to piece yours together, so I think that's a great move - "Let's simplify the happy path, so it'll just be this one. This is how you should do it."
 
-**Sean Larkin:** \[40:19\] Absolutely.
+**Sean Larkin:** \{40:19\} Absolutely.
 
 **Jerod Santo:** We felt you guys are doing that, if you've been upgrading on the betas of Webpack 2, and our config begin to go into deprecation mode. "You shouldn't do this anymore." \[laughter\] We had a couple of those, but it's a beta, so we can't complain.
 
@@ -266,7 +266,7 @@ I'd say another huge thing is our configuration validation. This is something th
 
 The newest one that we've just released, which is up to date with the ES spec import, with \[unintelligible 00:43:21.25\] as a function... I guess other ones that are kind of bleeding edge and super sexy I would say are the ability -- one of the things that I really love about what I do specifically with the community is that I also get to be the one who speaks with the most incredible developers, like Addy Osmani in the Chrome team and the Edge team, the guys at Firefox...
 
-\[43:48\] Addy and I partnered together to create a feature in Webpack that can help increase awareness. You'll hear probably 'performance budget' skipped around a lot. Now by default, as of this latest Webpack build, you will get warnings in your terminal that say, "Hey, these bundles are over a certain size. You should reduce them to have better load time performance."
+\{43:48\} Addy and I partnered together to create a feature in Webpack that can help increase awareness. You'll hear probably 'performance budget' skipped around a lot. Now by default, as of this latest Webpack build, you will get warnings in your terminal that say, "Hey, these bundles are over a certain size. You should reduce them to have better load time performance."
 
 We'll do some things like if we don't see code splitting, we'll say "Hey, you can reduce the size of your initial load time by using system.import or import, or require.ensure", and kind of give them like a help document that shows about code splitting.
 
@@ -284,13 +284,13 @@ We'll do some things like if we don't see code splitting, we'll say "Hey, you ca
 
 **Jerod Santo:** Give us kind of a high-level rundown of the config, because there's a lot of verbiage. You have modules, rules, loaders, plugins, you have exports, entries, outputs, resolvers... Can you explain it? It's tough, because we're just in audio, so we can't refer to common code, but could you explain it to us as much in layman's terms as possible how the config lays out?
 
-**Sean Larkin:** Sure. So I like to deliver it in like four or five concepts. Think of it as a concept, but then also a property on the configuration. Your Webpack configuration is just a JavaScript file which exports an object or an array of object, and that object is your configuration. It's gonna have some properties at the root level, and these properties describe how Webpack is supposed to bundle your code.
+**Sean Larkin:** Sure. So I like to deliver it in like four or five concepts. Think of it as a concept, but then also a property on the configuration. Your Webpack configuration is just a JavScript file which exports an object or an array of object, and that object is your configuration. It's gonna have some properties at the root level, and these properties describe how Webpack is supposed to bundle your code.
 
 The first concept is entry, and it also maps to the entry property, but what an entry is to Webpack is the first place to start to create your dependency graph. You can think of it as like the top of the graph or tree. And what it does is it's gonna scan through all of those dependencies and collect everything into a compilation, or a bundle. Entry point tells Webpack where to start and what to bundle.
 
 Then the second is probably the output property. Output - what the word is is that it tells Webpack how and where to bundle your code. You can specify a filename and a path, and there's some more advanced properties... Let's say if you wanted to make it a UMD wrapper around your code so you can be using a script, you can do so; there's some more advanced configuration under output, but the simplest ones are just filename and path. So output will describe how to treat your code and where to place it.
 
-\[47:51\] Then the next concept will be loaders. Essentially, loaders are single file, or one file to another file transforms. A loader behind the scenes, if you look at a node module, it's just a function that is exported that takes a source argument and then returns a new source. There's all sorts of different loaders that are out there in the community, but the best way to describe what a loader does is that it is the last step in resolving your code to convert it into JavaScript. It performs those transforms for you.
+\{47:51\} Then the next concept will be loaders. Essentially, loaders are single file, or one file to another file transforms. A loader behind the scenes, if you look at a node module, it's just a function that is exported that takes a source argument and then returns a new source. There's all sorts of different loaders that are out there in the community, but the best way to describe what a loader does is that it is the last step in resolving your code to convert it into JavScript. It performs those transforms for you.
 
 It doesn't map directly to a loader's property, but what it does map to is module. Since everything is treated to Webpack as a module, you're basically specifying the rules for the type of modules you're importing. So if you look in a configuration, it's set under module.rules, or module.loaders. We haven't deprecated the term 'loaders' yet, but you can use either or. We want that to be a graceful deprecation, since a lot of people use loaders.
 
@@ -320,7 +320,7 @@ Now, we have a large amount of built-in, out-of-the-box, publicly available plug
 
 **Jerod Santo:** Very cool. Well, let's take our second break. On the other side of the break, let's get back into the conversation around sustainability, the Webpack team, what you've been doing with Open Collective, as well as JS Foundation... Lots of interesting things there around Webpack and making it a sustainable project, because more and more every day so many groups and companies and individuals rely upon it to bundle their code. So we'll take that break and sustainability will be on the other side.
 
-**Break:** \[52:10\]
+**Break:** \{52:10\}
 
 **Jerod Santo:** Alright, we're back. Sean, during the intro section you mentioned how one of the first topics that you broached with the Webpack team was sustainability. I've talked about sustainability with you offline, and you've been interested in RFC (Request For Commits) and the work that Nadia's been doing around sustainability, you've also started what I consider to be a very successful Open Collective. Now you guys are supported to the tune of $27,000/year, which is pretty good. It's not going to support four people full-time or anything like that, but still \[unintelligible 00:54:23.28\] over 700 people individuals and corporations helping you out.
 
@@ -330,7 +330,7 @@ Talk to us first of all about the Webpack team and what it looks like in terms o
 
 He designed our newer logo that we have released. I forgot to mention, Kees is also from the Netherlands. I believe he's in Amsterdam, but I'm not a hundred percent sure.
 
-\[55:58\] Then we also have kind of a second tier of people who we just call the contrib team. They're responsible for helping maintain all of the loaders and plugins that we have underneath our organization. We have a private Slack community that we use specifically for the purpose of communication, a little bit less static collaboration I suppose, with less fluff... We wanted to do something public like Gitter or Discord, but we found that we wanted to be able to still have some sort of private environment so that we could effectively communicate to these people. Then I think we also have a team like the analyze team who works on our bundle analyzer, which you can find in our old Docs page... And then our documentation team - people who've been really involved in just helping support and work on Webpack documentation.
+\{55:58\} Then we also have kind of a second tier of people who we just call the contrib team. They're responsible for helping maintain all of the loaders and plugins that we have underneath our organization. We have a private Slack community that we use specifically for the purpose of communication, a little bit less static collaboration I suppose, with less fluff... We wanted to do something public like Gitter or Discord, but we found that we wanted to be able to still have some sort of private environment so that we could effectively communicate to these people. Then I think we also have a team like the analyze team who works on our bundle analyzer, which you can find in our old Docs page... And then our documentation team - people who've been really involved in just helping support and work on Webpack documentation.
 
 One that has been really involved and we're ever grateful to her is Pavithra Kodmad. She's from India, but she works for Flipkart, who is a heavy user of Webpack and really got the spotlight showing them for reaching a next tier level of web performance.
 
@@ -348,7 +348,7 @@ If you look at html-loader or karma-webpack, you'll kind of see this really nice
 
 **Adam Stacoviak:** It's a lot to build in such a short amount of time. What do you think you've done right? What do you think you're doing right to make these moves possible, the proper and healthy team growth, and onboarding not only users but also people that can help maintain portions of the codebase?
 
-**Sean Larkin:** \[59:54\] At least from what I can do as a person is that if anybody ever wanted to learn more about Webpack... I very clearly state on Twitter all the time that if you want to help maintaining, get involved. I'll usually send them a DM and say, "Hey, what interests you? What do you like to do? What's your background?" Because really we want to find something that works best.
+**Sean Larkin:** \{59:54\} At least from what I can do as a person is that if anybody ever wanted to learn more about Webpack... I very clearly state on Twitter all the time that if you want to help maintaining, get involved. I'll usually send them a DM and say, "Hey, what interests you? What do you like to do? What's your background?" Because really we want to find something that works best.
 
 To be honest, our organization has all sorts of stuff that could be worked on, whether it be documentation, or smaller loaders or plugins, or maybe Webpack as a core, or even some of our other libraries, like our resolver enhanced-resolved, webpack-sources, loader-runner...
 
@@ -408,9 +408,9 @@ But yeah... Do I think it's possible? Yeah. I mean, if everybody downloaded it o
 
 So it's things like the support, maybe custom work or consulting, as well as even maybe a private product that's built for the enterprise level, which I think a lot of people have really thought about doing or do do.
 
-**Jerod Santo:** You mentioned earlier that some people are skeptical because of the tooling in the JavaScript and frontend world constantly changing, and we've had a lot of debate around JavaScript fatigue lately. You like to cast it not as fatigue, but you call it the JavaScript renaissance, which I like because I think it shows an optimistic perspective that is refreshing. That being said, is Webpack a step in the bundler renaissance, or is it here for the long haul?
+**Jerod Santo:** You mentioned earlier that some people are skeptical because of the tooling in the JavScript and frontend world constantly changing, and we've had a lot of debate around JavScript fatigue lately. You like to cast it not as fatigue, but you call it the JavScript renaissance, which I like because I think it shows an optimistic perspective that is refreshing. That being said, is Webpack a step in the bundler renaissance, or is it here for the long haul?
 
-**Sean Larkin:** I think it's here for the long haul. You can actually kind of see it happening in the course of a year's time, where you'll see all these imitators that say they do lots of these things, but then die out. The reason is because you can't -- at least I have yet to see, we'll just say that... I have yet to see any tool that can reach feature parity and flexibility and pivot and change and keep up with the JavaScript spec, the tools that are around us, being able to pivot as fast and add that much feature parity that Webpack has.
+**Sean Larkin:** I think it's here for the long haul. You can actually kind of see it happening in the course of a year's time, where you'll see all these imitators that say they do lots of these things, but then die out. The reason is because you can't -- at least I have yet to see, we'll just say that... I have yet to see any tool that can reach feature parity and flexibility and pivot and change and keep up with the JavScript spec, the tools that are around us, being able to pivot as fast and add that much feature parity that Webpack has.
 
 We've kind of set the expectation of, "You need to create source maps. You need to support hot module replacement. You need to be able to work and manage CSS styles in any type of asset. You need to be able to code split. You need to be able to reorganize your code for cacheability. You need to be able to split your code up into tiny bundles for HTTP/2. You need to be able to tell me whether or not I'm creating too large a bundles, or advise me. You need to be able to have an infinite plugin system that works, that can do anything. A lot of tools try and accomplish those things and then fail.
 

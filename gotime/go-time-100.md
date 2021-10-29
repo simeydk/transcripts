@@ -32,7 +32,7 @@ We talked for a few minutes, and then Ken was in the next office, so I ran and g
 
 **Robert Griesemer:** Yeah, so I think the C++ thing came a little bit later maybe - I'm not 100% sure - but definitely it was in September; I looked at my notes yesterday, and I think it must have been a Friday afternoon, or maybe a day before, because we had a conference room for three hours on one of those afternoons where we did brainstorming. My memory is a little bit different. I think you were working on a C++ program that was very frustrating, and you hit another compile-time pause of a couple of minutes, and...
 
-**Rob Pike:** \[04:22\] 45 minutes.
+**Rob Pike:** \{04:22\} 45 minutes.
 
 **Robert Griesemer:** Okay, 45 minutes, and you were not particularly happy. And one of us said "We should stop doing this or complaining or whatever and try to do something about it." I guess both of us sort of instantly more or less decided "Yes, we should really do something about it."
 
@@ -42,7 +42,7 @@ We talked for a few minutes, and then Ken was in the next office, so I ran and g
 
 **Robert Griesemer:** I think we closed the door and started chatting. I actually was thinking about some language stuff for quite a while before that. I had worked in other languages before. I had a lot of ideas that I'd never written down, but they were in my head for a couple of years; I'd been on and off thinking about it... Not really thinking about doing something about it, more like a personal pet project.
 
-For me, it definitely would have not been possible to just do another project, because I actually just had started on another new project, which was the V8 interpreter for the upcoming new JavaScript implementation that Google was working on for Chrome... So for the longest time, in fact, I tried to squeeze this in until I finally managed to get my manager to accept the fact that maybe I wanna do something else.
+For me, it definitely would have not been possible to just do another project, because I actually just had started on another new project, which was the V8 interpreter for the upcoming new JavScript implementation that Google was working on for Chrome... So for the longest time, in fact, I tried to squeeze this in until I finally managed to get my manager to accept the fact that maybe I wanna do something else.
 
 **Rob Pike:** We definitely still all had real jobs, and so we had to squeeze this in... But I must say that our boss - or at least my boss and Ken's boss - at the time, Bill Coughran who had come with us from Bell Labs, was extremely supportive in the early days to give us the freedom to do a significant amount of time on this, and had to defend us several times from people who thought we should be doing something else. But by about I guess around six months to a year later, I think we were all full-time on it.
 
@@ -52,7 +52,7 @@ For me, it definitely would have not been possible to just do another project, b
 
 **Rob Pike:** Yeah, Bill was the best manager I've ever had. He and I joined Bell Labs just a week or two apart in 1980, so we knew each other very well. We both worked in the Computing Science Research Center there for 20-odd years. At some point he rose up to be director of the center. I don't remember what my exact role was when he was a director, but we did work on a major project there; [Plan 9](https://9p.io/plan9/) came out under Bill's aegis, and some other things like that, some more internal networking projects.
 
-\[08:23\] So we had worked together a lot with him as manager, and I recruited him very hard to come to Google, because they needed somebody like Bill, and I wanted somebody like Bill to be my manager. So yeah, he was a big part of it. I think often in these stories people neglect the importance of the right person to help make something happen without actually being part of it, and Bill was really good at that. That's why he was such a good manager.
+\{08:23\} So we had worked together a lot with him as manager, and I recruited him very hard to come to Google, because they needed somebody like Bill, and I wanted somebody like Bill to be my manager. So yeah, he was a big part of it. I think often in these stories people neglect the importance of the right person to help make something happen without actually being part of it, and Bill was really good at that. That's why he was such a good manager.
 
 **Carmen Andoh:** That's great. So--
 
@@ -84,7 +84,7 @@ For me, it definitely would have not been possible to just do another project, b
 
 **Jon Calhoun:** So when you say that those things were hard to figure out, was it because you'd seen other languages do it in a way that you thought was not the right way, or was it -- what made them hard, given that you've seen other languages do arrays, and there are examples you could have just copied, but you chose not to?
 
-**Rob Pike:** \[11:50\] Yeah, you have to decide what the semantics are. At least Ken and I certainly came from a pretty C-heavy mindset, so it took us a while to let some of those ideas go. But one of the things C does not have, that I really wanted, and I think Ken and Robert would agree, was we wanted to make sure we had some way to do variable-length arrays, or what we would now call a slice... And how to do that inside of a C memory model is a little tricky.
+**Rob Pike:** \{11:50\} Yeah, you have to decide what the semantics are. At least Ken and I certainly came from a pretty C-heavy mindset, so it took us a while to let some of those ideas go. But one of the things C does not have, that I really wanted, and I think Ken and Robert would agree, was we wanted to make sure we had some way to do variable-length arrays, or what we would now call a slice... And how to do that inside of a C memory model is a little tricky.
 
 Clearly, there were a lot of other languages that had done things like these, but we had to decide what the subset or how to choose the behavior of those features that they supported that best matched the model of the language we were trying to build. You don't get a good design by just grabbing features from other languages and gluing them together; instead, we tried to build a coherent model for the language where all the pieces worked in concert. Maps and slices were difficult, because we had to do something very different from the way we usually had thought about those things, at least from Ken and my point of view. Robert can speak for himself.
 
@@ -106,7 +106,7 @@ It was actually made a little better when Russ came along and decided we could g
 
 **Rob Pike:** Russ joined a little after Ian. He'd been an intern at Google, working with Jeff Dean. He did a code search external launch, which was pretty amazing to do as an intern... And I'd worked with him at Bell Labs. He was the son of one of the other managers at Bell Labs in the acoustics department I think - not in computing. But he hung around a bunch of the Bell Labs kids, and I had known him for a while. His name appears I think in at least one of the books that Brian Kernighan and I wrote... And I worked really hard to get him to come.
 
-\[16:13\] I think I was actually in Sydney, around the time that Robert was there and we were writing the spec, doing a video interview with Russ, telling him what we were doing, to convince him to come and help us... And he decided to come.
+\{16:13\} I think I was actually in Sydney, around the time that Robert was there and we were writing the spec, doing a video interview with Russ, telling him what we were doing, to convince him to come and help us... And he decided to come.
 
 So he showed up sometime around the middle of 2008, I think, and joined the team and really had a big effect on cleaning up some of the stuff that we'd left messy, and really helping us push it somewhere. So his arrival was a huge thing.
 
@@ -138,7 +138,7 @@ So Go has actually had four content management systems - SVN, Perforce, Mercuria
 
 **Robert Griesemer:** Well, I think in the beginning the reaction was somewhat split into "Wow, this is great or interesting" and "This is absolutely horrible." And you take it from there, I think, slowly...
 
-**Rob Pike:** \[20:04\] I think a lot of people didn't understand the point when we first launched it. This didn't look like an interesting language... Interesting in scare quotes. "Why is it like this? Why doesn't it have all these features I expect?" and so on. And the point of the language for us was we were trying to make it easier for us to build the software that we wrote in our day-to-day lives, and we thought that we didn't need all that complexity to do a good job of that.
+**Rob Pike:** \{20:04\} I think a lot of people didn't understand the point when we first launched it. This didn't look like an interesting language... Interesting in scare quotes. "Why is it like this? Why doesn't it have all these features I expect?" and so on. And the point of the language for us was we were trying to make it easier for us to build the software that we wrote in our day-to-day lives, and we thought that we didn't need all that complexity to do a good job of that.
 
 But once people started to use it -- I think there's still haters out there, but it was gratifying seeing this mood slowly shift from "This is worthless" to "Actually, this is kind of okay" to "Wow, this is great!" It took a few years before things really started to happen.
 
@@ -160,7 +160,7 @@ Later Kubernetes was another one that came along, this time from Google. But hav
 
 I did see a demo of it on a YouTube video after some conference, and sort of could tell this was the future happening before my eyes. It was a pretty big deal. Docker is a really nice piece of tech. It took some work that had been done at Google for their internal system stuff, at the operating system level, and put a really nice user interface and packaging above it to make it actually usable for day-to-day stuff, and I think it was a really nice project. It became a nice, big project, and enabled Kubernetes and all that other cloud-level stuff that we use to run our big systems today.
 
-**Break:** \[24:27\]
+**Break:** \{24:27\}
 
 **Carmen Andoh:** So after this big break, what were (if you can remember) some of the growing pains, so that now Go is starting to get adopted, and is now the language of cloud computing? Do you think that there's any growing pains that you can think of? Or, alternatively put, is there anything that you wish you could have done differently, given those growing pains?
 
@@ -170,7 +170,7 @@ It took us a long time to understand what it meant to be part of an open source 
 
 I think sometimes people think Google controls it too much, and that's their opinion, but I disagree; I think they underestimate how much the team listens to what the open source community says, reads all the issues, handles it all very well... Sometimes not so well, but then it gets fixed.
 
-\[28:02\] It's a really challenging thing when there's thousands of people, and now it's believed to be millions of Go programmers in the world. They all have an opinion about this thing, and how to listen, but also make sure you keep the soul of the project right - I don't think there's any simple answer to that. I think a lot of people think it's trivial, and you just sort of take in what everyone wants... But then you wouldn't have Go, you'd have something else altogether. It's really tricky, it's a very difficult balancing act.
+\{28:02\} It's a really challenging thing when there's thousands of people, and now it's believed to be millions of Go programmers in the world. They all have an opinion about this thing, and how to listen, but also make sure you keep the soul of the project right - I don't think there's any simple answer to that. I think a lot of people think it's trivial, and you just sort of take in what everyone wants... But then you wouldn't have Go, you'd have something else altogether. It's really tricky, it's a very difficult balancing act.
 
 **Jon Calhoun:** I suspect that part of the reason some people feel that way is because, like myself, I work on a website where you can refactor the whole think; or I work on a library that I can just release a new major version. And yes, I might have got the first one wrong, but it's not that hard to change... Whereas you guys are dealing with something that's much harder to change in that sense.
 
@@ -186,7 +186,7 @@ One thing that we didn't talk much - even though after we had it released in 200
 
 **Rob Pike:** There were features of Go that are important to its success that people didn't like, and we were very vocal about. I think the one you mentioned, compile error for unused variables, was one of them. It was annoying - you forget to delete an unused variable and your program will compile. But for us, that was part of the story we were trying to tell, which was to make a language that guaranteed better quality code as much as feasible, even though we can't stop you writing bad code... But we can make sure that things don't slip in that will make your build slower, or your code harder to maintain.
 
-\[31:41\] I think the one that really drove people mad was you're not allowed to import a library you don't use. That was vitally important to us, because we had spent so much time with slow builds with massive binaries, making sure that the dependencies of your program are exactly the ones that you need, and no more; it was vitally important to us, but to a lot of people it was just annoying as hell that every time you made an edit and deleted a print statement or something, the compiler would say "You're not using this library. I'm not gonna build you anymore."
+\{31:41\} I think the one that really drove people mad was you're not allowed to import a library you don't use. That was vitally important to us, because we had spent so much time with slow builds with massive binaries, making sure that the dependencies of your program are exactly the ones that you need, and no more; it was vitally important to us, but to a lot of people it was just annoying as hell that every time you made an edit and deleted a print statement or something, the compiler would say "You're not using this library. I'm not gonna build you anymore."
 
 And then Brad wrote this thing called `goimports`, which was a variant of `gofmt` that managed the imports for you, and that pretty much silenced that complaint. As is often the case, automation can get rid of a lot of whining.
 
@@ -208,7 +208,7 @@ But people bitched about it because the compiler would yell at you for something
 
 Formatters had been written in the past, this was not the first time, but I suggested we should do this, and I wanted to do this... And Rob basically said "You know, show that it can be done." It took a while, there's no question about it; it took several years to get it to the place where it is now, and obviously it's not perfect, but people have come to love `gofmt`, even though they hate what `gofmt` does with their style sometimes.
 
-**Rob Pike:** \[35:57\] I think `gofmt` was on the cards within the first day or two. We knew we wanted to enforce it.
+**Rob Pike:** \{35:57\} I think `gofmt` was on the cards within the first day or two. We knew we wanted to enforce it.
 
 **Robert Griesemer:** That's correct, yes.
 
@@ -228,11 +228,11 @@ The run-up to Go 1.0 - there was a tremendous amount of change in the libraries 
 
 **Rob Pike:** Also, all the code looks the same, which sounds weird, but -- no two C programs look alike, but every Go program looks the same. I think that increases the ease with which you can work with the language, work on a team with others, understand it... That's pretty great.
 
-\[39:58\] Another thing we did was we -- the language was not the first, but it was the most vocal in being strictly UTF8 source code. We just said goodbye to all those ridiculous other encodings. I'm not gonna give Go credit for changing the importance of UTF8 in the world, but I think pretty much every language that came out after Go has the same rules about UTF8 input.
+\{39:58\} Another thing we did was we -- the language was not the first, but it was the most vocal in being strictly UTF8 source code. We just said goodbye to all those ridiculous other encodings. I'm not gonna give Go credit for changing the importance of UTF8 in the world, but I think pretty much every language that came out after Go has the same rules about UTF8 input.
 
 I think it was also important for us - where wish we had more influence was this idea that you write the spec first. I think a lot of follow-on work in other languages could have benefitted from that. I know Rust is only getting its formal spec now; the book is kind of underway, as I understand it... And I find that very strange, that you would implement a compiler without knowing exactly what the language is you're implementing, and having it written down.
 
-The other thing about having a spec is it enables alternate implementations out of the box... There's quite a few Go compilers now. There's ones for Go to JavaScript, there's the one in the GCC/Clang suite, there's LLVM Go, there's the original Go compiler that we're running ourselves for the Go project, and all of those are based on a spec... Whereas if you don't have the spec and all you have is the compiler, you limit what you can learn about what's right in the language, what's wrong in the language, other technologies and things like that. So I think having a spec is not as widely-appreciated as it should be, but I wish it were.
+The other thing about having a spec is it enables alternate implementations out of the box... There's quite a few Go compilers now. There's ones for Go to JavScript, there's the one in the GCC/Clang suite, there's LLVM Go, there's the original Go compiler that we're running ourselves for the Go project, and all of those are based on a spec... Whereas if you don't have the spec and all you have is the compiler, you limit what you can learn about what's right in the language, what's wrong in the language, other technologies and things like that. So I think having a spec is not as widely-appreciated as it should be, but I wish it were.
 
 **Robert Griesemer:** I think the difference here though is that with Go we didn't really try to do language research; we tried to come up with a simpler tool based on language designs and technologies that have actually been known for a long time, and we sort of packaged it up in a newer and more modern and nicer way.
 
@@ -246,11 +246,11 @@ I think our position on compatibility was also a really big deal for the communi
 
 **Rob Pike:** I think everyone's surprised at how open source has become mainstream. I think when GitHub launch - around 2007-2008, something like that, so roughly the same time as Go happened, GitHub happened... Before GitHub, open source was very niche, I think, for a lot of people. But now enterprise software systems almost all use some open source components, and I think it's been a sudden change for industry to change the way it works like this. And it's not just about open source as grabbing code off the web; the whole process of how dependencies are managed, how you do updates, building in distributed worlds, using Git and code review tooling on the web, and all that kind of stuff. All that is new, and I think the open source community has contributed massively to modern software development...
 
-\[44:10\] But it's not just the open source community anymore; the entire software universe is working with these tools now... And that, I think, is completely unexpected and surprising, but it has also brought along some terrifically difficult problems, like dependency management and how you keep your dependencies safe and up to date. A typical Node installation now will have somewhere in the neighborhood of a thousand dependencies, which is just crazy... And I don't think you can say with any confidence that you can trust a thousand dependencies you don't own. How do you know that that code is good, safe, robust, protected, the right time to update, the wrong time to update, the bugs are fixed - all those questions are really tricky. And Go has that now as well. Because it's part of this, it fetches dependencies from the open source ecosystem; the scale of dependency trees isn't quite as big for Go as it is for some of these other worlds, but it's still big. It's much bigger than it typically is for a C++ program, for example... And how do you know what you have is trustworthy?
+\{44:10\} But it's not just the open source community anymore; the entire software universe is working with these tools now... And that, I think, is completely unexpected and surprising, but it has also brought along some terrifically difficult problems, like dependency management and how you keep your dependencies safe and up to date. A typical Node installation now will have somewhere in the neighborhood of a thousand dependencies, which is just crazy... And I don't think you can say with any confidence that you can trust a thousand dependencies you don't own. How do you know that that code is good, safe, robust, protected, the right time to update, the wrong time to update, the bugs are fixed - all those questions are really tricky. And Go has that now as well. Because it's part of this, it fetches dependencies from the open source ecosystem; the scale of dependency trees isn't quite as big for Go as it is for some of these other worlds, but it's still big. It's much bigger than it typically is for a C++ program, for example... And how do you know what you have is trustworthy?
 
 The Go team is doing a lot of stuff on trying to improve the safety and reliability of grabbing code off the web, but... It remains a problem that surprised everybody when it landed, I think.
 
-**Robert Griesemer:** One of the things that surprised me is how many new languages appeared soon after Go came out... Because around 2007 it seemed like the language world was a little bit stagnated; there was C++, there was Java, JavaScript, but there was not much else.
+**Robert Griesemer:** One of the things that surprised me is how many new languages appeared soon after Go came out... Because around 2007 it seemed like the language world was a little bit stagnated; there was C++, there was Java, JavScript, but there was not much else.
 
 **Rob Pike:** Python.
 
@@ -260,7 +260,7 @@ The Go team is doing a lot of stuff on trying to improve the safety and reliabil
 
 **Robert Griesemer:** Not with everyone, yes.
 
-**Break:** \[46:17\]
+**Break:** \{46:17\}
 
 **Carmen Andoh:** I think the longer a programming language lives, the more it has to fight off complexity, or feature-creep, right?
 
@@ -270,7 +270,7 @@ The Go team is doing a lot of stuff on trying to improve the safety and reliabil
 
 **Rob Pike:** I think it's a strategic question. You can go the other way. There are other languages. C++ is one, Perl maybe, where the complexity is embraced. I give Bjarne Stroustrup (the author of C++) enormous credit, because he gave the users everything they wanted; they asked for more and he gave them more, and as a result he ended up building a language that was - and it remains - a critical part of software development worldwide. The core of Google is still mostly C++, and a lot of other companies I believe that's true as well.
 
-\[48:13\] That was the exact opposite strategy that we took, which was to lock it down and not change it... And in order to lock it down, you have to trust that your vision makes sense, and it's the right thing to do. And I don't claim that either of those approaches is superior; they're just completely different strategies, and both can work. It's a decision you have to make at some point in your system, which way you wanna go.
+\{48:13\} That was the exact opposite strategy that we took, which was to lock it down and not change it... And in order to lock it down, you have to trust that your vision makes sense, and it's the right thing to do. And I don't claim that either of those approaches is superior; they're just completely different strategies, and both can work. It's a decision you have to make at some point in your system, which way you wanna go.
 
 **Robert Griesemer:** I find that it is surprising that C++ was getting even more complicated in 2009, and probably still is. And you're right, if you wanna keep backward-compatibility, and even if you add a little thing here and there, over time of course the language is gonna grow. I personally hope that going forward with modules we might be able to curb that a bit, by saying that if you are using version 1.15 or something like that, you won't get some of the features that we think are outdated, or that were maybe not properly or not as well designed anymore, and instead you get maybe something else. So at least that's my hope, that perhaps we can curb that growth and keep it in check... But we will see.
 
@@ -282,7 +282,7 @@ That's another thing -- Carmen, you mentioned, what have we done; I don't take c
 
 **Carmen Andoh:** Well, we have about ten minutes left, and I would like to maybe talk about Go's enduring qualities. We're about to hit ten years and celebrate ten years... What about the next decade? Where do you hope Go will go in its second decade, or in the annals of history?
 
-**Rob Pike:** \[52:07\] It's already gone further than I thought was possible, so I don't know what I think anymore about where it's going... I would never have dreamed that it would take off the way that it has, and become as large and mainstream as it is. And it's not the number one language in the world, it never will be - it's not meant to be - but honestly, the success of it has just been mind-blowing to us.
+**Rob Pike:** \{52:07\} It's already gone further than I thought was possible, so I don't know what I think anymore about where it's going... I would never have dreamed that it would take off the way that it has, and become as large and mainstream as it is. And it's not the number one language in the world, it never will be - it's not meant to be - but honestly, the success of it has just been mind-blowing to us.
 
 **Robert Griesemer:** Yeah, I totally agree. I don't think we could have foreseen this. I think only time will tell where it's gonna be in ten years.
 
@@ -300,7 +300,7 @@ We've had conversations with other projects. We wanted to know how we do and how
 
 So there's aspects of our ecosystem that are not necessarily seminal, but have some influence over the way the systems of the future will be built, whatever happens with Go.
 
-\[55:49\] Go is still growing as a community, and who knows how big it'll get. As I said, I don't think it's gonna be the number one language ever, or even close to it. One place where it has not established much of a beachhead is education. I'd like to see it. I think it will never really become a major mainstream language until it's taught in universities... And that pretty much hasn't happened yet. There's a little tiny bit of it, but not enough. And now that Python has pretty much become the de facto language for everything except systems software, I think Python is the language of the future that you should probably be talking about.
+\{55:49\} Go is still growing as a community, and who knows how big it'll get. As I said, I don't think it's gonna be the number one language ever, or even close to it. One place where it has not established much of a beachhead is education. I'd like to see it. I think it will never really become a major mainstream language until it's taught in universities... And that pretty much hasn't happened yet. There's a little tiny bit of it, but not enough. And now that Python has pretty much become the de facto language for everything except systems software, I think Python is the language of the future that you should probably be talking about.
 
 **Carmen Andoh:** Hm... Which is a shame, because I took computer science, but I really didn't like it; and I tell everybody this story. I just wished that I had Go, because I do feel like Go is a way that we can completely rethink about how we teach computer science.
 
@@ -320,7 +320,7 @@ Python is of particular interest right now because of machine learning. Python a
 
 **Rob Pike:** Well, I think the code of conduct business, although it's very controversial to some, is a really important part of having a community. I think people need to understand that it's a respectful community and trolls are not welcome... Especially nowadays it seems even more important to say that out loud, but I think it's a vital part of having a healthy community.
 
-\[59:53\] From a technical point of view - yeah, you've gotta keep your eye on the prize. If you let bad features or too many features come in without control, you will end up with a very difficult to maintain piece of software. But it takes a lot of work to engage the community when they're pushing for something that you're not comfortable with, and making sure -- and you will drive people away. Someone will send you a pull request and you say "You know what, I don't want this", and you'll explain why, do a good job explaining it, but they may still feel that you're just wrong, and be offended and take their toy home. So you have to be prepared to be as pleasant as you can while saying no, and that's gonna be very difficult.
+\{59:53\} From a technical point of view - yeah, you've gotta keep your eye on the prize. If you let bad features or too many features come in without control, you will end up with a very difficult to maintain piece of software. But it takes a lot of work to engage the community when they're pushing for something that you're not comfortable with, and making sure -- and you will drive people away. Someone will send you a pull request and you say "You know what, I don't want this", and you'll explain why, do a good job explaining it, but they may still feel that you're just wrong, and be offended and take their toy home. So you have to be prepared to be as pleasant as you can while saying no, and that's gonna be very difficult.
 
 **Robert Griesemer:** Yeah, I think that's exactly the point. You basically wanna be firm, but polite, and you wanna make sure that people feel like you're listening to them, validating basically what they're saying, but that doesn't mean that you have to take every single piece of suggestion and implement what everybody else wants. I think there's a point there.
 

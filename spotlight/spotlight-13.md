@@ -1,12 +1,12 @@
-**Adam Stacoviak:** \[00:31\] Welcome to our Spotlight Series titled The Future of Node, recorded at Node Interactive 2016 in Austin, Texas. We produced this in partnership with the Linux Foundation, the NodeJS Foundation, and it's sponsored by IBM and StrongLoop.
+**Adam Stacoviak:** \{00:31\} Welcome to our Spotlight Series titled The Future of Node, recorded at Node Interactive 2016 in Austin, Texas. We produced this in partnership with the Linux Foundation, the NodeJS Foundation, and it's sponsored by IBM and StrongLoop.
 
-**Break:** \[00:44\]
+**Break:** \{00:44\}
 
-**Adam Stacoviak:** In this episode we talked to Gaurav Seth, lead program manager of Chakra and TypeScript, as well as Arunesh Chandra, program manager of ChakraCore. We talked about their polite fork of Node to introduce the community to Chakra, the high-performance JavaScript engine that powers Microsoft Edge. We also talked about why Microsoft is so interested in the Node, the future of Chakra and ChakraCore, VM neutrality and more. Listen in.
+**Adam Stacoviak:** In this episode we talked to Gaurav Seth, lead program manager of Chakra and TypeScript, as well as Arunesh Chandra, program manager of ChakraCore. We talked about their polite fork of Node to introduce the community to Chakra, the high-performance JavScript engine that powers Microsoft Edge. We also talked about why Microsoft is so interested in the Node, the future of Chakra and ChakraCore, VM neutrality and more. Listen in.
 
 Let's start out with "Why Node inside of Microsoft?" Why is Node important to Microsoft?
 
-**Arunesh Chandra:** You know, Node as a platform has been having an amazing growth over the last few years, and it's right in the space of JavaScript and JavaScript developers. One of the big directional things for us or a guidepost for Microsoft is really any developer, any app, any platform... So kind of looking at that guidepost that we are after, where we wanna go support any app, any developer and any platform, Node is a very important aspect, and that's why it is very important to us to make sure, because it plays into our developer community that we wanna go reach out to.
+**Arunesh Chandra:** You know, Node as a platform has been having an amazing growth over the last few years, and it's right in the space of JavScript and JavScript developers. One of the big directional things for us or a guidepost for Microsoft is really any developer, any app, any platform... So kind of looking at that guidepost that we are after, where we wanna go support any app, any developer and any platform, Node is a very important aspect, and that's why it is very important to us to make sure, because it plays into our developer community that we wanna go reach out to.
 
 **Adam Stacoviak:** How does it play into the overall platform when we talk about Windows as a big platform? Is that what you mean by that too, in terms of an operating system? You mean devices...? Obviously, we're growing from just simply desktops to more devices now; what do you mean by a platform?
 
@@ -18,7 +18,7 @@ In terms of the platform, you can imagine the platform also constitutes the oper
 
 **Adam Stacoviak:** That makes sense. That brings us over to the next topic, which is VM neutrality. To go where the developers are, you have to have neutrality, you have to be able to take it beyond V8. I think it was roughly nine months to a year ago, if my memory serves me correctly - you guys forked Node and did something with ChakraCore where you were able to speed it up, and you had your own fork and that was sort of like the way you even got back into -- it might have even opened the door for Node involvement with Microsoft... If I remember that correctly.
 
-**Arunesh Chandra:** \[04:10\] Last year, we announced our involvement with Node ChakraCore. That stemmed from the fact that the Windows 10 IoT Core was being brought up, and the default Node did not target that platform because of the instruction side difference in that platform. And Chakra being part of that system already, we thought we could bring Node to be powered by an optimized JavaScript engine on the platform, and that's how we got started with Node ChakraCore.
+**Arunesh Chandra:** \{04:10\} Last year, we announced our involvement with Node ChakraCore. That stemmed from the fact that the Windows 10 IoT Core was being brought up, and the default Node did not target that platform because of the instruction side difference in that platform. And Chakra being part of that system already, we thought we could bring Node to be powered by an optimized JavScript engine on the platform, and that's how we got started with Node ChakraCore.
 
 We've submitted a PR earlier this year in January, with the fork we had.
 
@@ -44,9 +44,9 @@ The way to achieve it is that you allow different VM vendors to kind of plug int
 
 From a consumer perspective, like "I'm a consumer of Node" - for them it's like, "Hey, if there are these modules that target this new VM neutral Node, I don't have to worry about revving up my modules every time I rev up Node. So you're making those two pieces independent in itself, so that you don't have to rev it."
 
-\[08:14\] And from a platform or a Node ecosystem perspective itself, I think getting to the VM neutrality is almost like analogous to having more than one browser available to everybody, so that there is more than one party which is interested in making sure that we are pushing Node forward. For example, we work with the V8 team very closely in the web client space. We go together in TC39, we often go into design reviews, we've been designing things together alongside V8, Mozilla and other guys that own Web Assembly.
+\{08:14\} And from a platform or a Node ecosystem perspective itself, I think getting to the VM neutrality is almost like analogous to having more than one browser available to everybody, so that there is more than one party which is interested in making sure that we are pushing Node forward. For example, we work with the V8 team very closely in the web client space. We go together in TC39, we often go into design reviews, we've been designing things together alongside V8, Mozilla and other guys that own Web Assembly.
 
-Getting more than one VM player into the Node market means that now more than one of the VM players can actually start thinking about the server side functionality for JavaScript, and kind of think about how do we have to evolve that also in a period of time.
+Getting more than one VM player into the Node market means that now more than one of the VM players can actually start thinking about the server side functionality for JavScript, and kind of think about how do we have to evolve that also in a period of time.
 
 In a nutshell, I think all three win - the people who are writing code, the people who are consuming Node, and even the Node platform in itself.
 
@@ -54,11 +54,11 @@ In a nutshell, I think all three win - the people who are writing code, the peop
 
 For those out there though who may be listening to this that aren't very familiar with Chakra or ChakraCore, can you break down the difference between those two things? Because one is in the Edge browser, and ChakraCore is sort of the core code that anybody else can use... Is that right? Help me understand that.
 
-**Arunesh Chandra:** ChakraCore, as the name suggests, is actually the core part of the Chakra (JavaScript) engine.
+**Arunesh Chandra:** ChakraCore, as the name suggests, is actually the core part of the Chakra (JavScript) engine.
 
 **Adam Stacoviak:** Okay.
 
-**Arunesh Chandra:** And Chakra JavaScript engine powers the Edge browser and Windows 10. There are core parts of the JavaScript engine, and then there are Windows-specific bindings around diagnostic APIs or bindings through the browser; if you add those on top of the ChakraCore engine, that becomes the Chakra engine that ships with Windows and Edge.
+**Arunesh Chandra:** And Chakra JavScript engine powers the Edge browser and Windows 10. There are core parts of the JavScript engine, and then there are Windows-specific bindings around diagnostic APIs or bindings through the browser; if you add those on top of the ChakraCore engine, that becomes the Chakra engine that ships with Windows and Edge.
 
 **Adam Stacoviak:** It was about a year ago, I believe, when Chakra was open sourced - is that right?
 
@@ -70,7 +70,7 @@ For those out there though who may be listening to this that aren't very familia
 
 It comes both ways: we get to benefit from really organic discussions and PRs and reviews that happen online on our repo, and on the other hand we are able to also bring our innovation to a larger audience in that way.
 
-**Gaurav Seth:** \[12:12\] I would say that the bigger focus really was mostly about -- we had a technology that we had worked on that we felt was in a good place, and given the model we were in, we had it restricted only to be used in the Edge browser. We really wanted to open up for any sort of developer to come and start using it if they would like to, and at the same time there was also this Node effort that was going on, and we were seeing how much momentum the Node community had behind Node, which was an amazing example, right?
+**Gaurav Seth:** \{12:12\} I would say that the bigger focus really was mostly about -- we had a technology that we had worked on that we felt was in a good place, and given the model we were in, we had it restricted only to be used in the Edge browser. We really wanted to open up for any sort of developer to come and start using it if they would like to, and at the same time there was also this Node effort that was going on, and we were seeing how much momentum the Node community had behind Node, which was an amazing example, right?
 
 **Adam Stacoviak:** Right, it's definitely been fast-paced and growing fast.
 
@@ -94,7 +94,7 @@ It was suddenly becoming obvious that "Hey, we should not keep ourselves restric
 
 In terms of the technical steps that you asked, like how much of an effort it took us, it was actually pretty minimal. One of the reason was, you know, when you think about the bindings we had to the Edge browser, those were already gone when we had started working on supporting the Windows 10 IoT platform, because even when we enabled the IoT platform, that IoT platform could not work with the Edge specific binding. So we had already written this new modern hosting API as we call it, to enable that scenario. It was all about just going and making sure that we open up and we open source that particular thing, and say "Hey, here's the format that you're gonna be using."
 
-\[15:54\] So we had already been working on creating -- because today, if you look at it... Or actually even when we went open source, it was not only Edge which was using us... Azure DocumentDB uses Chakra, there's Outlook.com that uses Chakra. Both of them are server or cloud scenarios where Chakra was not being used in a web browser context, but it was more used in a SaaS platform context in the cloud. So there were already uses before, and it was just about like "Hey, if folks at Microsoft or products in Microsoft can use it, let's just open it so that anybody in the community should also be able to use the technology..."
+\{15:54\} So we had already been working on creating -- because today, if you look at it... Or actually even when we went open source, it was not only Edge which was using us... Azure DocumentDB uses Chakra, there's Outlook.com that uses Chakra. Both of them are server or cloud scenarios where Chakra was not being used in a web browser context, but it was more used in a SaaS platform context in the cloud. So there were already uses before, and it was just about like "Hey, if folks at Microsoft or products in Microsoft can use it, let's just open it so that anybody in the community should also be able to use the technology..."
 
 **Adam Stacoviak:** That makes a lot of sense, the natural way of trying to open it internally... A lot of people -- I think we even had this conversation with some of your friends at Microsoft on the TypeScript team; we talked about inner open source, that kind of thing. Because you have a natural desire to use Chakra inside of Microsoft in various different platforms within Microsoft, you naturally created ChakraCore, and why not just open that up to everyone else?
 
@@ -102,7 +102,7 @@ In terms of the technical steps that you asked, like how much of an effort it to
 
 **Adam Stacoviak:** For those who may be catching up - I'm still catching up to myself, it's a fast-paced world... I think we've broken down Chakra to a good degree, but give me the 10,000 ft. overview of what Chakra is. I know it's not a runtime, it's the engine inside of the Edge browser that runs Node, is that right?
 
-**Arunesh Chandra:** Yes, that's correct. Chakra is the JavaScript engine that runs and powers Microsoft Edge, all JavaScript applications on the Windows platform, and multiple services like Azure DocumentDB, Outlook.com etc.
+**Arunesh Chandra:** Yes, that's correct. Chakra is the JavScript engine that runs and powers Microsoft Edge, all JavScript applications on the Windows platform, and multiple services like Azure DocumentDB, Outlook.com etc.
 
 **Adam Stacoviak:** Gotcha. I just wanted to cover that real quick, because it's always catching up for me, too. It's just... New kids on the block, so to speak; you're one year old, so to speak - maybe a little more than that, but still catching up, so...
 
@@ -114,15 +114,15 @@ We've been making pretty good progress, and Chakra is now available both in Linu
 
 The big thing for us is to make sure that Chakra goes cross-platform and is almost on par in terms of what functionality, performance, and of course, the fundamental characteristics across all of these platforms. So that's one of the biggest things that we're working on.
 
-Outside of that, I think there are a bunch of innovations that continue to happen on the engine there. We've been working very closely with the Microsoft Research team to advance or innovate the state of the art of JavaScript debugging, and they have been experimenting with their stuff on the Chakra engine. We call that technology time-travel debugging.
+Outside of that, I think there are a bunch of innovations that continue to happen on the engine there. We've been working very closely with the Microsoft Research team to advance or innovate the state of the art of JavScript debugging, and they have been experimenting with their stuff on the Chakra engine. We call that technology time-travel debugging.
 
 **Adam Stacoviak:** Interesting.
 
-**Gaurav Seth:** We showed a demo yesterday. Up until now, we only had time-travel debugging work in like -- you attach and run, and you can move back, and yesterday we just previewed the ability to record a snapshot in JavaScript and replay that.
+**Gaurav Seth:** We showed a demo yesterday. Up until now, we only had time-travel debugging work in like -- you attach and run, and you can move back, and yesterday we just previewed the ability to record a snapshot in JavScript and replay that.
 
 **Adam Stacoviak:** Wow.
 
-**Gaurav Seth:** \[19:58\] That's something new, and it's all happening in the open. It's not that any of that code is behind, it's all in the open. I think that is another big thing that we're working on, and our goal is to make sure that we get that technology to a stable state so that we can start shipping that in ChakraCore, and maybe with Node, as well.
+**Gaurav Seth:** \{19:58\} That's something new, and it's all happening in the open. It's not that any of that code is behind, it's all in the open. I think that is another big thing that we're working on, and our goal is to make sure that we get that technology to a stable state so that we can start shipping that in ChakraCore, and maybe with Node, as well.
 
 I mean, Node would probably be the first target. That's where we started, with Node.
 
@@ -174,7 +174,7 @@ So we're seeing a new resurgence, so to speak, from Microsoft in the fact that y
 
 **Gaurav Seth:** I'll talk about the Node ChakraCore project where the TDD technology we are building is still working with the MSR (Microsoft Research) to really push the state of the art here. The community that wants to get involved in this - the best way would be to go to aka.ms/nodetdd.
 
-**Adam Stacoviak:** \[24:15\] Okay, we're gonna put that in the show notes.
+**Adam Stacoviak:** \{24:15\} Okay, we're gonna put that in the show notes.
 
 **Arunesh Chandra:** Yeah, and there I've listed out ways to get involved. One of the best things that people can do is try this new technology on their own app and see how this works, file issues, report problems... If you wanna get into code, maybe just dive into code and see if there are issues they can fix and contribute back. Those are some of the ways they can tangibly and immediately help us harden the technology we're building.
 
@@ -202,7 +202,7 @@ We have converted two native modules onto this API, and the third one is being c
 
 Or, if people have a folk version of Node, with some sort of runtime of their own, we actually invite them in this project as well, to be able to give us a perspective of the API design we are doing from their VM point of view. Because currently we are involved -- there's some expertise in the V8 way of functioning, certainly we bring the ChakraCore perspective, we have also folks from Mozilla who provide the SpiderMonkey perspective on some of these things...
 
-\[28:12\] We actually want a more diverse set of VM vendors to kind of really test out this API design we are currently working on. So there's a ton of ways to get involved in this, and certainly this is an exciting area for the future of Node.
+\{28:12\} We actually want a more diverse set of VM vendors to kind of really test out this API design we are currently working on. So there's a ton of ways to get involved in this, and certainly this is an exciting area for the future of Node.
 
 **Adam Stacoviak:** I was looking over the docs as you were talking there, so I think I've broken it down - Nappy stands for Node API...?
 
@@ -224,7 +224,7 @@ We've been doing a lot of work, ranging from "How do you really improve your inn
 
 So kind of taking these things - VS Code, TypeScript, Docker is working on Linux, on Azure, either in the form of PaaS or Azure Container service, bring your own container... Then, once you have your app deployed, how do you go take the next step with app insights, and have some amazing experiences from a production diagnostics perspective? That is one.
 
-The other thing is having the ability of full stack diagnostics experiences in VS Code, which is like "Hey, I've got the backend and frontend both in JavaScript - how do I target both of them in the same editor?" So there's actually a lot of work that's going on right now, to make sure that we kind of go nail the end-to-end experiences, so that as developer start working with Node, they have an amazing amount of productivity and they can get to the end solution that they wanna get to, in as minimum time as possible, let me put it that way.
+The other thing is having the ability of full stack diagnostics experiences in VS Code, which is like "Hey, I've got the backend and frontend both in JavScript - how do I target both of them in the same editor?" So there's actually a lot of work that's going on right now, to make sure that we kind of go nail the end-to-end experiences, so that as developer start working with Node, they have an amazing amount of productivity and they can get to the end solution that they wanna get to, in as minimum time as possible, let me put it that way.
 
 **Adam Stacoviak:** Awesome. Well, let's leave it there for now. Thank you so much for sitting down with me, thank you for all the work you're doing on Node and playing a great part there from Microsoft's perspective. I'm excited for the future of both of you at Microsoft and the future of Microsoft itself with being far more open to open source. I'll say it for the entire community - we're excited about that change of heart from Microsoft. We're excited to have you all back on the Changelog and doing fun stuff with us, so it's a bless seeing you guys here.
 

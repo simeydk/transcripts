@@ -16,15 +16,15 @@
 
 **Jerod Santo:** Yeah, it's interesting - when you have a brand new ecosystem spring out of nowhere and go into such a place of use... It became from a very small start, just exploding, and used in so many different ways, and enterprises, and hobbies, that there's opportunity in them hills. It's like "Okay, I can be the best practices guy if I just go ahead and put the effort in." Did you come up with the best practices? Did you find them from other people? Where does the actual content come from? Our of your brain?
 
-**Yoni Goldberg:** \[04:03\] Partially. It was a mix between things that are common knowledge in other platforms, and you just import them into Node.js land. Other stuff needs some adaptation into the Node.js world, because Node has some special characteristics and behavior. So some of this stuff needed to be adjusted... And there was also quite a bit opinionated decisions to make, like "What is the right architecture for Node.js? Is it one from the Java world or from the Ruby ecosystem?" So it was a mix of different types of contents and decisions to make... I guess we'll speak about this very soon.
+**Yoni Goldberg:** \{04:03\} Partially. It was a mix between things that are common knowledge in other platforms, and you just import them into Node.js land. Other stuff needs some adaptation into the Node.js world, because Node has some special characteristics and behavior. So some of this stuff needed to be adjusted... And there was also quite a bit opinionated decisions to make, like "What is the right architecture for Node.js? Is it one from the Java world or from the Ruby ecosystem?" So it was a mix of different types of contents and decisions to make... I guess we'll speak about this very soon.
 
 **Amal Hussein:** Yeah, I have to say, that makes sense to me - ultimately, there's a general set of security best practices. I think of that list - WASP? I can't even pronounce it... What's that community that sends out the top ten threats every year?
 
 **Nick Nisi:** OWASP?
 
-**Amal Hussein:** Yes. So there's generally best practices within security, but I think for me what I'd love to hear from you on is there are things that are unique to server-side JavaScript being a novel thing, and then also just the youngness of this ecosystem, as well as a lot of the cultural baggage that I think JavaScript developers have, around "Move fast and break things."
+**Amal Hussein:** Yes. So there's generally best practices within security, but I think for me what I'd love to hear from you on is there are things that are unique to server-side JavScript being a novel thing, and then also just the youngness of this ecosystem, as well as a lot of the cultural baggage that I think JavScript developers have, around "Move fast and break things."
 
-I think JavaScript security is a unique challenge, because I think it's the hardest group of nerds to hurt... Because ultimately, it's also the biggest community, period... And then I think the server-side shift - it was very fast and furious. So I think there's this whole swathe of -- and for me, Node is very much like a LegoLand community; you have to build your own modules, and you create your own storyboard... But there are so many challenges with Node, because it's very easy to shoot yourself in the foot. There aren't strong conventions there, and that's how you see things like LoopBack, tools like Happy.js - they have come in to fill that need, the conventions gap... So what have been some challenges for you there?
+I think JavScript security is a unique challenge, because I think it's the hardest group of nerds to hurt... Because ultimately, it's also the biggest community, period... And then I think the server-side shift - it was very fast and furious. So I think there's this whole swathe of -- and for me, Node is very much like a LegoLand community; you have to build your own modules, and you create your own storyboard... But there are so many challenges with Node, because it's very easy to shoot yourself in the foot. There aren't strong conventions there, and that's how you see things like LoopBack, tools like Happy.js - they have come in to fill that need, the conventions gap... So what have been some challenges for you there?
 
 **Yoni Goldberg:** I totally agree, mostly about it being LegoLand, where everyone has to craft and reinvent sometimes the wheel. I think that in terms of security there are two things that make Node.js security more challenging than other platforms. One, as you said, is the maturity. There are not yet enough set of tools to address all the concerns... For example, if you want to limit your process permissions, it's not very easy with Node. By the way, this is one of the selling points of Deno, the so-called Node replacement; we are more secured, and I guess there is a reason why Ryan Dahl, the creator of Deno, chose security as one of his differentiators.
 
@@ -32,7 +32,7 @@ The second point is the single thread thing. With Node.js at least there is one 
 
 **Jerod Santo:** So the plan for this episode is we're gonna try to treat this in three segments/sections. There's lots of best practices, there's lots of areas... And full disclosure, Yoni's favorite area is testing. In fact, when I said "Hey, come talk about Node Best Practices with us", he was like "Are you sure? Because I could talk about testing..." And I was like "No, I'm sure." But maybe we'll do testing again later, so we're not gonna deep-dive on testing. We have a lot of testing advocates on the panel... But we're gonna start off with writing our code, and then we're gonna talk about testing the code a little bit, and then also securing the code, lest we get too far ahead of ourselves in the securing section.
 
-\[08:13\] Let's go through some of the best practices laid out in this guide for how you go about writing your code. As we've stated before, a lot of this stuff is really what I considered Wild West for a while, cowboy land of like "Well, how do you like to do it?" And over time, these things start to develop and you realize "This is worse, and this is better", and people come to these conventions. So when it comes to writing code, Yoni, what do you have in the best practices, or what has the community landed on in terms of project structure, error handling, style etc. for Node code?
+\{08:13\} Let's go through some of the best practices laid out in this guide for how you go about writing your code. As we've stated before, a lot of this stuff is really what I considered Wild West for a while, cowboy land of like "Well, how do you like to do it?" And over time, these things start to develop and you realize "This is worse, and this is better", and people come to these conventions. So when it comes to writing code, Yoni, what do you have in the best practices, or what has the community landed on in terms of project structure, error handling, style etc. for Node code?
 
 **Yoni Goldberg:** Yeah, so I picked some of the more impactful and important practices for writing code... Although \[unintelligible 00:08:56.25\] the bullet that has the most traction and flammable discussion was about "Semicolons or not? Brackets?", but I think that we'd better focus here on things that are more painful and impactful.
 
@@ -70,7 +70,7 @@ The second point is the single thread thing. With Node.js at least there is one 
 
 So when I started with Node.js, the advice was "If you have an unfamiliar error, you should just let the thread crush. Why? It's just safer. You don't know what are the implications of the error if it's not familiar. Maybe you have some critical zombie component, like database connections that is hanging... So better be safe. Crash." Okay, this is what I started with... And then when I worked with customers, I always put that line, process.exit, if the error is unknown. Process.exit. And the funny part is that almost everyone, after some time, after weeks, someone commented out this line.
 
-\[11:58\] I got back two months later, looked at the GitHub repository, someone deleted this line. And the reality just told us that in most of the time, the errors are not really catastrophic and affecting all the process, but killing a thread is really painful in production, so many times.
+\{11:58\} I got back two months later, looked at the GitHub repository, someone deleted this line. And the reality just told us that in most of the time, the errors are not really catastrophic and affecting all the process, but killing a thread is really painful in production, so many times.
 
 So after some time I adjusted my practice, so I just go with a balanced approach. If the error is originated from a specific request, like a specific HTTP request, it is probably not catastrophic. This is just something that happened during the request. Yes, it's a risk, but making the thread stay alive is an educated guess.
 
@@ -88,17 +88,17 @@ So where does that come into play for you? ...you know, the logging story, and t
 
 **Yoni Goldberg:** Yeah, I think that the ops involvement here - the monitoring, the logging, the other side of the error handling; the one that you take some proactive act - is a really important piece of the puzzle. This is, by the way, another reason why you should not always and blindly crush. Remember, there are people there watching the applications. They might make thoughtful decisions. If you decide to crash based on one error that you have, and then you make the thread crash all the time - congrats, you now have two problems. Very soon we will discuss - the next best practice is about metrics, and how to visualize your application health.
 
-**Amal Hussein:** \[16:07\] Okay, so it ties in over there.
+**Amal Hussein:** \{16:07\} Okay, so it ties in over there.
 
 **Jerod Santo:** I think it makes sense to think of those as distinct, and it's like your development practices are allowing for your ops practices to get what they need. And that may still be you; that may still be the same person. But if it's not, it scales well. So one of those things, Yoni, as we go down the list here - you have extend a built-in Error object. Do you wanna tell us more about that?
 
-**Yoni Goldberg:** Sure. And I guess it's complementary to the first one; we're building the story here... \[laughter\] The idea is that anytime you throw an error, you should throw only in your object that inherits from the base JavaScript error, and not anything else. There are two groups that I believe are doing it wrong. The first one - you know, in JavaScript you can throw anything. It's JavaScript; you can throw an integer, you can throw a boolean, I guess you can throw an emoji of a unicorn...
+**Yoni Goldberg:** Sure. And I guess it's complementary to the first one; we're building the story here... \[laughter\] The idea is that anytime you throw an error, you should throw only in your object that inherits from the base JavScript error, and not anything else. There are two groups that I believe are doing it wrong. The first one - you know, in JavScript you can throw anything. It's JavScript; you can throw an integer, you can throw a boolean, I guess you can throw an emoji of a unicorn...
 
 **Amal Hussein:** You can throw a party, which is what we do here every Thursday...
 
 **Jerod Santo:** That's how we handle it.
 
-**Amal Hussein:** One PM Eastern... JavaScript party.
+**Amal Hussein:** One PM Eastern... JavScript party.
 
 **Jerod Santo:** Yeah. Some people think it's an error, but we don't think so. \[laughter\]
 
@@ -108,7 +108,7 @@ So where does that come into play for you? ...you know, the logging story, and t
 
 **Jerod Santo:** That's right. It's our error, okay?
 
-**Yoni Goldberg:** Yeah... So I guess it's obvious to everyone why this is wrong. You lose the stack trace, it's obvious. But the other type of mistake is so popular... And going by this mistake is when you throw the error object of JavaScript; I see it in many places, and even the Node.js core was doing this for a while. So the idea is that you just include a very long message, and then once you need to handle the error \[unintelligible 00:17:40.04\] you have to compare with a very long string. And if someone just changed a word in this string, then a million applications in the world break, because they're relying on this specific string. Not to mention that many people -- it was a funny thing to observe... Many people install a localized version of Node.js. So the error messages change per language. They are localized.
+**Yoni Goldberg:** Yeah... So I guess it's obvious to everyone why this is wrong. You lose the stack trace, it's obvious. But the other type of mistake is so popular... And going by this mistake is when you throw the error object of JavScript; I see it in many places, and even the Node.js core was doing this for a while. So the idea is that you just include a very long message, and then once you need to handle the error \[unintelligible 00:17:40.04\] you have to compare with a very long string. And if someone just changed a word in this string, then a million applications in the world break, because they're relying on this specific string. Not to mention that many people -- it was a funny thing to observe... Many people install a localized version of Node.js. So the error messages change per language. They are localized.
 
 **Jerod Santo:** Wow.
 
@@ -128,7 +128,7 @@ So where does that come into play for you? ...you know, the logging story, and t
 
 **Amal Hussein:** For me it's very clear when logging and trying to capture errors or any type of logs within your application. You really need to have a standard format, and I think that's what Yoni is alluding to... But also, for me there's a very clear, core set of things that I log for, like that unique event name, or in this case unique error name, that's like a string that's tied to some constant or enum in my system... As well as "What servers did this come from?"
 
-\[20:10\] There's a set of core things you want in every error, and the way I handle for dynamic data - dynamic data being anything else that I wanna capture where the error happened, whether it's arguments, whether it's additional context or any other data that's contextual, beyond the stack trace, which is a standard item... I use a specific key, something like payload, or data, and I put everything in that object. So even the dynamic data has a standard format.
+\{20:10\} There's a set of core things you want in every error, and the way I handle for dynamic data - dynamic data being anything else that I wanna capture where the error happened, whether it's arguments, whether it's additional context or any other data that's contextual, beyond the stack trace, which is a standard item... I use a specific key, something like payload, or data, and I put everything in that object. So even the dynamic data has a standard format.
 
 I one hundred percent relate to the example that you used around the string matching, and anybody changes that format, all of a sudden everything breaks. It's ridiculous, especially when splunking... People are splunking on these crazy string formats... I'm like "Jesus Chris, just use a data structure that makes sense", you know? So yeah, plus a million on that.
 
@@ -142,13 +142,13 @@ The reason, by the way, that I believe that MVC is under-structured and not powe
 
 **Jerod Santo:** Model, yeah.
 
-**Yoni Goldberg:** Yeah, everything is a model. MVC never meant to answer this question. N-tier is a great medium between having something -- make a great separation between the API, the entry point... Let me emphasize about what is n-tiers. N-tier architecture simply means that you have layers. In plan JavaScript, in Node.js, a layer is just a folder. And then as you request - think about some API request flying in - it just goes through, for example, three different layers. The first one is the entry point, like the API. So you have one folder with only API-related code. Only \[unintelligible 00:23:42.04\] related to receiving the request.
+**Yoni Goldberg:** Yeah, everything is a model. MVC never meant to answer this question. N-tier is a great medium between having something -- make a great separation between the API, the entry point... Let me emphasize about what is n-tiers. N-tier architecture simply means that you have layers. In plan JavScript, in Node.js, a layer is just a folder. And then as you request - think about some API request flying in - it just goes through, for example, three different layers. The first one is the entry point, like the API. So you have one folder with only API-related code. Only \[unintelligible 00:23:42.04\] related to receiving the request.
 
 Then your second layer is the business logic, or the domain. This is where you apply custom data change, logic, orchestrating if you need to call other services... Everything that is - as the name says - the business logic of your application.
 
 And then the third folder, the third tier is the data access. If you have an ORM, this is where it goes to. So you have a very simple and clean separation of concerns, but it's also very intuitive. This is also how the request is physically going - from API, to some logic, to a database. I chose this architecture as a good medium. What do you think about the reasons that led me to this proposal?
 
-**Amal Hussein:** \[24:33\] I have thoughts on this, but I wanna hear from Nick and Jerod... I'm calling it MCD, for the record.
+**Amal Hussein:** \{24:33\} I have thoughts on this, but I wanna hear from Nick and Jerod... I'm calling it MCD, for the record.
 
 **Jerod Santo:** Hm...
 
@@ -200,7 +200,7 @@ Are there other projects, or open source things, or people using this tiered app
 
 **Amal Hussein:** Yes. Well, with these feature requests, to kind of like provide an example...
 
-**Jerod Santo:** \[28:21\] Right. So like the Node Best Practices repo would be cool if it linked out to examples of this in practice... So maybe creating that example would be the first step. Maybe in the GitHub issues for that repo, or if you have a separate way where the community says -- I'm sure there's debates on which best practices to add, or remove, or change... So maybe a place where you could go and say "Here are things that need to be done to improve this set of best practices."
+**Jerod Santo:** \{28:21\} Right. So like the Node Best Practices repo would be cool if it linked out to examples of this in practice... So maybe creating that example would be the first step. Maybe in the GitHub issues for that repo, or if you have a separate way where the community says -- I'm sure there's debates on which best practices to add, or remove, or change... So maybe a place where you could go and say "Here are things that need to be done to improve this set of best practices."
 
 **Yoni Goldberg:** Yeah. So first, we do manage all the backlog and issues in GitHub, and there was a handful of discussion about this. We actually have some hidden examples there. It never matured enough that we felt confident enough to share it... But if any of the wide audience wants to get a quick look into an example that is not finalized, feel free to approach on GitHub and I'll be glad to share with you the link.
 
@@ -208,7 +208,7 @@ Are there other projects, or open source things, or people using this tiered app
 
 **Jerod Santo:** ...are part of the story.
 
-**Amal Hussein:** Yeah, part of the story was a suggestion, first try. So I'm just curious -- a lot of our listeners work on frontend applications, as well as backend... But for folks that are working on progressively thicker clients - is there an n-tiers mirror model for browser code that's written in JavaScript or TypeScript?
+**Amal Hussein:** Yeah, part of the story was a suggestion, first try. So I'm just curious -- a lot of our listeners work on frontend applications, as well as backend... But for folks that are working on progressively thicker clients - is there an n-tiers mirror model for browser code that's written in JavScript or TypeScript?
 
 **Yoni Goldberg:** Well, I guess you can structure your -- it makes sense for everything. I guess you can structure your frontend calls with n-tiers, because also in frontends there are multiple big concerns, which are good candidates for partitioning the frontend. But as we all saw the movement in the frontend world, the state thing gets most of the attention
 
@@ -220,7 +220,7 @@ Are there other projects, or open source things, or people using this tiered app
 
 I think that the remaining 20% still have state management problems, but in addition to other things. So I think for me it's that 20% or 15% of applications at massive scale that I would be interested in codifying, so that's a really good takeaway from this conversation.
 
-**Break:** \[31:20\]
+**Break:** \{31:20\}
 
 **Jerod Santo:** So we touched on logging in the first segment... We are going to talk more about it now, because you have more things to say... Logging, metrics - open it up, Yoni, for conversation. What are the best practices here?
 
@@ -238,7 +238,7 @@ Metrics are the solution to this. A few, 10, maybe 30 specific events that are d
 
 The second one is business metrics, or product metrics. Stuff like payment failed; really important stuff. Payment failed - wow, we really want to measure this? If there is an increase in payment failure, then obviously someone has to go online and watch.
 
-**Amal Hussein:** \[36:30\] I'm so glad we're talking about this, because for me -- first of all, logging and monitoring of any kind has a cost. And I've seen a lot of developers fall into a trap where they over-log, and then once their application scales, it's like "What's going on? Why are my server builds so high?" and/or "Why are things slow?"
+**Amal Hussein:** \{36:30\} I'm so glad we're talking about this, because for me -- first of all, logging and monitoring of any kind has a cost. And I've seen a lot of developers fall into a trap where they over-log, and then once their application scales, it's like "What's going on? Why are my server builds so high?" and/or "Why are things slow?"
 
 So a) understanding that monitoring and logging have a cost, and then making sure that whatever tools you're using to do logging and monitoring meet high-performance benchmarks. So I wouldn't be using \[unintelligible 00:37:08.01\] exist. So ultimately, it's one of those things where you really -- the maintenance part of this as a developer, I can tell you the way I've handled this... I typically have an abstraction around my logger.
 
@@ -252,7 +252,7 @@ So I think for me, the management of those two, and then deciding on what to log
 
 **Jerod Santo:** What's fallen down with that? I do that as well, and I find that it's a really good pattern, and it just works. Have you found limitations with that, or you just don't wanna do it every time, or...?
 
-**Amal Hussein:** \[40:01\] No, no. I just think that Yoni brought up a really good point about your ops team -- you need to be in communicado with your ops team on this stuff... So ultimately, what's that process? The only thing I can think of is like a manual human process...
+**Amal Hussein:** \{40:01\} No, no. I just think that Yoni brought up a really good point about your ops team -- you need to be in communicado with your ops team on this stuff... So ultimately, what's that process? The only thing I can think of is like a manual human process...
 
 **Jerod Santo:** Yeah.
 
@@ -274,7 +274,7 @@ Just one last point, to kind of further drive this automation home - as you can 
 
 Personally, I'm embracing that model. I just realized I -- I'm in a principal software engineer role right now, and I wanna enable developers to work quickly, but also with convention and standards. So I'm using that kind of methodology to monitor, but not get in people's way, and only get in people's way when I need to, if that makes sense.
 
-**Nick Nisi:** \[44:02\] I love that. That's the robot right there that's talking to ops for you.
+**Nick Nisi:** \{44:02\} I love that. That's the robot right there that's talking to ops for you.
 
 **Jerod Santo:** There it is.
 
@@ -308,7 +308,7 @@ Personally, I'm embracing that model. I just realized I -- I'm in a principal so
 
 **Jerod Santo:** Yeah, well said. A lot of times services will wrap those two up and there's no differentiation in where those actual entries go, like if you're sending them over to a papertrail, or something like that... It definitely makes sense on the command line though, as you have certain things that you want the person to see, regardless of something going wrong... Like, they asked you for an answer and you give them an answer, and then perhaps they ask you for an answer and it's an invalid question, and you log that to standard error, versus standard out.
 
-**Break:** \[47:41\]
+**Break:** \{47:41\}
 
 **Jerod Santo:** Okay, let's turn our focus over to security, because there's so much to say here... And this is a place where many of us know a thing or two, but not everything. And even if we think that we have a good grasp, there's so many ways you can shoot yourself in the foot and accidentally write insecure code, or deploy things in an insecure way... And surely, there's lots of best practices around that. You have a whole section in the repo on security best practices, so let's pick a few and talk through them, Yoni. What are some globalized best -- like, everyone should know about these, don't do this/do this kind of security practices?
 
@@ -322,7 +322,7 @@ Personally, I'm embracing that model. I just realized I -- I'm in a principal so
 
 **Yoni Goldberg:** Yeah, so shortly - there is a very popular type of attacks which are called the supply chain attack. The idea is don't try to intrude into someone's production. That's hard and complex. Instead, just socially become a friend of a maintainer, become one of the maintainers of a package, and then you get infinite power. So EventStream is one of those very popular packages - I believe it was downloaded 8 million times a week, or a month; I can't remember - but it's not really maintained anymore. There's not much to add to it; it just works. And at some point, some new maintainer kind of shows intent to start contributing, and got the trust of the core maintainer... And then for a start he does a lot of useful stuff, and at some point injected a new dependency into the code. Nobody noticed, and this dependency was a very malicious one. I believe it tried to steal some Bitcoin files from the local developers...
 
-\[52:09\] The important point here is that it affected -- I believe eight million people downloaded this package until it was discovered around 30 days later. So those who waited, those who are patient, benefit. The bottom line here is keep your code updated, but maybe some kind of grace period before you do that.
+\{52:09\} The important point here is that it affected -- I believe eight million people downloaded this package until it was discovered around 30 days later. So those who waited, those who are patient, benefit. The bottom line here is keep your code updated, but maybe some kind of grace period before you do that.
 
 **Amal Hussein:** I'm so glad that you're bringing this up, because I literally -- we should put this tweet in the show notes, Jerod...
 
@@ -350,7 +350,7 @@ I think our obsession with new is something that we need to acknowledge as a pro
 
 **Jerod Santo:** I mean, limit and scrutinize your dependencies is an actual practical takeaway here... Because the problem with this kind of an exploit - we're talking about different kinds of exploits; this supply chain exploit is - you are not in that supply chain. As a developer, you're just sitting over there, minding your own business. You're dependent upon the supply chain. What can I actually do as a person typing into my terminal and my editor to guard myself against this problem? And really, the couple of things you can do is stay a version behind - or a major version if you're very paranoid - at least a patch or a minor version - and limit and scrutinize your dependency... Because while you didn't write that code, you don't maintain that code, you don't know where that code came from, the buck does stop with you. It's your code once you execute it and run it. So the only thing you can do is limit that attack surface and verify (try to) that you're using dependencies that are reliable, that are maintained, and be aware of what's going on around you... Which is difficult to pull off, but necessary in this ecosystem.
 
-**Amal Hussein:** \[56:22\] Jerod, you're a man of my heart, really. Because I can share some insight on this... As someone who's been a lead engineer for a while, like when evaluating new tools and libraries, my personal rubric - which I should probably write a blog post on, because I think this is useful to more people - an element of my rubric involves looking at the dependency chain of the tool that I'm gonna install. For example, you look at something like a Lodash module that's just pure function, no dependency. That gets a high score from me; that's a plus.
+**Amal Hussein:** \{56:22\} Jerod, you're a man of my heart, really. Because I can share some insight on this... As someone who's been a lead engineer for a while, like when evaluating new tools and libraries, my personal rubric - which I should probably write a blog post on, because I think this is useful to more people - an element of my rubric involves looking at the dependency chain of the tool that I'm gonna install. For example, you look at something like a Lodash module that's just pure function, no dependency. That gets a high score from me; that's a plus.
 
 If I look at a module that is not doing magic/rocket science, but it has 71 dependencies, I'm not into it. I would rather find a tool that's more static; even if it's not as well maintained, I will use that over just adding 71 new subdependencies into my project.
 
@@ -376,7 +376,7 @@ But then also - I feel like this kind of thing, this dependency selection proces
 
 **Nick Nisi:** TypeScript...
 
-**Jerod Santo:** \[59:55\] No TypeScript this episode.
+**Jerod Santo:** \{59:55\} No TypeScript this episode.
 
 **Yoni Goldberg:** Nick, did you just say TypeScript?
 
@@ -412,7 +412,7 @@ I think of Next as a really good example here, because I think they've done a lo
 
 **Jerod Santo:** Right.
 
-**Amal Hussein:** Just really quickly, Yoni, I wanted to ask you, specifically for folks that are writing a lot of frontend code - what are some common things that you see as security faux-pas that start in the frontend and affect backends? Commonly, I'm just curious - whether it's escaping CSS, HTML, JavaScript... How can folks who are writing frontend code make less work for backend security?
+**Amal Hussein:** Just really quickly, Yoni, I wanted to ask you, specifically for folks that are writing a lot of frontend code - what are some common things that you see as security faux-pas that start in the frontend and affect backends? Commonly, I'm just curious - whether it's escaping CSS, HTML, JavScript... How can folks who are writing frontend code make less work for backend security?
 
 **Yoni Goldberg:** \[01:08:16.16\] Make less work. Interesting.
 
@@ -458,7 +458,7 @@ Thanks for joining me, guys. Any final thoughts from the panel?
 
 **Amal Hussein:** Where can people find you on the interwebs, Yoni, and how can they connect with you and help you?
 
-**Yoni Goldberg:** Yeah, so if it's related to the Node.js Best Practices repositories - and by the way, I also have a JavaScript testing best practices repo - then I'll really be glad if you approach me there, and help. There is a lot of learning while you write and think together about this stuff.
+**Yoni Goldberg:** Yeah, so if it's related to the Node.js Best Practices repositories - and by the way, I also have a JavScript testing best practices repo - then I'll really be glad if you approach me there, and help. There is a lot of learning while you write and think together about this stuff.
 
 And in overall, Twitter, or the common social medias - you're welcome to approach. I'm a very nice guy, by the way. It was a pleasure...
 

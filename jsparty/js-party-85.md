@@ -1,4 +1,4 @@
-**Jerod Santo:** Welcome back everybody to JS Party, where we like to throw a party every week about JavaScript and the web. One of the things that we like to do at JS Party is have a lot of variety, just like you have a pizza perhaps with a lot of different toppings. Maybe you listened to last week's episode all about burnout. I was just listening to that this morning, Feross, on my morning walk; a great episode from you, Suz and Emma.
+**Jerod Santo:** Welcome back everybody to JS Party, where we like to throw a party every week about JavScript and the web. One of the things that we like to do at JS Party is have a lot of variety, just like you have a pizza perhaps with a lot of different toppings. Maybe you listened to last week's episode all about burnout. I was just listening to that this morning, Feross, on my morning walk; a great episode from you, Suz and Emma.
 
 Of course, we have some interesting things in the works. We're talking about doing some debate-style shows, so pay attention for that, and subscribe if you haven't yet.
 
@@ -12,11 +12,11 @@ We also have a little bit something different today - a show about pizza. Well, 
 
 **Jerod Santo:** I know. I feel like this is a really bad time to announce our cutover to Zoom, but... Well, we've got you here anyways. And Mikeal Rogers. What's up, Mikeal?
 
-**Mikeal Rogers:** Hey! It's a party with JavaScript...
+**Mikeal Rogers:** Hey! It's a party with JavScript...
 
 **Jerod Santo:** That's right. You've gotta get that in there. So as I've mentioned, we have Antoni Kepinski joining us; a 16-year-old, notably, from Poland. Antoni, introduce yourself and say hi to everybody.
 
-**Antoni Kepinski:** Hi, everyone. My name is Antoni, I'm 16 years old, as Jerod said, a developer from Poland. In my free time I like creating open source stuff... Mainly in JavaScript, but I'm also learning Rust in my free time, so that I can use WebAssembly in the future.
+**Antoni Kepinski:** Hi, everyone. My name is Antoni, I'm 16 years old, as Jerod said, a developer from Poland. In my free time I like creating open source stuff... Mainly in JavScript, but I'm also learning Rust in my free time, so that I can use WebAssembly in the future.
 
 **Jerod Santo:** That is awesome. Let's play a quick game called "How young did you start programming?" Mikeal, I'll pitch it to you, because I think 16 is young; y'all might have me beat... How did everybody get into it? At what age?
 
@@ -42,7 +42,7 @@ We also have a little bit something different today - a show about pizza. Well, 
 
 **Jerod Santo:** What introduced you to programming, Antoni? Was it the internet, was it a parent, school...? Where did you learn about it?
 
-**Antoni Kepinski:** \[04:02\] Actually, I started programming in C\#, but this wasn't really my thing, and I stumbled upon a GitHub profile from a user called Sindre Sorhus. When I first saw JavaScript code, I knew it was something I want to learn in the future. That's how it started.
+**Antoni Kepinski:** \{04:02\} Actually, I started programming in C\#, but this wasn't really my thing, and I stumbled upon a GitHub profile from a user called Sindre Sorhus. When I first saw JavScript code, I knew it was something I want to learn in the future. That's how it started.
 
 **Jerod Santo:** So I guess I skipped myself... But I'm gonna lose -- or win, depending on which way you're looking at it... Because I didn't own a computer until I was 18, and I didn't start to program said computer - unless you count downloading stuff off of Napster, which I don't think counts - until probably like 20, 21 age range. College. So y'all are killing me.
 
@@ -54,7 +54,7 @@ We also have a little bit something different today - a show about pizza. Well, 
 
 **Jerod Santo:** I did have a pre-programming moment in high school, where one of my friends was taking web programming, something like elective in high school... And I don't know if you guys remember the video game Secret of Mana, but I was quite into Secret of Mana... And so was he. And he had a Geocities page that he made during that class, and I remember the moment where he showed me -- the avatar or the sprite of the main character from Secret of Mana was all that was on the page. He managed to basically add an image tag, or however he was doing it back then... And then he showed me when you roll over it, it changed from -- he turned into stone, or something like that. And he just showed me that little -- like, put the mouse on it, and I was like "Whoa...!" I thought that was pretty cool. But it didn't actually get me to go try it myself; I just kind of moved on until later on, but I remember that pretty distinctly as being impressive that you could do that.
 
-**Mikeal Rogers:** I remember when I was 17 I worked for this awful local web consultancy, and one of my co-workers wired up this thing where -- in JavaScript you can sort of make the mouse look like it was sort of like... Basically, it looked almost like it was slow, kind of going across the thing. It'd leave like an impression of itself that would slowly fade away... And I was like "Oh my god, this is the craziest thing I've ever seen. That's AMAZING!" And yeah, they thought it was so cool that they put it on their main website for this web consultancy. It's a completely useless feature. You would never wanna put it in the application. It was like front and center.
+**Mikeal Rogers:** I remember when I was 17 I worked for this awful local web consultancy, and one of my co-workers wired up this thing where -- in JavScript you can sort of make the mouse look like it was sort of like... Basically, it looked almost like it was slow, kind of going across the thing. It'd leave like an impression of itself that would slowly fade away... And I was like "Oh my god, this is the craziest thing I've ever seen. That's AMAZING!" And yeah, they thought it was so cool that they put it on their main website for this web consultancy. It's a completely useless feature. You would never wanna put it in the application. It was like front and center.
 
 **Jerod Santo:** That was probably back in the day when everybody was doing the Flash intros on their web pages. A website's point was to be a useless feature; it was like "Watch this thing that I made in Flash!" Or maybe that was even before you. Go ahead, Feross.
 
@@ -70,11 +70,11 @@ We also have a little bit something different today - a show about pizza. Well, 
 
 Have you been for the last couple of years just all-in on learning this stuff, or is it coming naturally to you?
 
-**Antoni Kepinski:** \[08:25\] Actually, PizzaQL started as a React learning project, to be honest with you... And from my point it was the best learning experience I've ever had. At first it was experimenting, then optimizing, and all of that made me want to learn React.
+**Antoni Kepinski:** \{08:25\} Actually, PizzaQL started as a React learning project, to be honest with you... And from my point it was the best learning experience I've ever had. At first it was experimenting, then optimizing, and all of that made me want to learn React.
 
 **Jerod Santo:** What was your process like, from the point that you found open source and GitHub, and you were doing some C\#, to the point that you have PizzaQL, which was your learning (experimental) project, and an impressive one at that? Did you look for tutorials? Did you take classes? What were some things that you did just getting started, and how did you know where to look?
 
-**Antoni Kepinski:** I started learning the basics of JavaScript \[unintelligible 00:09:14.00\] and after I started creating some small websites in vanilla JavaScript, I created some CLI apps like CacheCLI, which has over 100 stars on GitHub... And after this time, I really wanted to learn React, as it was getting popular. Some of my friends who are also programming were talking about it.
+**Antoni Kepinski:** I started learning the basics of JavScript \[unintelligible 00:09:14.00\] and after I started creating some small websites in vanilla JavScript, I created some CLI apps like CacheCLI, which has over 100 stars on GitHub... And after this time, I really wanted to learn React, as it was getting popular. Some of my friends who are also programming were talking about it.
 
 I tried making something using the default Create React App, boilerplate. When I didn't understand something, I just looked in the React documentation, and if I haven't found anything, then I moved to Google and Stack Overflow.
 
@@ -92,7 +92,7 @@ I also attended some talks, for example in the Allegro - this is a big Polish co
 
 I'm curious - Mikeal and Feross - we're here talking to somebody who basically has been self-taught; he's learning on the Go, he's still learning, obviously, we're all still learning, but Antoni had a lot of success kind of just going to the React docs; I'm kind of impressed that he can just read React docs and go from there. Of course, you end up googling around as you get stuck, but... If you guys had to give advice on getting started today - Feross, you're very education-oriented - what resources of processes or tools would you say "Here's a good place to start for young people"? Maybe Antoni's age, or even a little bit younger.
 
-**Mikeal Rogers:** \[12:25\] Sure. I don't have a strong opinion about the first docs that you land on. I mean, it really depends on which projects you're interested in, and which languages you're interested in, and all of them have varying degrees of good or bad talks, or books, or whatever it may be. I'm very impressed with Rust on this, actually. They've done a pretty good job. They have a lot of \[unintelligible 00:12:44.17\] docs, including a great book.
+**Mikeal Rogers:** \{12:25\} Sure. I don't have a strong opinion about the first docs that you land on. I mean, it really depends on which projects you're interested in, and which languages you're interested in, and all of them have varying degrees of good or bad talks, or books, or whatever it may be. I'm very impressed with Rust on this, actually. They've done a pretty good job. They have a lot of \[unintelligible 00:12:44.17\] docs, including a great book.
 
 Once you're programming and you're trying to get better, I'd recommend as early as possible doing open source stuff. Even if you're not publishing your own work, just trying to contribute to other things, whether it's just doc fixes, or tests, or whatever... Because that code review process gives you an opportunity to interact with developers, and them to kind of level you up.
 
@@ -110,7 +110,7 @@ So yeah, I don't know... I think that was what worked for me. I'm actually curio
 
 **Antoni Kepinski:** If we talk about programming in general, for me it was just a skill I wanted to have. But if we talk about PizzaQL, I saw a pizza ordering system written in PHP... It's from a Polish company. They sell it for a pretty huge amount of money, and I would like to build something like this, but in React, and make it open source, so that others can see it, and maybe in the future use it.
 
-**Jerod Santo:** \[16:17\] Yeah. I think that's really neat. I wanna piggyback on what Feross was saying about motivation. I do believe that that is probably the more important part. Of course, we can talk tactically how you get started with these things. I think one place to point young people to - maybe not even young, but new people - is Free Code Camp, if they just wanna actually dive head-deep into things. It's a great source for learning.
+**Jerod Santo:** \{16:17\} Yeah. I think that's really neat. I wanna piggyback on what Feross was saying about motivation. I do believe that that is probably the more important part. Of course, we can talk tactically how you get started with these things. I think one place to point young people to - maybe not even young, but new people - is Free Code Camp, if they just wanna actually dive head-deep into things. It's a great source for learning.
 
 The thing about motivation though is that it's perishable. In fact, it's one of the most perishable goods there are. I'm motivated today, but maybe not tomorrow. Maybe not even this afternoon. Heck, I might be losing my motivation right here as we talk...
 
@@ -122,7 +122,7 @@ A lot of people say "Well, I don't really know... I don't have a project, I don'
 
 **Antoni Kepinski:** Yeah, that's exactly what I did with PizzaQL.
 
-**Break:** \[17:50\]
+**Break:** \{17:50\}
 
 **Jerod Santo:** Okay, we're back, talking PizzaQL. Antoni, you mentioned you saw a Polish proprietary website that did this; it was in PHP, and you wanted to build one with React, and these technologies... Why pizza though? Do you love pizza? Did your parents run a pizza company, or do you wanna open up a pizzeria?
 
@@ -134,7 +134,7 @@ A lot of people say "Well, I don't really know... I don't have a project, I don'
 
 **Antoni Kepinski:** PizzaQL is both order placement for users, and order management for pizza restaurant owners. I'm trying to balance the development of both panels, for user and for the owner, so that it's an all-in-one product.
 
-**Jerod Santo:** \[19:57\] A lot of times building user-facing software -- I mean, it sounds like you have multiple users even. You have the customers and you have the management team... The technology and the programming is an aspect, but a lot of the really hard things is the flow of data, and how things are organized, and how the system works at a high level. Are these things that come naturally to you, or are you still trying to figure them out if we ask you to describe how PizzaQL works from an end user's perspective, how the data flows through the system... Are these things you've got figured out, or are you still learning as you go?
+**Jerod Santo:** \{19:57\} A lot of times building user-facing software -- I mean, it sounds like you have multiple users even. You have the customers and you have the management team... The technology and the programming is an aspect, but a lot of the really hard things is the flow of data, and how things are organized, and how the system works at a high level. Are these things that come naturally to you, or are you still trying to figure them out if we ask you to describe how PizzaQL works from an end user's perspective, how the data flows through the system... Are these things you've got figured out, or are you still learning as you go?
 
 **Antoni Kepinski:** Yeah, most of the stuff is figured out. I still haven't implemented one of the most important things, which is pricing and ordering. Now you can just order pizza and you don't know how much you need to pay, and that is really important, so I need to implement that.
 
@@ -186,7 +186,7 @@ Also, there is currently no option for the manager to add orders manually. For e
 
 **Antoni Kepinski:** From the beginning it was going to be a host-it-yourself project. I know to do so I need to write documentation, so that others know what to do. That's the other thing - it's not only building the app, but also writing the docs for both deployment and security, and stuff like that. I'm currently in progress of writing the docs.
 
-**Jerod Santo:** \[24:11\] The docs are always in progress.
+**Jerod Santo:** \{24:11\} The docs are always in progress.
 
 **Antoni Kepinski:** Yes...
 
@@ -232,7 +232,7 @@ Also, there is currently no option for the manager to add orders manually. For e
 
 **Feross Aboukhadijeh:** I have some customers for you as well. Domino's Pizza here in the U.S. has the most complicated ordering form I've ever seen. It takes ten minutes to get through it, and it feel like you're filling out your taxes just to order all the toppings that you want. It's extremely painful. So if you want me to put you in touch, I can try to make a contact there.
 
-\[28:08\] No, but seriously, I think that when it comes to potential users, you can never talk to them too early. So maybe if you can talk to that local shop, even before you finished all the features that you want to include, it could help you prioritize the features. If you talk to them and you learn that they actually want this feature, which is different than what you thought they would want, that could really save you a lot of time... If this is the route that you wanna go down.
+\{28:08\} No, but seriously, I think that when it comes to potential users, you can never talk to them too early. So maybe if you can talk to that local shop, even before you finished all the features that you want to include, it could help you prioritize the features. If you talk to them and you learn that they actually want this feature, which is different than what you thought they would want, that could really save you a lot of time... If this is the route that you wanna go down.
 
 **Antoni Kepinski:** Good point. Also, I shared the PizzaQL project on Reddit, and some Subreddits list Programming, React, Web Development... And I've also received a lot of suggestions there. One of the users wrote a huge list - 100 items - of what I should do to make it easier for people...
 
@@ -276,7 +276,7 @@ One thing that I didn't recognize was that a big part of their business is peopl
 
 **Antoni Kepinski:** Exactly.
 
-**Break:** \[32:20\]
+**Break:** \{32:20\}
 
 **Antoni Kepinski:** The PizzaQL project - I've written it in React, but at first I wanted to build it using vanilla JS. I guess that's nice if you build something in this way, because your app is optimized - of course, if you write it properly - and it isn't bloated in any way. However, I really wanted to learn how to use React, and also Next.js, which does server-side rendering, and all sorts of stuff.
 
@@ -298,7 +298,7 @@ I also wanted to use GraphQL. This was the second time I was using it... And I f
 
 **Mikeal Rogers:** I wonder of the differences actually between GraphQL and REST, and GraphQL at managing database access without that weird intermediary layer... But which actually cleans up a lot of the rough edges of databases. Traditional databases are not fun to work with; SQL is like a crazy black art that nobody really understands... And a lot of the REST interfaces just sit between you and this other database connection.
 
-\[36:15\] And yeah, those databases have never been great to use. We tried to do a lot of new stuff in the SQL hype cycle that happened, but when we netted out the other end everybody still wanted \[unintelligible 00:36:26.15\] So everything kind of reverted back to the mean, and now we're back to GraphQL, which is in a way a much saner approach to the problem than ORMs were. ORMs were the 2000's version of this, where it's like "Oh, okay, we hate dealing with SQL. We'll just put this object map on top of it, and map all the field properly." That ended up being highly problematic in terms of scale, and in just not using a lot of database features properly. GraphQL is a much saner approach to that, where it's like "No, let's take some of the constraints and also some of the benefits of a relational database and expose them to this layer and this API that actually can map on object structures a lot easier."
+\{36:15\} And yeah, those databases have never been great to use. We tried to do a lot of new stuff in the SQL hype cycle that happened, but when we netted out the other end everybody still wanted \[unintelligible 00:36:26.15\] So everything kind of reverted back to the mean, and now we're back to GraphQL, which is in a way a much saner approach to the problem than ORMs were. ORMs were the 2000's version of this, where it's like "Oh, okay, we hate dealing with SQL. We'll just put this object map on top of it, and map all the field properly." That ended up being highly problematic in terms of scale, and in just not using a lot of database features properly. GraphQL is a much saner approach to that, where it's like "No, let's take some of the constraints and also some of the benefits of a relational database and expose them to this layer and this API that actually can map on object structures a lot easier."
 
 **Antoni Kepinski:** Yeah, what I like about Prisma is that you don't really interact with the database; Prisma does it for you. I think that's making PizzaQL much easier and less time-consuming.
 
@@ -318,7 +318,7 @@ I also wanted to use GraphQL. This was the second time I was using it... And I f
 
 **Mikeal Rogers:** This is really cool. So for the visual layer - are you using components that integrate really easily into Prisma objects? Are you doing that work --
 
-**Antoni Kepinski:** \[40:06\] Yeah, to integrate with the GraphQL, Prisma and stuff, I'm using Apollo and Apollo React. And I'm taking the advantage of using server-side rendering with Next.js... And it's really easy to configure that. Of course, one of the most important features I want to add is to use GraphQL subscriptions, so that when someone creates an order, the manager does not need to refresh the page... But to do so, I need to write a custom Prisma resolver, which is a thing that I don't really know how to do, and I read more documentation about it.
+**Antoni Kepinski:** \{40:06\} Yeah, to integrate with the GraphQL, Prisma and stuff, I'm using Apollo and Apollo React. And I'm taking the advantage of using server-side rendering with Next.js... And it's really easy to configure that. Of course, one of the most important features I want to add is to use GraphQL subscriptions, so that when someone creates an order, the manager does not need to refresh the page... But to do so, I need to write a custom Prisma resolver, which is a thing that I don't really know how to do, and I read more documentation about it.
 
 **Mikeal Rogers:** I see you're also using StyledComponents here... A really cool library. I hadn't seen this before.
 
@@ -332,21 +332,21 @@ I also wanted to use GraphQL. This was the second time I was using it... And I f
 
 **Antoni Kepinski:** I think yes. At first, when I saw the Auth0 and Apollo GraphQL, I thought that I would never integrate it with my app. "I don't know how this works, I need to read a lot of documentation..." But what helped me were the tutorials on the internet, on the Medium blogs, and a lot of sample open source projects; they really helped me implement that. But now when I'm creating an app, I really focus on optimization. I see Google Chrome uses the new experimental feature of lazy-loading images, and for me web development is getting a bit stressful, and you need to learn a lot... And that wasn't the case in the past.
 
-**Feross Aboukhadijeh:** So when you initially learned, did you just learn HTML, CSS and JavaScript?
+**Feross Aboukhadijeh:** So when you initially learned, did you just learn HTML, CSS and JavScript?
 
 **Antoni Kepinski:** Yes, exactly.
 
-**Feross Aboukhadijeh:** Okay. So if you had a friend, or a little brother or sister who was trying to learn to program, would you tell them to start with HTML, CSS and JavaScript? Or would you try to teach them some of the stuff that you're using right now, like React and GraphQL and Apollo, and stuff like that?
+**Feross Aboukhadijeh:** Okay. So if you had a friend, or a little brother or sister who was trying to learn to program, would you tell them to start with HTML, CSS and JavScript? Or would you try to teach them some of the stuff that you're using right now, like React and GraphQL and Apollo, and stuff like that?
 
-**Antoni Kepinski:** \[43:56\] In my opinion, it's good to understand the basics - HTML, CSS and vanilla JavaScript first, because it makes learning other libraries like (React, Next.js) much easier in the future. So I don't think starting with React is a good way. It's better to learn the basics, and that's what I did.
+**Antoni Kepinski:** \{43:56\} In my opinion, it's good to understand the basics - HTML, CSS and vanilla JavScript first, because it makes learning other libraries like (React, Next.js) much easier in the future. So I don't think starting with React is a good way. It's better to learn the basics, and that's what I did.
 
 **Jerod Santo:** With that in mind, a bit of a thought experiment - so you have your front-end and your back-end, and your major front-end dependency is React; all these other things tie into React, or are part of it... And on the back-end, your major dependency it seems like is Prisma. It's providing you that GraphQL layer, and you could swap out a database. So if I had to tell you "You're gonna rewrite half of your application and you're gonna swap out one of your major dependencies", so you can't use React, or you can't use Prisma - which one would you be more willing to let go of? Or in other words, what's the harder thing that you had to rewrite or relearn a bunch of stuff if you didn't have? Would it be React, or would it be Prisma on the back-end?
 
-**Antoni Kepinski:** I think I would choose React. Making stuff in vanilla JavaScript isn't that hard. And also, I am not really a back-end developer, so removing Prisma would be really hard for me. I'd need to learn a lot of new stuff. I am more like a front-end developer... So yes, I would remove React.
+**Antoni Kepinski:** I think I would choose React. Making stuff in vanilla JavScript isn't that hard. And also, I am not really a back-end developer, so removing Prisma would be really hard for me. I'd need to learn a lot of new stuff. I am more like a front-end developer... So yes, I would remove React.
 
-**Feross Aboukhadijeh:** Yeah, that makes Sense. I mean, really, I think that React helps when you're dealing with a website that has hundreds of components, and you change state in one place and you wanna have all the components be in sync with that state. Honestly, a website with three, four, five pages is totally doable with plain, vanilla JavaScript. I understand once people get used to using React why they would wanna just use it all the time, even on a site that's simple; it's just because at that point you sort of have your tools in your toolbelt and you know how everything works with React, so you just wanna use it always... But you don't really need it in terms of -- it's not like it's impossible to make a plain JavaScript website and to sort of keep the state all in sync by hand for something that's simple enough.
+**Feross Aboukhadijeh:** Yeah, that makes Sense. I mean, really, I think that React helps when you're dealing with a website that has hundreds of components, and you change state in one place and you wanna have all the components be in sync with that state. Honestly, a website with three, four, five pages is totally doable with plain, vanilla JavScript. I understand once people get used to using React why they would wanna just use it all the time, even on a site that's simple; it's just because at that point you sort of have your tools in your toolbelt and you know how everything works with React, so you just wanna use it always... But you don't really need it in terms of -- it's not like it's impossible to make a plain JavScript website and to sort of keep the state all in sync by hand for something that's simple enough.
 
-**Antoni Kepinski:** Yeah, I saw your BitMidi application and I think it's written in pure JavaScript, am I right?
+**Antoni Kepinski:** Yeah, I saw your BitMidi application and I think it's written in pure JavScript, am I right?
 
 **Feross Aboukhadijeh:** BitMidi? No, it actually uses Preact.
 
@@ -364,9 +364,9 @@ I also wanted to use GraphQL. This was the second time I was using it... And I f
 
 **Antoni Kepinski:** I was impressed with the WebAssembly midi player on your page. It's a nice way to use WebAssembly, in my opinion.
 
-**Feross Aboukhadijeh:** Yeah, yeah. That's one of the best strengths of WebAssembly - to be able to take existing libraries that you don't wanna have to rewrite in JavaScript and just make them work. I actually considered rewriting it in JavaScript, but then I decided this is a perfect time to learn WebAssembly.
+**Feross Aboukhadijeh:** Yeah, yeah. That's one of the best strengths of WebAssembly - to be able to take existing libraries that you don't wanna have to rewrite in JavScript and just make them work. I actually considered rewriting it in JavScript, but then I decided this is a perfect time to learn WebAssembly.
 
-**Mikeal Rogers:** \[48:01\] I'm actually diving into a bunch of WebAssembly stuff because it can represent a different security model. You can't just run arbitrary JavaScript from arbitrary people; that's a bad idea... And there's a lot of limit to the current security model of the web, and a lot of big holes in it, like privacy... But WebAssembly doesn't have access to anything that you don't specifically pass into it. So if you can start to construct ways to share WebAssembly code, like code around data structures in particular, you can create a better security model, where as long as you contain the code and have certain limits on it, like you don't let it run for too long and stuff like that - yeah, you can now run kind of arbitrary code, from arbitrary people.
+**Mikeal Rogers:** \{48:01\} I'm actually diving into a bunch of WebAssembly stuff because it can represent a different security model. You can't just run arbitrary JavScript from arbitrary people; that's a bad idea... And there's a lot of limit to the current security model of the web, and a lot of big holes in it, like privacy... But WebAssembly doesn't have access to anything that you don't specifically pass into it. So if you can start to construct ways to share WebAssembly code, like code around data structures in particular, you can create a better security model, where as long as you contain the code and have certain limits on it, like you don't let it run for too long and stuff like that - yeah, you can now run kind of arbitrary code, from arbitrary people.
 
 **Antoni Kepinski:** Also, in terms of PizzaQL I'm thinking about rewriting it to TypeScript. I only recently learned about it, and I think it's really cool; it's a good way to write stuff. I've already rewritten some of my modules to TypeScript.
 
@@ -388,7 +388,7 @@ If you look at the pain that Node is going through in upgrading to these pattern
 
 **Mikeal Rogers:** I always caution people away from TypeScript, because it looks like one of those things -- it's covering up a deficiency of the language; that's the thing, that's they key. And so much of Node that we wrote was covering up deficiencies of the language... And because we wanted to use them then, we needed to do that, but it's so painful now to be upgrading everything, and to try and break the world and break the entire platform in order to catch up. Streams is probably the biggest example. Streams are super-painful. Every new version of Streams that we did ended up causing some break with the old stuff. There's now finally an actual pattern in the language that fixes this, and it's much better... And you realize very quickly that the moment that you're handling errors in your own special way and not allowing them to throw, you're off in your own crazy land, and you do not have the platform to help you anymore, and you're definitely covering up a deficiency in the language.
 
-**Jerod Santo:** \[52:04\] Yeah.
+**Jerod Santo:** \{52:04\} Yeah.
 
 **Mikeal Rogers:** Using async generators is just phenomenal. It's such a better pattern, and everything that I've built with it is infinitely simpler to deal with. But it's awkward; you can't use them still in those versions of Node -- well, I guess that's not true anymore, now that 12 is relatively current... Even LTS now supports the mode, although it does give you an annoying warning about it. But it's in all browsers now.
 
@@ -418,7 +418,7 @@ So I'd love to see packages that make working with actual browser-friendly APIs 
 
 **Jerod Santo:** So Antoni, this would be my advice for you, given where you are... TypeScript - take it or leave it; I don't have a take on that. You can take Mikeal's advice or not... I think what I would do -- if you were just purely in this for the learning and the leveling up, I would imagine some version of what 1.0 looks like in terms of PizzaQL's functionality, and get to there with your current stack. Just pound it out, get to 1.0.
 
-\[55:14\] Then if you have the time and the inclination, I would throw out your front-end; I would just throw the whole thing out and I would rewrite, and leave the back-end untouched, completely untouched... And start a completely fresh, brand new front-end, and write it with none of these technologies. I bet you'd learn a ton, I bet it would work very well, and I think you'd have fun doing that. I would have fun doing that, actually.
+\{55:14\} Then if you have the time and the inclination, I would throw out your front-end; I would just throw the whole thing out and I would rewrite, and leave the back-end untouched, completely untouched... And start a completely fresh, brand new front-end, and write it with none of these technologies. I bet you'd learn a ton, I bet it would work very well, and I think you'd have fun doing that. I would have fun doing that, actually.
 
 **Antoni Kepinski:** Okay, thanks. I think I will try that.
 
@@ -426,11 +426,11 @@ So I'd love to see packages that make working with actual browser-friendly APIs 
 
 **Mikeal Rogers:** One thing that I tend to tell newer programmers, or just people early in their career, is to especially early on learn languages that are really different from each other. If you know Python, don't learn Ruby. That's a somewhat useless exercise. But learning very different languages can really help you think about how to program, even in the languages that you're most familiar with.
 
-I never wrote a lot of Haskell, but learning Haskell was really beneficial, actually. It made me think about functional programming in a different way, that just learning what functional programming looks like in JavaScript never really made that kind of click... And you're learning Rust - that's a great one, actually; it's a typed language, so you're getting that experience. It also has a very novel approach to memory management and ownership that's actually very unique. It has you thinking about the stack and the heap, and the way that compilers work in a way that I don't think that a lot of other languages actually force you to think about... So that's also really cool.
+I never wrote a lot of Haskell, but learning Haskell was really beneficial, actually. It made me think about functional programming in a different way, that just learning what functional programming looks like in JavScript never really made that kind of click... And you're learning Rust - that's a great one, actually; it's a typed language, so you're getting that experience. It also has a very novel approach to memory management and ownership that's actually very unique. It has you thinking about the stack and the heap, and the way that compilers work in a way that I don't think that a lot of other languages actually force you to think about... So that's also really cool.
 
-So I'm all for learning languages that are very different from each other. That said, I don't think TypeScript is that different from anything that you're already learning. You have the typing in Rust, and the rest is basically just JavaScript, so...
+So I'm all for learning languages that are very different from each other. That said, I don't think TypeScript is that different from anything that you're already learning. You have the typing in Rust, and the rest is basically just JavScript, so...
 
-**Antoni Kepinski:** Yeah, for me learning Rust is harder than learning JavaScript, but that does not throw me away from learning Rust. For me it seems really nice.
+**Antoni Kepinski:** Yeah, for me learning Rust is harder than learning JavScript, but that does not throw me away from learning Rust. For me it seems really nice.
 
 **Mikeal Rogers:** Yeah... Also, a quick shout-out to Rust compiler errors. I've never seen more humane errors in any programming platform, ever.
 

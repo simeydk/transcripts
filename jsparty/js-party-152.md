@@ -30,7 +30,7 @@
 
 **Jonathan Creamer:** Yeah, thanks. So Ben and I worked at Eventbrite together; he actually brought me on to Eventbrite, which was really fun... So that's how we're friends. We used to see each other at conferences all the time, where we'd talk about DivOps things at the time, but we hadn't quite coined that term... So yeah, the DivOps thing happened because inside of Eventbrite I'm on the frontend infrastructure team, and that's kind of one of the more common terms you hear for describing a team that does the kind of work that we'll talk about, what DivOps does... But Kyle Welch, my co-worker and now manager - we used to talk about this all the time.
 
-\[04:17\] So I'm on frontend infrastructure, I'm technically a frontend developer. I've been writing code for ten years, a lot of backend stuff, C\#, ColdFusion, then to Node and JavaScript. Tons of JavaScript. But frontend-wise, I actually don't write that much frontend code anymore. I prefer TypeScript now to do that...
+\{04:17\} So I'm on frontend infrastructure, I'm technically a frontend developer. I've been writing code for ten years, a lot of backend stuff, C\#, ColdFusion, then to Node and JavScript. Tons of JavScript. But frontend-wise, I actually don't write that much frontend code anymore. I prefer TypeScript now to do that...
 
 **Nick Nisi:** Yes...!
 
@@ -60,7 +60,7 @@ So Kyle and I started this DivOps community on Slack, and I sort of blogged abou
 
 **Amal Hussein:** "HTML what...?" So Jonathan, that's super-cool. If you think about it, this is definitely a job that wasn't a thing ten years ago, or even five years ago perhaps... And so it's interesting how much the tooling landscape and the mindshare required has shifted the job market and focus of developers. And for companies working at scale, with huge frontend teams, there's typically a frontend infrastructure team, and typically a frontend platform team that's supplying a bunch of components, and then folks working on builds and pipelines and all the DX (developer experience) workflows. So it's really great to see Eventbrite has made that a thing as well.
 
-**Jonathan Creamer:** \[08:05\] Yup. I feel like most people who are doing it now sort of fell backwards into it. We were all writing jQuery code eight years ago, and doing things like the revealing module pattern, and using IIFEs... And all of a sudden you've just got all these cool -- you know, guys writing about JavaScript architecture back then, Nicholas Zakas, books on all that... And then Backbone came out, and that was like "Oh my god, Backbone is amazing! Now we've gotta build all this infrastructure around that; models, collections...", and then Marionette... And then RequireJS. Then you had to learn not only how to stop concatenating files, and do all that... And we just started this natural evolution; it became more and more complicated... And a lot of us just sort of fell backwards into it, and I just was like "This is awesome. I just wanna do this." I don't really wanna write code as much that people see; I like building this \[unintelligible 00:09:00.02\] way better." It's just fun.
+**Jonathan Creamer:** \{08:05\} Yup. I feel like most people who are doing it now sort of fell backwards into it. We were all writing jQuery code eight years ago, and doing things like the revealing module pattern, and using IIFEs... And all of a sudden you've just got all these cool -- you know, guys writing about JavScript architecture back then, Nicholas Zakas, books on all that... And then Backbone came out, and that was like "Oh my god, Backbone is amazing! Now we've gotta build all this infrastructure around that; models, collections...", and then Marionette... And then RequireJS. Then you had to learn not only how to stop concatenating files, and do all that... And we just started this natural evolution; it became more and more complicated... And a lot of us just sort of fell backwards into it, and I just was like "This is awesome. I just wanna do this." I don't really wanna write code as much that people see; I like building this \[unintelligible 00:09:00.02\] way better." It's just fun.
 
 When I think back on all the things that led me here, it's like -- and funny enough, we're actually still deprecating Backbone code here at Eventbrite, but that was really where I first started getting into having to figure out, like "We've got all these Backbone models..." I remember the dumbest thing -- I remember in 2010 having this ginormous, long, 10,000-line Backbone application, because I didn't know how to actually concatenate things at the time. I still have a Stack Overflow post from ten years ago, where I'm like "How do I take all these files and put them into one?" And I don't even remember what the answer was at the time, but somebody turned me on to something way back then...
 
@@ -70,11 +70,11 @@ When I think back on all the things that led me here, it's like -- and funny eno
 
 **Amal Hussein:** Wow...
 
-**Jonathan Creamer:** But yeah, I had to build that pipeline to take a bunch of files and squish them into one; that's where the revealing module pattern and all those early JavaScript patterns came in, so that you weren't leaking into the global namespace, and all that.
+**Jonathan Creamer:** But yeah, I had to build that pipeline to take a bunch of files and squish them into one; that's where the revealing module pattern and all those early JavScript patterns came in, so that you weren't leaking into the global namespace, and all that.
 
 And then when Grunt came out, obviously, that was the game-changer. Suddenly, we were like "Oh wow, now I have an official way of doing this whole thing. I'm gonna take now all these RequireJS modules and trace the dependencies, run r.js, uglify things, build my CSS, Grunt all the things... Yeah, that was really one of the first times when I realized "This is becoming a thing."
 
-**Amal Hussein:** Yeah, it really is. Taking a step back into the history of these tools - Grunt was the first JavaScript task runner; it was created by Ben Alman, cowboy on GitHub, or on the internet in general. Ben is just a really brilliant engineer; I think he's currently a principal engineer at Toast, I believe... But he worked at Bocoup for a number of years, which is a company that I worked at.
+**Amal Hussein:** Yeah, it really is. Taking a step back into the history of these tools - Grunt was the first JavScript task runner; it was created by Ben Alman, cowboy on GitHub, or on the internet in general. Ben is just a really brilliant engineer; I think he's currently a principal engineer at Toast, I believe... But he worked at Bocoup for a number of years, which is a company that I worked at.
 
 And the IIFE pattern is also something that Ben kind of invented and socialized throughout the community, so it's interesting to see the history there...
 
@@ -86,13 +86,13 @@ So we had Grunt, and then we had Gulp... It's interesting to see what the evolut
 
 **Divya:** And piping.
 
-**Amal Hussein:** Piping, yeah. And then you could write in JavaScript; there wasn't this weird other syntax that you needed to learn, and you could integrate... So it's interesting to see how that evolution has come through...
+**Amal Hussein:** Piping, yeah. And then you could write in JavScript; there wasn't this weird other syntax that you needed to learn, and you could integrate... So it's interesting to see how that evolution has come through...
 
 **Jonathan Creamer:** Yeah, definitely.
 
-**Amal Hussein:** ...all the way to React, where I think that was one of the first, if not -- yeah, I think it was the first JavaScript library that really couldn't copy-paste into the web. You can't just take that source code and -- you can't just take JSX and just copy-paste into the browser; a compiler is always required. That was a very big shift for the community, and one that I'm still personally -- I think \[unintelligible 00:12:12.17\] still pending for me on whether it's a good thing or not... But I don't know, what do you think, Divya?
+**Amal Hussein:** ...all the way to React, where I think that was one of the first, if not -- yeah, I think it was the first JavScript library that really couldn't copy-paste into the web. You can't just take that source code and -- you can't just take JSX and just copy-paste into the browser; a compiler is always required. That was a very big shift for the community, and one that I'm still personally -- I think \[unintelligible 00:12:12.17\] still pending for me on whether it's a good thing or not... But I don't know, what do you think, Divya?
 
-**Divya:** \[12:20\] What was the question? I totally missed what you said in the beginning.
+**Divya:** \{12:20\} What was the question? I totally missed what you said in the beginning.
 
 **Amal Hussein:** Oh, you spaced out?
 
@@ -128,15 +128,15 @@ So we had Grunt, and then we had Gulp... It's interesting to see what the evolut
 
 So yeah, to me it's just kind of -- build tools is just a part of it now, part of the job, like it or not, at some level.
 
-**Amal Hussein:** Yeah, it's like a necessary part of the job anyway, in order to write code that can be supported on multiple browsers, and performs well... I don't personally see a world where we aren't running build tools on our JavaScript code. I think the concern is more like -- the local development workflows personally for me have greatly been impacted by this, and I think we'll get into some of the tooling in the next segment...
+**Amal Hussein:** Yeah, it's like a necessary part of the job anyway, in order to write code that can be supported on multiple browsers, and performs well... I don't personally see a world where we aren't running build tools on our JavScript code. I think the concern is more like -- the local development workflows personally for me have greatly been impacted by this, and I think we'll get into some of the tooling in the next segment...
 
 I think there's also a bunch of skills needed to have an entry point into modern web dev now... And that's not very inclusive, because you're asking people who are learning the language and learning the jargon to now learn ops, learn how to manage config files.
 
-**Jonathan Creamer:** \[15:56\] Yeah. And that's where this whole thing came up... Because it's like "I don't want my devs having to come in and learn all that stuff. I'll take care of that for you. Put that on me. I love that stuff; I'll do that all day. I'll write you a WebPack config right now if you want one." I love doing that stuff, I don't know why. I geek out so hard on it.
+**Jonathan Creamer:** \{15:56\} Yeah. And that's where this whole thing came up... Because it's like "I don't want my devs having to come in and learn all that stuff. I'll take care of that for you. Put that on me. I love that stuff; I'll do that all day. I'll write you a WebPack config right now if you want one." I love doing that stuff, I don't know why. I geek out so hard on it.
 
 I want the junior engineers coming out of wherever, or just starting -- if you're listening to this podcast and you're like "I don't know all this stuff...", that's okay. Come to me and let's talk. I'll help you get going, and then over time I can teach you more about this, and why it's important, and how it works... But ultimately, definitely within the context of my company - I just want my feature teams to go make Eventbrite the best possible live events experience on the internet; and I don't want you to have to worry about your WebPack config, and your Babel config, and your ES modules, and whatever. It's like, I got you; that's my job.
 
-**Divya:** There's something to be said about the increase in the number of zeroconfig type tooling. For example - sure, 10-20 years ago writing frontend code was fairly straightforward. You'd write a single file, maybe a CSS file, and then later on you'd throw in JavaScript, or whatever... You don't need tooling for that. And then obviously, it's become more complex, where you have WebPack, and earlier there was Grunt and Gulp, and so on...
+**Divya:** There's something to be said about the increase in the number of zeroconfig type tooling. For example - sure, 10-20 years ago writing frontend code was fairly straightforward. You'd write a single file, maybe a CSS file, and then later on you'd throw in JavScript, or whatever... You don't need tooling for that. And then obviously, it's become more complex, where you have WebPack, and earlier there was Grunt and Gulp, and so on...
 
 But in the advent of tooling, at least at the beginning stages, there was not a lot of boilerplate code that you could just use and run with. You'd still have to write your own Grunt, you'd still have to run your own Gulp, and WebPack, and so on. But I think -- and this is sort of me endorsing frameworks to an extent, because I think frameworks have actually helped... There's an argument both sides, but I think in terms of Create React App let's say, it has given people the ability to just run Create React App, it creates a boilerplate for you, and then you can just run with it.
 
@@ -146,9 +146,9 @@ I think that's a positive, because it means that people don't have to learn a lo
 
 **Jonathan Creamer:** Yeah. And what's interesting about that, too - you're right, frameworks, that's part of why Next.js and Gatsby are so good and so popular; it's like, you don't have to worry about that stuff. But I think a lot of what's interesting is that companies like Eventbrite and like Google or whoever, people that have been around for a minute - we've had to go through transformations... We started with Backbone and Marionette; actually, before that it was, like I said, IIFEs... To Backbone, to Require, then to React, and shoving React inside Backbone, and then now taking React out and only doing React... It was sort of hard to find a breaking point, to just say "Hey, we're switching to Angular here, and Angular can do everything." We picked up React, because we saw React was happening... And really back then, four years ago, when Eventbrite switched to React, there wasn't a good React framework back then. Create React App wasn't a thing, and Next.js definitely wasn't a thing; maybe it was...
 
-\[19:56\] So I think from that perspective we sort of just all had to find the ways to take what we had done and build our own little frameworks around them, and that's where teams like \[unintelligible 00:20:07.04\] taking us into the future, taking the company into the future with React.
+\{19:56\} So I think from that perspective we sort of just all had to find the ways to take what we had done and build our own little frameworks around them, and that's where teams like \[unintelligible 00:20:07.04\] taking us into the future, taking the company into the future with React.
 
-**Nick Nisi:** Cool. Just to kind of close up this section, I had one more question... Where would you delineate the difference between DevOps and DivOps? Is it strictly JavaScript tooling is DivOps, and then everything else might be DevOps? Repo management can be something that a team takes advantage of, for example. Which side would that be on? And what are your thoughts on YAML?
+**Nick Nisi:** Cool. Just to kind of close up this section, I had one more question... Where would you delineate the difference between DevOps and DivOps? Is it strictly JavScript tooling is DivOps, and then everything else might be DevOps? Repo management can be something that a team takes advantage of, for example. Which side would that be on? And what are your thoughts on YAML?
 
 **Jonathan Creamer:** \[laughs\] Well, we're switching--
 
@@ -162,9 +162,9 @@ I think that's a positive, because it means that people don't have to learn a lo
 
 So that sort of give and take between DevOps and then my world -- it's like, I understand the DevOps flows and how to create my own infrastructure when I need to; I don't necessarily need to get into networking VPCs, and routing HTTP traffic. I can, and I like to understand that stuff, but that partnership with DevOps or SRE is, I think, the ideal place where we can create an API, like anything else. And same thing I'm talking about with this tooling stuff. It's like, "How do I work with the DevOps team? What levels, what touchpoints do we have?" and sort of building that understanding between the two.
 
-**Amal Hussein:** That's super-cool, Jonathan. I think what's really interesting for me is this convergence of these two worlds that in previous lives never talked to each other. You have opsy, infra, cloud, CI folk, and you have folks who are writing JavaScript that are maybe at the tip of the spear... It's this really nice full circle with DivOps, so thank you so much for talking to us about this cool topic. We'll get into tooling and all the other fun stuff you kids can't wait for next.
+**Amal Hussein:** That's super-cool, Jonathan. I think what's really interesting for me is this convergence of these two worlds that in previous lives never talked to each other. You have opsy, infra, cloud, CI folk, and you have folks who are writing JavScript that are maybe at the tip of the spear... It's this really nice full circle with DivOps, so thank you so much for talking to us about this cool topic. We'll get into tooling and all the other fun stuff you kids can't wait for next.
 
-**Break:** \[22:41\]
+**Break:** \{22:41\}
 
 **Amal Hussein:** Jonathan...
 
@@ -172,7 +172,7 @@ So that sort of give and take between DevOps and then my world -- it's like, I u
 
 **Amal Hussein:** That was a really cool insight into DivOps. And with Divya mentioning this separation of concerns, where Create React App has been create to abstract away all of the complexity around managing your configs, and lets you focus on just learning the tool... It's really nice that the community at large is starting to take that. We've seen even just with WebPack 4, many years ago there was -- I think they introduced the zeroconfigs there, as well.
 
-\[24:17\] I've been around long enough to remember Karma was a tool that was super-widely adopted, and is still widely adopted today because of the way legacy stuff works... But I was the one person that had to set up all the configs for all my teams, because no one ever really got it. Docs were pretty poor... We've come a long, long way in terms of tooling, defaults etc. But can you give us an overview of what you consider to be really the best in class tooling landscape for frontend teams in 2020? If I was starting a project today, what would I need, and how should we go about setting it up?
+\{24:17\} I've been around long enough to remember Karma was a tool that was super-widely adopted, and is still widely adopted today because of the way legacy stuff works... But I was the one person that had to set up all the configs for all my teams, because no one ever really got it. Docs were pretty poor... We've come a long, long way in terms of tooling, defaults etc. But can you give us an overview of what you consider to be really the best in class tooling landscape for frontend teams in 2020? If I was starting a project today, what would I need, and how should we go about setting it up?
 
 **Jonathan Creamer:** Yeah. So what's interesting is WebPack 5 just came out a few days ago, and it introduced a lot of things. You brought up WebPack 4 kind of converting into the -- you basically \[unintelligible 00:25:09.01\] wepback -p or webpack -d and it just sort of has the same defaults, which is great. So from that perspective - yeah, you've got a lot of options now. Parcel is another big one; I think that was sort of the whole mantra behind Parcel, noconfig. At least at first. I know then Kyle came in and kind of added a little bit of config, because there were some needs there... Parcel 2 is gonna be even more incredible in terms of what they're looking to do with Parcel 2. So I think Parcel is big...
 
@@ -186,7 +186,7 @@ We have tools built that can detect -- you know, if I change the button in my co
 
 If I change the button, I get a list of every app in every package downstream that it touches, that the button is affecting. So I can run my Jest tests against everything downstream to make sure I haven't broken everything. Same for WebPack. Now if I change the button, I can go run the WebPack builds of all the apps that use the button...
 
-\[27:52\] And the opposite is true - if I'm only touching one small widget used by 2-3 different applications, then the blast radius is a lot smaller. So you get some better CI wins for that, because most of your builds are pretty smooth and pretty quick, because most of the teams are focused on what they're focused on...
+\{27:52\} And the opposite is true - if I'm only touching one small widget used by 2-3 different applications, then the blast radius is a lot smaller. So you get some better CI wins for that, because most of your builds are pretty smooth and pretty quick, because most of the teams are focused on what they're focused on...
 
 But then, when we have teams that come in and want to make repo-wide sweeping changes, we've built that in to be able to confidently say "I can change this card display widget and make sure that everything else alongside it gets tested", which is really cool and super-fun. It took us a minute to get right, but it's been really fun. And that's the kind of tooling that -- I just love building that stuff. I just love seeing how that affects people's day-to-day, and the excitement that people get when we ship an update to it that makes it even better, and they're like "Oh, this is so great!"
 
@@ -204,11 +204,11 @@ What else, industry-wide, tooling-wise...?
 
 **Amal Hussein:** While you're thinking, I can clarify something for folks. We'll get into Snowpack in a bit, but... Snowpack does have -- I guess we can get into it now. Snowpack has interoperability with WebPack, so that you can use Snowpack for -- it's really geared towards your local development... And because you need to support older browsers that maybe don't have VSM, and whatever else; you can actually just literally use -- you just plug in your WebPack... They have a plugin essentially for production; you just use WebPack to build your production bundles.
 
-So for folks who are wondering, "What is Snowpack?" - well, we had Fred on the show a little while ago; I don't' remember what episode number, but we'll link it in the show notes... But Snowpack essentially is this awesome bundler that lets you -- it's ESM-first, so you don't need to bundle your JavaScript... So it's using native modules, and it drastically improves your local developer workflow, because you're able to build things file-by-file, and your spans and not gonna spin when you're doing a watch, and having to constantly update your whole bundle, update your whole bundle, update your whole bundle...
+So for folks who are wondering, "What is Snowpack?" - well, we had Fred on the show a little while ago; I don't' remember what episode number, but we'll link it in the show notes... But Snowpack essentially is this awesome bundler that lets you -- it's ESM-first, so you don't need to bundle your JavScript... So it's using native modules, and it drastically improves your local developer workflow, because you're able to build things file-by-file, and your spans and not gonna spin when you're doing a watch, and having to constantly update your whole bundle, update your whole bundle, update your whole bundle...
 
 So Snowpack is really great; a lot of frontend teams are starting to adopt it. We're also considering adopting it for my team, and teams at large at my company... So Id' highly recommend looking into it, just at minimum for local development workflow; it's a game-changer.
 
-**Jonathan Creamer:** \[32:01\] Yeah, I've definitely seen stuff about that. It's one of the ones that's like "Man, I need to look at that." I've got it in my ever-long to-do list of articles and things I need to learn about.
+**Jonathan Creamer:** \{32:01\} Yeah, I've definitely seen stuff about that. It's one of the ones that's like "Man, I need to look at that." I've got it in my ever-long to-do list of articles and things I need to learn about.
 
 **Amal Hussein:** Right. I'm gonna throw Nick a bone here, because I'm gonna talk about TypeScript... But how do you -- there's configs around linting, and there's this kind of suite of tools that are what I like to call in the same cluster; they're things that have a lot of peer dependencies... Whether it's a Babel preset that requires these versions of Babel core, or whether it's a TypeScript linting rule... There's all these clusters which really for me make upgrades extremely challenging. For example, when WebPack comes out with a major release, there's a ton of tools built around WebPack, and have peer dependencies set. What are recommendations for how to manage that?
 
@@ -224,7 +224,7 @@ And in terms of that, going to the next build pattern or the new upgrade and dea
 
 So our team actually has written several different ASTs to help us convert from old things to new things, and do those upgrades, by going to -- oh gosh, one of the biggest projects I worked on here at Eventbrite was actually taking us from \[unintelligible 00:35:53.08\] to 16. It was actually kind of hard; it took a while, because you've gotta make sure nobody's using the wrong \[unintelligible 00:36:00.01\] thing anymore, then you've gotta go in and upgrade some of these different libraries... So we had to write some code that writes code, to help that upgrade path. So if you're a team who manages a lot of code, like we do in frontend infrastructure, I cannot stress the importance and the usefulness of doing something like ASTs.
 
-\[36:22\] It even helps because ESLint actually is also using ASTs, too. You can write ESLint plugins to verify if there's certain patterns at your company that you want to enforce, you can write ESLint plugins to have enforce that kind of stuff. There's all kinds of cool stuff that you can do.
+\{36:22\} It even helps because ESLint actually is also using ASTs, too. You can write ESLint plugins to verify if there's certain patterns at your company that you want to enforce, you can write ESLint plugins to have enforce that kind of stuff. There's all kinds of cool stuff that you can do.
 
 **Amal Hussein:** Yeah, automation for the win. I think you're preaching to the choir. In this group we all love ASTs... \[laughs\] And generally, using automation as much as possible, for sure.
 
@@ -234,7 +234,7 @@ So our team actually has written several different ASTs to help us convert from 
 
 **Jonathan Creamer:** Yeah. And it's funny... I didn't use to feel this way. I used to get really nervous, but I do like 9,000-file-long commits all the time now. It's like "Eh, whatever." It's no big deal anymore. \[unintelligible 00:37:22.29\] Because I have that confidence now that I'm not gonna screw anything up. And it's not just like finding and replacing, which - half the time I try to do that, I just break VS Code. I try to find and replace something across every file in our repo and it took 30 minutes for VS Code to do it. And it took an AST that I ended up running like 30 seconds to just scan the entire repo and change it. BRRRP, done!
 
-**Amal Hussein:** Safe updates, right? ASTs are amazing for precision. One thing I wanna know for folks wondering why the Babel compiler is better for transpiling your TypeScript... We talked about this a little bit in Ben's show, but we can get into it now. Basically, Babel has a lot -- they're essentially an implementer on the TC39. The same way V8 implements JavaScript, Babel is considered an implementation of JavaScript, because they actually make polyfills, and they do transpiling... And they also deal with managing bugs and idiosyncrasies between browsers, right? So there's so much wealth there... Trying to replace Babel at this point is -- you know, you have to catch up to all the bug fixes... There's so much that they're handling, it's a good separation of concerns to use Babel to transpile and TypeScript to type-check, and not TypeScript to compile. You just get a lot more benefits there... So I was really glad when the babel/types merged; that was great.
+**Amal Hussein:** Safe updates, right? ASTs are amazing for precision. One thing I wanna know for folks wondering why the Babel compiler is better for transpiling your TypeScript... We talked about this a little bit in Ben's show, but we can get into it now. Basically, Babel has a lot -- they're essentially an implementer on the TC39. The same way V8 implements JavScript, Babel is considered an implementation of JavScript, because they actually make polyfills, and they do transpiling... And they also deal with managing bugs and idiosyncrasies between browsers, right? So there's so much wealth there... Trying to replace Babel at this point is -- you know, you have to catch up to all the bug fixes... There's so much that they're handling, it's a good separation of concerns to use Babel to transpile and TypeScript to type-check, and not TypeScript to compile. You just get a lot more benefits there... So I was really glad when the babel/types merged; that was great.
 
 **Jonathan Creamer:** Yeah, I agree. That's the workflow we also adopted.
 
@@ -242,7 +242,7 @@ So our team actually has written several different ASTs to help us convert from 
 
 **Jonathan Creamer:** TypeScript did a lot of really cool things around -- if you just wanna use TypeScript and you just wanna ship something and you don't care all that much, tsc is probably gonna be fine, especially with some of the composite project stuff that they have now, where it will only recompile the stuff you change. They have that built into TypeScript now, in terms of making things faster \[unintelligible 00:39:31.29\] It's pretty good. But yeah, as part of a larger ecosystem, we use tsc to type-check and dump d.ts files out to the filesystem that we can ship with our packages... Because that's the one thing that Babel can't do yet that I'm aware of, is generate the TypeScript definition files... Which is very useful, because if you are creating a package that you want those type definitions to be on for your autocomplete and your IDE, it's important to do that tsc step to get those type definitions.
 
-\[40:07\] And the funny thing is tsc is running in the background of VS Code anyways for you. That's why VS Code rocks as hard as it does - it's because whether or not you're using TypeScript at your company... If you're just like "I use JavaScript!" and then I'm like "Are you using VS Code?" and they're like "Yeah", I'm like "No, you're actually using TypeScript." Because whether or not you like it, it's taking your JavaScript and running it through the TypeScript compiler, analyzing your code, and telling you "Hey, you misspelled this." That's TypeScript; that's the power of their compiler...
+\{40:07\} And the funny thing is tsc is running in the background of VS Code anyways for you. That's why VS Code rocks as hard as it does - it's because whether or not you're using TypeScript at your company... If you're just like "I use JavScript!" and then I'm like "Are you using VS Code?" and they're like "Yeah", I'm like "No, you're actually using TypeScript." Because whether or not you like it, it's taking your JavScript and running it through the TypeScript compiler, analyzing your code, and telling you "Hey, you misspelled this." That's TypeScript; that's the power of their compiler...
 
 **Amal Hussein:** Which is powered by ASTs.
 
@@ -280,7 +280,7 @@ So yeah, very encouraged. We definitely push hard on telling teams "Don't just t
 
 **Amal Hussein:** Yeah, that's amazing. Well, the DivOps, automating code ownership. This is super-cool.
 
-**Jonathan Creamer:** \[44:11\] Yes, it's all about automating.
+**Jonathan Creamer:** \{44:11\} Yes, it's all about automating.
 
 **Amal Hussein:** Automate it all.
 
@@ -288,7 +288,7 @@ So yeah, very encouraged. We definitely push hard on telling teams "Don't just t
 
 **Amal Hussein:** That's amazing. I think I need to give Kyle my phone number. \[laughter\]
 
-**Break:** \[44:21\]
+**Break:** \{44:21\}
 
 **Nick Nisi:** What you described is actually very similar to what happens at the company I'm at. We have a team like that that works on also a monorepo. We're using Lerna for that, but very much a monorepo to make sure we're all on the same version of React, using the same version of TypeScript, things like that.
 
@@ -328,7 +328,7 @@ People jump from team to team inside of Eventbrite, and we even want new hires t
 
 **Amal Hussein:** It's in the name. Just kidding. \[laughs\] Just kidding.
 
-**Jonathan Creamer:** \[52:07\] Yeah, yeah. And when I got to Eventbrite, I was like "I don't want that culture." And especially now, everyone's remote, everyone's working from home... And I've been lucky also that I've done a lot of remote work, and when I was appendTo for years we were really good about staying in touch, and communicating... And yeah, we have folks seven hours ahead in Madrid. So I committed myself to waking up at 7 my time, and being online for 3-4 hours of crossover with that team, because I want to be able to help them solve their problems if they have it. Then I'm online for the last few hours of San Francisco's day. I'm in a good timezone I guess too, luckily... Because then the Mendoza folks are an hour ahead.
+**Jonathan Creamer:** \{52:07\} Yeah, yeah. And when I got to Eventbrite, I was like "I don't want that culture." And especially now, everyone's remote, everyone's working from home... And I've been lucky also that I've done a lot of remote work, and when I was appendTo for years we were really good about staying in touch, and communicating... And yeah, we have folks seven hours ahead in Madrid. So I committed myself to waking up at 7 my time, and being online for 3-4 hours of crossover with that team, because I want to be able to help them solve their problems if they have it. Then I'm online for the last few hours of San Francisco's day. I'm in a good timezone I guess too, luckily... Because then the Mendoza folks are an hour ahead.
 
 So yeah, it's facilitating that communication across teams, and making sure everybody's on the same page...
 
@@ -350,7 +350,7 @@ Then standards-wise, we've actually recently started this practice of writing wh
 
 So we'll write these ADRs about new ideas we have... That's another good change agent for making sure people feel like they're a part of shaping the thing, and it's not just "Frontend infrastructure put this new thing in."
 
-\[55:56\] To the point earlier about being customer-centric, I think we've built up a lot of trust with folks... Because we do focus so much on the customers, and making sure everybody's happy. In general, the frontend community trusts us to make the right call, which is huge. If we say "This is probably the right path", we generally get good -- and if there is an outlier that's like "I don't know, this doesn't seem to make sense", we just talk it out, and figure it out. It's been really, really great, I feel.
+\{55:56\} To the point earlier about being customer-centric, I think we've built up a lot of trust with folks... Because we do focus so much on the customers, and making sure everybody's happy. In general, the frontend community trusts us to make the right call, which is huge. If we say "This is probably the right path", we generally get good -- and if there is an outlier that's like "I don't know, this doesn't seem to make sense", we just talk it out, and figure it out. It's been really, really great, I feel.
 
 **Amal Hussein:** I was just gonna ask if you have an RFC process, a few minutes ago...
 
@@ -386,9 +386,9 @@ There's a guy from the Shopify team in DivOps, and he was talking about their me
 
 **Jonathan Creamer:** It is.
 
-**Amal Hussein:** ...not just like a support group. Because I thought it was an emotional support group, quite frankly... \[laughter\] But that's awesome. Consider me a new member, because I love nerding out about automation, and I use everything from Bash, to ASTs... I've been around the JavaScript world long enough to have just seen the patterns evolve... So it's nice to have some of that grandma knowledge to bring to this group.
+**Amal Hussein:** ...not just like a support group. Because I thought it was an emotional support group, quite frankly... \[laughter\] But that's awesome. Consider me a new member, because I love nerding out about automation, and I use everything from Bash, to ASTs... I've been around the JavScript world long enough to have just seen the patterns evolve... So it's nice to have some of that grandma knowledge to bring to this group.
 
-**Divya:** \[59:47\] I am curious though... One thing that does come up if you've been doing this for a while - you said you've been doing this for ten years, and Amal has been doing it for a really long time - one of the things, as someone who's also been doing it for a while, going from Grunt, to Gulp, to WebPack, and now Snowpack... People talk about JavaScript fatigue a lot, which is this constant moving from tool to tool... Which also brings up the question which I think we touched on during the break a little bit, which is like "Are we adding complexity where complexity is not needed? And is there a way in which we can move forward where we're not completely obliterating --" Because frontend infrastructure is gonna be a thing; people are gonna always wanna bundle, and transpile, and as long as that exists, this sort of work will exist. But is there a way and a path forward where we can make it streamlined?
+**Divya:** \{59:47\} I am curious though... One thing that does come up if you've been doing this for a while - you said you've been doing this for ten years, and Amal has been doing it for a really long time - one of the things, as someone who's also been doing it for a while, going from Grunt, to Gulp, to WebPack, and now Snowpack... People talk about JavScript fatigue a lot, which is this constant moving from tool to tool... Which also brings up the question which I think we touched on during the break a little bit, which is like "Are we adding complexity where complexity is not needed? And is there a way in which we can move forward where we're not completely obliterating --" Because frontend infrastructure is gonna be a thing; people are gonna always wanna bundle, and transpile, and as long as that exists, this sort of work will exist. But is there a way and a path forward where we can make it streamlined?
 
 I think it is a luxury to have a team dedicated to frontend infrastructure, and I don't think that that's something every team can do... So do you see a future in which this is easy for people to get into and deepen their knowledge, without having to know everything?
 
@@ -396,13 +396,13 @@ I think it is a luxury to have a team dedicated to frontend infrastructure, and 
 
 I sort of think we have reached a point at which the innovation has sort of leveled out a little bit. Snowpack is a more recent one, but... Finally, that JS fatigue -- I remember going to conferences a couple years ago, and every talk was about JS fatigue. I've seen less of that now. I think we're finally getting over that hump, to a certain extent, because people went off and innovated, and now we've sort of found those common denominators about what things need to be there... And now that's why you're seeing frameworks like Next, and Gatsby, and Create React App, and Create Next App, and all these things become more popular. And then maybe the evolution to that is -- you know, we talked a little bit in the break again about where do we go in the future; maybe tools like Rust can come in and help speed things up, and who knows what's gonna happen next.
 
-**Divya:** Yeah, it's interesting you brought that up, because we actually -- especially with Babel, there are a lot of people talking about how Babel is complex, and sometimes it's really slow, and there's a lot of issues with it... And part of it is implementation, part of it is also just community, and how much time you can put into open source etc. But it's interesting to see JavaScript tooling move in a direction that I just never thought that it would move into.
+**Divya:** Yeah, it's interesting you brought that up, because we actually -- especially with Babel, there are a lot of people talking about how Babel is complex, and sometimes it's really slow, and there's a lot of issues with it... And part of it is implementation, part of it is also just community, and how much time you can put into open source etc. But it's interesting to see JavScript tooling move in a direction that I just never thought that it would move into.
 
-Now you see Rust coming into the fold, so you have things like SWC, that allows you to do TypeScript checking for you, which is way faster than Babel... Which I think, sort of almost to Nick's question, moves into this completely -- it sort of takes DevOps and DivOps and it's almost like DivOps moves in that direction really quickly... Because as we see people moving towards picking other languages other than JavaScript to write tooling, then is that even frontend anymore? Because that's almost full-on DevOps at that point.
+Now you see Rust coming into the fold, so you have things like SWC, that allows you to do TypeScript checking for you, which is way faster than Babel... Which I think, sort of almost to Nick's question, moves into this completely -- it sort of takes DevOps and DivOps and it's almost like DivOps moves in that direction really quickly... Because as we see people moving towards picking other languages other than JavScript to write tooling, then is that even frontend anymore? Because that's almost full-on DevOps at that point.
 
 **Jonathan Creamer:** Yeah, that's a great call-out. And again, it just kind of comes back to the whole thing, like "What am I? What is my job description?" I'm a frontend infrastructure person not writing frontend at that point. But I think it's just like picking a framework; some frameworks make sense for you, some don't.
 
-We did the pick-your-own-adventure game with React and Redux, and it kind of goes for tooling, too. If you're hitting bottlenecks in your tooling -- you're probably not gonna be hitting bottlenecks in speed, just building some landing pages, marketing pages, little eCommerce sites; that's probably not the problem. But a big company is like -- we are where we're dealing with 10,000 JavaScript files. If you're hitting that performance bottleneck, something like Rust or Go might make sense. It's a new thing to learn, but it's gonna solve some of those performance bottlenecks. But it's about picking and meeting the problem where it's at, and not just creating problems that don't exist yet.
+We did the pick-your-own-adventure game with React and Redux, and it kind of goes for tooling, too. If you're hitting bottlenecks in your tooling -- you're probably not gonna be hitting bottlenecks in speed, just building some landing pages, marketing pages, little eCommerce sites; that's probably not the problem. But a big company is like -- we are where we're dealing with 10,000 JavScript files. If you're hitting that performance bottleneck, something like Rust or Go might make sense. It's a new thing to learn, but it's gonna solve some of those performance bottlenecks. But it's about picking and meeting the problem where it's at, and not just creating problems that don't exist yet.
 
 \[01:04:10.29\] If you're not dealing with 10,000, 50,000, 100,000 file-projects, Rust and Go probably don't make sense yet. At least not yet. Maybe in a year or so there'll be some more incredible Go and Rust tooling for frontend... We're getting there though. But picking the tool that makes sense for you and your team where you're at is what's important, I think. Just like picking a framework.
 
@@ -426,7 +426,7 @@ We did the pick-your-own-adventure game with React and Redux, and it kind of goe
 
 **Jonathan Creamer:** Oh yes, yes. So I was sitting there doodling one day, and I drew the angle brackets and the hammer, and I was like "That kind of looks like Mjölnir, Thor's hammer." So I sketched something out that kind of looked like it. Also, when people ask me what I do that are not tech people, I tell them "Yeah, we're kind of like a hammer builder. We build hammers for other people to build stuff." That's the easiest way I can describe to a non-tech person what I actually do in my job. So I saw the angle bracket, and the hammer, I saw the Mjölnir, and then my friend David Neal on Twitter - he's a really great illustrator now, and also engineer. We've known each other for a really long time. So I threw it at him and he came back with that, and I was really excited about it. He's awesome. If you don't follow David, give him a follow, too. He's great.
 
-**Amal Hussein:** That's awesome. We'll try to link his profile. Thanks for calling out the logo thing, Nick, because I feel like logos are what make things official in JavaScript communities, you know?
+**Amal Hussein:** That's awesome. We'll try to link his profile. Thanks for calling out the logo thing, Nick, because I feel like logos are what make things official in JavScript communities, you know?
 
 **Nick Nisi:** Exactly.
 
@@ -456,7 +456,7 @@ We did the pick-your-own-adventure game with React and Redux, and it kind of goe
 
 **Jonathan Creamer:** Yeah, right, right... Most people that came in gave intros, and we said hey, and we meet every now and then to talk... But yeah, that's a good question; they're not sentient beings.
 
-**Amal Hussein:** Well, thank you for answering my question in a serious way. I really appreciate that you took my question seriously. That's awesome. \[laughs\] Thank you. So with that said, Jonathan, you are, I would say, gold for any team writing JavaScript. You and all of your teammates.
+**Amal Hussein:** Well, thank you for answering my question in a serious way. I really appreciate that you took my question seriously. That's awesome. \[laughs\] Thank you. So with that said, Jonathan, you are, I would say, gold for any team writing JavScript. You and all of your teammates.
 
 **Jonathan Creamer:** Thank you.
 

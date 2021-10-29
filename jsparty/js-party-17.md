@@ -1,8 +1,8 @@
-**Adam Stacoviak:** We're gonna do a different show today, which is we had some kerfuffles on scheduling, and we don't wanna miss the show, because we're all busy and we wanna keep it rolling... So ask us anything. if you're on Twitter, if you're on some sort of social platform, if you're right here in Slack, drop a note in there and I'm gonna do my best to ask Rachel and Mikeal some questions about JavaScript, the web platform, where we're going, what we're doing...
+**Adam Stacoviak:** We're gonna do a different show today, which is we had some kerfuffles on scheduling, and we don't wanna miss the show, because we're all busy and we wanna keep it rolling... So ask us anything. if you're on Twitter, if you're on some sort of social platform, if you're right here in Slack, drop a note in there and I'm gonna do my best to ask Rachel and Mikeal some questions about JavScript, the web platform, where we're going, what we're doing...
 
 Mikeal, maybe we can still talk about the ICO, which is unique... Is it the first of its kind, the Initial Coin Offering?
 
-**Mikeal Rogers:** No, there's been other ICOs for the cryptocurrencies... This is just one that's actually kind of related to JavaScript and the web, because it's an attention token that's gonna be in the Brave browser, that relates to your -- it's an alternative to advertising, and it does micropayments instead.
+**Mikeal Rogers:** No, there's been other ICOs for the cryptocurrencies... This is just one that's actually kind of related to JavScript and the web, because it's an attention token that's gonna be in the Brave browser, that relates to your -- it's an alternative to advertising, and it does micropayments instead.
 
 **Rachel White:** Can we mine it now?
 
@@ -24,7 +24,7 @@ They made 35 million. I think the current market cap on the coins that went out 
 
 Now, the way that that's treated by the IRS is just straight up capital gains, so you're gonna get a pretty big tax penalty unless you do -- and I imagine that everybody who's raising more than a couple million dollars on these ICOs is probably doing this where they're filing some kind of company off-shore to avoid some of those tax penalties.
 
-**Adam Stacoviak:** \[04:03\] So we want this to be in the pre-show, or somehow meld this into the ending production?
+**Adam Stacoviak:** \{04:03\} So we want this to be in the pre-show, or somehow meld this into the ending production?
 
 **Mikeal Rogers:** I thought we were live...
 
@@ -78,7 +78,7 @@ What I was talking about before with -- if you pull it out in cash, you've made 
 
 **Mikeal Rogers:** You take it out in cash...
 
-**Adam Stacoviak:** \[08:02\] Right, when you turn it into your denomination - USD, EUR, or whatever your currency is - you turn it into what we consider maybe real dollars, real cash... At that point you could be subject to capital gains?
+**Adam Stacoviak:** \{08:02\} Right, when you turn it into your denomination - USD, EUR, or whatever your currency is - you turn it into what we consider maybe real dollars, real cash... At that point you could be subject to capital gains?
 
 **Mikeal Rogers:** Yes. This also translates if you transfer to other property and then sell that property.
 
@@ -105,7 +105,7 @@ Anyway, so for blockchains there's this whole side of things that's like currenc
 There's an element of transparency and provability without a centralized owner that is really important for a bunch of use cases. What Brave is going after with this basic attention token is essentially the ad market. If you've ever read a bunch about the advertising market, especially online, there's a huge amount of fraud, a huge amount of fake clicks... There's everything from click farms to people just generating crazy wild numbers for what has and has not happened on different services and what not.
 If you wanna try to solve that, you need something that is provable and has a lot of these elements of transparency and provability baked in... So what they're looking at is this basic attention token. This is a provable way to show that you spent some attention on something. That could be used to prove that you saw an advertisement or saw some content... Or what they're probably betting on a little bit more than that is you can prove that people spend time on a site, and then you can inject capital and money into where you spend your attention, and that can be doled out as micropayments to those sites.
 
-\[12:19\] If you've used the Brave browser, they already have this feature baked in where you can do these micropayments. You can say "Look, I don't wanna deal with advertisements on website, I hate all that kind of stuff, but I do wanna support content creators, so I'm gonna pour $20/month into wherever I spend my time." What happens is that Brave tracks that in a way that is anonymized and protects your privacy, but it also allows them to dole out some of that to all these different places where you're spending your time.
+\{12:19\} If you've used the Brave browser, they already have this feature baked in where you can do these micropayments. You can say "Look, I don't wanna deal with advertisements on website, I hate all that kind of stuff, but I do wanna support content creators, so I'm gonna pour $20/month into wherever I spend my time." What happens is that Brave tracks that in a way that is anonymized and protects your privacy, but it also allows them to dole out some of that to all these different places where you're spending your time.
 
 **Adam Stacoviak:** That's pretty interesting.
 
@@ -119,7 +119,7 @@ Then also on Request For Commits - you probably remember this - with Brendan Eic
 
 **Adam Stacoviak:** A lot of people are using Patreon, mostly content creators, and what bums me out is seeing crazily enthusiastic content creators pointing to and basically begging their listeners or their audience, "Support Me!", and you go to their Patreon and they're getting $13/month. Nothing upsets me more than seeing -- sure, maybe it's amateur content, so to speak, and I say that loosely because it's not like mainstream media content, for example, like highly polished, 16-20 behind it... It's one person, two people maybe, but there's somebody who's out there doing something on the web that's of value to others, and they're essentially asking their audience to support it, and they go to that Patreon page and it's like $13/month. That's horrible. That's not working.
 
-**Mikeal Rogers:** \[16:20\] I think that when you look at how to fund content -- and we look at those a lot when we're talking about how to fund open source and how to have a sustainability strategy for open source... But the world of content and art is as big and dynamic, and there's not one way to fund things, and there's not content that necessarily appeals to every way of funding. So it works really well for certain kinds of artists that have a really personal following, a small but dedicated following, I'd say.
+**Mikeal Rogers:** \{16:20\} I think that when you look at how to fund content -- and we look at those a lot when we're talking about how to fund open source and how to have a sustainability strategy for open source... But the world of content and art is as big and dynamic, and there's not one way to fund things, and there's not content that necessarily appeals to every way of funding. So it works really well for certain kinds of artists that have a really personal following, a small but dedicated following, I'd say.
 
 I think that if you were making a couple million dollars a month on Patreon you would probably stop getting new people putting in money, regardless of how much the content costs to make.
 
@@ -141,7 +141,7 @@ Let's get off of blockchain for a while, let's move on...
 
 **Mikeal Rogers:** Right.
 
-**Break:** \[18:51\] to \[20:30\]
+**Break:** \{18:51\} to \{20:30\}
 
 **Adam Stacoviak:** We've got some robotics topics to talk about. Rachel, I understand that you're a purveyor of robotics, you like this stuff.
 
@@ -149,13 +149,13 @@ Let's get off of blockchain for a while, let's move on...
 
 **Adam Stacoviak:** You dabble, and sometimes you might even have fun doing it... What do you think?
 
-**Rachel White:** I saw the question that was asked... So the reason that I use JavaScript in robotics is because I know JavaScript; I don't know C. If I need to get into something that is a little bit more specific to C, I can work my way around it, but I can't write it from scratch.
+**Rachel White:** I saw the question that was asked... So the reason that I use JavScript in robotics is because I know JavScript; I don't know C. If I need to get into something that is a little bit more specific to C, I can work my way around it, but I can't write it from scratch.
 
-Basically, the reason that I think JavaScript is good for robotics and embedded hardware is because of the community that is involved that is available to the NodeBots community. The Johnny-Five site is amazing, the documentation is great...
+Basically, the reason that I think JavScript is good for robotics and embedded hardware is because of the community that is involved that is available to the NodeBots community. The Johnny-Five site is amazing, the documentation is great...
 
-When I say robotics too, I don't mean like very intense, giant things... This is just like hobbies-level stuff, so like small little -- there's sumo bots that can push each other out of circles, or play soccer... We're not changing the world, inventing anything that's going to revolutionize the way that modern machinery is made with JavaScript robotics, I don't think, but I think that it's a really interesting way to help people that are wanting to learn how to write Node, and maybe they're just not grasping the way that it works with building a single-page application.
+When I say robotics too, I don't mean like very intense, giant things... This is just like hobbies-level stuff, so like small little -- there's sumo bots that can push each other out of circles, or play soccer... We're not changing the world, inventing anything that's going to revolutionize the way that modern machinery is made with JavScript robotics, I don't think, but I think that it's a really interesting way to help people that are wanting to learn how to write Node, and maybe they're just not grasping the way that it works with building a single-page application.
 
-I really like the way that the tangibility of even just taking a breadboard with LEDs and hooking it up to an Arduino and being able to write JavaScript you can get stuff to happen... Not to mention using LEDs for visualizing different types of loops is really a great way to help understand it. It helped me understand how that kind of stuff was done.
+I really like the way that the tangibility of even just taking a breadboard with LEDs and hooking it up to an Arduino and being able to write JavScript you can get stuff to happen... Not to mention using LEDs for visualizing different types of loops is really a great way to help understand it. It helped me understand how that kind of stuff was done.
 
 In terms of performance-based stuff, obviously C is gonna be faster than Node stuff, but I feel like all of the stuff that I've built hasn't really had any issues with the runtime, or any lag whenever I do whatever "action A triggers action B." The performance differences aren't really big enough to make a difference for at least the hobby-level stuff that I do with it.
 
@@ -165,27 +165,27 @@ In terms of performance-based stuff, obviously C is gonna be faster than Node st
 
 **Mikeal Rogers:** A lot of the IoT stuff - like yeah, you do have these use cases where you need it to be super low power, because it's gotta be on a little battery for a year, but with robotics you're gonna be pretty high-power anyway, because you're doing these pretty big movements and moving around heavy things, so that means they are gonna have a higher powered onboard device and you can run Node just as well as anything else that runs on that little embedded system.
 
-**Adam Stacoviak:** It would seem to me too that going the route of C versus going the route of JavaScript, one might be a higher/lower barrier to entry. You might have to have a lot of systems knowledge, maybe a lot of deeper knowledge about programming that C would require, whereas JavaScript - you can sort of run that anywhere; it's a little bit easier to get involved, and dare I even say maybe a slightly larger, more welcoming community, so it's a little easier to find your place to fit in. That seems like a pretty standard thing to think about as well.
+**Adam Stacoviak:** It would seem to me too that going the route of C versus going the route of JavScript, one might be a higher/lower barrier to entry. You might have to have a lot of systems knowledge, maybe a lot of deeper knowledge about programming that C would require, whereas JavScript - you can sort of run that anywhere; it's a little bit easier to get involved, and dare I even say maybe a slightly larger, more welcoming community, so it's a little easier to find your place to fit in. That seems like a pretty standard thing to think about as well.
 
-**Mikeal Rogers:** \[24:15\] Because I came from lower-level languages and I watched higher-level languages take over and get a lot more people using them than the lower-level languages, it's always hilarious to me when people from higher-level languages start to get into lower-level languages... Because they really ignore a lot of the things that higher-level languages do for you. It's just so easy to make mistakes in C; mistakes that will still be compiled and your program will still run, but will introduce a security vulnerability, or a memory leak... It's very hard to make good, reliable programs in C and C++, and that's why we built higher-order languages, so that you can stay within some extra boundaries that will make it not just easier to program, but also easier to not make mistakes.
+**Mikeal Rogers:** \{24:15\} Because I came from lower-level languages and I watched higher-level languages take over and get a lot more people using them than the lower-level languages, it's always hilarious to me when people from higher-level languages start to get into lower-level languages... Because they really ignore a lot of the things that higher-level languages do for you. It's just so easy to make mistakes in C; mistakes that will still be compiled and your program will still run, but will introduce a security vulnerability, or a memory leak... It's very hard to make good, reliable programs in C and C++, and that's why we built higher-order languages, so that you can stay within some extra boundaries that will make it not just easier to program, but also easier to not make mistakes.
 
 **Rachel White:** Yeah, I feel like a lot of the libraries that allow people to get started with NodeBots take the mistake-making part of the process out of it. The mistakes that you're gonna make when you're doing it is more like -- they're going to be your wiring, then the programs that you're writing, because so much of the sensors and modules that you're using already have the code written. You can pretty much just like copy/paste a ton of it and you're ready to go, and then you just have to learn a little bit about electricity and how circuits work, and then you can start combining things to make a lot more dynamic stuff.
 
-**Adam Stacoviak:** Can we rewind a bit and talk a bit about the chasm or the difference between learning JavaScript and a single-page web application scenario, versus let's say robotics, where you mentioned interesting things around loops, and blinking lights... Why is it different? What's different about it?
+**Adam Stacoviak:** Can we rewind a bit and talk a bit about the chasm or the difference between learning JavScript and a single-page web application scenario, versus let's say robotics, where you mentioned interesting things around loops, and blinking lights... Why is it different? What's different about it?
 
 **Rachel White:** For me it's a learning style thing. Some people are okay with grasping a concept, and some people just really need to visualize what they're doing in order to understand it.
 
-For me, I'm a super visual learner, and I think that's why I was so taken to the JavaScript robotics stuff, because I could -- I mean, I've been programming for almost half of my life, and I'm a s\*\*\*\*y programmer; I don't know data structures, I don't understand those things... I just know what I know from repetition and building stuff.
+For me, I'm a super visual learner, and I think that's why I was so taken to the JavScript robotics stuff, because I could -- I mean, I've been programming for almost half of my life, and I'm a s\*\*\*\*y programmer; I don't know data structures, I don't understand those things... I just know what I know from repetition and building stuff.
 
 It's just nice when you can touch something that you've built, versus just looking at -- I guess you could touch a computer screen, but it's a little bit different. I don't know...
 
-**Mikeal Rogers:** I think a more interesting question is actually "What is similar about UI programming the browser to robotics in JavaScript?", because I think there's actually more similarities than differences. And when you look at a lot of the languages that people have built specifically for IoT, they're taking a lot of these threading patterns that we have for -- basically, people have written for desktop programming and operating system programming, a lot of low-level stuff, and it's interesting that JavaScript and the browser didn't go that direction; they went the direction of events. We talk a lot about asynchronous programming now, but just basic DOM events, like when you click on something, something happens. That's how robotics work, and that's how JavaScript robotics work, and it's actually very similar.
+**Mikeal Rogers:** I think a more interesting question is actually "What is similar about UI programming the browser to robotics in JavScript?", because I think there's actually more similarities than differences. And when you look at a lot of the languages that people have built specifically for IoT, they're taking a lot of these threading patterns that we have for -- basically, people have written for desktop programming and operating system programming, a lot of low-level stuff, and it's interesting that JavScript and the browser didn't go that direction; they went the direction of events. We talk a lot about asynchronous programming now, but just basic DOM events, like when you click on something, something happens. That's how robotics work, and that's how JavScript robotics work, and it's actually very similar.
 
 I feel like UI people actually have an easier time on-boarding than people that are used to threaded C++ programming that try to move into this evented environment.
 
-**Rachel White:** \[27:59\] It depends on the on-boarding, obviously. If you can set somebody up with good documentation, then yeah, that's good. I feel like even five years ago there was still not great documentation for a ton of front-end UI stuff... At least I didn't have a good time with it.
+**Rachel White:** \{27:59\} It depends on the on-boarding, obviously. If you can set somebody up with good documentation, then yeah, that's good. I feel like even five years ago there was still not great documentation for a ton of front-end UI stuff... At least I didn't have a good time with it.
 
-**Mikeal Rogers:** If you're getting into JavaScript for robotics - or JavaScript hardware stuff in general - there's a lot of libraries out there, everything in NPM; there's maybe even more embedded systems that support this. It's like the Atari 2600 days of computing, everybody's got their own specialized board...
+**Mikeal Rogers:** If you're getting into JavScript for robotics - or JavScript hardware stuff in general - there's a lot of libraries out there, everything in NPM; there's maybe even more embedded systems that support this. It's like the Atari 2600 days of computing, everybody's got their own specialized board...
 
 You mess with a lot of these, Rachel. What do you recommend that people pick up as a first introductory set of hardware, and what libraries would you point them to?
 
@@ -193,17 +193,17 @@ You mess with a lot of these, Rachel. What do you recommend that people pick up 
 
 The projects that I think it gives you to build are -- there's like a little robot one, it comes with DC motors. I honestly just get the kits now, because -- like, whenever you go to conferences and there's people giving stuff away for swag, I just break everything apart into individual components I can use later... But there's a whole bunch of documentation that comes with it that helps you get up and running.
 
-The other libraries that you can use are -- Bryan Hughes has a library that allows you to use JavaScript for the Raspberry Pi... I only recently started using a Raspberry Pi. The new model 3 makes it a lot easier to be able to use it without having to plug it into your router or SSH into it, because you can use something called PiBakery to start your card up... So it already has the Raspbian operating system on it, and then you can configure this thing called "VNC Viewer", which lets you essentially -- it's like a virtual machine on your computer that you're actually logged into the Raspberry Pi with, so you see the whole Linux operating system.
+The other libraries that you can use are -- Bryan Hughes has a library that allows you to use JavScript for the Raspberry Pi... I only recently started using a Raspberry Pi. The new model 3 makes it a lot easier to be able to use it without having to plug it into your router or SSH into it, because you can use something called PiBakery to start your card up... So it already has the Raspbian operating system on it, and then you can configure this thing called "VNC Viewer", which lets you essentially -- it's like a virtual machine on your computer that you're actually logged into the Raspberry Pi with, so you see the whole Linux operating system.
 
 I actually just built this cool gallery out of a 32x32 LED matrix using a Raspberry Pi, and I'm running Node on the Pi, and I'm also running Node on a single-page app that's hosted on Azure. The way that it works is you -- so there's not a lot of good Node libraries for the LED matrix, so all I did was installed the C library that already works for displaying art on the matrix, and instead I have the Node application listening over the IoT hub on Azure, and it just runs the C shell commands whenever it gets the message to display art... Which is kind of hacky and cheating, but there's a lot of ways that you can jump in and use Node with a lot of things.
 
 **Mikeal Rogers:** Those are the best hacks. I love that stuff!
 
-**Rachel White:** \[31:58\] It's like, I kind of inadvertently built the world's hackiest Node library for displaying art on a LED matrix... So you can, too. What else do we have?
+**Rachel White:** \{31:58\} It's like, I kind of inadvertently built the world's hackiest Node library for displaying art on a LED matrix... So you can, too. What else do we have?
 
 **Adam Stacoviak:** So the point of an "Ask us anything" show is people asking questions, but I guess Mikeal and I might have some questions, which we've already shared a few...
 
-**Rachel White:** You can ask us questions not about JavaScript as long as they're safe for work...
+**Rachel White:** You can ask us questions not about JavScript as long as they're safe for work...
 
 **Adam Stacoviak:** That's true, yeah.
 
@@ -221,7 +221,7 @@ There's a question about IDEs... So I've never used IDEs, I've always used strai
 
 **Mikeal Rogers:** Didn't you use it before you worked there?
 
-**Rachel White:** No, I used Sublime Text. But honestly, it doesn't really feel that different. I use Visual Studio Code with a bunch of syntax plugins for JavaScript, and Node debugging stuff... I'm on my Mac right now as I type this, so I can't even open -- well, I don't have it installed on here, because I just use this for the podcast. Wow, that was a weird noise.
+**Rachel White:** No, I used Sublime Text. But honestly, it doesn't really feel that different. I use Visual Studio Code with a bunch of syntax plugins for JavScript, and Node debugging stuff... I'm on my Mac right now as I type this, so I can't even open -- well, I don't have it installed on here, because I just use this for the podcast. Wow, that was a weird noise.
 
 It's really good... So Mikeal's looking for a new computer, right? \[laughs\] And he's like asking people "What should I get?" Well, he just wants a laptop. But the reason I bring this up is because he said it on Facebook, and some guy in his comments was like "Ugh, dev work on a Windows machine?", and just wanted to be like "Have you even tried?", because... I don't know, it's just so nice, especially with Git for -- I don't know how to say this word correctly... Ubuntu? The Bash for that on Windows is fantastic. I have it running inside of Hyper, which is great. My terminal and my code editor are beautiful, and they run great and they're fast.
 
@@ -241,7 +241,7 @@ I have the JS Standard Linter installed, I have NPM Intellisense, so that will a
 
 Also Search Node Modules I think is really cool. It searches your Node modules directory for autocompletion as well.
 
-**Rachel White:** \[36:08\] I have this markdown preview one that's super nice, because I write a lot of documentation for the projects that I do, and it lets me preview it right in the Window, which is cool... I don't have to open it up or push it up before I check out what it looks like.
+**Rachel White:** \{36:08\} I have this markdown preview one that's super nice, because I write a lot of documentation for the projects that I do, and it lets me preview it right in the Window, which is cool... I don't have to open it up or push it up before I check out what it looks like.
 
 **Adam Stacoviak:** Yeah, what a pain to ship to GitHub or something like that just to get a preview of your markdown file... No, that's not how you do it.
 
@@ -275,7 +275,7 @@ We talked about that, and then finally we got to this scenario where he was talk
 
 **Rachel White:** I also recently switched my font for programming to Operator Mono... Which is not cheap, but it's beautiful, and it's really easy on the eyes.
 
-**Adam Stacoviak:** \[40:00\] Back to the somewhat of a surprise for developers on Windows to have an easy time - wasn't there a time though where it was harder for them? I know maybe in the Ruby space at least there was... And this is like late 2008, 2009 timeframe, 2006... It was not easy to get set up.
+**Adam Stacoviak:** \{40:00\} Back to the somewhat of a surprise for developers on Windows to have an easy time - wasn't there a time though where it was harder for them? I know maybe in the Ruby space at least there was... And this is like late 2008, 2009 timeframe, 2006... It was not easy to get set up.
 
 **Rachel White:** It really depends on the language that you write and what you need it to do. I've always had a Mac and a PC, and I've always programmed on both of them...
 
@@ -313,7 +313,7 @@ I'm continually surprised by the things that I love from Microsoft. I use Outloo
 
 **Adam Stacoviak:** Well, that's the thing though -- I think Microsoft has sort of like kept this bad name or this bruise... They got punched in the face, as the 1999 Mikeal would have done - punched Microsoft in the face because it just wasn't adding up, and they were walking around with a fake black eye, or something like that, because it's not really there anymore; it's sort of done. I bumped my leg now, just by the way. That was a loud rumble. It's just not there anymore... So they've changed, but everyone keeps the previous opinion about them, even though it may not be warranted, like the person in the Facebook comment you mentioned.
 
-**Rachel White:** \[44:03\] Well, I know that one of the things that people harp on Microsoft a lot of for is everyone's like "Blue Screen of Death! It's so horrible!" and people love to take pictures of stuff out in the wild that have the Blue Screen of Death on, and they can just be like "Ha-ha... Look at Microsoft!", except I don't think that people realize that the reason there's a Blue Screen of Death there is more often than not the reason because since they've made it so accessible for people to build their own custom stuff for Windows, the Blue Screen of Death is Windows as an operating system telling you that there is a problem, and it's usually because of software that you're using that wasn't built by Microsoft. So it's like doing you a favor...
+**Rachel White:** \{44:03\} Well, I know that one of the things that people harp on Microsoft a lot of for is everyone's like "Blue Screen of Death! It's so horrible!" and people love to take pictures of stuff out in the wild that have the Blue Screen of Death on, and they can just be like "Ha-ha... Look at Microsoft!", except I don't think that people realize that the reason there's a Blue Screen of Death there is more often than not the reason because since they've made it so accessible for people to build their own custom stuff for Windows, the Blue Screen of Death is Windows as an operating system telling you that there is a problem, and it's usually because of software that you're using that wasn't built by Microsoft. So it's like doing you a favor...
 
 **Mikeal Rogers:** Yeah... I mean, also, if there is a blue screen, I think that they stopped doing that like ten years ago in their operating system. So these dumb kiosks have 10-year-old operating system, of course they're awful, of course they wrote awful software on top of it...
 
@@ -337,7 +337,7 @@ I'm continually surprised by the things that I love from Microsoft. I use Outloo
 
 I remember Gaurav Seth saying "I've been there 11 years, and the last few years have been the best years ever." I don't wanna put words in his mouth, but he seemed to be coming from a place where "I may not have been here much longer if it didn't change." That seemed to be the sentiment, but he didn't say that though. But it was like "Microsoft has changed so much for me as a developer to make me enjoy my job, allowing me to do cool stuff as Chakra Core, and fun stuff with Node, and do stuff in the community, whereas before it was never like that."
 
-**Rachel White:** \[47:54\] Yeah, I've heard that from a bunch of people. More questions!
+**Rachel White:** \{47:54\} Yeah, I've heard that from a bunch of people. More questions!
 
 **Mikeal Rogers:** Yeah.
 
@@ -425,9 +425,9 @@ I remember Gaurav Seth saying "I've been there 11 years, and the last few years 
 
 **Adam Stacoviak:** What about you, Mikeal?
 
-**Mikeal Rogers:** Let me think... Okay, there is a project called LeafletJS. It's a pretty amazing JavaScript library for doing everything you ever wanted to do with maps - embedding maps that work on mobile, and desktop, all the interactions, putting points in... All that cool stuff. There's this great company MapZen that's a sort of cheaper and slightly easier to use alternative to MapBox for embedding maps and interacting with them, and they use this library as their base, and then they provide a bunch of tiles and services for doing smart routing, and stuff.
+**Mikeal Rogers:** Let me think... Okay, there is a project called LeafletJS. It's a pretty amazing JavScript library for doing everything you ever wanted to do with maps - embedding maps that work on mobile, and desktop, all the interactions, putting points in... All that cool stuff. There's this great company MapZen that's a sort of cheaper and slightly easier to use alternative to MapBox for embedding maps and interacting with them, and they use this library as their base, and then they provide a bunch of tiles and services for doing smart routing, and stuff.
 
-\[52:15\] I've been building a little app in my spare time for fun with that library, and I was really impressed with how far along this LeafletJS thing is... It does literally everything. And for a task this huge you kind of have to be a big framework, but as far as big frameworks and big piles of code go, it's actually easy to use and not very obtuse.
+\{52:15\} I've been building a little app in my spare time for fun with that library, and I was really impressed with how far along this LeafletJS thing is... It does literally everything. And for a task this huge you kind of have to be a big framework, but as far as big frameworks and big piles of code go, it's actually easy to use and not very obtuse.
 
 **Adam Stacoviak:** Well, my pick will be something to tease up some future content for us. There was a blog post on the Heroku blog talking about the Rise of Kotlin. We just recorded an episode this week which will go out in about three weeks because we have a small backlog... And I'm pretty excited about this. It was a fun conversation -- my son's crying in the background, because it's time... \[laughter\] But the fun thing about Kotlin is it's very interesting in terms of how it's come about from a third-party product company, so to speak - it comes from JetBrains. We talked about IDEs earlier - they're like the experts of creating IDEs.
 

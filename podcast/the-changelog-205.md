@@ -78,7 +78,7 @@ I saw this with my father who died at Easter, and this is how we did it, as a fa
 
 Actually, this is probably a good time to take a break - we're about 20 or so minutes into the show - but let's come back and touch on a couple of the things that you say that are positive ways to talk to someone who's dying. I think you mentioned... Things you like, for example. So let's take this break, we'll come back and talk about some things that are constructive to talk to you, so that way when other folks feel invited to speak with you, whether it's on Twitter or through some social way, or actually face to face in these upcoming meetups you have, they have a sign from your post, they have you actually saying some things that help them understand how to talk to you and how to treat you. So let's take this break, we'll be right back.
 
-\[27:32\] COMMERCIAL BREAK \[28:04\]
+\{27:32\} COMMERCIAL BREAK \{28:04\}
 
 **Adam Stacoviak:** Alright, we're back from the break and we're talking to Pieter about a protocol for dying - it's obviously a unique thing to speak about. Pieter, you've done very great with making this readable by the world and sharing different ways to talk to someone and not to talk to someone who's passing away. Walk us through a couple of the things that are on the positive side, how to speak with somebody that is in your situation.
 
@@ -146,7 +146,7 @@ Basically, I've been pushing kind of silently for people to understand that evol
 
 **Jerod Santo:** Well, you definitely have the experience that bears it out. You've been probably there with many opportunities to spray some repellant. Let's take our last break and we'll continue talking about this, as well as community stuff, and we have some good closing questions for you as well. Lots to talk about, we'll probably run out of time and think "Man, I wish we had more time with Pieter", but let's take that break and we'll continue the conversation in a moment.
 
-\[49:58\] COMMERCIAL BREAK \[50:31\]
+\{49:58\} COMMERCIAL BREAK \{50:31\}
 
 **Jerod Santo:** Alright, we are back with Pieter Hintjens. Pieter, we've talked about a lot of things on this call. We've talked about or around ZeroMQ, which is the project that I knew you for. Now I'm starting to think maybe C4 will be your legacy, but nonetheless ZeroMQ - a very interesting project, and we've been talking about the community around it and the way you've managed it and the way you're passing the baton on.
 
@@ -271,11 +271,11 @@ So you've obviously got I guess most of your languages taken care of. It seems l
 
 It's also available as an O'Reilly book, called ZeroMQ, and there's also PDFs that you can download. O'Reilly were actually very happy with us having it available online at the same time as they made the printed version. The printed book is really nice, it's quite a fat book, it's a large book, to be honest, but it looks good in the bookshelf.
 
-**Adam Stacoviak:** Is it as thick as the JavaScript book...?
+**Adam Stacoviak:** Is it as thick as the JavScript book...?
 
-**Jerod Santo:** ...the JavaScript Bible.
+**Jerod Santo:** ...the JavScript Bible.
 
-**Pieter Hintjens:** I don't have the JavaScript Bible.
+**Pieter Hintjens:** I don't have the JavScript Bible.
 
 **Adam Stacoviak:** That's awesome. I guess one more topic here on ZeroMQ - we talked about the community, we talked about technology... Not just getting started, but what areas of the community can people fill in? We always ask the question of "How can the community help?", that's essentially the basic question. Where are the needs in ZeroMQ and how can people step up to fill those needs?
 
@@ -379,7 +379,7 @@ So we were working on this this year earlier and I had to stop, I was really get
 
 So my idea was look, you have a house full of these things, controlling - they all have GPIO, you can control stuff - controlling lights, controlling temperature, sensing rainfall, whatever you want. And they cluster together. You don't have to configure them individually because there's too many of them. You just plug them in the wall and possibly connect to a Wi-Fi and that's it. You don't program them, instead you send code to them. You don't program them by updating the firmware - whatever is involved right now, with this horrendous process of sending your compiled code to the thing. That's finished, that shouldn't be happening. Instead, these little devices should be picking up code from the network like a browser does, and running it and then throwing it away. That's how I wanted my kids to be programming the light bulbs - write a bit of code, send it to the light bulb. Switch on - become green. Switch off at 10:30... I don't know. And if there are a hundred light bulbs, they will all respond the same way. If there's two, they'll respond the same way.
 
-That notion of the internet of things becoming the web of little devices speaking some language - probably JavaScript; it will be JavaScript... Which is kind of sad, but that's how it's gonna be, I guess.
+That notion of the internet of things becoming the web of little devices speaking some language - probably JavScript; it will be JavScript... Which is kind of sad, but that's how it's gonna be, I guess.
 
 I wanted to make that happen. Then I wanted to sell - a-ha! - make money. How did you make money from open source? So I wanted to sell security on top of that, and certificates so that you could get properly signed code, that's been authenticated. This is a lovely area, it goes into things like mesh networking and so on. Devices can be also Wi-Fi routers, they can talk to each other, they can build whole structures like that.
 

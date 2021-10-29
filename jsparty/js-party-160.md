@@ -1,4 +1,4 @@
-**Kevin Ball:** Hello, JS Party people! Welcome back to another week of partying about JavaScript and the web. I'm Kball, I will be your host this week, and with me today to discuss the State of \* surveys, where \* = CSS or JS, I have the one and only Jerod Santo. Hey, Jerod.
+**Kevin Ball:** Hello, JS Party people! Welcome back to another week of partying about JavScript and the web. I'm Kball, I will be your host this week, and with me today to discuss the State of \* surveys, where \* = CSS or JS, I have the one and only Jerod Santo. Hey, Jerod.
 
 **Jerod Santo:** I thought we were gonna be the stars.
 
@@ -18,15 +18,15 @@
 
 **Jerod Santo:** We were faking it.
 
-**Kevin Ball:** So excited to be here. Last year was a \*bleep\*, but we made it! By virtue of speaking or listening to this podcast, you made it. You are here, in 2021, and we are gonna talk about what's changing in JavaScript and CSS, and we're gonna jump into that by looking at the State of JS and State of CSS surveys that were done and published at the end of last year. There's a State of JS 2020, a State of CSS 2020... And one of the fun things about that is we can actually look at the differences between what was going on in 2020, what people said, and what was going on in 2019, talk about those trends... We can prognosticate about whether or not they missed something...
+**Kevin Ball:** So excited to be here. Last year was a \*bleep\*, but we made it! By virtue of speaking or listening to this podcast, you made it. You are here, in 2021, and we are gonna talk about what's changing in JavScript and CSS, and we're gonna jump into that by looking at the State of JS and State of CSS surveys that were done and published at the end of last year. There's a State of JS 2020, a State of CSS 2020... And one of the fun things about that is we can actually look at the differences between what was going on in 2020, what people said, and what was going on in 2019, talk about those trends... We can prognosticate about whether or not they missed something...
 
-\[04:03\] But yeah, let's start with just kind of talking about those surveys, because we've talked about them before... What strikes you guys when you think about these surveys? I know when we talked about doing it, some folks were like "Oh, those surveys..." and some folks were like "Yeah, those surveys!!"
+\{04:03\} But yeah, let's start with just kind of talking about those surveys, because we've talked about them before... What strikes you guys when you think about these surveys? I know when we talked about doing it, some folks were like "Oh, those surveys..." and some folks were like "Yeah, those surveys!!"
 
 **Jerod Santo:** I like surveys, I like to look at data... And I appreciate the work that goes into these surveys. We've of course broke them down in the past, and... Doing surveys is hard. In fact, we at Changelog have thought about doing surveys, and talked to folks about doing some surveys, and we were always like "Do we really wanna do surveys?", because it's tough to do well, and you open yourself to all sorts of criticism, which - I don't like criticism. I just prefer to be a star...!
 
 So I just appreciate Sacha and the team and everybody who works on these, because it's tough to do well, and they've come under some criticism because of how they've been conducted over the years; I'm sure we'll dive into all that, but... I do enjoy just looking at what's going on and seeing the changes over time, and then talking about it. I think some of these things have to be taken with a grain of salt, but that being said, it's good conversation pieces.
 
-**Nick Nisi:** Yeah, and I really like that it validates all of my conceptions about JavaScript and CSS of today.
+**Nick Nisi:** Yeah, and I really like that it validates all of my conceptions about JavScript and CSS of today.
 
 **Kevin Ball:** That's sweet.
 
@@ -40,11 +40,11 @@ So I just appreciate Sacha and the team and everybody who works on these, becaus
 
 **Kevin Ball:** Well, and that is one of the interesting both critiques that have been leveled at these surveys, but also one of the things that they've worked on and done well - how do you determine what's the sample for your survey? Who is being surveyed? And if you're doing a scientific survey with the purpose of trying to prove something, then you wanna figure out what the population is that you're trying to understand, and survey a representative sample.
 
-Here we're trying to kind of get a sense of just the broadest possible swathe of the web, and I think they've taken the spray and pray approach, which is like "Okay, push this in as many directions as we possibly can, so we can get the most possible data, and worry a little bit less about does this accurately model any particular population within the web dev community." As a result, we have lots of data to look at. As you do this, do be a little bit careful in drawing conclusions about the representation of all of JavaScript or all of CSS.
+Here we're trying to kind of get a sense of just the broadest possible swathe of the web, and I think they've taken the spray and pray approach, which is like "Okay, push this in as many directions as we possibly can, so we can get the most possible data, and worry a little bit less about does this accurately model any particular population within the web dev community." As a result, we have lots of data to look at. As you do this, do be a little bit careful in drawing conclusions about the representation of all of JavScript or all of CSS.
 
 One of the things they do do nicely is they print out the demographics of who it was that answered the surveys, so that you can see who is this representative of, and if you come in with a feeling about what the web industry looks like, or what your company looks like, you can get a sense of whether or not this data is likely to be representative of you.
 
-**Jerod Santo:** Plus, you have to ask yourself how much does it really matter, as well. You know, like "So other people are digging this particular technology... Does that mean that I need to be using that technology? Or does that mean that I'm less than because I use this other technology?" It's worth understanding what other people are doing, what they appreciate, what they're moving away from, what they're moving towards... But all those are just data points for you and your life and your work and your team to make decisions. So that's why we say "Take it with a grain of salt, because even if this survey was 100% the actual facts of the world of JavaScript and CSS, that doesn't mean that it informs your context whatsoever."
+**Jerod Santo:** Plus, you have to ask yourself how much does it really matter, as well. You know, like "So other people are digging this particular technology... Does that mean that I need to be using that technology? Or does that mean that I'm less than because I use this other technology?" It's worth understanding what other people are doing, what they appreciate, what they're moving away from, what they're moving towards... But all those are just data points for you and your life and your work and your team to make decisions. So that's why we say "Take it with a grain of salt, because even if this survey was 100% the actual facts of the world of JavScript and CSS, that doesn't mean that it informs your context whatsoever."
 
 So - grain of salt. Still enjoyable to look at, and of course, confirming your priors is always fun, so... You know, we're here to see if TypeScript is doing awesome, or...
 
@@ -56,7 +56,7 @@ So - grain of salt. Still enjoyable to look at, and of course, confirming your p
 
 **Kevin Ball:** I mean, the new government website that just was relaunched after the inauguration - folks were tearing it down. It's using jQuery. Not a problem. So they're still like -- that's one of the wealthiest governments in the world doing their website, and they're using jQuery. So if you're using jQuery - no shame, even if it's not showing up in this survey. Lots of different stuff there.
 
-\[08:11\] Okay, cool. So before we dig in, we've talked about values, pros and cons, but the team behind these surveys has also talked a little bit about what they want to do moving forward. I know some of the big changes that they made coming into 2020 from 2019 was they improved the breadth of demographics that they were looking for, and they did a lot more in terms of pulling in information from the community about learning, where to learn from, what good resources are... Which I think highlights that strength point you were talking about, Jerod, of using this as a place to get a sense of what people are doing, and kind of explore, rather than use it to try to tell yourself if you're doing good or not. What are some of the other things they've said they're gonna do?
+\{08:11\} Okay, cool. So before we dig in, we've talked about values, pros and cons, but the team behind these surveys has also talked a little bit about what they want to do moving forward. I know some of the big changes that they made coming into 2020 from 2019 was they improved the breadth of demographics that they were looking for, and they did a lot more in terms of pulling in information from the community about learning, where to learn from, what good resources are... Which I think highlights that strength point you were talking about, Jerod, of using this as a place to get a sense of what people are doing, and kind of explore, rather than use it to try to tell yourself if you're doing good or not. What are some of the other things they've said they're gonna do?
 
 **Jerod Santo:** I mean, it's worth giving a shout-out to Sacha Greif and Raphaël Benitte - I believe that's how you say his name - who is really the team behind both State of CSS and State of JS; they've been doing it for many years, so this is very much a labor of love. A lot of people pitched in this year, so they have a special thanks on their website, including some folks doing translation, so that's really cool...
 
@@ -70,15 +70,15 @@ So just a few things that he put out that they would like to do this year, and j
 
 They call it in a blog post, that they're two white guys trying to do this on Twitter, which is predominantly white male, and trying to reach out through that... And it's hard when you're trying to get thousands more, as opposed to like 10-20 more for a conference.
 
-**Kevin Ball:** \[11:38\] Yeah. And if you look at the demographic trends that they have over time, they are trending more diverse. They're getting a wider range of folks from different countries around the world, they started measuring primary languages, and they're getting more and more diversity there... There's somewhat more gender diversity... There's definitely room to grow on that dimension, but they're acknowledging it as an issue and they're moving in the right direction.
+**Kevin Ball:** \{11:38\} Yeah. And if you look at the demographic trends that they have over time, they are trending more diverse. They're getting a wider range of folks from different countries around the world, they started measuring primary languages, and they're getting more and more diversity there... There's somewhat more gender diversity... There's definitely room to grow on that dimension, but they're acknowledging it as an issue and they're moving in the right direction.
 
-**Break:** \[12:08\]
+**Break:** \{12:08\}
 
 **Kevin Ball:** Alright, so coming back into it, let's talk about what stood out in the State of CSS survey and what you're taking away from it. Let's start with you, Jerod - when you looked at this State of CSS 2020, what did you notice? What stood out to you?
 
 **Jerod Santo:** For me what stood out is that people who responded to this survey (let me preface that), they generally like CSS quite a bit... Which is somewhat funny when we talked about a few weeks back why people complain about CSS so often. Because even since that conversation, I put a post out on Changelog.com as well, just reviewing some of the reasons that we thought, I've seen so much complaining about CSS over the last few weeks just on Twitter alone, that it seems like it's like the whipping boy - or girl, depending on how you think of CSS - of the community. There's just so much complaining, and rabble-rousing, and debating... It's just like, wow. Very interesting.
 
-\[16:24\] And then the survey says people are generally pretty happy with CSS, which I think is appropriate and cool... Because let's face it, it's a very powerful set of tools and technologies, and there's so much that people accomplish on the web, and build amazing things. I just love going to a website and being like "Wow, this website is amazing. The person that put this CSS together really knows their stuff." That's such a great feeling, and celebrating that.
+\{16:24\} And then the survey says people are generally pretty happy with CSS, which I think is appropriate and cool... Because let's face it, it's a very powerful set of tools and technologies, and there's so much that people accomplish on the web, and build amazing things. I just love going to a website and being like "Wow, this website is amazing. The person that put this CSS together really knows their stuff." That's such a great feeling, and celebrating that.
 
 So just seeing that, you know, of course, there are things that could be better, there are things that are hard to learn, things that are hard to use, waiting for browsers to support X, Y or Z... There's all these little intricate details. But in general, people do like CSS, and that was just really nice to see. And then secondly, I think the trending thing is no surprise, because we've been talking about it recently... It's that Tailwind has really taken over the mindshare, I think, of the frontend CSS space in 2020.
 
@@ -92,21 +92,21 @@ So just seeing that, you know, of course, there are things that could be better,
 
 And the utility classes are starting to be something that a lot of people are congealing around. Of course, Tailwind provides that set of utility classes, and so it seems like a radical idea. You know, Tachyons, Bulma is another one... There's a handful of these things over the years that have been saying "Let's do CSS with these utility classes, which seem they're non-semantic etc. and it really makes things better, and it seems like that's starting to become -- I don't know if it's a best practice, Kball... What do you think? It's becoming popular-er, and Tailwind is leading that charge.
 
-**Kevin Ball:** Yeah, I think similar to what we've seen in the JavaScript ecosystem, there are ongoing both questions and trends around what are the right abstractions to use. And the types of abstractions that are gonna make sense in a CSS environment that is visual, and spacial, and essentially intended to apply to wide varieties of screen dimensions, and things like that, the problem space of CSS - that's a very different problem space than you encounter in JavaScript, so it's not surprising that the ideas about what's gonna make sense there are not the same.
+**Kevin Ball:** Yeah, I think similar to what we've seen in the JavScript ecosystem, there are ongoing both questions and trends around what are the right abstractions to use. And the types of abstractions that are gonna make sense in a CSS environment that is visual, and spacial, and essentially intended to apply to wide varieties of screen dimensions, and things like that, the problem space of CSS - that's a very different problem space than you encounter in JavScript, so it's not surprising that the ideas about what's gonna make sense there are not the same.
 
-I think we went a little overboard on the semantic CSS approach because it modeled closer to how we were used to thinking about things in more imperative programming languages like JavaScript... And that turns out to have some challenges when you shifted into that visual space.
+I think we went a little overboard on the semantic CSS approach because it modeled closer to how we were used to thinking about things in more imperative programming languages like JavScript... And that turns out to have some challenges when you shifted into that visual space.
 
 I wanted to jump back a little bit to what you said about people liking CSS, because I think it highlights one of the challenges in this type of survey... I think there might be a selection bias. The people who chose to take the State of CSS survey - they break down demographics by reported skill level and CSS proficiency, and 61% of the people who answered this survey consider themselves experts, with expert being defined as "Able to style an entire frontend from scratch, following a consistent methodology."
 
-\[20:18\] That body of people have likely already put in a tremendous amount of work learning the mental models of CSS... Which, as I mentioned, CSS is a very different problem domain and mental model than most other programming domains you're gonna end up with... And I think that might be the source of a lot of hate. A lot of the folks who hate on CSS - they have not made that shift into understanding the mental model. And because it's different, it feels painful; it's raw, it doesn't work right for how their heads are set up.
+\{20:18\} That body of people have likely already put in a tremendous amount of work learning the mental models of CSS... Which, as I mentioned, CSS is a very different problem domain and mental model than most other programming domains you're gonna end up with... And I think that might be the source of a lot of hate. A lot of the folks who hate on CSS - they have not made that shift into understanding the mental model. And because it's different, it feels painful; it's raw, it doesn't work right for how their heads are set up.
 
 So I think we should 1) use this to say "Yes, there's a large body of people out there who do love CSS", and for good reason. It's an incredibly powerful and interesting language, and I think that mental model is actually a really interesting one to wrap your head around... But not necessarily take this as representative of the community as a whole. Because everyone who hasn't climbed that learning curve, from what I can see, they didn't take the survey.
 
-**Jerod Santo:** Yeah, really good point. And perhaps a bright spot for those who are banging their head against CSS right now; maybe you're just getting started. It is one of the first things that you learn, as well. HTML and CSS, and then JavaScript. I think you should learn them in that order.
+**Jerod Santo:** Yeah, really good point. And perhaps a bright spot for those who are banging their head against CSS right now; maybe you're just getting started. It is one of the first things that you learn, as well. HTML and CSS, and then JavScript. I think you should learn them in that order.
 
 HTML you can actually pick up in a day or two, because once you understand the sideways tree... I'm saying the basics; it takes a long time to master, of course. But it's so approachable... Like, "Okay, here's a tree structure. We nest things inside. We give them names. Take a cheatsheet, memorize these elements", and then attributes, and it goes from there. We learn forms, that kind of stuff. You can pick that up in a day. I have taught it to people and they have had no problem. Mentally, they're just like "Cool!" and they're excited to come back for day two.
 
-And then day two - I used to do a three-day real basic web development class, and it was like day one, HTML, day two, CSS, day three, how to make something hide in JavaScript. So it was like the most basic JavaScript you could do. Day two, come back and now it's time to start talking CSS, and it can be a real struggle at first. Like you said, that mental model is not mapped as easily, by anybody probably... By most folks at least.
+And then day two - I used to do a three-day real basic web development class, and it was like day one, HTML, day two, CSS, day three, how to make something hide in JavScript. So it was like the most basic JavScript you could do. Day two, come back and now it's time to start talking CSS, and it can be a real struggle at first. Like you said, that mental model is not mapped as easily, by anybody probably... By most folks at least.
 
 But these experts, the 60% who can do it, they've made it through that way - they like it, they enjoy it. They're productive. And so for those of us who are in the mucky-muck, trying to figure out the mental model, trying to figure out why it doesn't look the way that we want it to, if we power through and persist and persevere, likely at the end of that tunnel is a technology that a) is very powerful, and you can accomplish a lot, and make money, and make cool things, and all that, but b) you'll probably end up liking it.
 
@@ -122,11 +122,11 @@ But these experts, the 60% who can do it, they've made it through that way - the
 
 **Jerod Santo:** Yeah, just CSS. Just start slapping stuff out there.
 
-**Nick Nisi:** \[24:26\] But that could lead one way or the other. Like, do you actually like CSS? Or if you're writing this very different variant that is hyperscoped, and gets rid of the cascade, and is in -- I mean, not necessarily in JS, but it's not traditional CSS, and it's kind of changing the rules of CSS... Is that making someone like CSS more, because it's making it easier to use? And also, is that kind of making people feel like they're more of an expert, because there's so much tooling that you have to setup beforehand?
+**Nick Nisi:** \{24:26\} But that could lead one way or the other. Like, do you actually like CSS? Or if you're writing this very different variant that is hyperscoped, and gets rid of the cascade, and is in -- I mean, not necessarily in JS, but it's not traditional CSS, and it's kind of changing the rules of CSS... Is that making someone like CSS more, because it's making it easier to use? And also, is that kind of making people feel like they're more of an expert, because there's so much tooling that you have to setup beforehand?
 
 **Jerod Santo:** Hm... These are great questions that I have no answers to...
 
-**Kevin Ball:** Yeah. No idea. I think one interesting thing in this space that actually contrasts it a little bit with the JavaScript space, is - especially if we look at the changes and how much people are using different things, there has been dramatic change both in the libraries and tooling space, but also just in the underlying features of CSS. So there's a dramatic increase in folks using CSS Grid. There's a dramatic increase in folks using customer properties. And those are things that allow you to do stuff that you used to need a lot of tooling to do. And in some cases, they let you do things that you basically couldn't do at all, even with tooling.
+**Kevin Ball:** Yeah. No idea. I think one interesting thing in this space that actually contrasts it a little bit with the JavScript space, is - especially if we look at the changes and how much people are using different things, there has been dramatic change both in the libraries and tooling space, but also just in the underlying features of CSS. So there's a dramatic increase in folks using CSS Grid. There's a dramatic increase in folks using customer properties. And those are things that allow you to do stuff that you used to need a lot of tooling to do. And in some cases, they let you do things that you basically couldn't do at all, even with tooling.
 
 So there's quite a bit of innovation in what the underlying platform supports and how much people are able to use that... At the same time, there is also this change in framework; there's a lot of people using Tailwind. That's dramatically changing. Many moves towards these sort of, as you highlight, the more functional and utility-based CSS, and away from some of the more semantic CSS frameworks... And there's increasing amounts of CSS-in-JS. Folks using Styled Components, folks using CSS modules. There's a lot of movement in both dimensions of that.
 
@@ -140,7 +140,7 @@ Or you can say "I want this to be covering the space", in which case it will tri
 
 **Jerod Santo:** Pretty cool. I did not know about that one. I will answer to using it in the 2021 survey.
 
-**Kevin Ball:** \[28:14\] That gives us a good jumping off point - what did you all take from this survey, of things that you want to either start using, or at least dig into and learn about?
+**Kevin Ball:** \{28:14\} That gives us a good jumping off point - what did you all take from this survey, of things that you want to either start using, or at least dig into and learn about?
 
 **Jerod Santo:** Object-fit. \[laughs\]
 
@@ -180,7 +180,7 @@ So I'm thinking about just taking the main design of Changelog.com and just seei
 
 **Kevin Ball:** I'm also doing most of my -- well, when I'm working in the frontend these days, I'm doing most of my work in React, and Styled Components, and largely using an existing design library to the extent possible... So I don't get to play with this stuff as much as I used to. But I think one of the really interesting areas that to me is only really getting explored by a subset of folks is the extent to which you can use custom properties to enable that type of almost state-driven component.
 
-\[32:24\] In your example, Jerod, I imagine a lot of those BEM classes have hard-coded values in them, and that's part of what makes it hard to move them over to new locations, where things are slightly different. But one of the really cool things about custom properties is you can actually -- like, they are scoped, in the same way that CSS is scoped, and they cascade... So if you were to rewrite those all using customer properties, then you could have whatever their container is in the new location override those customer properties and have it essentially work in both locations.
+\{32:24\} In your example, Jerod, I imagine a lot of those BEM classes have hard-coded values in them, and that's part of what makes it hard to move them over to new locations, where things are slightly different. But one of the really cool things about custom properties is you can actually -- like, they are scoped, in the same way that CSS is scoped, and they cascade... So if you were to rewrite those all using customer properties, then you could have whatever their container is in the new location override those customer properties and have it essentially work in both locations.
 
 I think there's some really, really interesting stuff there, and I've only seen a few people digging into that.
 
@@ -212,7 +212,7 @@ A lot of the use cases I'm seeing out there right now for custom properties are 
 
 **Nick Nisi:** I think next year -- maybe not next year's, but this survey in 3-4 years will just continue to become more interesting because of... Specifically, I'm thinking of Houdini, and exposing a CSS parser API, and some of the layout stuff that they're bringing... It's gonna change what you can do with CSS, and it's gonna make it so powerful... And it's gonna be really interesting to see how that trickles into the everyday CSS frameworks and libraries that we use, and what that will mean in the future for styling the web.
 
-**Break:** \[35:16\]
+**Break:** \{35:16\}
 
 **Kevin Ball:** Okay, let's get back into it and dig into the State of JS 2020. Nick, I know there was something you had your eye on there...
 
@@ -220,7 +220,7 @@ A lot of the use cases I'm seeing out there right now for custom properties are 
 
 **Kevin Ball:** And what's the story?
 
-**Nick Nisi:** Surprise... It's on top! \[laughter\] It's on top. Yeah, since 2017 - in fact, every year of this survey except for the first year (2016) it's been in the first place for the preferred flavors of JavaScript. In 2016 it was in the second place. But it's remained in the first place, it's very popular, and it's pretty cool seeing that it has nearly 88% of respondents really approve of it, meaning that they are interested in it, or have used it or would use it again... Which is extremely high. We don't really have things that get that much universal approval, except for on this podcast.
+**Nick Nisi:** Surprise... It's on top! \[laughter\] It's on top. Yeah, since 2017 - in fact, every year of this survey except for the first year (2016) it's been in the first place for the preferred flavors of JavScript. In 2016 it was in the second place. But it's remained in the first place, it's very popular, and it's pretty cool seeing that it has nearly 88% of respondents really approve of it, meaning that they are interested in it, or have used it or would use it again... Which is extremely high. We don't really have things that get that much universal approval, except for on this podcast.
 
 **Jerod Santo:** \[laughs\] I don't like it. Just kidding... \[laughter\] No reason. I'd just like to state that.
 
@@ -230,11 +230,11 @@ A lot of the use cases I'm seeing out there right now for custom properties are 
 
 **Jerod Santo:** Why? Because you have Stockholm Syndrome?
 
-**Nick Nisi:** Probably... I've used Vim for ten years, and for most of that, Vim was just an editor that really didn't give me much help. I didn't have completion turned on at all for anything... And I would just write straight JavaScript, and I'd have so much of the state of what I'm working on built up in my head; I would just be reciting it from memory. And of course, I've gotten older now, which means I probably can't do that anymore, and the tools have just gotten so amazing that now I just rely on it for everything. And I'm constantly trying to figure out ways to creatively use TypeScript to make sure that things that normally aren't autocompleted can be autocompleted, to make my life and everyone else's life easier... Because I also can't spell. And I constantly just write things incorrectly, and I get that checked in, and I realize later that I misspelled something. I'm talking about things that aren't type-checked, like keys to things.
+**Nick Nisi:** Probably... I've used Vim for ten years, and for most of that, Vim was just an editor that really didn't give me much help. I didn't have completion turned on at all for anything... And I would just write straight JavScript, and I'd have so much of the state of what I'm working on built up in my head; I would just be reciting it from memory. And of course, I've gotten older now, which means I probably can't do that anymore, and the tools have just gotten so amazing that now I just rely on it for everything. And I'm constantly trying to figure out ways to creatively use TypeScript to make sure that things that normally aren't autocompleted can be autocompleted, to make my life and everyone else's life easier... Because I also can't spell. And I constantly just write things incorrectly, and I get that checked in, and I realize later that I misspelled something. I'm talking about things that aren't type-checked, like keys to things.
 
 **Kevin Ball:** I will point out that function names get misspelled still. And autocomplete in some ways actually makes that worse, because people will misspell it.
 
-**Jerod Santo:** \[40:08\] You propagate the misspelling?
+**Jerod Santo:** \{40:08\} You propagate the misspelling?
 
 **Kevin Ball:** People will misspell it once, and then they'll just keep it going through everything.
 
@@ -262,7 +262,7 @@ A lot of the use cases I'm seeing out there right now for custom properties are 
 
 **Kevin Ball:** Sure. Jerod, what did you notice?
 
-**Jerod Santo:** People more and more do not thing that building JavaScript apps is overly complex. I said that in a confounding way... People think it's getting less complex. From 2016 to 2020, opinions have started to shift. Maybe we're starting to see some -- I don't know what you call it; centralization around certain things? Maybe the Cambrian explosion of frameworks and tools and build tools and stuff started to kind of congeal around generally speaking React and WebPack and other things on the periphery of that... I don't know. Why do you guys think that is? Has it gotten less complex in the last four years? Because the opinions around it, at least according to this survey, are that it's less complex now. Or "I used to think it was complex and now I don't", or "I didn't take this before and now I took it, and I don't think it's complex." But overall opinions going to disagree with that statement, that it's complex. I don't know why.
+**Jerod Santo:** People more and more do not thing that building JavScript apps is overly complex. I said that in a confounding way... People think it's getting less complex. From 2016 to 2020, opinions have started to shift. Maybe we're starting to see some -- I don't know what you call it; centralization around certain things? Maybe the Cambrian explosion of frameworks and tools and build tools and stuff started to kind of congeal around generally speaking React and WebPack and other things on the periphery of that... I don't know. Why do you guys think that is? Has it gotten less complex in the last four years? Because the opinions around it, at least according to this survey, are that it's less complex now. Or "I used to think it was complex and now I don't", or "I didn't take this before and now I took it, and I don't think it's complex." But overall opinions going to disagree with that statement, that it's complex. I don't know why.
 
 **Nick Nisi:** I would think that there's a huge correlation between thinking it's complex and writing your own WebPack config, versus using something like Create React App and just getting to work on your project.
 
@@ -282,9 +282,9 @@ I don't know if I saw in this survey -- it was probably there somewhere; I can l
 
 **Nick Nisi:** I think for a lot of the reasons that we've been talking about. It just provides a more cohesive experience for putting things together... And it kind of puts those rails in place a little bit for you to follow... So it feels like you're doing the right thing. Whereas Express can be like a Wild West of stringing things together.
 
-**Jerod Santo:** \[44:14\] Yeah. Less decisions to make. So my criticism of the early Node.js JavaScript web-based community, back when I was more on the Ruby side of the fence, was that it was so micro and library-focused that it was like assembling a transformer from parts. You had to pick everything, you had to make all your own decisions, and that's really empowering to a lot of expert-level developers, because they already have well-formed opinions and they know what they like and they don't like, they know what works well in this case and what doesn't... But for the rest of us, it's kind of like "I don't wanna make 1,000 decisions before I can say Hello World, or slightly better than Hello World. Before I can start my first dynamic web page." And there was way more configuration and choice than there was convention and opinionated things.
+**Jerod Santo:** \{44:14\} Yeah. Less decisions to make. So my criticism of the early Node.js JavScript web-based community, back when I was more on the Ruby side of the fence, was that it was so micro and library-focused that it was like assembling a transformer from parts. You had to pick everything, you had to make all your own decisions, and that's really empowering to a lot of expert-level developers, because they already have well-formed opinions and they know what they like and they don't like, they know what works well in this case and what doesn't... But for the rest of us, it's kind of like "I don't wanna make 1,000 decisions before I can say Hello World, or slightly better than Hello World. Before I can start my first dynamic web page." And there was way more configuration and choice than there was convention and opinionated things.
 
-We've definitely seen more opinionated frameworks and tools coming out over the last few years in the JavaScript space, and JavaScript developers adopting those things. And I think that that makes you feel like the whole process is less complex, because just way less decisions to make, like you said, Nick.
+We've definitely seen more opinionated frameworks and tools coming out over the last few years in the JavScript space, and JavScript developers adopting those things. And I think that that makes you feel like the whole process is less complex, because just way less decisions to make, like you said, Nick.
 
 **Nick Nisi:** Another interesting thing that I saw on the backend satisfaction survey was the decline of Gatsby. It dropped five places in a year. It's almost like it got hit by a meteor, which also dropped five places.
 
@@ -302,7 +302,7 @@ Gatsby is not typical open core, but it's like open build... Or I don't know how
 
 I'm not sure what the details behind Meteor's business model was, because I was never in that community... But yeah, a lot of these things do have corporate backing, whether they're tied to the product or not. It's just that it seems like when you're tied directly to the product, it's more difficult to navigate that relationship for people.
 
-**Kevin Ball:** \[48:10\] Yeah. And in Gatsby's case, I think, you ran into a very specific conflict of interest, where the product was about speeding up the build, and so if they did a good job at speeding up the build in the open source project, the project became more obsolete. So you not only have decisions to navigate, but you have direct conflict between what's better for the open source project and what's better for the business.
+**Kevin Ball:** \{48:10\} Yeah. And in Gatsby's case, I think, you ran into a very specific conflict of interest, where the product was about speeding up the build, and so if they did a good job at speeding up the build in the open source project, the project became more obsolete. So you not only have decisions to navigate, but you have direct conflict between what's better for the open source project and what's better for the business.
 
 **Jerod Santo:** Mm-hm. But Svelte on the other hand...
 
@@ -340,7 +340,7 @@ I'm not sure what the details behind Meteor's business model was, because I was 
 
 **Jerod Santo:** Well, some of it is like - you're forced to use a thing at your job. That's a real thing. It's like, "Well, we're using Angular, so you're gonna use Angular." Whether or not it's on merit or not, we just have bad feelings when it's like "My boss made me do this." And the more and more enterprise you are, the less and less agency you have as an individual developer to choose your tools. So anything that's big in the enterprise, I think is naturally gonna struggle in a satisfaction survey. That's just my opinion.
 
-**Nick Nisi:** \[52:01\] Except TypeScript.
+**Nick Nisi:** \{52:01\} Except TypeScript.
 
 **Jerod Santo:** That's just your opinion... \[laughter\] Actually, no, it's not, because it did really well. Darn it.
 
@@ -380,7 +380,7 @@ For instance, Cassidy Williams on the Opinions section - her pick was Ben Hong. 
 
 **Jerod Santo:** So you've tried it, Nick... Is it different, or new? I'm most familiar with Mocha; what's different about it? Why would I be more satisfied, or why would I give it a shot?
 
-**Nick Nisi:** \[56:13\] So I'm probably gonna get this totally wrong, but it seems like it's a tool written to help you write tests in the way that I think Kent C. Dodds prescribes, which is writing a lot of tests that are most integration-style tests. And I've only used it in the context of React, so it gives me this render method that I can call, and I can render any component that I want... And then I have the screen object that I import, and from that screen, it's basically like my computer screen. So I can do queries to find things... It just makes it really easy to traverse the DOM, get at what I want, and then I use a Jest -- what are those libraries called? A Jest assertion library that adds in a whole bunch of -- like, testing library-specific, or DOM-specific assertions. So I can just say "Expect this element is visible", and when I fire this event - and the testing library makes it very easy to fire events on buttons or whatever - then I can assert and expect that a button or a modal is now showing up.
+**Nick Nisi:** \{56:13\} So I'm probably gonna get this totally wrong, but it seems like it's a tool written to help you write tests in the way that I think Kent C. Dodds prescribes, which is writing a lot of tests that are most integration-style tests. And I've only used it in the context of React, so it gives me this render method that I can call, and I can render any component that I want... And then I have the screen object that I import, and from that screen, it's basically like my computer screen. So I can do queries to find things... It just makes it really easy to traverse the DOM, get at what I want, and then I use a Jest -- what are those libraries called? A Jest assertion library that adds in a whole bunch of -- like, testing library-specific, or DOM-specific assertions. So I can just say "Expect this element is visible", and when I fire this event - and the testing library makes it very easy to fire events on buttons or whatever - then I can assert and expect that a button or a modal is now showing up.
 
 So I'm testing from the perspective of the user, rather than just writing unit tests, which might not really represent the state of the application.
 
@@ -426,7 +426,7 @@ So I'm testing from the perspective of the user, rather than just writing unit t
 
 **Kevin Ball:** Oh, yeah.
 
-**Jerod Santo:** Pure speed, baby. I love it. Let's just go as fast as we can. And this is the Go-based JavaScript build tool that's high on satisfaction and pretty new; I think it came out last year. Very low on usage. 6% usage, because it's new... And pretty low on awareness - 26%. But 94% satisfaction. So I definitely wanna give that a try, because the faster things build, the better, in my humble opinion.
+**Jerod Santo:** Pure speed, baby. I love it. Let's just go as fast as we can. And this is the Go-based JavScript build tool that's high on satisfaction and pretty new; I think it came out last year. Very low on usage. 6% usage, because it's new... And pretty low on awareness - 26%. But 94% satisfaction. So I definitely wanna give that a try, because the faster things build, the better, in my humble opinion.
 
 **Kevin Ball:** \[01:00:08.05\] Yeah.
 

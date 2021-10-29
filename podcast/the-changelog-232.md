@@ -4,7 +4,7 @@ We talked about his tweet that was heard around the world from that time he inte
 
 We have three sponsors: Code School, Toptal and our friends at GoCD.
 
-**Break:** \[00:53\]
+**Break:** \{00:53\}
 
 **Adam Stacoviak:** Alright, we're back with Max Howell. Max... Wow, it's been a long time. Episode \#35, Jerod - this is basically a lifetime ago. 2010... Jeez!
 
@@ -44,7 +44,7 @@ We have three sponsors: Code School, Toptal and our friends at GoCD.
 
 **Max Howell:** Well, way back when I was six we had a BBC Micro. It was a common computer in England of the time, or the U.K., hence the BBC part. I don't know the exact history about why it was branded BBC, but I assume that they sponsored its development, or something... And my dad started teaching me programming, and initially I just made awful games, like you're fighting a monster, pick your weapon: a sword, a stick, or colorful language... \[laughter\]
 
-\[04:00\] That was good fun, but it was always a hobby for me, I never considered it for a career right up until the end of college, which I did chemistry for.
+\{04:00\} That was good fun, but it was always a hobby for me, I never considered it for a career right up until the end of college, which I did chemistry for.
 
 The only reason I got back into programming -- I'd been doing it on and off all through my teen years, mostly making toys or little tools... I made this little clock for Windows that when you clicked it, it moved to the opposite corner of the screen... Things like that.
 
@@ -74,7 +74,7 @@ My step dad at the time was working in software and he made a fortune going arou
 
 **Jerod Santo:** Oh, man... Let's not get started on time, we'll never find our way back out again. But funny that it did actually affect your Windows clock app. You were not Y2K compliant.
 
-**Max Howell:** \[07:47\] I was not. Didn't even think about it, which is a common thing with software development, of course. Anticipating everything is hard. Yeah, so I did a chemistry degree and I have a masters in chemistry as it happens. But in my third year... Because in the U.K. most courses are only three years for university, I did a four-year course with a year in the industry. So my third year I went to work at Kodak in London - which was a bad choice; I should have picked one of the beautiful chemistry labs in the middle of the British countryside. It probably would have changed my life if I'd done that, but I went to Harrow in London, which is possibly the most disgusting place in the entire world, and discovered that chemistry is very boring, actually... Really, really boring. \[laughter\]
+**Max Howell:** \{07:47\} I was not. Didn't even think about it, which is a common thing with software development, of course. Anticipating everything is hard. Yeah, so I did a chemistry degree and I have a masters in chemistry as it happens. But in my third year... Because in the U.K. most courses are only three years for university, I did a four-year course with a year in the industry. So my third year I went to work at Kodak in London - which was a bad choice; I should have picked one of the beautiful chemistry labs in the middle of the British countryside. It probably would have changed my life if I'd done that, but I went to Harrow in London, which is possibly the most disgusting place in the entire world, and discovered that chemistry is very boring, actually... Really, really boring. \[laughter\]
 
 So after that four months of this year I was quite depressed and I decided I'd install Linux on my computer and get into making apps, although no one really called them apps at the time. So like programs, or...
 
@@ -92,7 +92,7 @@ I was doing computational chemistry for my dissertation, so the professor I was 
 
 **Max Howell:** No, I had been at TweetDeck at that point since January 2010. I was at Last.fm two and a half years, which is the longest I've ever been at a single company. But it was a lot of fun at Last.fm, and they had the right attitude towards startups, and open source, and things. They got acquired by CBS in 2007, and it gradually degraded after that. All my friends left, and all the really talented people had left, so I moved on and I went to TweetDeck, where I built the Android app and redid their iPhone app just before Twitter acquired them... Which happened after the last episode that we did together.
 
-**Adam Stacoviak:** \[11:59\] So you should work at companies, because they get acquired.
+**Adam Stacoviak:** \{11:59\} So you should work at companies, because they get acquired.
 
 **Max Howell:** Basically, it seems to be that way. I like small companies. I like having lots of hats, and learning new skills and applying them.
 
@@ -124,7 +124,7 @@ TweetDeck - I've got no ties there, but you had me at Last.fm for sure. Where di
 
 So I started building it at the end of Last.fm, and then when I left, I left in order to make iPhones apps, because it was right at the beginning of...
 
-**Jerod Santo:** \[15:52\] Yeah...
+**Jerod Santo:** \{15:52\} Yeah...
 
 **Max Howell:** It was 2009, so the App Store had been around for about a year, and the stories of people making a million dollars out like Doodle Jump and things like that were inspiring. And I had the experience of iPhone development, because at Last.fm we'd made an Android app, we'd made an iPhone app and a Blackberry app.
 
@@ -154,7 +154,7 @@ I designed the formulae themselves to be very readable, so you could open any fo
 
 **Jerod Santo:** Maybe you talked about this in \#35, but six years ago, none of us remember - what was the impetus behind the naming convention of Homebrew and this whole metaphor you came up with? How did that come about?
 
-**Max Howell:** \[20:04\] Well, I love names. I mean, I hate names. \[laughter\]
+**Max Howell:** \{20:04\} Well, I love names. I mean, I hate names. \[laughter\]
 
 **Adam Stacoviak:** I love/hate names.
 
@@ -182,7 +182,7 @@ It's one of the nice things about pubs in Britain - they're really places you ca
 
 I thought carefully about each one. There was a while that it wasn't gonna be 'formula', it was gonna be 'recipe', because they're not really formulae in the homebrewing beer space, but 'formula' was more unique. And kegs and cellars... Kegs are stored in racks, technically, but that's not really something people know. It's fun, it worked out really well. I hope I didn't contribute somewhat to the silly naming systems that seem to go on in open source nowadays.
 
-\[24:12\] People seem to name their things completely randomly nowadays, just to have a distinctive name. I saw an image library the other day called King Fischer; why is it called King Fischer? It doesn't make any sense.
+\{24:12\} People seem to name their things completely randomly nowadays, just to have a distinctive name. I saw an image library the other day called King Fischer; why is it called King Fischer? It doesn't make any sense.
 
 **Adam Stacoviak:** Yeah.
 
@@ -202,7 +202,7 @@ I thought carefully about each one. There was a while that it wasn't gonna be 'f
 
 **Adam Stacoviak:** This is a good place to pause real quick... We've got a break we'll take here, and when we come back we'll dive a bit deeper into Homebrew and other fun stuff with Max. We'll be right back.
 
-**Break:** \[26:50\]
+**Break:** \{26:50\}
 
 **Adam Stacoviak:** Alright, we're back with Max Howell and we're talking about Homebrew. Jerod, we love/hate names, and Max, you said it best, you love, and then you said you hate names. Homebrew is a pretty good name, and then you sat down and you thought about the architecture of Homebrew and how it mapped out and all these different things... That's a pretty deliberate choice on a name for one, but then also it's a kind of like sit down and think about it and how it would all play out, so tell us a bit more about that.
 
@@ -226,7 +226,7 @@ I'm kind of working on the Soup Homebrew right now, and I'm using the term 'grow
 
 So I started contributing less, and one day got @ replied by someone who was angry about some formula that they wanted to have merged and it'd been rejected, and the reason it was rejected was really my own fault, because initially when I had made Homebrew I was adamant that it wouldn't have trivial crap in it. Because it's like the App Store - it would perhaps be better if it was a bit higher quality; now I disagree with that decision. There was ways to work around that, and we invented them. It's the tap system.
 
-\[31:53\] Also because the more stuff you had in there, the harder it was to really have high-quality core formula, but the tap system solves that. So I disagreed with the other guy's decision and then I merged it without talking about it because I was being arrogant, and it resulted in an argument and I decided that I didn't want to be part of a project where there was conflict like that, so I left, basically. The project had been always been on my name at that point, under @mxcl, and I was kind of proud of that because it was for a long time the most forked, most starred project on GitHub, and my name was next to it. And that had lead to quite a number of interesting emails and conversations and phone calls from people that were just browsing GitHub and found my names. There was opportunity definitely associated with having a very high profile project on my name, but they wanted me to move it onto the Homebrew organization, and that made sense, I couldn't deny it. If I wasn't gonna work on it actively anymore, then it needed to be moved to an organization so that it didn't... You know, while it was on my name, I could just delete it, effectively... Which would be kind of an interesting movie, probably... Disaster movie. \[laughter\]
+\{31:53\} Also because the more stuff you had in there, the harder it was to really have high-quality core formula, but the tap system solves that. So I disagreed with the other guy's decision and then I merged it without talking about it because I was being arrogant, and it resulted in an argument and I decided that I didn't want to be part of a project where there was conflict like that, so I left, basically. The project had been always been on my name at that point, under @mxcl, and I was kind of proud of that because it was for a long time the most forked, most starred project on GitHub, and my name was next to it. And that had lead to quite a number of interesting emails and conversations and phone calls from people that were just browsing GitHub and found my names. There was opportunity definitely associated with having a very high profile project on my name, but they wanted me to move it onto the Homebrew organization, and that made sense, I couldn't deny it. If I wasn't gonna work on it actively anymore, then it needed to be moved to an organization so that it didn't... You know, while it was on my name, I could just delete it, effectively... Which would be kind of an interesting movie, probably... Disaster movie. \[laughter\]
 
 **Jerod Santo:** Like left-pad.
 
@@ -260,9 +260,9 @@ I'm very proud of Homebrew, it was a project I put a lot of time, effort and tho
 
 **Adam Stacoviak:** When you were done with Homebrew... Back to that moment where you pushed the button, the next big milestone for you.
 
-**Max Howell:** \[36:05\] Well, basically I'd been doing iPhone development at that point for three or four years, and at the time I was in Chicago. Between the last Changelog and now I've moved to America, I met an American girl and we moved to Chicago, and we now live in Savanna, Georgia. So I was in Chicago at the time and I was teaching iPhone development part-time like half a week, which I really enjoyed. It allowed me to learn a lot about how people approach learning how to code. It was a boot camp, so these things are kind of rip offs and I kind of felt bad about that, but I was just the employee, so...
+**Max Howell:** \{36:05\} Well, basically I'd been doing iPhone development at that point for three or four years, and at the time I was in Chicago. Between the last Changelog and now I've moved to America, I met an American girl and we moved to Chicago, and we now live in Savanna, Georgia. So I was in Chicago at the time and I was teaching iPhone development part-time like half a week, which I really enjoyed. It allowed me to learn a lot about how people approach learning how to code. It was a boot camp, so these things are kind of rip offs and I kind of felt bad about that, but I was just the employee, so...
 
-I was working on PromiseKit, which is probably the open source that I maintain the most at the moment, which is just Promises for iOS. I'd use Promises because I'd done a lot of JavaScript development in between as well, and Promises just made so much more sense for asynchronicity, and there was nothing good for iOS so I was like, "Okay, I'll build it." So I was working on that, but about that time the boot camp I was working for was running out of money, so they said "Well, Max, sorry, you're the most expensive person here, - \[laughs\] I didn't realize - we're gonna have to let you go." So suddenly I was left with no regulate income, and I didn't wanna do any more iOS contracting - which I'd done a lot of - because it just sucks the soul out of me, working on other people's apps I didn't really care about. It was very good money, but I could only do it for a few months at a time before I became depressed. I just wanted to do open source or something that made sense to me.
+I was working on PromiseKit, which is probably the open source that I maintain the most at the moment, which is just Promises for iOS. I'd use Promises because I'd done a lot of JavScript development in between as well, and Promises just made so much more sense for asynchronicity, and there was nothing good for iOS so I was like, "Okay, I'll build it." So I was working on that, but about that time the boot camp I was working for was running out of money, so they said "Well, Max, sorry, you're the most expensive person here, - \[laughs\] I didn't realize - we're gonna have to let you go." So suddenly I was left with no regulate income, and I didn't wanna do any more iOS contracting - which I'd done a lot of - because it just sucks the soul out of me, working on other people's apps I didn't really care about. It was very good money, but I could only do it for a few months at a time before I became depressed. I just wanted to do open source or something that made sense to me.
 
 Me and my wife didn't know what to do, and Google had been emailing me for years saying, "You should come at an interview, you should come at an interview", and I'd always thought "No, I don't wanna go there. I'm not a big company person. I wouldn't fit it. I don't have computer science... It doesn't make sense." But because things had just suddenly shifted around for us, we thought we'd give it a go, so I went to the interview.
 
@@ -276,7 +276,7 @@ Me and my wife didn't know what to do, and Google had been emailing me for years
 
 So my first interview was the binary tree question, and I think I did a fairly good attempt for someone who didn't even know what they were talking about, although it wasn't a binary tree question, it turns out... But I didn't know, I just assumed it was... It's where you have an array and you can divide it in two to get... Blah - I can't remember. Anyway, after failing at that, I went home and looked it up and figured out how to do it, just to prove to myself I could.
 
-\[40:08\] I did well in like half of the interviews; I've actually talked to the people that interviewed me, because of the tweet, and they said that it was a difficult choice that they made that they decided not to, based on the way they do these things. They have a very strict process.
+\{40:08\} I did well in like half of the interviews; I've actually talked to the people that interviewed me, because of the tweet, and they said that it was a difficult choice that they made that they decided not to, based on the way they do these things. They have a very strict process.
 
 But anyway, a week went by and they phoned and said no, and I just fired the tweet out, because I was like, "This is ridiculous." Considering the popularity of Homebrew, I just assumed that they could fit me in somewhere with something. They have enough engineers that use it, surely I would have some value to them; that was my thinking. Even though I thought I was getting it for iOS which I'd prefer to have done. The iOS app it needs some work frankly. So I fired it off, didn't really think about it... I put a Homebrew in brackets I guess because I was thinking, "Well, if it's retweeted, people will know what I'm talking about." And obviously the 90% is bullshit; it was a flippant tweet. I was exaggerating... Who knows what the percentage actually is; probably all their Mac developers, or the majority. There's still some die-hard Mac ports used out there for sure.
 
@@ -288,7 +288,7 @@ I never read any of that stuff, and I didn't reply too much... Because it was ne
 
 **Max Howell:** No, but I feel bad for them, but this is how things are nowadays with social media and virality, and 140 characters.
 
-**Adam Stacoviak:** \[44:03\] The question is would you do it again? If you had to rewind back to the day, would you do the same tweet?
+**Adam Stacoviak:** \{44:03\} The question is would you do it again? If you had to rewind back to the day, would you do the same tweet?
 
 **Max Howell:** Yes, but only because it inspired some conversation in the industry about how these interviews should be. I really feel bad for shaming them; I guess they probably don't take it personally... And I feel bad because I'm sure a lot of people think I'm just an arrogant ass now, but I try not to think about it personally in that respect. It was just flippant, and I went from 3k followers to 16k in like a month.
 
@@ -316,7 +316,7 @@ I felt like the end of it, there were a lot of think pieces that were written. I
 
 **Max Howell:** They're similar in that they're all day. It's exhausting. Apple had more interviews, but I was interviewed by the people I had worked with. Google really do seem to -- I don't know if they've changed anything, but I heard from a friend who was at Google at the time that my tweet went around Google and it inspired a lot of internal conversation. So I don't know if they've changed how they do it at all and, well, humbly enough, I got two calls the week after from a couple of people at Google asking me to come and interview with their team, and that it would be very specific to their team, because they wanted me to do the iOS stuff for them. That's partly because of PromiseKit, because it's a pretty good framework; I designed it carefully, like I designed Homebrew, and I needed it, just like I needed Homebrew. The best things I make are always the things that I make from tools I need.
 
-\[47:49\] So Apple interviewed me personally, while Google -- it's like jury duty, it's the impression I got. You get an email saying, "You have to interview Max Howell on that day. Be prepared." And then they have a box full of questions that you can generate a random number and pick one. But the interviewers get quite a lot of choice... One of my interviewers at Google knew what my skills were and asked me stuff about it, and I did pretty well. Another one had me redesign an API and I did pretty well. The ones I couldn't do were the data algorithm stuff, which they really needed. But I think I made a pretty good attempt.
+\{47:49\} So Apple interviewed me personally, while Google -- it's like jury duty, it's the impression I got. You get an email saying, "You have to interview Max Howell on that day. Be prepared." And then they have a box full of questions that you can generate a random number and pick one. But the interviewers get quite a lot of choice... One of my interviewers at Google knew what my skills were and asked me stuff about it, and I did pretty well. Another one had me redesign an API and I did pretty well. The ones I couldn't do were the data algorithm stuff, which they really needed. But I think I made a pretty good attempt.
 
 That's I guess what I'd change about the interviewing process at these places - did I demonstrate that I could solve problems given input, even if I don't have the specific knowledge? But it seems ironic at Google - learning how to do that is just a Google away, and that's what I did when I got home... To prove to myself that I could do it after feeling stupid, which is what these things do.
 
@@ -348,7 +348,7 @@ Their interviewing process was much nicer, but at the same time I don't think th
 
 **Max Howell:** Yeah... I wanted to work like I worked in open source, where I produced stuff and then we reviewed it and considered how it would go from there. I stewed on ideas for a couple months and then talked about it.
 
-\[52:08\] And Apple -- I can't speak for the whole company, I really can't, because every department is very isolated, and that could be a good or a bad thing, I won't go into it, I guess; so all I can talk about is for developer tools, and developer tools is a very old department. They've been around since, like, ever.
+\{52:08\} And Apple -- I can't speak for the whole company, I really can't, because every department is very isolated, and that could be a good or a bad thing, I won't go into it, I guess; so all I can talk about is for developer tools, and developer tools is a very old department. They've been around since, like, ever.
 
 **Adam Stacoviak:** Since the beginning.
 
@@ -360,13 +360,13 @@ It was not bad... Chris Lattner is a genius, and I'd be having meetings with my 
 
 We are hitting our next break, so we'll pause... Think about that a little bit, Max, and when we get back, Swift Package Manager inside Apple, open source, but there's trouble here... So let's pause and we'll be right back.
 
-**Break:** \[54:10\]
+**Break:** \{54:10\}
 
 **Jerod Santo:** Alright, we are back. Max, before the break we were talking about your time at Apple. You were there for a year, working on the Swift Package Manager, which is out there and is open source, and so you got to be there I believe during the launching of that, which had to be fulfilling, I would think... But there was some struggle between you and management, or between you and your position; you just couldn't quite have the impact that you were desiring to have. Is that fair to say?
 
 **Max Howell:** Yeah. I wanted to make a really great thing. Because, like I say, I plan to use Swift for... I don't know when I'll stop using it, so it having a vibrant, active community, a good packaging system was important to me personally as well as professionally, and for the good of the language.
 
-\[56:01\] But Apple have the way they're working, which didn't fit with me specifically. I butted heads with my manager and various other people many times. I've gotta say though the Swift team were great. They seemed to be -- I don't wanna be insulting, but they seemed to be really forward thinking; they used modern development methodologies, they were extremely smart, they worked well together, they talked well together, they figured things out that I wouldn't have figured out if I was in their position. Little details of how to design the language so that it caters to so many different ways of working, and yet still maintains the strictness, the safety, the fun that is Swift. They were great.
+\{56:01\} But Apple have the way they're working, which didn't fit with me specifically. I butted heads with my manager and various other people many times. I've gotta say though the Swift team were great. They seemed to be -- I don't wanna be insulting, but they seemed to be really forward thinking; they used modern development methodologies, they were extremely smart, they worked well together, they talked well together, they figured things out that I wouldn't have figured out if I was in their position. Little details of how to design the language so that it caters to so many different ways of working, and yet still maintains the strictness, the safety, the fun that is Swift. They were great.
 
 I said to my manager when I joined there I partly came to Apple because I wanted to learn from people who were smarter than me, and he used that so many times... He said that I didn't want to learn from them actually... It wasn't a good match.
 
@@ -414,7 +414,7 @@ Also, I found that there's a lot of people there who love to invent work, and I 
 
 **Jerod Santo:** Well, it sounds like Swift is in good hands with Chris.
 
-**Max Howell:** Yeah, Swift has got a fantastic team, it's gonna do really great, and I'm so glad that they open-sourced it. Without that, it would have only ever been like for iPhone, even if someone else figured out how to compile it on Linux or whatever, or bring their own Swift compiler... Because it's open source, I feel that it has a good chance to be the next big scripting language, replacing things like Ruby, Python, maybe even replacing Node. I know that that's gonna be harder, because people love their JavaScript so much...
+**Max Howell:** Yeah, Swift has got a fantastic team, it's gonna do really great, and I'm so glad that they open-sourced it. Without that, it would have only ever been like for iPhone, even if someone else figured out how to compile it on Linux or whatever, or bring their own Swift compiler... Because it's open source, I feel that it has a good chance to be the next big scripting language, replacing things like Ruby, Python, maybe even replacing Node. I know that that's gonna be harder, because people love their JavScript so much...
 
 **Jerod Santo:** So the Swift Package Manager is open source; Swift, of course, famously open source... Big shift really, for Apple to open source things on their own accord, and not because they're complying with a GPL, or something like that.
 
@@ -438,7 +438,7 @@ Also, I found that there's a lot of people there who love to invent work, and I 
 
 Then when I decided to make Homebrew, I wanted it to work without having to be compiled or installed, so it had to be some scripting language that came with Mac; I'd seen a lot of people talk about Ruby and how great it was, so I tried it out and I agreed - so Ruby.
 
-Then I did about a year and a half of JavaScript while I was working on a music app with someone that was on the web, and they also had a bunch of C for a little app, and stuff... And I really quite liked JavaScript. I loved the functional aspect of it, I liked the dynamic aspect of it, and the use of Promises and things was new to me, so I enjoyed that. There were some things I liked about it, like you could call a function with as many arguments as you wanted and then figure it out later... \[laughter\] I could see how it would easily lead to devastating behavior, but it was fun.
+Then I did about a year and a half of JavScript while I was working on a music app with someone that was on the web, and they also had a bunch of C for a little app, and stuff... And I really quite liked JavScript. I loved the functional aspect of it, I liked the dynamic aspect of it, and the use of Promises and things was new to me, so I enjoyed that. There were some things I liked about it, like you could call a function with as many arguments as you wanted and then figure it out later... \[laughter\] I could see how it would easily lead to devastating behavior, but it was fun.
 
 \[01:07:52.07\] Then I went back to Objective-C... I've done a bunch of that as well before that. I loved Objective-C, at least until Swift came out. So that's my language history... I've done dabbling in other languages like Python - I've written a few scripts in Python and Bash... If you consider Bash a programming language.
 
@@ -446,7 +446,7 @@ Then I did about a year and a half of JavaScript while I was working on a music 
 
 **Adam Stacoviak:** What made you suspect that Python, Ruby might get supplanted by it and then you even said Node, which is more of a framework on top of a language than a language itself... What makes you say that?
 
-**Max Howell:** Yeah, well Node made JavaScript feasible as a set-aside and not just in the browser system.
+**Max Howell:** Yeah, well Node made JavScript feasible as a set-aside and not just in the browser system.
 
 **Jerod Santo:** Right.
 
@@ -466,7 +466,7 @@ With Swift you don't crash, and you don't do nothing, so both of these issues...
 
 **Jerod Santo:** So if you had to put your forecaster's hat on - I know you like to wear a lot of hats... So put on your forecaster hat and tell us where Swift is five, ten years out. You said it could be your programming language. Do you think it will come to dominate the programming landscape, or do you think it will always be inside Apple's bubble?
 
-**Max Howell:** I think it's already starting to leave Apple's bubble because it was open-sourced for Linux support, and since then some people at Facebook have made it work on Android, and some people are working on making it work on Windows. So we're getting to this point where you can write your app in Swift for every major platform apart from the web. But you could write your server-side in Swift, and someone's already made a Swift to JavaScript compiler, so you could write the frontend in the Swift as well if you trust the compiler. I don't know, I haven't really looked into it.
+**Max Howell:** I think it's already starting to leave Apple's bubble because it was open-sourced for Linux support, and since then some people at Facebook have made it work on Android, and some people are working on making it work on Windows. So we're getting to this point where you can write your app in Swift for every major platform apart from the web. But you could write your server-side in Swift, and someone's already made a Swift to JavScript compiler, so you could write the frontend in the Swift as well if you trust the compiler. I don't know, I haven't really looked into it.
 
 So I really want it to be. I think it's a lovely language, and I'm not just saying that as someone who's been a bit of an Apple fanboy for so long. I've been disappointed with Apple in many ways, not just because I worked there. I think MacOS is really in need of work, or at least some hooks so that developers can change how it works. I wanna get rid of the dock, I wanna get rid of the menu bar, I wanna experiment with many different ways of making it a better platform for me. I've been using Windows a lot lately, and I think Microsoft are doing a lot better with Windows 10 than Apple are doing with MacOS right now.
 

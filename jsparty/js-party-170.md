@@ -44,7 +44,7 @@
 
 **Jerod Santo:** I don't either... But here we are. It's April Fool's Day. Probably the worst day on the internet, isn't it?
 
-**Nick Nisi:** \[04:10\] For sure.
+**Nick Nisi:** \{04:10\} For sure.
 
 **Jerod Santo:** So bad that none of our friends showed up for JS Party. They're just like "We're just gonna peace out and not be on the show today, because we wanna avoid the internet." But here we are, it's April Fool's, so none of the headlines can be believed... So based on that, I came up with this cool -- you decide if it's cool... I came up with this game called Headlies. Now, it's not head lice; that would be gross. It's Headlies, like fake news. And I thought I would pitch it to you today, live on the air...
 
@@ -60,13 +60,13 @@ They say "If you watch our conference talks, you will find we've been hinting at
 
 So that's what they're saying... Now, TBD what exactly all that means. There is on the new Deno.com - so they probably shelled out some of that five million on getting Deno.com, because it's always been deno.land, and now they have deno.com, because it's official. They have a new Deploy section, which seems a hint at their first potentially commercial offering... I just don't know exactly what that is. Did you check out that deploy thing?
 
-**Nick Nisi:** Yeah. That does seem to be like the first product from the Deno company, I guess you could put it. That's what I was trying to understand... In terms of what I already know, they call it a globally-distributed JavaScript VM. So it's a V8 runtime where you can run your JavaScript, your TypeScript, your Web Assembly code... At the edge, worldwide, is what they say.
+**Nick Nisi:** Yeah. That does seem to be like the first product from the Deno company, I guess you could put it. That's what I was trying to understand... In terms of what I already know, they call it a globally-distributed JavScript VM. So it's a V8 runtime where you can run your JavScript, your TypeScript, your Web Assembly code... At the edge, worldwide, is what they say.
 
 What I'm trying to understand - is this their own custom way to run Deno as like a Lambda function type thing? Is that comparable, or...?
 
-**Jerod Santo:** \[08:06\] It seems like that's what it is... Yeah, probably competing with Cloudflare workers, and Netlify Functions (or whatever Netlify's functions thing is called). But can't all these other providers just run Deno as well and do the same thing? It seems like maybe they'll have some secret sauce that makes it fast, or cheap, or whatever way they can compete and make it better than what these other cloud(ish) things are providing. That's why it's to-be-determined on whether or not there's a real value proposition there, because anybody can spin up the Deno runtime and run it in some sort of a VM or container environment and provide you access to that, right?
+**Jerod Santo:** \{08:06\} It seems like that's what it is... Yeah, probably competing with Cloudflare workers, and Netlify Functions (or whatever Netlify's functions thing is called). But can't all these other providers just run Deno as well and do the same thing? It seems like maybe they'll have some secret sauce that makes it fast, or cheap, or whatever way they can compete and make it better than what these other cloud(ish) things are providing. That's why it's to-be-determined on whether or not there's a real value proposition there, because anybody can spin up the Deno runtime and run it in some sort of a VM or container environment and provide you access to that, right?
 
-**Nick Nisi:** I think, yeah. And what they're touting in the blog post and on the Deno Deploy landing page - the environment that you would deploy to is very similar to the Deno CLI. So it makes it really seamless for development, because you run it basically the same way, and pass it in for the cloud version... And then also, I think in the blog post they were touting the ability -- one of the key features of Deno is its different take on the security model, the JavaScript runtime, where specifically when you run Deno just by itself, you don't have access to the network, you don't have access to the file system, you don't have access to any of this... And what I got from this is that if you don't allow those flags in what you're actually deploying, then that portion of the Deno runtime just doesn't ship. There's absolutely no way to do any kind of file system stuff if it's not --
+**Nick Nisi:** I think, yeah. And what they're touting in the blog post and on the Deno Deploy landing page - the environment that you would deploy to is very similar to the Deno CLI. So it makes it really seamless for development, because you run it basically the same way, and pass it in for the cloud version... And then also, I think in the blog post they were touting the ability -- one of the key features of Deno is its different take on the security model, the JavScript runtime, where specifically when you run Deno just by itself, you don't have access to the network, you don't have access to the file system, you don't have access to any of this... And what I got from this is that if you don't allow those flags in what you're actually deploying, then that portion of the Deno runtime just doesn't ship. There's absolutely no way to do any kind of file system stuff if it's not --
 
 **Jerod Santo:** That's cool...
 
@@ -80,13 +80,13 @@ What I'm trying to understand - is this their own custom way to run Deno as like
 
 **Nick Nisi:** Yeah. Deno is -- like, I haven't really taken too much time to play with it, although it's definitely on my list of things to look into... And going back to that runtime, that's really the appeal of it to me. I think the most right now is the idea that you can write your scripts -- if I'm thinking of things that I would wanna do, it'd be like command line applications. I'm writing stuff in Bash right now, and I write it in Bash because I know that Bash is probably on your system and there's not really like a need to npm-install anything, or set up anything like that... And that's a knock against Node and why I don't write command line stuff like that, because I consider global modules to be ephemeral, and you'd have to provide an npm install, and get all of that, and then you'd be able to run the script. But with Deno, it sounds like you can create an executable that has the entire runtime and everything you need in it, and then just ship that.
 
-**Jerod Santo:** \[12:20\] Yeah, a single binary.
+**Jerod Santo:** \{12:20\} Yeah, a single binary.
 
 **Nick Nisi:** Yeah. That's one of the big things --
 
 **Jerod Santo:** Which is spectacular for distribution, right?
 
-**Nick Nisi:** Yeah, exactly. That's one of the big things that I've seen Go being hoisted up as being a really great way to build these completely self-contained binaries that contain everything you need. It's a really good language for creating those command line scripts, if you need it, without having to worry about what's actually available on the system... And now I really like this, because now I can do it with JavaScript and it's a lot easier.
+**Nick Nisi:** Yeah, exactly. That's one of the big things that I've seen Go being hoisted up as being a really great way to build these completely self-contained binaries that contain everything you need. It's a really good language for creating those command line scripts, if you need it, without having to worry about what's actually available on the system... And now I really like this, because now I can do it with JavScript and it's a lot easier.
 
 **Jerod Santo:** Yeah, exactly. We actually just shipped an episode of Go Time all about releasing, and there's a project called GoReleaser, and a lot of that conversation on that episode is with Go I just create a universal binary and then I just send that where it needs to go; what kind of release process do I need. So some of the argumentation was like "Is this even necessary, to have these release tools?" Because it really is as simple as generating that binary, and then you can FTP it, you can SSH it, you can drop it in your Slack channel, you can probably email it if it's small enough, and pass it around. As long as it has been compiled for everybody's architectures - which it has, for the most part - it's just gonna work on everybody's machines... Which has been one of the reasons that Go has really succeeded. I think that's a huge advantage that Deno has over Node. And I'm sure there's Node efforts to provide tooling around making that be a thing, but having it built right into the project and being a first-party thing is gonna be something that sets it apart.
 
@@ -96,7 +96,7 @@ What I'm trying to understand - is this their own custom way to run Deno as like
 
 **Nick Nisi:** Yeah, I hope so too. It's always good to see attempts at sustainability around open source, and I really hope it works out.
 
-**Break:** \[14:56\]
+**Break:** \{14:56\}
 
 **Jerod Santo:** Okay, let's find out who is an April fool, and who's gonna April drool... I don't know. That didn't really work out. We're gonna play a game called Headlies. I've gathered a bunch of real headlines, along with the first paragraph from the story. I've also gathered and written some fake headlines along with the first paragraph to those stories.
 
@@ -138,7 +138,7 @@ Now, at the end of the day, you've got a 50/50 shot on all these, right? So you 
 
 **Nick Nisi:** Those fools were too busy worrying about if they could, they didn't stop to think whether they should...
 
-**Jerod Santo:** \[20:01\] \[laughs\] Very nice... A Jurassic Park pull in there... Alright, so the score is tied; I'm back at it. It's 0-0. You've lost 2. Now, remember, if you're not sure, you can listen to the first paragraph and give yourself a little more information. Or you can just keep gambling it all. Are you ready for the next one?
+**Jerod Santo:** \{20:01\} \[laughs\] Very nice... A Jurassic Park pull in there... Alright, so the score is tied; I'm back at it. It's 0-0. You've lost 2. Now, remember, if you're not sure, you can listen to the first paragraph and give yourself a little more information. Or you can just keep gambling it all. Are you ready for the next one?
 
 **Nick Nisi:** Alright, I'm ready.
 
@@ -218,7 +218,7 @@ So yeah, everything there is true, except for it was the Easter bunny and not Sa
 
 **Jerod Santo:** \[laughs\] Well, if you can find the link behind this show, I'll edit it back in. Alright, next one. "Florida man with state tattooed on head calls 911 for a ride home."
 
-**Nick Nisi:** \[24:13\] Florida man with state tattooed... Like, the word "state", or the state of Florida?
+**Nick Nisi:** \{24:13\} Florida man with state tattooed... Like, the word "state", or the state of Florida?
 
 **Jerod Santo:** I can't provide any more context, unless you want the paragraph. Do you want the paragraph?
 
@@ -284,7 +284,7 @@ Okay, you now have -1, you're digging out of the red. Are you ready?
 
 **Nick Nisi:** Yeah. He said he'd been doing it for years and never had anything come of it, and then...
 
-**Jerod Santo:** \[27:57\] And someone just noticed "This guy's eyes tell a different story than his lips/smile." That's cool, he's living it up; he's an internet celebrity now.
+**Jerod Santo:** \{27:57\} And someone just noticed "This guy's eyes tell a different story than his lips/smile." That's cool, he's living it up; he's an internet celebrity now.
 
 **Nick Nisi:** Yeah.
 
@@ -368,7 +368,7 @@ Okay, you now have -1, you're digging out of the red. Are you ready?
 
 Alright, with that, we finish Headlies... I would say it was a big victory, for me at least... If you enjoyed this segment, please let us know and we will do it again. Otherwise, we'll banish it to the farthest recesses of the internet, never to be seen again until April Fool's Day 2022.
 
-**Break:** \[31:46\]
+**Break:** \{31:46\}
 
 **Jerod Santo:** Alright, we're gonna finish up today's show with some shout-outs... And I'm gonna go first. I'm gonna give a shout-out to a tool and some people that we're using right now, that I've been appreciating quite a bit lately... HackMD, which you'll find at hackmd.io. It is an online collaborative markdown-based writing tool. So think about Google Docs, and how crappy the UI and everything, and writing in there, and copying and pasting out of it - think about all that. Don't you ever have Google Docs and you're like "I just wanna write in markdown"?
 
@@ -382,7 +382,7 @@ Today, for April Fool's, in the menu bar they did put this April Fool's joke, wh
 
 So you get your Vim key bindings in your browser, collaborative, share via URL, with lots of cool keyboard shortcuts and all the bells and whistles. I just really like this tool, so shout-out to the folks at HackMD. I did put some tweets out today and they responded, regarding this Vim thing, ensuring me that it's not an April Fool's joke, it's actually a real feature... And I decided to invite them on the show.
 
-\[36:08\] I think it's all open source. They have 56 open source repos on their GitHub. I think they're over there in Taiwan. So they've agreed to come on... I'm not sure how it'll work out, timing and whatnot, and if they're native English speakers or anything like that, but... Cool technology, open source, all built with webby tools, and I'm a big fan, so shout-out to HackMD.
+\{36:08\} I think it's all open source. They have 56 open source repos on their GitHub. I think they're over there in Taiwan. So they've agreed to come on... I'm not sure how it'll work out, timing and whatnot, and if they're native English speakers or anything like that, but... Cool technology, open source, all built with webby tools, and I'm a big fan, so shout-out to HackMD.
 
 **Nick Nisi:** Yeah, that's awesome. I saw your tweet about the Vim mode... It made me wonder what is special about Sublime mode versus anything else, any other editor.
 
@@ -410,7 +410,7 @@ Now, I've only used it in Vim mode for probably like two hours, and all of my no
 
 **Jerod Santo:** Right. And it's Shift + slash, so it makes sense. It's the same key, just one with a Shift key. So one goes one way and the other one goes the other. TIL, right here, live, on JS Party...
 
-**Jingle:** \[38:44\] to \[38:58\]
+**Jingle:** \{38:44\} to \{38:58\}
 
 **Jerod Santo:** TIL, there we go. I stalled for you... We're still doing shout-outs. Do you have a shout-out, Nick? Shout us out.
 
@@ -420,7 +420,7 @@ Now, I've only used it in Vim mode for probably like two hours, and all of my no
 
 **Nick Nisi:** So it does a lot... But it lets you set up automations, basically, on your Mac. It's a Mac program. So when I hit the specific keyboard shortcuts and I can have it like specific to an application, so I can say "When Slack is in the foreground and I press ?? or something like that, then run this script." Or I can record a macro and have it actually move my mouse around and quickly do something; or I can have it select from a menu... And you can mix and match these all together to build cool automations that do a lot of different things.
 
-\[40:00\] I started playing with this, and I also have a Stream Deck... And Stream Deck is a little device that has -- mine has 16 buttons, and all of the buttons are little LCD screens, so you can set what each button is... And I can trigger Keyboard Maestro macros from that. So I can push a button and have it do things like turn my lights on and off. I can also have it do things like automatically open up Audio Hijack, and get ready for a Zoom meeting, and get ready to record, or have it automatically start recording, and kind of combine them all together... So then I just push a button and it can do things like lay out windows, so I have it moving windows where I want on my screen, so everything is not overlapping, and it's all readily visible for me, and then it can start recording and turn my lights on, and do all this really cool stuff. It's a pretty cool way to do some simple and complex automation on your Mac.
+\{40:00\} I started playing with this, and I also have a Stream Deck... And Stream Deck is a little device that has -- mine has 16 buttons, and all of the buttons are little LCD screens, so you can set what each button is... And I can trigger Keyboard Maestro macros from that. So I can push a button and have it do things like turn my lights on and off. I can also have it do things like automatically open up Audio Hijack, and get ready for a Zoom meeting, and get ready to record, or have it automatically start recording, and kind of combine them all together... So then I just push a button and it can do things like lay out windows, so I have it moving windows where I want on my screen, so everything is not overlapping, and it's all readily visible for me, and then it can start recording and turn my lights on, and do all this really cool stuff. It's a pretty cool way to do some simple and complex automation on your Mac.
 
 **Jerod Santo:** That is cool. So it's actually driving the mouse around, and then everything as well, right?
 
@@ -466,7 +466,7 @@ Now, I've only used it in Vim mode for probably like two hours, and all of my no
 
 **Nick Nisi:** Yeah, so that's actually connected with the Stream Deck software; it has a control center that is controlling them...
 
-**Jerod Santo:** \[44:06\] Which is a piece of software that runs on your machine... So Keyboard Maestro is just controlling that software.
+**Jerod Santo:** \{44:06\} Which is a piece of software that runs on your machine... So Keyboard Maestro is just controlling that software.
 
 **Nick Nisi:** Right.
 
@@ -502,19 +502,19 @@ Now, I've only used it in Vim mode for probably like two hours, and all of my no
 
 **Nick Nisi:** Yes.
 
-**Jerod Santo:** \[laughs\] I'd rather do it the manual way. That being said, there is a JavaScript interface now \[unintelligible 00:46:11.20\] but I've also tried to use that, and to very little success.
+**Jerod Santo:** \[laughs\] I'd rather do it the manual way. That being said, there is a JavScript interface now \[unintelligible 00:46:11.20\] but I've also tried to use that, and to very little success.
 
 **Nick Nisi:** It's still terrible.
 
-**Jerod Santo:** The documentation - it's inscrutable. How do I even use it? I understand JavaScript, but I can't use this API.
+**Jerod Santo:** The documentation - it's inscrutable. How do I even use it? I understand JavScript, but I can't use this API.
 
-**Nick Nisi:** Yeah. The only piece of AppleScript that I've written - and I wrote it actually in AppleScript and JavaScript, and that was to ask Music or Spotify what song is playing, so that I can put that in my \[unintelligible 00:46:34.18\] just refreshes every five seconds and asks "What's playing right now?" and it updates right there... And that broke in macOS Big Sur. It broke in a really weird way, where it just throws an error that the object that I'm trying to grab from Music doesn't exist, except it does if I'm playing a music file that is in my library. But if it's just like I'm listening to Apple Music Radio, whatever that's called, or an Apple Music playlist that is not in my library, then it's like "Whoa, I don't know what this is" and it just blows up.
+**Nick Nisi:** Yeah. The only piece of AppleScript that I've written - and I wrote it actually in AppleScript and JavScript, and that was to ask Music or Spotify what song is playing, so that I can put that in my \[unintelligible 00:46:34.18\] just refreshes every five seconds and asks "What's playing right now?" and it updates right there... And that broke in macOS Big Sur. It broke in a really weird way, where it just throws an error that the object that I'm trying to grab from Music doesn't exist, except it does if I'm playing a music file that is in my library. But if it's just like I'm listening to Apple Music Radio, whatever that's called, or an Apple Music playlist that is not in my library, then it's like "Whoa, I don't know what this is" and it just blows up.
 
 **Jerod Santo:** Wow. Yeah... That's life. The best AppleScript I've written - probably ever, but definitely lately - is one that we use for our clips, the way we make our clips... Which is we actually use Keynote for our clips. And we write the text in a text document. So we pull the text out of our transcripts - and they're just markdown transcripts, so they're basically text with a little bit of formatting... And we just copy all those into a text document, and just space it out, so it'd be like Jerod, and then a thing, and then Nick, and then a thing, and just formatting it according to what I came up with... And then you copy that into your clipboard. Then you open up Keynote and you execute this AppleScript, and it actually scripts Keynote to go and parse the text and then add a slide for each one and paste it into there. And then it'll even go and switch the active face, and stuff like that...
 
 **Nick Nisi:** Wow...
 
-**Jerod Santo:** \[48:05\] Super-cool. But it took me way too long, way too long to get this to work. But once it worked, it felt like magic, because I hit Paste... It's like a special -- and then I attach that AppleScript to a keyboard shortcut inside a Keynote... So I just execute it and it's like "PRRRRR", and all these slides come into life...
+**Jerod Santo:** \{48:05\} Super-cool. But it took me way too long, way too long to get this to work. But once it worked, it felt like magic, because I hit Paste... It's like a special -- and then I attach that AppleScript to a keyboard shortcut inside a Keynote... So I just execute it and it's like "PRRRRR", and all these slides come into life...
 
 **Nick Nisi:** Do you watch it as it's going?
 
@@ -548,11 +548,11 @@ So it took a long time, but I think it's not very much AppleScript. And there ar
 
 **Nick Nisi:** Nice.
 
-**Jerod Santo:** I tried to write it in JavaScript and I just couldn't figure it out. It wasn't the JavaScript's fault, it was their scripting API.
+**Jerod Santo:** I tried to write it in JavScript and I just couldn't figure it out. It wasn't the JavScript's fault, it was their scripting API.
 
-**Nick Nisi:** Like AppleScript JavaScript?
+**Nick Nisi:** Like AppleScript JavScript?
 
-**Jerod Santo:** Yeah. Like, this is written in actual AppleScript... But I was trying to use the JavaScript interface. The documentation just didn't -- I just couldn't figure it out, so I was like "Well..." The AppleScript documentation is actually better, so that's gonna be the difference. Even the language is just terrible.
+**Jerod Santo:** Yeah. Like, this is written in actual AppleScript... But I was trying to use the JavScript interface. The documentation just didn't -- I just couldn't figure it out, so I was like "Well..." The AppleScript documentation is actually better, so that's gonna be the difference. Even the language is just terrible.
 
 **Nick Nisi:** Yeah.
 
@@ -562,6 +562,6 @@ We appreciate you hanging out with us. If you liked Headlies, let us know, becau
 
 **Nick Nisi:** See ya!
 
-**Outro:** \[53:03\]
+**Outro:** \{53:03\}
 
 **Horse JS:** Reading the ECMAScript standard literally changed my life. Like most people.

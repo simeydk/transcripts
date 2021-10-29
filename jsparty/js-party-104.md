@@ -26,13 +26,13 @@
 
 **Jerod Santo:** You're probably not the only one that feels like that.
 
-**Kahlil Lechelt:** Yeah, totally. But what was so weird - I met him a few times, and I always failed to mention that to him, but... I always felt like -- whenever he made a video, like for instance back in the day; I don't know when that was, like 2010 or 2011, or something like that... He made one of these videos where he was talking about "10 things I learned from reading the jQuery codebase." Whenever he made something like that, it was always something -- the jQuery codebase at that point really seemed so daunting to me... I would never think that I could understand anything that's in there. And he in that video really dissected it in a way that made it easy to understand certain things, and for me personally - it always leveled me up. Whenever he made something like that, it was always exactly at the right moment what I needed in order to level up in my understanding of JavaScript, and JavaScript on the web, and stuff like that.
+**Kahlil Lechelt:** Yeah, totally. But what was so weird - I met him a few times, and I always failed to mention that to him, but... I always felt like -- whenever he made a video, like for instance back in the day; I don't know when that was, like 2010 or 2011, or something like that... He made one of these videos where he was talking about "10 things I learned from reading the jQuery codebase." Whenever he made something like that, it was always something -- the jQuery codebase at that point really seemed so daunting to me... I would never think that I could understand anything that's in there. And he in that video really dissected it in a way that made it easy to understand certain things, and for me personally - it always leveled me up. Whenever he made something like that, it was always exactly at the right moment what I needed in order to level up in my understanding of JavScript, and JavScript on the web, and stuff like that.
 
 So for me, the best mentors in the tech world were really just online, people sharing things. Addy Osmani writing about frameworks, or about patterns in...
 
 **Emma Wedekind:** Oh yeah, design patterns.
 
-**Kahlil Lechelt:** Design patterns in JavaScript, and stuff like that. That's really mostly it for me so far.
+**Kahlil Lechelt:** Design patterns in JavScript, and stuff like that. That's really mostly it for me so far.
 
 **Emma Wedekind:** That's interesting, because I think we forget that -- I like to call it asynchronous mentorship, or non-symbiotic mentorship, because it's purely one-sided, so you're not both getting something out of it. You forget that these are also mentorships. I didn't realize this until someone brought it up, like "Oh, you realize you mentor people just by the content you produce?" and I'm like "Oh... I guess you're right. I never thought about that."
 
@@ -50,7 +50,7 @@ That being said, I think when we think about traditional mentorship, it is more 
 
 **Jerod Santo:** Oh, okay.
 
-**Emma Wedekind:** And basically the first three days were learning all about web performance, and JavaScript frameworks... It was like a bootcamp for front-end development, and at the end you did a hackathon project. And he was one of the instructors, and so I just simply asked him "Do you accept mentees? Because I like the way you teach. Would you teach me?" So if anyone's looking for a mentor, just be honest; you have nothing to lose just by asking someone to be your mentor... And we can talk a little bit about how to do that appropriately and what a good mentorship is in a minute.
+**Emma Wedekind:** And basically the first three days were learning all about web performance, and JavScript frameworks... It was like a bootcamp for front-end development, and at the end you did a hackathon project. And he was one of the instructors, and so I just simply asked him "Do you accept mentees? Because I like the way you teach. Would you teach me?" So if anyone's looking for a mentor, just be honest; you have nothing to lose just by asking someone to be your mentor... And we can talk a little bit about how to do that appropriately and what a good mentorship is in a minute.
 
 He was a technical mentor, and we had a project that we were working on; I really wanted to redo my portfolio... So every week we'd have milestones. I wanted to learn about Express, and Node, and we set up some routing, and... Every week we'd have a technical milestone, and I'd have projects to do on my own time, and we would do code reviews... So that was really great.
 
@@ -58,7 +58,7 @@ Then at LogMeIn, with you, Kahlil, it was more like a career-based relationship.
 
 **Kahlil Lechelt:** With technical mentorships I think there are so many good options to just say "Hey, work through this Wes Bos course", or something like that. Or the Kent C. Dodds whatever course, in order to learn these technologies that you need... And then you can always talk about it after, or something like that. Because I think these courses that are so -- you know, there's so many of them available that are really good. They're almost like the best base for technical mentorship, I think. And then going from there, you can discuss all kinds of stuff, or just clarify things, and stuff like that.
 
-**Emma Wedekind:** I've noticed that often people just have trouble understanding a path to learning skills. I get a lot of messages that are like "Can you mentor me in front-end development? I wanna learn A, B and C, but I just have no idea where to start", and I think a lot of the struggle for new developers is like "Where do I begin? Do I go front-end or back-end? What's even the difference?" Because when you're trying to learn development, really the most crucial part I think is needing guidance on what to learn... Because you're just so overwhelmed. I mean, to try to balance learning HTML, CSS and JavaScript, React, Vue - all these things, and you don't know where to start... That's really hard, and if you're a mentor for a new developer, I think guidance is the best thing you can do for them, not necessarily sitting down and -- yeah, you might wanna whiteboard or do code reviews, but I think just helping them understand the right path for them is really useful.
+**Emma Wedekind:** I've noticed that often people just have trouble understanding a path to learning skills. I get a lot of messages that are like "Can you mentor me in front-end development? I wanna learn A, B and C, but I just have no idea where to start", and I think a lot of the struggle for new developers is like "Where do I begin? Do I go front-end or back-end? What's even the difference?" Because when you're trying to learn development, really the most crucial part I think is needing guidance on what to learn... Because you're just so overwhelmed. I mean, to try to balance learning HTML, CSS and JavScript, React, Vue - all these things, and you don't know where to start... That's really hard, and if you're a mentor for a new developer, I think guidance is the best thing you can do for them, not necessarily sitting down and -- yeah, you might wanna whiteboard or do code reviews, but I think just helping them understand the right path for them is really useful.
 
 **Kahlil Lechelt:** So what is a mentor exactly?
 
@@ -126,7 +126,7 @@ And of course, there were also some downsides coming with all this attention on 
 
 **Emma Wedekind:** The hard things. You were kind of keeping me in line and rubber-ducking things when I needed it, so... Yeah, I appreciate that. We're gonna take a quick break here, but when we come back, we're gonna talk about some things that make a good mentorship and some things that maybe could hinder your mentorships, and then talk about how you can find a mentor in the tech industry.
 
-**Break**: \[21:19\]
+**Break**: \{21:19\}
 
 **Emma Wedekind:** Alright, so let's talk a little bit about what actually makes a good mentorship. Kahlil, from our mentorship, what do you think are some of the characteristics about it that has made it so successful?
 
@@ -172,7 +172,7 @@ And I guess I wanna ask, how can someone go find a mentor? Because it was really
 
 **Kahlil Lechelt:** It's a good question. I think that one really good thing that people often forget is meetups. If you wanna level up as a programmer, just go find meetups within the space that you wanna level up in, and then meet other people that are interested in it, and are passionate about it, and talk to them. You could also maybe find somebody who can mentor you, of course. But definitely just connecting locally with the people that have the same interests...
 
-We're doing Karlsruhe JS here, so the city Karlsruhe is where we work, and the JavaScript community meets up at Karlsruhe JS, and... There was this really cool thing I had. And I think mentorship, when I think about it, often has to do with the right advice, at the right moment in time. And it doesn't have to be formal or anything, but if you can just support somebody, if you feel like "Hey, this person now needs to hear this", just go and tell them that.
+We're doing Karlsruhe JS here, so the city Karlsruhe is where we work, and the JavScript community meets up at Karlsruhe JS, and... There was this really cool thing I had. And I think mentorship, when I think about it, often has to do with the right advice, at the right moment in time. And it doesn't have to be formal or anything, but if you can just support somebody, if you feel like "Hey, this person now needs to hear this", just go and tell them that.
 
 There was a really nice thing happening with this guy - he immigrated from China and he was studying currently computer science in Karlsruhe; he sent us an email, he wanted to talk about a React framework to make command line interfaces with React, and stuff... And he sent this crazy outline in this mail, and we were like "Of course we can talk about this." We never get these kinds of abstracts sent in." It was really cool.
 
@@ -212,7 +212,7 @@ And there are other initiatives that we wanna employ as well. We do have a very 
 
 **Emma Wedekind:** Let's take one more break, and when we come back, let's just talk about maybe some cool things that we're learning.
 
-**Break:** \[37:29\]
+**Break:** \{37:29\}
 
 **Emma Wedekind:** Alright, so before we talk about some of the cool things we're learning, I'm gonna kick it over to Kahlil to just talk about when is the right time to end a mentorship. How do you know when the time has come to gracefully part ways?
 

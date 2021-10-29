@@ -1,6 +1,6 @@
-**Adam Stacoviak:** \[00:31\] Welcome to our Spotlight series titled The Future of Node, recorded at Node Interactive 2016 in Austin, Texas. We produced this series in partnership with the Linux Foundation, the Node.js Foundation, and it's sponsored by IBM and StrongLoop.
+**Adam Stacoviak:** \{00:31\} Welcome to our Spotlight series titled The Future of Node, recorded at Node Interactive 2016 in Austin, Texas. We produced this series in partnership with the Linux Foundation, the Node.js Foundation, and it's sponsored by IBM and StrongLoop.
 
-**Break:** \[00:45\]
+**Break:** \{00:45\}
 
 **Adam Stacoviak:** This episode features a small roundtable discussion with Sam Roberts who works on Node Runtimes at IBM, and also Thomas Watson, the Node.js Lead at Opbeat. We talked about keeping Node Core small, what to put in, what to take out, how to deprecate and everything in-between. Listen in!
 
@@ -34,8 +34,8 @@
 
 **Adam Stacoviak:** And Sam, for you - how does that clash with your opinion?
 
-**Sam Roberts:** That doesn't clash, I absolutely agree with that, and I'd extend it... I mean, one of the other things is that Node is a pre-packaged bundle of a set of modules, and you can't disassociate from them. If you want a particular version of child\_process because it's got the sync stuff, but you don't want the version of URL that came with that one, you have no choice because they came together with Node... Unlike NPM modules, where you can mix and match, you can choose, and the modules you can depend on can even themselves depend on incompatible different versions of modules, but it's okay, because it's node and it's JavaScript, and multiple versions - even multiple incompatible versions of a particular dependency can exist in your dependency tree, and that works fine.
-\[04:03\] But Node has all of these modules compiled into the binary, and they all come together and it's very inflexible. It creates difficulties.
+**Sam Roberts:** That doesn't clash, I absolutely agree with that, and I'd extend it... I mean, one of the other things is that Node is a pre-packaged bundle of a set of modules, and you can't disassociate from them. If you want a particular version of child\_process because it's got the sync stuff, but you don't want the version of URL that came with that one, you have no choice because they came together with Node... Unlike NPM modules, where you can mix and match, you can choose, and the modules you can depend on can even themselves depend on incompatible different versions of modules, but it's okay, because it's node and it's JavScript, and multiple versions - even multiple incompatible versions of a particular dependency can exist in your dependency tree, and that works fine.
+\{04:03\} But Node has all of these modules compiled into the binary, and they all come together and it's very inflexible. It creates difficulties.
 
 **Adam Stacoviak:** How does that create difficulties inside of IBM? So you're a developer inside of IBM - what part do you play there?
 
@@ -47,7 +47,7 @@
 
 The problem is once you add it to Node Core, changing things becomes very difficult and it doesn't matter how good something is. It's not so much that you might add something and it's bad and you regret it; you might add something and it's great, but later it's not so good, and URL is a great example. The URL library predates the WHATWG URL definition, so we're now getting bug reports because the URL library doesn't do what browsers do, but it predates these browser APIs, so of course it doesn't. So it's not like we messed anything up; I mean, I wasn't there personally, but it wasn't like the people who did it messed anything up.
 
-It is what it is, it was a decent URL library... I mean, I look at that and I say, "Well, why do we have a URL library in Node that we expose to users? It's just JavaScript, it doesn't UV by an instance, it's not system-dependent, it doesn't have to be written in C++ - and it isn't... Why is it there? I mean, it's there because it's useful to Node users? Well, there are many things that are useful to Node users, and you do not require URL parsing to be in the Node API, but it is there now.
+It is what it is, it was a decent URL library... I mean, I look at that and I say, "Well, why do we have a URL library in Node that we expose to users? It's just JavScript, it doesn't UV by an instance, it's not system-dependent, it doesn't have to be written in C++ - and it isn't... Why is it there? I mean, it's there because it's useful to Node users? Well, there are many things that are useful to Node users, and you do not require URL parsing to be in the Node API, but it is there now.
 
 I look at many of the current APIs as being in that category. They didn't have to be there. We added them because they were useful. I mean, thankfully, Promises were taken out. Can you imagine where we'd be now if the Node API was still promised, but obviously with a non-spec-compliant Promises from, you know...
 
@@ -59,13 +59,13 @@ I look at many of the current APIs as being in that category. They didn't have t
 
 But if I may play devil's advocate for a second with the URL example that you gave... If we remove URL from Node Core, we have suddenly another problem, which is a lot of Node Core depend on having that dependency available.
 
-\[08:00\] So when you install Node, you don't pull down all the modules from NPM; you expect Node to come packaged with everything Node itself needs. So the URL module, for example, is needed by the HTTP module. If it's not available, how would the HTTP module work? There are solutions for this, but it's a problem that I hear a lot when we talk about taking, for example, stuff like the URL module out of Node.
+\{08:00\} So when you install Node, you don't pull down all the modules from NPM; you expect Node to come packaged with everything Node itself needs. So the URL module, for example, is needed by the HTTP module. If it's not available, how would the HTTP module work? There are solutions for this, but it's a problem that I hear a lot when we talk about taking, for example, stuff like the URL module out of Node.
 
-**Thomas Watson:** Well, actually not only are there solutions, there are easy solutions right now. Up until just a year -- or very recently (post-1.0) \[unintelligible 00:08:38.12\] there was no way that Node could have a JavaScript library in it that was not also visible to users of Node. Node had no choice - every library that it needed internally also had to be shown to users. So you're right that URL is used internally, but it would be very easy right now to add a lib internal URL that was literally impossible to be accessed by a user. So we could add a WHATWG compliant URL parser to the internals of Node, and make it be the URL parser that's used by the publicly visible API such as http.get, so the behavior of http.get would be consistent with what our browser developer or anybody familiar with the spec would expect. But at the same time, if a user, they themselves wanted to do URL parsing, install your URL parser from NPM. It's no problem, you can do it.
+**Thomas Watson:** Well, actually not only are there solutions, there are easy solutions right now. Up until just a year -- or very recently (post-1.0) \[unintelligible 00:08:38.12\] there was no way that Node could have a JavScript library in it that was not also visible to users of Node. Node had no choice - every library that it needed internally also had to be shown to users. So you're right that URL is used internally, but it would be very easy right now to add a lib internal URL that was literally impossible to be accessed by a user. So we could add a WHATWG compliant URL parser to the internals of Node, and make it be the URL parser that's used by the publicly visible API such as http.get, so the behavior of http.get would be consistent with what our browser developer or anybody familiar with the spec would expect. But at the same time, if a user, they themselves wanted to do URL parsing, install your URL parser from NPM. It's no problem, you can do it.
 
 **Sam Roberts:** And then when you compile Node, you would basically pull that in and have it internally, so it would actually be the same module that you could also install from NPM if you wanted to.
 
-**Thomas Watson:** Yes, which is what's done with... I could be wrong here - I'm pretty sure there's a punycode, so we didn't need an internationalized DNS handling, so that module is actually... I guess nobody wanted to write it. This all predates my time, I just see it how it is now. But very sensibly, they're like "Well, this is a decent JavaScript module in NPM, let's just bring it in." And as build mechanics, I don't think it was actually drawn down with an NPM install; I think it was vendored in from Git as a dependency. But these are build mechanics; the principle is that a WHATWG compliant JavaScript library could be made on NPM, could be vendored in; the people would be forced to install it.
+**Thomas Watson:** Yes, which is what's done with... I could be wrong here - I'm pretty sure there's a punycode, so we didn't need an internationalized DNS handling, so that module is actually... I guess nobody wanted to write it. This all predates my time, I just see it how it is now. But very sensibly, they're like "Well, this is a decent JavScript module in NPM, let's just bring it in." And as build mechanics, I don't think it was actually drawn down with an NPM install; I think it was vendored in from Git as a dependency. But these are build mechanics; the principle is that a WHATWG compliant JavScript library could be made on NPM, could be vendored in; the people would be forced to install it.
 
 I have mixed feelings about whether we should actually delete the URL library that exists in Node from its public API.
 
@@ -89,7 +89,7 @@ I have mixed feelings about whether we should actually delete the URL library th
 
 **Thomas Watson:** Right. So we do have the ability to deprecate things. Punycode is really easy, it's just gonna sit there forever, probably. Maybe sometime in the future we'll run a search over npmjs.org and be like, "Okay, look, nobody is using punycode; not from Node anymore. They're all NPM-installing it because there's a much more recent, better version on NPMjs." So it's a first step to eventually being able to do a pain-free deletion, and it comes up with URL, because right now with URL we are facing a choice.
 
-\[12:01\] James has written this - and this is in no way a criticism of James; I mean, we needed a good parser, so he's written a WHATWG compliant parser, but the question is should we show it to users? Should they be allowed to use it merely by NPM-installing Node 8? And what about those poor suckers on Node 6? Many of them are just moving to Node 6 - they don't get the WHATWG because it's not on NPM, they have to upgrade to Node 8? No, I mean, it should be an NPM module.
+\{12:01\} James has written this - and this is in no way a criticism of James; I mean, we needed a good parser, so he's written a WHATWG compliant parser, but the question is should we show it to users? Should they be allowed to use it merely by NPM-installing Node 8? And what about those poor suckers on Node 6? Many of them are just moving to Node 6 - they don't get the WHATWG because it's not on NPM, they have to upgrade to Node 8? No, I mean, it should be an NPM module.
 
 So that's what I propose. First of all, I think we should be limiting things as much as possible, and if we can make our own Node APIs obsolete by making sure that there's a better one on npmjs.org that people can use, and during what's happening with punycode - and punycode is a low-hanging fruit; I do not think it was the most popular of Node APIs, right?
 
@@ -100,7 +100,7 @@ But suddenly if we pull out URL from Node Core, we're gonna get a lot of modules
 
 **Thomas Watson:** Right, so I believe the URL should be removed from Node; I don't believe it should be removed now. I definitely wouldn't propose that. I think that the punycode model is a much better one. What I'd like to see is that Node does not expose a WHATWG compatible URL library from Node, that we do make sure it exists on NPMjs, we do use it internally, and we start directing what will be a continuing flood of bug reports, close them and say "Yes, this does not do what the WHATWG does, but we support this." We could even put it into the Node Foundation. It can be node.js/ whatwg URL and we can NPM publish it, and we can semver it, and it can develop with time -- or not develop, since as a spec maybe it should never change. And then maybe we can have this conversation again in two years, by which point everybody who uses URL will have bugs reported against their library saying "Hey, your library doesn't work. It does this weird stuff with URL parsing", and they'll look at it and be like "Well, we just used Node's URL library", so they'll report a bug on us, and we'll shoot it back to them and say, "My friend, there is a module for that. Just like you run a module, there's a module for that. Your solution for you is don't use Node Core's URL, use that", and we can start moving that direction...
 
-**Adam Stacoviak:** \[16:07\] Incrementally.
+**Adam Stacoviak:** \{16:07\} Incrementally.
 
 **Thomas Watson:** Yeah, it's an incremental...
 
@@ -131,7 +131,7 @@ Another interesting example -- actually, I was just looking at the code to see w
 
 So we didn't have to pull in a whole websocket library to do that, we just needed to extend buffers, so it had this small API that could be used effectively to implement websockets. So websockets can stay out of Core and there can continue to be innovation in websocket APIs. Because all of the websocket APIs offer lots of high-level features of which there's debate - how should it work? What should you do? There's lots of innovation over there.
 
-\[19:55\] So I would say that for a number of features it would be nice if Node Core could add a very minimalistic set of APIs that will make it possible to implement higher level APIs, and people can use them directly and we'll keep them stable, but hopefully people would move out.
+\{19:55\} So I would say that for a number of features it would be nice if Node Core could add a very minimalistic set of APIs that will make it possible to implement higher level APIs, and people can use them directly and we'll keep them stable, but hopefully people would move out.
 Cluster is an example of that. Cluster could be built in the NPM userland if there was two features present in Node Core that are currently missing. I would like to see those two features added... Obviously, somebody has to do it and I have not had the time to do it lately, but I'd like to see those two features added. Cluster moved out - because it's very opinionated - into NPM, where it can innovate, or die, or whatever, and eventually, Cluster as well could be deprecated. It's too opinionated, it doesn't have to be something in Node Core; we don't have to maintain it, we don't have to bug fix it. If people don't like how it works, no problem. There's one, or two, or three versions of it on npmjs.org.
 
 I think that's a good pattern. Look for the smallest thing that reasonably should be implemented in Node Core that's maybe usable; but if it's not quite usable and it has to be used by people writing modules on top of it on NPMjs, that's great. The more people use those types of modules that have individually semvered APIs, the better, I think.
@@ -146,7 +146,7 @@ I think that's a good pattern. Look for the smallest thing that reasonably shoul
 
 In theory, NPMjs could organize a build farm and they could do it, but they'd also have to have all the libraries... You know, that's a separate problem; it's a big problem, and it's hard to solve. Bert had suggestions for that, actually. I don't know if you saw that Chrome has an intermediate compiled format; basically, the C++ gets compiled to an intermediate platform-independent performance format, and then (I'm pretty sure) LLVM at runtime can do the final compilation down to machine code, and Chrome's using it... It's significant levels of programming wizardry and effort required to get that kind of stuff into Node.
 
-**Sam Roberts:** \[24:06\] Do you think that HTTP/2 should be shipped with Node?
+**Sam Roberts:** \{24:06\} Do you think that HTTP/2 should be shipped with Node?
 
 **Adam Stacoviak:** I was gonna ask that.
 
@@ -164,7 +164,7 @@ Given that Node already has HTTP, I think HTTP/2 is going to become more and mor
 
 An HTTP/2 is not just in C++ for performance, it's also because it's a complex protocol and it has a very good... I'm pretty sure the implementation is C, actually; well, at least the APIs are C. So it has a good implementation AND it's reasonably performant, and it's easy to build into Node... Or relatively easy; it was designed to go behind even-loop architecture, as opposed to some versions. So it's not so hard to do.
 
-There's been some work - there was for a while - to rewrite the DNS library away from C areas into pure JavaScript, because JavaScript compilation is getting better and better. But then Node is stuck with maintaining an entire protocol implementation in JavaScript all its own and nobody uses, which has its own maintenance costs.
+There's been some work - there was for a while - to rewrite the DNS library away from C areas into pure JavScript, because JavScript compilation is getting better and better. But then Node is stuck with maintaining an entire protocol implementation in JavScript all its own and nobody uses, which has its own maintenance costs.
 
 I'm kind of on the fence there, but I can see the wind is blowing in the HTTP/2...
 
@@ -186,7 +186,7 @@ I'm kind of on the fence there, but I can see the wind is blowing in the HTTP/2.
 
 **Sam Roberts:** Exactly, that's the main issue. That's why I was thinking about maybe if we could have pre-compiled things for each platform, that might help it. But again...
 
-**Thomas Watson:** \[28:06\] It would make the tradeoffs really different. If in some future nirvana we achieve a better way of dealing with compiled add-ons, that really makes things better. The balance of tradeoffs would really change... Which is a good reason to have as few things as possible, so we don't look as foolish, or we're not stuck with as much baggage when we reach this future, if we do. Or maybe the future will be different -- the future will definitely be different from what it is now.
+**Thomas Watson:** \{28:06\} It would make the tradeoffs really different. If in some future nirvana we achieve a better way of dealing with compiled add-ons, that really makes things better. The balance of tradeoffs would really change... Which is a good reason to have as few things as possible, so we don't look as foolish, or we're not stuck with as much baggage when we reach this future, if we do. Or maybe the future will be different -- the future will definitely be different from what it is now.
 
 **Sam Roberts:** We just have to be really careful; every time we put something in we have to think to ourselves "Okay, it's now in for good. It's gonna be almost impossible to change this API from now on." We've seen that a lot of times in Node Core, and now we're stuck with that. Every time we add something, it has to be really well thought out.
 
@@ -202,7 +202,7 @@ That's a good example; that should never have gone into Node, and I think we can
 
 **Thomas Watson:** Yeah, I absolutely agree. There was a real problem in Node that had to be solved, and that was of back pressure; there needed to be a way to deal with pressure and to write some sort of -- and I'm not gonna say I know exactly what the solution was, like what minimal type of mechanism was required that would enable an ecosystem of streams to develop around it, but there has to have been a better way to make back pressure possible while leaving Streams outside.
 
-\[31:46\] That said, there's actually a movement right now to move streams (not the Streams 1, 2, 3 - not that JavaScript Streams), to move streaming capabilities down into libuv. Doing that might allow TLS to move into libuv, and other things to move down into libuv, and allow a lot more performance. But even so, even if we do that, that doesn't necessarily have to surface into streams like API and Node. If it could surface into a much simpler API, which was used by Readable Streams and all of the wonderful Streams modules out in NPMjs land, that would be nice. But we're left with it...
+\{31:46\} That said, there's actually a movement right now to move streams (not the Streams 1, 2, 3 - not that JavScript Streams), to move streaming capabilities down into libuv. Doing that might allow TLS to move into libuv, and other things to move down into libuv, and allow a lot more performance. But even so, even if we do that, that doesn't necessarily have to surface into streams like API and Node. If it could surface into a much simpler API, which was used by Readable Streams and all of the wonderful Streams modules out in NPMjs land, that would be nice. But we're left with it...
 
 It's terrible... Streams is a huge module, it's very difficult to understand, huge maintenance overhead, and has all kinds of user problems - it has Streams, Cluster, URL... These are big modules that don't have to be there.
 
@@ -234,7 +234,7 @@ People get really scared when they see they see those things when they use your 
 
 **Sam Roberts:** Oh, you can do a blog post, you can do anything like that, but it's more like an educational process; at least that's the first step. I don't think we'll ever be able to pull out Streams of Node Core. Maybe URL at some point down the line, if we see that less and less people depend on it, I think it's likely. You know, it might happen. But just update the documentation and have these blessed modules that we refer people to instead.
 
-**Thomas Watson:** \[35:11\] I really like that idea, and actually I might PR a change to the Streams doc right away. I mean, Streams needs to be documented in Node because Node APIs return Streams, you have to know what the APIs are. But there's a very good argument that you should never yourself type "require Stream" from Node. You should always require a readable stream, and it's not unreasonable to say that at the top of the Stream doc. "We have these in Node Core, but YOU, when YOU use Streams or build your own Stream, should be using Readable Streams."
+**Thomas Watson:** \{35:11\} I really like that idea, and actually I might PR a change to the Streams doc right away. I mean, Streams needs to be documented in Node because Node APIs return Streams, you have to know what the APIs are. But there's a very good argument that you should never yourself type "require Stream" from Node. You should always require a readable stream, and it's not unreasonable to say that at the top of the Stream doc. "We have these in Node Core, but YOU, when YOU use Streams or build your own Stream, should be using Readable Streams."
 
 **Adam Stacoviak:** That's what it says for -- is it \[punny\] or \[pewny\]?
 
@@ -264,4 +264,4 @@ People get really scared when they see they see those things when they use your 
 
 **Adam Stacoviak:** Thanks again to our friends at the Linux Foundation and the Node Foundation for working with us on this project, as well as our friends at IBM and StrongLoop for sponsoring this podcast series. It was a blast being there.
 
-We'll be there again next year, so look out for us in 2017 at Node Interactive. If you wanna hear more JavaScript-focused podcast from Changelog, check out JS Party, our new live weekly show with Mikeal Rogers, Alex Sexton and Rachel White. Head to Changelog.com/jsparty, click Subscribe, don't miss a show, and thanks for listening.
+We'll be there again next year, so look out for us in 2017 at Node Interactive. If you wanna hear more JavScript-focused podcast from Changelog, check out JS Party, our new live weekly show with Mikeal Rogers, Alex Sexton and Rachel White. Head to Changelog.com/jsparty, click Subscribe, don't miss a show, and thanks for listening.

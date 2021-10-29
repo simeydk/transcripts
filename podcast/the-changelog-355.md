@@ -4,7 +4,7 @@
 
 **Jerod Santo:** ...the second hire and former CTO at npm, and you're here to talk about something new and shiny, and not even out there yet; you don't use it yet, but it's super-exciting - it's Entropic. Ceej, thanks so much for joining.
 
-**CJ Silverio:** It's a pleasure to be here with you all. It's a pleasure to be talking JavaScript, too.
+**CJ Silverio:** It's a pleasure to be here with you all. It's a pleasure to be talking JavScript, too.
 
 **Jerod Santo:** Absolutely. So you kind of dropped a bomb at JSConf EU, and have one of the most watched videos from the conference talks, which was published on June 3rd, all about the economies of open source. We're gonna dive all into that, but... Can you give the elevator pitch or the brief synopsis? Everybody, we'll link up that; you should definitely go watch it, especially the last five or six minutes, where the bomb gets dropped...
 
@@ -14,13 +14,13 @@
 
 **CJ Silverio:** That was an amazing moment. I have never had a conference-speaking moment like that before. Literally, when I got up, I had no idea how the crowd would react to the news... And when I heard the reaction, I was as surprised as anybody else.
 
-In this talk I talk about npm, I talk about JavaScript's package manager, I talk about its history, including a bunch of history that most people involved in JavaScript now might not know... Because it started in 2009, and the bulk of people using JavaScript on a daily basis never needed to know where it came from; it was just a fact of life. You start using JavaScript today, you're using npm. Well, how did npm get there? Why is npm there? Okay, it's a company; why is it a company? How does it make money? What are its goals and motivations?
+In this talk I talk about npm, I talk about JavScript's package manager, I talk about its history, including a bunch of history that most people involved in JavScript now might not know... Because it started in 2009, and the bulk of people using JavScript on a daily basis never needed to know where it came from; it was just a fact of life. You start using JavScript today, you're using npm. Well, how did npm get there? Why is npm there? Okay, it's a company; why is it a company? How does it make money? What are its goals and motivations?
 
 And because I was an insider in part of the story, I could talk about that part of the story. It turns out that when you run something at that scale, it does cost money to run, and it's probably not a consequential number when you talk about giant businesses. I think Laurie Voss, the chief operating office at the time, figured that you could run npm the company for 99 years for the amount of money Uber burned in a single quarter...
 
-**Jerod Santo:** \[04:19\] Oh, wow.
+**Jerod Santo:** \{04:19\} Oh, wow.
 
-**CJ Silverio:** ...which is scale - that tells you it's actually pretty small on the cost scale. But it's still a notable amount of money as far as human beings are concerned. When you're talking about tens of thousands of dollars a month - well, you know, $30,000 and up - in AWS bills and network bills, that's notable; you have to have a story for how you're gonna pay to run a package registry that every single JavaScript developer uses for free.
+**CJ Silverio:** ...which is scale - that tells you it's actually pretty small on the cost scale. But it's still a notable amount of money as far as human beings are concerned. When you're talking about tens of thousands of dollars a month - well, you know, $30,000 and up - in AWS bills and network bills, that's notable; you have to have a story for how you're gonna pay to run a package registry that every single JavScript developer uses for free.
 
 Free is relative. You type "npm install react" or "create react app", and you didn't pay anything for that, but it still cost money to happen. So how does that work?
 
@@ -32,19 +32,19 @@ Free is relative. You type "npm install react" or "create react app", and you di
 
 **Adam Stacoviak:** Imagine money comes from the fairies, and bills get paid.
 
-**CJ Silverio:** Yeah. You leave out a little dish of milk, and then the JavaScript...
+**CJ Silverio:** Yeah. You leave out a little dish of milk, and then the JavScript...
 
 **Jerod Santo:** Once a year, yeah. Cookies once a year.
 
 **Adam Stacoviak:** This is JS Milk right here.
 
-**CJ Silverio:** \[laughs\] You know, I worked on the technical side of that. People who worked at npm would talk about how that happened; everyone understands that yeah, there's technical work that has to happen in order to bring that JavaScript to you, but then I felt it was time for people to look at where the money was coming from, why the money had to be there, and what the consequences of that are... Because we as a group, as a community of JavaScript developers, took all of our commons, all of these open source packages that we wanna share with each other, and we handed them over to a company that's VC-funded. And obviously, I was totally okay with this at the time; I knew "Okay, VC money comes with a hook", but I thought we'd be okay.
+**CJ Silverio:** \[laughs\] You know, I worked on the technical side of that. People who worked at npm would talk about how that happened; everyone understands that yeah, there's technical work that has to happen in order to bring that JavScript to you, but then I felt it was time for people to look at where the money was coming from, why the money had to be there, and what the consequences of that are... Because we as a group, as a community of JavScript developers, took all of our commons, all of these open source packages that we wanna share with each other, and we handed them over to a company that's VC-funded. And obviously, I was totally okay with this at the time; I knew "Okay, VC money comes with a hook", but I thought we'd be okay.
 
-I think the talk, and Entropic the project come from my realization that I was fundamentally wrong. I made a mistake. Not in like really working hard to make Node success, to make JavaScript go; that was fantastic work that I am so proud of...
+I think the talk, and Entropic the project come from my realization that I was fundamentally wrong. I made a mistake. Not in like really working hard to make Node success, to make JavScript go; that was fantastic work that I am so proud of...
 
 **Jerod Santo:** You don't regret that time, do you?
 
-**CJ Silverio:** No, I don't regret that time. I worked with a fantastic team. I have been blessed in my career, I have worked with some amazing companies; I've worked with famous people, and people on their way toward fame, and brilliant people who I've learned from... The npm team was just fantastic people; they were great human beings to work with, and I'm extremely proud of them and the work we did together... But I think it was in the service of the wrong cause. Not JavaScript, but the underlying profit motive was the wrong thing for that particular task.
+**CJ Silverio:** No, I don't regret that time. I worked with a fantastic team. I have been blessed in my career, I have worked with some amazing companies; I've worked with famous people, and people on their way toward fame, and brilliant people who I've learned from... The npm team was just fantastic people; they were great human beings to work with, and I'm extremely proud of them and the work we did together... But I think it was in the service of the wrong cause. Not JavScript, but the underlying profit motive was the wrong thing for that particular task.
 
 **Adam Stacoviak:** What was that profit motivation?
 
@@ -54,11 +54,11 @@ I think the talk, and Entropic the project come from my realization that I was f
 
 **CJ Silverio:** ...this is what their timeline is for getting a return on their investment. And you can't opt out of that. Once you've handed over a chunk of your company to them in exchange for this money, they in fact want that payoff, and you have handed control over your company to them in exchange for that payoff. Sometimes that's exactly the right tradeoff to make.
 
-\[07:51\] I'm working for a company right now that VC funding makes perfect sense; external funding makes perfect sense, because the money has a very clear thing you can do with it, it has a very clear way to accelerate the business, and there's a very clear exit story that makes sense, aligns with VC goals. And for something like a language ecosystem, this is not a short-term project. This is not a "Go big or go home" project. It's not a "We're gonna grow, we're gonna be the biggest possible, we're gonna make a lot of money, we're gonna have an exit... Or we're just gonna go bust and we're gonna be on that Tumblr blog of like 'My incredible journey', where you shut down everything."
+\{07:51\} I'm working for a company right now that VC funding makes perfect sense; external funding makes perfect sense, because the money has a very clear thing you can do with it, it has a very clear way to accelerate the business, and there's a very clear exit story that makes sense, aligns with VC goals. And for something like a language ecosystem, this is not a short-term project. This is not a "Go big or go home" project. It's not a "We're gonna grow, we're gonna be the biggest possible, we're gonna make a lot of money, we're gonna have an exit... Or we're just gonna go bust and we're gonna be on that Tumblr blog of like 'My incredible journey', where you shut down everything."
 
 **Jerod Santo:** Right. The startup graveyard.
 
-**CJ Silverio:** Yeah. You can't do that with the thing that all of JavaScript needs to keep running.
+**CJ Silverio:** Yeah. You can't do that with the thing that all of JavScript needs to keep running.
 
 **Jerod Santo:** There was a moment in time - and again, the talk goes through it - and you do a very good job of going step by step through the history... There was some there that I definitely learned; even Adam and I have been along for the ride, so to speak, both as users of Npm and as people who are having these conversations... We've had Isaac on Founders Talk, we've had npm employees, current and past, on a lot of our shows, so we've been along for the ride... But definitely worth getting the full history.
 
@@ -78,9 +78,9 @@ The service-level agreements - you never really sign up for that with npm, but p
 
 And the uptime - again, when something is run by volunteers, you have a level of forgiveness that they might not be awake at 3 AM in their timezone. But npm, because it was a company, and because it could afford to run operations 24/7, we had a team of contractors in Eastern Europe helping us on the times that we were asleep.
 
-\[12:18\] Because all that support was there, the expectation became that it would be up, that it would be fast, that you would get professional-level support... Because it was a company, and it could do this. And this, I think, let it reach a scale and a ubiquity and an unthinking use level that is harder for languages that didn't do this to reach.
+\{12:18\} Because all that support was there, the expectation became that it would be up, that it would be fast, that you would get professional-level support... Because it was a company, and it could do this. And this, I think, let it reach a scale and a ubiquity and an unthinking use level that is harder for languages that didn't do this to reach.
 
-**Jerod Santo:** We have a lot of listeners in the JavaScript and npm ecosystem, and I'll just say - for many years, npm was kind of a bastion of JavaScript in the ecosystem, because of the support, the people that were there are awesome... And it hasn't been until the last maybe 6-8 months, maybe a year where we started to see the chinks in the armor, we started to see the problems come about. But for those people who are maybe writing Go day-to-day, or are not in that ecosystem, can you describe a few of the things - why is this a problem; what are we seeing where we're thinking "Maybe we made a bad decision." You said specifically you would have made a different decision back then maybe.
+**Jerod Santo:** We have a lot of listeners in the JavScript and npm ecosystem, and I'll just say - for many years, npm was kind of a bastion of JavScript in the ecosystem, because of the support, the people that were there are awesome... And it hasn't been until the last maybe 6-8 months, maybe a year where we started to see the chinks in the armor, we started to see the problems come about. But for those people who are maybe writing Go day-to-day, or are not in that ecosystem, can you describe a few of the things - why is this a problem; what are we seeing where we're thinking "Maybe we made a bad decision." You said specifically you would have made a different decision back then maybe.
 
 **CJ Silverio:** Right. The idea that you might lose this thing, or that this thing is in the hands of someone whose incentives are not aligned with yours. Node for example is part of the OpenJS Foundation; it was its own foundation for a while. This is a community resource; the platform definition, the implementation of the platform, the direction that it goes in - this is essentially a community project; it's funded by corporations, but not by any one corporation. And they all have their goals, and they sometimes are at odds with each other, but mostly there's not one turtle that wins; they're just climbing over each other. That metaphor is very insulting to them all; "Y'all are turtles." \[laughter\]
 
@@ -104,7 +104,7 @@ And the uptime - again, when something is run by volunteers, you have a level of
 
 **CJ Silverio:** Exactly, exactly. And if you do your job as a company, if you come up with a product that pays the bills... If npm had found a way to monetize the public registry, we wouldn't be having this conversation. Everything would feel differently. But they never found a way to make their biggest expense turn into income.
 
-\[16:04\] All of those grillions of downloads, that nearly exponential downloads graph represents cost. We were able to, with solid engineering work - I won't say brilliant engineering work, but solid, straightforward engineering work, the kind you can feel good about... That turned it mostly into linear costs in response to that exponential growth. But still, costs continue to rise.
+\{16:04\} All of those grillions of downloads, that nearly exponential downloads graph represents cost. We were able to, with solid engineering work - I won't say brilliant engineering work, but solid, straightforward engineering work, the kind you can feel good about... That turned it mostly into linear costs in response to that exponential growth. But still, costs continue to rise.
 
 **Jerod Santo:** Yeah. I mean, that was the goal of the new CEO, right? We had Isaac on Founders Talk...
 
@@ -116,7 +116,7 @@ And the uptime - again, when something is run by volunteers, you have a level of
 
 **Jerod Santo:** Is he still there? Is he still the CEO today?
 
-**CJ Silverio:** Surprisingly to me, he's still the CEO, yeah. He questioned assumptions in a way that I actually think was useful and healthy. He walks in and he's like "Why do we have to run the public registry?" Now, that's a perfectly legit question to ask about the company. It's kind of an earth-shaking question to ask if your vantage point is JavaScript, right?
+**CJ Silverio:** Surprisingly to me, he's still the CEO, yeah. He questioned assumptions in a way that I actually think was useful and healthy. He walks in and he's like "Why do we have to run the public registry?" Now, that's a perfectly legit question to ask about the company. It's kind of an earth-shaking question to ask if your vantage point is JavScript, right?
 
 **Jerod Santo:** Yeah, for sure. Let's just turn this cost thing off...
 
@@ -128,13 +128,13 @@ And the uptime - again, when something is run by volunteers, you have a level of
 
 **Jerod Santo:** That was the bomb drop for me. This was awesome. Tell everybody what Entropic is, for those who weren't there and haven't watched it yet.
 
-**CJ Silverio:** Entropic is an open source federated package manager and CLI for JavaScript. It doesn't have to be for JavaScript. I have goals of solving package management problems for other languages someday... But JavaScript first.
+**CJ Silverio:** Entropic is an open source federated package manager and CLI for JavScript. It doesn't have to be for JavScript. I have goals of solving package management problems for other languages someday... But JavScript first.
 
-We set out to make something that would make it possible for everyone to run their own registry without needing to shoulder the full burden of being a centralized registry for all of the JavaScript ecosystem. You can mirror or support as much traffic as you need to; you mirror the part of the registry you're using. There might be a lot of these. They federate data with each other.
+We set out to make something that would make it possible for everyone to run their own registry without needing to shoulder the full burden of being a centralized registry for all of the JavScript ecosystem. You can mirror or support as much traffic as you need to; you mirror the part of the registry you're using. There might be a lot of these. They federate data with each other.
 
 I was deeply inspired not by Mastodon's API, but Mastodon the concept of ActivityPub and how you can have something that replaces the centralization of Twitter with something where I can run a Mastodon. I do run a Mastodon instance, and my friends are on it, and we participate in this wider ecosystem, and I don't have to be Twitter-sized in order to do that. I thought "Why can't I do this with package management?"
 
-\[19:59\] The other thing - we had Chris, my partner, in this project (Chris Dickinson), and we're now joined by Kat Marchán, but Kat wasn't part of the project at the time of the announcement. Chris Dickinson and I had spent the previous four years (more or less) running npm's registry, coping with the scaling challenges inherent in it... And we had a very good understanding of the set of problems you have to solve in order to do this at scale. We had a very clear idea of the problems with npm's data model. So I think quite like living with something, and needing to make it go big to understand exactly why it was a bad idea. You never know that when you start it.
+\{19:59\} The other thing - we had Chris, my partner, in this project (Chris Dickinson), and we're now joined by Kat Marchán, but Kat wasn't part of the project at the time of the announcement. Chris Dickinson and I had spent the previous four years (more or less) running npm's registry, coping with the scaling challenges inherent in it... And we had a very good understanding of the set of problems you have to solve in order to do this at scale. We had a very clear idea of the problems with npm's data model. So I think quite like living with something, and needing to make it go big to understand exactly why it was a bad idea. You never know that when you start it.
 
 We knew what was wrong with the API, we knew what a good API would look like, we had some very clear ideas about how to make this achievable for normal human beings. We didn't have an enormous AWS account and bandwidth to burn... So we said "Okay, let's do it." We were there for the mission, let's keep working on the mission. Let's make it so that whoever does this next doesn't need VC-level to make it work, so you can take control of your data.
 
@@ -152,7 +152,7 @@ If Substack -- I love talking about Substack, because he's such a fascinating hu
 
 **CJ Silverio:** Yeah, Dominic is another great example of like "I wanna hand him back control of this stuff. I want it possible for Dominic to run his own Entropic instance and just federate this stuff to the world, and maybe even sell access to it if he wants to make money as an open source author... I think that should be a thing he should be able to do.
 
-I want the Node Foundation - or the OpenJS Foundation as it is now - to be able to run an instance themselves that has the heart of JavaScript in it so that they're safe. They've got control of their destiny; the thing that's important for them to run and important to every Node user. It's something they can run themselves.
+I want the Node Foundation - or the OpenJS Foundation as it is now - to be able to run an instance themselves that has the heart of JavScript in it so that they're safe. They've got control of their destiny; the thing that's important for them to run and important to every Node user. It's something they can run themselves.
 
 I just want people to run a registry themselves. And I thought -- it's an ambitious, ambitious goal... Writing a syncing algorithm that works has been really fun. Chris' brain has been melting out of his ears, but I think we have it.
 
@@ -160,7 +160,7 @@ I just want people to run a registry themselves. And I thought -- it's an ambiti
 
 **CJ Silverio:** "We're gonna solve it." It was a mission statement for me. It was like "Here's why I'm here. Here's why this matters. Okay, I'm not just complaining - here's what I'm doing."
 
-**Break**: \[22:57\]
+**Break**: \{22:57\}
 
 **Jerod Santo:** So your announcement talk was late May, early June(ish) 2019, and you brought code, but you said "Don't use it, it's not ready yet." Props on bringing the solution to the table; it's very much in development. How long had you been working on it by then and when did this idea begin and the code start to go?
 
@@ -200,9 +200,9 @@ There'd been people like this in my career I've enjoyed writing code with... It'
 
 **CJ Silverio:** Probably... You know, it's like -- lots of features missing, and it would probably fall over in a stiff breeze, but... Okay, that was a good warm-up. Now let's talk about federation. Let's talk about what you have to do in order to have more than one of these and they're synchronizing, and let's talk about what the API really should be. This was the fun part - getting back into straight-up engineering and design together for the first time in a while.
 
-The npm data model is based on this tarball. You take a package, you take a bunch of JavaScript code that's sitting in this directory and you just \[unintelligible 00:27:52.16\] You have these rules for deciding what goes into the tarball, and then you put it in the tarball, and then you ship the tarball around. The tarball is the unit of communication. There's metadata on top of that; there's like the packaged JSON, which is a big, vague document... It's like package metadata and metadata for each package version.
+The npm data model is based on this tarball. You take a package, you take a bunch of JavScript code that's sitting in this directory and you just \[unintelligible 00:27:52.16\] You have these rules for deciding what goes into the tarball, and then you put it in the tarball, and then you ship the tarball around. The tarball is the unit of communication. There's metadata on top of that; there's like the packaged JSON, which is a big, vague document... It's like package metadata and metadata for each package version.
 
-\[28:13\] These are the fundamental building blocks of the existing npm API... And we said "Alright, what if we write our own CLI for this? What would the API be, and what does this actually let us do with the data model?" These are the important things to get right, I think, because implementations are kind of less important than getting these building blocks solid. If we have modeled the data of what should be in a JavaScript package correctly, and we have documented an API that's good enough, then our implementation of Entropic shouldn't matter; you should be able to go write your own. So that's where all the work is right now - taking what we wrote and throwing it away with something that's like the right thing for the future.
+\{28:13\} These are the fundamental building blocks of the existing npm API... And we said "Alright, what if we write our own CLI for this? What would the API be, and what does this actually let us do with the data model?" These are the important things to get right, I think, because implementations are kind of less important than getting these building blocks solid. If we have modeled the data of what should be in a JavScript package correctly, and we have documented an API that's good enough, then our implementation of Entropic shouldn't matter; you should be able to go write your own. So that's where all the work is right now - taking what we wrote and throwing it away with something that's like the right thing for the future.
 
 Okay, so the tarball - why is the tarball not good? I can tell you why...
 
@@ -236,7 +236,7 @@ Chunking it up at the unit of files lets you also do things like the secret of T
 
 **CJ Silverio:** And this - again, going back to the data model, going super-nerdy insider baseball here on the tails of the npm data model, but this is like... You can hear how excited I am about this; this is the fun part for me. Packages -- if you ever type "npm info" in a package, or if you get a packaged JSON and you curl it from the npm registry, it could be really huge. It could be megabytes large, because it's effectively unbounded. You've got the top-level package information - what its name is, what its description is, all that stuff. And then you have per-version data. And the per-version data - it just grows, unbounded, because you can infinity versions for a package. I used to hate it, too; there were some npm packages that had over 5,000 versions on them. Eventually, these users would split off and do a new package just because it became so unwieldy to download a package...
 
-**Jerod Santo:** \[32:04\] This speaks to the same anxiety I expressed back when we were talking about blockchains, Adam. It's like, all you do is add to the -- like, you just add, add, add...
+**Jerod Santo:** \{32:04\} This speaks to the same anxiety I expressed back when we were talking about blockchains, Adam. It's like, all you do is add to the -- like, you just add, add, add...
 
 **CJ Silverio:** Add, add, add, yeah...
 
@@ -256,7 +256,7 @@ Chunking it up at the unit of files lets you also do things like the secret of T
 
 **Jerod Santo:** So these weren't decisions that you were making, but you've mentioned CPAN, and I'm thinking about Mirrors... There are other projects that have come before, and now you guys have an experience of building the whole thing, and scaling it... So you and Chris have all that experience of npm. But are you also looking around and saying "How did rpm work? How does CPAN work? How did these other things work?"
 
-**CJ Silverio:** Yes. CPAN is absolutely another inspiration, because it's a network of volunteer sites that together make sure that all of Perl's packages are mirrored. In the end, if Entropic is successful, I would like that to be the solution, where there's like 100 of these around... And maybe some companies that want them, have them internally. But all of JavaScript is redundant and safe across a network of these things that can cooperate with each other. Yeah, CPAN is a huge inspiration.
+**CJ Silverio:** Yes. CPAN is absolutely another inspiration, because it's a network of volunteer sites that together make sure that all of Perl's packages are mirrored. In the end, if Entropic is successful, I would like that to be the solution, where there's like 100 of these around... And maybe some companies that want them, have them internally. But all of JavScript is redundant and safe across a network of these things that can cooperate with each other. Yeah, CPAN is a huge inspiration.
 
 Anti-goals would be things like -- CocoaPods has a perfectly great solution for itself, that relies on GitHub being there. I guess the same thing is true of the Brew package manager - it depends on a central GitHub/a Git thing... Which I think is okay, given their scale. It doesn't satisfy me very much though, because it relies on that centralization. Essentially, CocoaPods relies on GitHub (now Microsoft) continuing to be generous and just supporting open source, which is -- to their credit, they've been great; they're doing it. But...
 
@@ -282,7 +282,7 @@ Anti-goals would be things like -- CocoaPods has a perfectly great solution for 
 
 **CJ Silverio:** Yeah. This right here...
 
-**Jerod Santo:** \[35:56\] That's a huge one, right?
+**Jerod Santo:** \{35:56\} That's a huge one, right?
 
 **CJ Silverio:** ...is super-important. Npm also is a centralized place; every published package goes through Adam Baldwin's beautifully suspicious hands... \[laughter\]
 
@@ -358,7 +358,7 @@ And then you have another set of security questions, which are like "Are these b
 
 **Jerod Santo:** The reaction time to that.
 
-**CJ Silverio:** \[39:47\] Yeah. There's a reaction time because you can afford to pay Adam Baldwin and a team to be looking at these things all the time. But there are other fundamental security questions that I felt while I was at npm that npm didn't have good answers for... And it was difficult to make progress on them because of resources. Things like package signing. Everyone wants package signing, and it's actually tricky - "What is package signing? What are you signing? Why are you signing it? What are you defending against when you sign a package?" These are the questions, by the way, that I'm working on right now with Entropic, because the data model is different. We have a top-level package metadata, and then an immutable version metadata object that is separate.
+**CJ Silverio:** \{39:47\} Yeah. There's a reaction time because you can afford to pay Adam Baldwin and a team to be looking at these things all the time. But there are other fundamental security questions that I felt while I was at npm that npm didn't have good answers for... And it was difficult to make progress on them because of resources. Things like package signing. Everyone wants package signing, and it's actually tricky - "What is package signing? What are you signing? Why are you signing it? What are you defending against when you sign a package?" These are the questions, by the way, that I'm working on right now with Entropic, because the data model is different. We have a top-level package metadata, and then an immutable version metadata object that is separate.
 
 We have a thing that we could consider signing; that content-addressable manifest of files is a thing we could reasonably have an author sign. And what's more, if you use existing signing networks, like if you use Keybase, which is essentially a usable PGP, you also have an identity trail, which is really interesting. I can figure out if the John-David Dalton who signed this package is the same John-David Dalton who's using this GitHub account, and is the same John-David Dalton who's on this Twitter account. I still don't know if it's the same person I meet in real life unless they tell me that, but...
 
@@ -386,13 +386,13 @@ This is the thing - let's suppose we have three of these things. I publish a Twi
 
 And let's suppose you wanna use that for a different Twitter bot. Do you have to go back home to me? What if I've gone away? You can get those bits from the middle one. How do you know that those bits are the same bits? Okay, if we have a web of trust and signatures that we can trust and verify, then you can depend on getting the same bits.
 
-\[44:01\] This is not a solution to the problem of "Are those bits malicious?" That I think in the end still depends on expert humans looking at things. You could imagine the Node Foundation running a -- I keep calling it the Node Foundation; they're the OpenJS Foundation now...
+\{44:01\} This is not a solution to the problem of "Are those bits malicious?" That I think in the end still depends on expert humans looking at things. You could imagine the Node Foundation running a -- I keep calling it the Node Foundation; they're the OpenJS Foundation now...
 
 **Jerod Santo:** They were that for a long time... \[laughter\]
 
 **Adam Stacoviak:** You forgot the name changes.
 
-**CJ Silverio:** The OpenJS Foundation, the home of all things JavaScript, running their own instance where they only have packages they've added. They don't mirror anything else. So you know that you can trust them.
+**CJ Silverio:** The OpenJS Foundation, the home of all things JavScript, running their own instance where they only have packages they've added. They don't mirror anything else. So you know that you can trust them.
 
 These are interesting problems, and we could get them wrong. Do you wanna talk about doubts about Entropic? This is actually hard.
 
@@ -416,7 +416,7 @@ These are interesting problems, and we could get them wrong. Do you wanna talk a
 
 **CJ Silverio:** ...enough federation that we will never be in a situation like we're in now, where we are depending on a VC-financed company that could go away.
 
-**Break:** \[45:42\]
+**Break:** \{45:42\}
 
 **Adam Stacoviak:** So we've talked about doubts... We've got our doubts, obviously, but Ceej, I'm sure that yours are better positioned than ours, simply because we're outsiders. What are your doubts with Entropic? Where are the holes in the cheese, so to speak?
 
@@ -432,7 +432,7 @@ The other interesting thing that we're discovering is that it's even harder beca
 
 **Adam Stacoviak:** Right, you've got limited time.
 
-**CJ Silverio:** \[47:58\] Yeah. Are people gonna be okay with the pace at which it's happening? Can we do this without burning out? Open source burnout is a real problem. I'm sure people have talked about this with you before - you're not getting paid for this work; you are doing it as a labor of love, you're doing it because it's fun... And suddenly, you've got 1,000 users and they want bug fixes, and they're all entitled, or they're mad at you because you ruined their day with that bug. But that's not how you make a living, and you've got a life to go back to.
+**CJ Silverio:** \{47:58\} Yeah. Are people gonna be okay with the pace at which it's happening? Can we do this without burning out? Open source burnout is a real problem. I'm sure people have talked about this with you before - you're not getting paid for this work; you are doing it as a labor of love, you're doing it because it's fun... And suddenly, you've got 1,000 users and they want bug fixes, and they're all entitled, or they're mad at you because you ruined their day with that bug. But that's not how you make a living, and you've got a life to go back to.
 
 So we've spent a lot of time talking about how we wanna work and how we wanna make decisions, and the pace at which we wanna work... And it's to be seen whether we can actually pull that part off. I think we're up to the technical challenges of the design. Chris and Kat are two very smart people; I'm very privileged to be trailing along after them, watching what they do... So I think they'll solve the technical problems. Will they fail to burn out? Can I prevent them from burning out? Chris has some very thoughtful insights on this...
 
@@ -468,7 +468,7 @@ This to me is like recapitulating the history of open source projects of the pas
 
 **CJ Silverio:** But we now have an open chat. We have a Discord that we invite people to come in if they wanna chat with us. Kat is most active right now on it, because she's got a month off between jobs, so she's there all the time... We're trying to do our conversation there.
 
-\[51:53\] We also try to kind of codify the way we've worked together for years now, which is -- we don't actually do anything out of the blue. We bounce ideas around first, before we do anything. We never lead with code; we lead with "What if this...? Here's three paragraphs of what I think we might try to do and why." We lead with writing and talking, and then that progresses finally to code. Code is like the last step, and often the easiest step once you've worked out what you wanna do.
+\{51:53\} We also try to kind of codify the way we've worked together for years now, which is -- we don't actually do anything out of the blue. We bounce ideas around first, before we do anything. We never lead with code; we lead with "What if this...? Here's three paragraphs of what I think we might try to do and why." We lead with writing and talking, and then that progresses finally to code. Code is like the last step, and often the easiest step once you've worked out what you wanna do.
 
 **Jerod Santo:** So tie that back into how that's gonna prevent the burnout... Because you're gonna have more contributors, because you're gonna talk more?
 
@@ -512,7 +512,7 @@ I'm playing a long game here. I don't need it to be successful in six months. I 
 
 **CJ Silverio:** I'm thinking I work very carefully with the Node project. I think I need to be there to satisfy their needs and to make sure that I'm scratching their itch, and that they understand this is the eventual home for this code. I think if the Node project finds a use for this, it'll be okay. So they matter to me more than anything else. I'm only in this because I actually really love Node and I really love writing Node code.
 
-\[56:12\] Like, why did I get involved in npm in the first place? Because Node was having a hard time, because npm was down, and I was having a hard time with my team at the time; we were trying to write Node and we couldn't, because npm was down. So I'm like "I'm here to make Node win." Absolutely sincerely.
+\{56:12\} Like, why did I get involved in npm in the first place? Because Node was having a hard time, because npm was down, and I was having a hard time with my team at the time; we were trying to write Node and we couldn't, because npm was down. So I'm like "I'm here to make Node win." Absolutely sincerely.
 
 So I wanna satisfy their needs, and I think if we do that, the adoption follows. But again, who knows...?!
 
@@ -530,7 +530,7 @@ So that'll be fun... Go to Ireland, be at a beautiful resort in Ireland and talk
 
 **CJ Silverio:** \[laughs\] Oh yeah, yeah... That's a joke, by the way. It's like, if you go to registry.npmjs.org you get a bunch of JSON... But we need a website. We don't have a website right now, but we understand that there are a lot of people out there who are much better at writing websites than we are. Maybe you wanna do that for us.
 
-**Adam Stacoviak:** Sweet. So there's lots of roles to fill. A long-term plan, intended for the betterment of the Node - in your case, and then JavaScript at large community; the commons of JavaScript, as you've said before... It's super-interesting that your path with npm, and then obviously your love for Node and JavaScript, and still being willing to put in the sweat, hours, tears, pain... Whatever it might be.
+**Adam Stacoviak:** Sweet. So there's lots of roles to fill. A long-term plan, intended for the betterment of the Node - in your case, and then JavScript at large community; the commons of JavScript, as you've said before... It's super-interesting that your path with npm, and then obviously your love for Node and JavScript, and still being willing to put in the sweat, hours, tears, pain... Whatever it might be.
 
 **Jerod Santo:** But not the weekends. \[laughter\]
 

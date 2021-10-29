@@ -1,4 +1,4 @@
-**Alex Sexton:** Alright, welcome to JS Party, where it's occasionally a party with JavaScript. I refuse to say weekly, since it's been a few weeks... But nonetheless, we're here ready to party. So this week we have a special guest filling in for Mikeal - Myles Borins. Introduce yourself, Myles.
+**Alex Sexton:** Alright, welcome to JS Party, where it's occasionally a party with JavScript. I refuse to say weekly, since it's been a few weeks... But nonetheless, we're here ready to party. So this week we have a special guest filling in for Mikeal - Myles Borins. Introduce yourself, Myles.
 
 **Myles Borins:** Hi, I'm Myles. I'm a developer advocate--
 
@@ -30,7 +30,7 @@ In a past life I was an artist and a musician and I'm hoping to find time to do 
 
 **Rachel White:** Ooooh...! \[laughter\]
 
-**Alex Sexton:** \[04:07\] It's not that big of a deal, he's good. \[laughter\]
+**Alex Sexton:** \{04:07\} It's not that big of a deal, he's good. \[laughter\]
 
 **Rachel White:** Hold on, sorry... My cat... \[laughter\]
 
@@ -46,7 +46,7 @@ In a past life I was an artist and a musician and I'm hoping to find time to do 
 
 **Alex Sexton:** Sure, a solid, unrelapsed five years of pure time. So is that your only project? So you have a keyboard, I assume, on your keyboard. You pretend like you're playing a piano, and then it makes the sounds in the browser?
 
-**Myles Borins:** Exactly. The thing that was neat about it was that it was built with this JavaScript framework that was all accessibility first. The website actually had no instructions on how to use it unless you were using a screen reader, and if you were using a screen reader, it had a full in-depth tutorial on how to use it. It also had an exposed API, so you could change what the frequency of A4 was.
+**Myles Borins:** Exactly. The thing that was neat about it was that it was built with this JavScript framework that was all accessibility first. The website actually had no instructions on how to use it unless you were using a screen reader, and if you were using a screen reader, it had a full in-depth tutorial on how to use it. It also had an exposed API, so you could change what the frequency of A4 was.
 
 **Alex Sexton:** I see... In case you were a 432-er.
 
@@ -62,13 +62,13 @@ But a lot of people thought for a long time that Prince detuned his guitar to E 
 
 **Myles Borins:** Yeah, that's amazing.
 
-**Alex Sexton:** A lot of his better tone -- a lot of people tune down to E flat just to get... You can play thicker strings because they're a little looser, so you can have kind of a fatter tone, so a lot Prince's well-known guitar tone comes from the fact that he detuned his guitar, essentially, and then was able to kind of play fatter strings, and stuff. Just some fun, normal JavaScript/Prince trivia.
+**Alex Sexton:** A lot of his better tone -- a lot of people tune down to E flat just to get... You can play thicker strings because they're a little looser, so you can have kind of a fatter tone, so a lot Prince's well-known guitar tone comes from the fact that he detuned his guitar, essentially, and then was able to kind of play fatter strings, and stuff. Just some fun, normal JavScript/Prince trivia.
 
 The other interesting thing about your explanation -- I forgot... You're of the origin of Canada, yes?
 
-**Myles Borins:** \[08:05\] Mm-hm.
+**Myles Borins:** \{08:05\} Mm-hm.
 
-**Alex Sexton:** Yeah, the JavaScript owes...
+**Alex Sexton:** Yeah, the JavScript owes...
 
 **Myles Borins:** It came out...
 
@@ -80,7 +80,7 @@ The other interesting thing about your explanation -- I forgot... You're of the 
 
 **Alex Sexton:** I'd actually flip it around to where you start there and then say your name.
 
-**Rachel White:** Yeah, that's usually... That's how it goes. Usually we know when you say "JavaScript", so...
+**Rachel White:** Yeah, that's usually... That's how it goes. Usually we know when you say "JavScript", so...
 
 **Myles Borins:** I'm changing my Twitter profile, it says "Canadian Myles" now.
 
@@ -112,7 +112,7 @@ The other interesting thing about your explanation -- I forgot... You're of the 
 
 The Web Audio actually has some HRTFs built in. They are not super accurate. In general, you kind of need an HRTF to be tuned specifically for your head and your body. They're called "head-related" because of how our brains play sound in space.
 
-**Alex Sexton:** \[12:00\] So in order to tune one, do you need one of those microphones that looks like a head, or do you have to put microphones in your ears? How does that work?
+**Alex Sexton:** \{12:00\} So in order to tune one, do you need one of those microphones that looks like a head, or do you have to put microphones in your ears? How does that work?
 
 **Myles Borins:** So you can tune it by sitting in an anechoic chamber - which is a room that's designed to have no echoes - putting microphones inside of your ears, or wearing specific kinds of headsets, which will then create a whole bunch of different sounds in the room and measure the filters of your body. So your ears are really good at determining if a sound is far away by how loud it is, if it's to the left of the right of you, based on how much energy is in each ear. But being able to tell if it's above you, behind you, in front of, below you - all of that's actually based on the filters of your body and the way it filters the sound, and your brain just knows that, if you're just kind of always hearing it that way.
 
@@ -128,7 +128,7 @@ As the sound bounces around the room and each time it reflects, it decays more. 
 
 These are all interesting questions that are probably too far outside of the bounds of web audio. \[laughter\]
 
-**Rachel White:** \[16:13\] So I actually wanna interject for a second, because I've seen a lot of proof of concept demos for what people can do with the Web Audio API, but I don't think that I've ever actually seen it in actual use... I guess mostly because I've only seen artsy demos and stuff, but in terms of practical application, I'm thinking of like, obviously, this is gonna have a big space with AR and VR type applications, but what have you two seen that utilizes it in an actual practical end use sense?
+**Rachel White:** \{16:13\} So I actually wanna interject for a second, because I've seen a lot of proof of concept demos for what people can do with the Web Audio API, but I don't think that I've ever actually seen it in actual use... I guess mostly because I've only seen artsy demos and stuff, but in terms of practical application, I'm thinking of like, obviously, this is gonna have a big space with AR and VR type applications, but what have you two seen that utilizes it in an actual practical end use sense?
 
 **Alex Sexton:** I'm not sure I can think of -- I guess there are games (like legit games, not just demos) that I've seen that use the Web Audio API. But as far as just like business product, I don't see a lot of Web Audio API in those.
 
@@ -144,7 +144,7 @@ These are all interesting questions that are probably too far outside of the bou
 
 You'll have a node for the output, you'll have a node for your microphone, you'll have a node for a delay line, and you can connect the microphone to the delay, to the speakers, and it will do its thing. You can add and remove nodes to the graph, and you use a combination of various unit generators to create different effects and different sounds and different audio interactions.
 
-**Alex Sexton:** \[20:05\] So you can have audio being generated... Can you use the same modifiers from non-generated audio, like audio that's just being sourced from an input, or something like that? (like a guitar) I've seen -- I'm pretty sure it was a Web Audio API, but there was a JSConf EU from a few years back where you did like guitar stompboxes, and stuff like that. Is that the Web Audio API, or is that something different?
+**Alex Sexton:** \{20:05\} So you can have audio being generated... Can you use the same modifiers from non-generated audio, like audio that's just being sourced from an input, or something like that? (like a guitar) I've seen -- I'm pretty sure it was a Web Audio API, but there was a JSConf EU from a few years back where you did like guitar stompboxes, and stuff like that. Is that the Web Audio API, or is that something different?
 
 **Myles Borins:** Yeah, that would likely be the Web Audio API. You could take an external input and run it through any number of filters.
 
@@ -168,7 +168,7 @@ Mozilla for a long time prioritized a lot of web audio stuff, and I think they h
 
 **Alex Sexton:** Yeah, you trade one for the other. Well, cool. I look forward to the day when I can load VST plugins into the browser and just go for it... Which doesn't seem too far off -- I imagine wasm even takes the distance between the native stuff even closer. So it seems like getting those nodes to have zero latency or whatever seems to be a priority. I'd be interested -- if anyone wants to follow up if there's like work... Like, is the worker the solution that we're gonna go with, or can we make the current one faster? Let us know.
 
-Break: \[23:41\]
+Break: \{23:41\}
 
 **Alex Sexton:** Okay, next we're gonna talk about -- I think this is a little bit of a jumping off point... There was a fun issue lodged on the TypeScript repo that claimed that TypeScript was too incomplete, and there were some people with some requests for mathematical proofs... But he had a pretty compelling example where all he did was add types, and then was able to get like a prime number figure router out of the type checking.
 
@@ -182,13 +182,13 @@ I don't know if there's too much to talk about from this... Have you guys ever s
 
 **Rachel White:** No, I don't know how they work. \[laughs\]
 
-**Alex Sexton:** Cool. So it always requires input... If you haven't seen the CSS games -- the most simple example of CSS that works like a program would, versus one that works in a way that styling would is a slideshow. If you think about check boxes as having a style around checked or unchecked, you can kind of like put a giant transparent check box on either side of a slideshow, and whenever you check a checkbox - you know, put one between each slide - you can kind of say "Show the slide that is the sibling element (the next sibling) of the selected check box", and then you hide all the check boxes to where they're transparent, but on top. So you essentially build this whole slideshow that has no JavaScript, but every time you click the next hidden check box, it shows the next slide because now the next slide is the one that's the next sibling of the thing. So you can kind of see how you can take JavaScript out of the equation by using this one cool trick to say "Do something based on the act of check box."
+**Alex Sexton:** Cool. So it always requires input... If you haven't seen the CSS games -- the most simple example of CSS that works like a program would, versus one that works in a way that styling would is a slideshow. If you think about check boxes as having a style around checked or unchecked, you can kind of like put a giant transparent check box on either side of a slideshow, and whenever you check a checkbox - you know, put one between each slide - you can kind of say "Show the slide that is the sibling element (the next sibling) of the selected check box", and then you hide all the check boxes to where they're transparent, but on top. So you essentially build this whole slideshow that has no JavScript, but every time you click the next hidden check box, it shows the next slide because now the next slide is the one that's the next sibling of the thing. So you can kind of see how you can take JavScript out of the equation by using this one cool trick to say "Do something based on the act of check box."
 
-You can actually do the same thing to make a game. Tic-tac-toe is an interesting one, to where you can theoretically make check boxes that have x's or o's, but you can make the game have a win state, like say "You won" if it detects any of the potential win states as like, you can imagine, like a selector that has the selector for all possible combinations of three x's in a row. So people can make tic-tac-toe based solely on selectors, and that's kind of like making games that rely on no JavaScript... And there are much more complicated games than that.
+You can actually do the same thing to make a game. Tic-tac-toe is an interesting one, to where you can theoretically make check boxes that have x's or o's, but you can make the game have a win state, like say "You won" if it detects any of the potential win states as like, you can imagine, like a selector that has the selector for all possible combinations of three x's in a row. So people can make tic-tac-toe based solely on selectors, and that's kind of like making games that rely on no JavScript... And there are much more complicated games than that.
 
 **Rachel White:** So isn't the majority of the time that people make the Turing complete CSS projects when -- it's to refute the notion that CSS isn't a "real" programming language?
 
-**Alex Sexton:** \[28:05\] I think that it's more just for fun. Definitely no one is suggesting that people should use CSS like this, I think. The slideshow is maybe a good example of something that could work, but the tic-tac-toe is unreasonable, and I don't think anyone's saying that. It's the ideal situation.
+**Alex Sexton:** \{28:05\} I think that it's more just for fun. Definitely no one is suggesting that people should use CSS like this, I think. The slideshow is maybe a good example of something that could work, but the tic-tac-toe is unreasonable, and I don't think anyone's saying that. It's the ideal situation.
 
 **Rachel White:** So I guess what is the importance of having a language be Turing complete? I guess it's just another abstraction that's Turing complete in regards to the issue that we're talking about, but what is the importance of that necessarily?
 
@@ -198,15 +198,15 @@ I think more than anything it's just like a fun exploration of taking technology
 
 **Rachel White:** Actually, that's just an abstraction of the esolang Brainfuck it sounds like. I don't know if you're familiar with that.
 
-**Alex Sexton:** Yeah, I am. It's not... It's similar, but it uses very specific properties of JavaScript to where it can kind of bootstrap itself by grabbing letters off of prototype functions and then eval-ing them, all based on positions and arrays... It's very interesting-looking, and it doesn't really work the same as the other one you mentioned, but it is very similar in its incomprehensibility... But everyone should check it out.
+**Alex Sexton:** Yeah, I am. It's not... It's similar, but it uses very specific properties of JavScript to where it can kind of bootstrap itself by grabbing letters off of prototype functions and then eval-ing them, all based on positions and arrays... It's very interesting-looking, and it doesn't really work the same as the other one you mentioned, but it is very similar in its incomprehensibility... But everyone should check it out.
 
 I think it's just a good example of doing something entirely unexpected with a language. It falls into the category of uselessware that I think you and I have talked about, Rachel, before; at least on Twitter, maybe... Of just like building something for the sake of saying "This is cool and fun and weird", but no one should necessarily do this for their job.
 
 **Rachel White:** Yeah. I mean, I think it takes a certain type of person that has a full grasp, a full down to the nuts and bolts grasp of a language to be able to even get down to figuring out that kind of stuff... At least from my perspective, as someone who does not have a full grasp of a language. Not even English, let's be honest.
 
-**Alex Sexton:** Yeah... \[laughs\] Sorry, I was saying 'yeah' to myself. \[laughter\] Yes, you are bad at English, Rachel. I do find it really fun to try to get so deep into some topic to where you can kind of flip it on its head, break the norms and do something interesting and cool, even if like -- there's a reason why it's not the norm, because it would be a terrible idea. But it's just kind of like, take everything to its logical maximum, to where theoretically we only need three characters in JavaScript to run any program, which is a cool idea, and I'm glad that someone wrote a compiler for it and we can talk about it on the show, but I don't anticipate anyone actually using it in their application. For one, it would break all my CSP rules.
+**Alex Sexton:** Yeah... \[laughs\] Sorry, I was saying 'yeah' to myself. \[laughter\] Yes, you are bad at English, Rachel. I do find it really fun to try to get so deep into some topic to where you can kind of flip it on its head, break the norms and do something interesting and cool, even if like -- there's a reason why it's not the norm, because it would be a terrible idea. But it's just kind of like, take everything to its logical maximum, to where theoretically we only need three characters in JavScript to run any program, which is a cool idea, and I'm glad that someone wrote a compiler for it and we can talk about it on the show, but I don't anticipate anyone actually using it in their application. For one, it would break all my CSP rules.
 
-\[32:17\] Myles, can you think of -- this is a little bit on the spot, but can you think of other things in this vein? I know you tend to gravitate -- not gravitate, but you tend to be associated with a lot of projects that do similar... For instance, making a piano that has a tunable middle A, and programmable interval keys is a good example of breaking outside the norm. I'm trying to think if there's other things...
+\{32:17\} Myles, can you think of -- this is a little bit on the spot, but can you think of other things in this vein? I know you tend to gravitate -- not gravitate, but you tend to be associated with a lot of projects that do similar... For instance, making a piano that has a tunable middle A, and programmable interval keys is a good example of breaking outside the norm. I'm trying to think if there's other things...
 
 **Myles Borins:** Can you just give me a tiny bit more context? Which norms are we talking about? Are we talking about language norms, or...?
 
@@ -228,7 +228,7 @@ I think you see that happen a lot in environments like Ableton, or like other ki
 
 **Alex Sexton:** Yeah, I think it's a -- for the tough question that I asked, I think it's a good example of kind of like just taking these side effects of something and using that as kind of your core. It's like someone allowed randomness for one purpose, and then you take randomness and now you're making randomness the core thing. Kind of like types were the point to enforce against this language, and then you're kind of taking them and literally just throwing the language under the covers and only using types, and kind of starting from that new baseline.
 
-\[36:16\] I think it's a thing that kind of -- again, it's always gonna sit on the fringe, but I think it's an art, just like that person kind of created art out of the randomness... Noticing things and doing, like, the CSS games, and all these edge case situations I think definitely falls in the realm of beauty and art, and creativity, in a way that is super interesting to people.
+\{36:16\} I think it's a thing that kind of -- again, it's always gonna sit on the fringe, but I think it's an art, just like that person kind of created art out of the randomness... Noticing things and doing, like, the CSS games, and all these edge case situations I think definitely falls in the realm of beauty and art, and creativity, in a way that is super interesting to people.
 
 It's similar to -- I think it's called like A Single Div...? Is that a thing?
 
@@ -252,7 +252,7 @@ It's similar to -- I think it's called like A Single Div...? Is that a thing?
 
 **Alex Sexton:** Cool.
 
-**Myles Borins:** \[38:56\] It's a GitHub repo called Omnitone. It's from the Google Chrome Org. It's a library for doing spatialized audio. It's built on a lot of the stuff that I was talking about earlier. It's a robust implementation of a first-order-ambisonic decoder, and a binaural renderer. It allows you to take spatialized media and play it and rotate it and play it through virtual speakers, and then to actual physical speakers in the headphone.
+**Myles Borins:** \{38:56\} It's a GitHub repo called Omnitone. It's from the Google Chrome Org. It's a library for doing spatialized audio. It's built on a lot of the stuff that I was talking about earlier. It's a robust implementation of a first-order-ambisonic decoder, and a binaural renderer. It allows you to take spatialized media and play it and rotate it and play it through virtual speakers, and then to actual physical speakers in the headphone.
 
 The thing that's really cool about it too is if you're doing any stuff with Web VR, you can use this in conjunction with Web VR to do spatialized audio that will actually move around with the movement of your viewer.
 

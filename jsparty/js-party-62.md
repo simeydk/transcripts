@@ -12,7 +12,7 @@ A part of what's enabled us to do that fairly easily as well is the rise of serv
 
 Also, we're still learning about what good user testing looks like, what good QA practices looks like, and that's all kind of still work in progress. I wouldn't say that we figured out the answer yet, but I'm glad that at least people enjoy hearing about what we've figured out so far.
 
-**Nick Nisi:** \[04:00\] That's very cool. Did that involve the development of a framework around the frameworks for each of these devices?
+**Nick Nisi:** \{04:00\} That's very cool. Did that involve the development of a framework around the frameworks for each of these devices?
 
 **Nara Kasbergen:** Kind of, yeah. We ended up with something that we are calling our generic voice UI framework... But at the same time -- people ask me about this all the time, it's like "Would it be helpful to have like an Angular or a React for voice UI development?" and my answer there is no, just because the SDKs that these companies have provided for Alexa, for Google Assistant are already pretty robust, and I think the more that you try to put abstractions on top of those abstractions that they already give you - it kind of takes you very far away from the nuts and bolts as well.
 
@@ -30,7 +30,7 @@ What's interesting is that even though -- you're actually creating an interface;
 
 **Nara Kasbergen:** Yeah, that's what we're still figuring out, and there are people working on third-party tools for this as well, so hopefully that's the part that I'm hopeful we'll continue to get better in the future. Essentially, like any other codebase, we do some unit testing, but we don't really have confidence that just because the unit test passed, when the user actually talks to their device is gonna do what we expect it to do, because of that natural language processing/machine learning component that happens inside the Alexa or Dialogflow service.
 
-\[08:03\] So ultimately, in order to do a really robust testing, at least right now, we still have to test with a physical device. Thankfully, there are various ways to do that so that you are able to test without just having to publish to live, essentially. I think that's the part that a lot of people are confused about. Both Alexa and Google Assistant essentially have this concept of a production version and a development version of your skill, or your app action on Google, whatever you wanna call it... So most of the time it's fairly easy to set up some kind of CI process so that when you push code to your repository it updates only the development version...
+\{08:03\} So ultimately, in order to do a really robust testing, at least right now, we still have to test with a physical device. Thankfully, there are various ways to do that so that you are able to test without just having to publish to live, essentially. I think that's the part that a lot of people are confused about. Both Alexa and Google Assistant essentially have this concept of a production version and a development version of your skill, or your app action on Google, whatever you wanna call it... So most of the time it's fairly easy to set up some kind of CI process so that when you push code to your repository it updates only the development version...
 
 **Nick Nisi:** So then you have a device that is running the development version that's not publically available...
 
@@ -48,7 +48,7 @@ What's interesting there is that -- so that's basically the easiest way to produ
 
 **Nara Kasbergen:** You can. So far, all of the tools that I've tried for that have not been great, so we don't do a ton of that right now. I think that was definitely the biggest mental shift for both my partner developer and I; we'd always been very much used to always doing local development... But like I said, there's just a big disconnect between when you're just writing that lambda function - it's so easy to do it in like a unit test kind of fashion, where you very tightly control the input, so the output is also what you expect... But once you bring in this whole other dimension of like "This device that you talk to, where someone else is controlling the NLP", the results can be a lot more unpredictable, so I think it also makes sense to do a lot more manual, in-person testing, even though it definitely slows down the process.
 
-**Nick Nisi:** \[12:29\] Sure. But that makes sense, because... Yeah, that would be very tough to automate.
+**Nick Nisi:** \{12:29\} Sure. But that makes sense, because... Yeah, that would be very tough to automate.
 
 **Nara Kasbergen:** Right, exactly.
 
@@ -76,7 +76,7 @@ There is also a certification process that you have to go through in order to pu
 
 **Nara Kasbergen:** The first time that you do it, you're probably gonna miss like a hundred of them; that's something that comes with experience. I think what helps us as well is, as I mentioned, we have a designer on our team, so he's very conscious of that... And he is a person who really likes doing user testing - that's one of his favorite things - so he's been focused a lot on that, observing real users interacting with these devices and seeing how they behave.
 
-\[16:04\] Interestingly enough, he even started on that before we started any actual development. What he did was he took something that looks like a speaker - I think it was actually maybe technically like a water bottle like yours, and he put it on the table and he just asked people to be like "Okay, you're trying to do XYZ thing. What are you gonna say? What would be the most logical command to you?" That was the starting point for what we call our internal voice lexicon, which is based off of not just what we think that users should do, because I think sometimes as a developer you're kind of approaching that from kind of like an inside baseball perspective, of like "I know that it needs to trigger XYZ, so this is the most logical thing", whereas he has approached it much more from a human perspective of like "The human is trying to do this, so XYZ is the most logical thing for them to be saying."
+\{16:04\} Interestingly enough, he even started on that before we started any actual development. What he did was he took something that looks like a speaker - I think it was actually maybe technically like a water bottle like yours, and he put it on the table and he just asked people to be like "Okay, you're trying to do XYZ thing. What are you gonna say? What would be the most logical command to you?" That was the starting point for what we call our internal voice lexicon, which is based off of not just what we think that users should do, because I think sometimes as a developer you're kind of approaching that from kind of like an inside baseball perspective, of like "I know that it needs to trigger XYZ, so this is the most logical thing", whereas he has approached it much more from a human perspective of like "The human is trying to do this, so XYZ is the most logical thing for them to be saying."
 
 Sometimes we have to compromise a little bit and meet in the middle, because it turns out that what the human is trying to say is actually not possible because of various platform restrictions... But I think approaching it from the human angle is certainly key. That's why one of my biggest recommendations when people are interested in working in this field is always work with a designer.
 
@@ -114,7 +114,7 @@ I think it's so easy to lump this "work together" under the umbrella of "Oh, it'
 
 **Nick Nisi:** Oh, cool.
 
-**Nara Kasbergen:** \[20:13\] ...so that's always step one for a lot of these device manufacturers, when they're trying to expand the content of their platforms, is enable RSS feeds. For us at NPR that's great, because we have those already; we didn't have to build anything specific for that. But two things that we can't easily do that way are - after the RSS feeds, our biggest primary focus is allowing people to listen to the livestream of their local radio station (NPR member station), and then NPR One, which is one of our kind of multi-platform experiences... NPR One started out as the mobile app for Android and iOS, and is now available on various other platforms - Universal Windows, integrated into cars, several different smart TVs, it's gonna be on the smart fridge that Samsung is working on, that sort of thing. So the whole idea for NPR One is it's essentially like a personalized public radio playlist, that's informed by your listening habits. So if you like to listen to a lot of podcasts, it can recommend you podcasts, if you're like me and you have a short attention span, it can just basically catch you up on the latest stories in 2-3 minute segments, that sort of thing.
+**Nara Kasbergen:** \{20:13\} ...so that's always step one for a lot of these device manufacturers, when they're trying to expand the content of their platforms, is enable RSS feeds. For us at NPR that's great, because we have those already; we didn't have to build anything specific for that. But two things that we can't easily do that way are - after the RSS feeds, our biggest primary focus is allowing people to listen to the livestream of their local radio station (NPR member station), and then NPR One, which is one of our kind of multi-platform experiences... NPR One started out as the mobile app for Android and iOS, and is now available on various other platforms - Universal Windows, integrated into cars, several different smart TVs, it's gonna be on the smart fridge that Samsung is working on, that sort of thing. So the whole idea for NPR One is it's essentially like a personalized public radio playlist, that's informed by your listening habits. So if you like to listen to a lot of podcasts, it can recommend you podcasts, if you're like me and you have a short attention span, it can just basically catch you up on the latest stories in 2-3 minute segments, that sort of thing.
 
 **Nick Nisi:** Pretty cool.
 
@@ -128,7 +128,7 @@ And then NPR One is also more complex than an RSS feed, because it's personalize
 
 Google is a lot more flexible, and I think it also makes sense because they are an identity provider. At this year's I/O they announced a new feature, where you can actually log in via voice if you have a Google account already, and that Google account already exists on the other OAuth server. Or you can even configure it so that if it doesn't exist, it just creates an account automatically... So it's what they (or at least what we) call frictionless login, essentially.. So that doesn't require you to take out the companion app, and that really helps. They're also a little bit more flexible about -- you can provide some kind of experience where they can at least start interacting with your skill without having to be logged in, and I think that helps a lot, as well.
 
-**Kevin Ball:** \[24:13\] Login by voice meaning some sort of voice recognition? I'm just imagining trying to spell out my password out loud, and thinking "Is anybody listening...?"
+**Kevin Ball:** \{24:13\} Login by voice meaning some sort of voice recognition? I'm just imagining trying to spell out my password out loud, and thinking "Is anybody listening...?"
 
 **Nara Kasbergen:** So the whole idea is, you know, when you're setting up your Google Home, you already have to take out your mobile device and install the Google Home app, and link that to your Google account, so the Google Home already knows who you are... So the third-party skill essentially asks you and your Google Home for permission to share that account information with a third-party skill, and you essentially just say yes or no, and that's it.
 
@@ -136,19 +136,19 @@ Google is a lot more flexible, and I think it also makes sense because they are 
 
 **Nara Kasbergen:** So it does actually do voice matching... I think that's where you do have to configure your Google Home to be aware that there's multiple people interacting with the device. But once you do that, it will recognize and basically it'll know that your five-year-old is not you. It will not tell my third-party app that, so it still respects your privacy in that way, but it is able to distinguish between multiple people in the house, and I would say that's also one of the biggest differences that I've seen so far, at least as a third-party developer, between Google Assistant skills and Alexa skills - Google Assistant skills are aware of multiple people interacting with the device, whereas Alexa just treats everyone in the house as one person. But again, they don't have the frictionless login, so you would still have to take out your phone and actually manually sign in on the app.
 
-**Kevin Ball:** That's interesting. Coming back to your development environment, it sounds like you're here at Node Interactive and you're talking about serverless and it being a lot like Express... So is this an area where a lot of the SDKs are in JavaScript? Are there other options for folks? How does this work out?
+**Kevin Ball:** That's interesting. Coming back to your development environment, it sounds like you're here at Node Interactive and you're talking about serverless and it being a lot like Express... So is this an area where a lot of the SDKs are in JavScript? Are there other options for folks? How does this work out?
 
-**Nara Kasbergen:** Yeah, I would say JavaScript is definitely the best option. I think it's the only one that has an SDK for every major voice platform. Cortana is another one... We haven't done a whole lot with it, just because the market share is so much lower. But they also have a Node.js SDK. And of course, Node.js is also the only one that is supported on every single serverless provider as well, so that's where, again, it helps you get up and running more quickly.
+**Nara Kasbergen:** Yeah, I would say JavScript is definitely the best option. I think it's the only one that has an SDK for every major voice platform. Cortana is another one... We haven't done a whole lot with it, just because the market share is so much lower. But they also have a Node.js SDK. And of course, Node.js is also the only one that is supported on every single serverless provider as well, so that's where, again, it helps you get up and running more quickly.
 
 You do have other options. I can say there are certainly Alexa SDKs for Python and Java. I think for Google Assistant the only other SDK is for Android-flavored Java, if you wanna do more of like a mobile development kind of approach. I don't think they have a Python one. And then Cortana also has a .NET one, obviously.
 
 Basically, the one thing that they all have in common is Node... And you don't have to go serverless; you could build your own traditional REST web server, but it's just so much easier frankly to deploy it as a serverless function. For us, the autoscaling is really critical for helping reduce costs as well, so unless you have a real strong reason not to go serverless, I would say if you're gonna do this work, you should be probably doing serverless.
 
-**Kevin Ball:** Awesome. Anything else exciting around voice or NPR, the work that you all are doing in JavaScript and Node that would be interesting to a set of JS developers?
+**Kevin Ball:** Awesome. Anything else exciting around voice or NPR, the work that you all are doing in JavScript and Node that would be interesting to a set of JS developers?
 
-**Nara Kasbergen:** Yeah, I mean, we're definitely not the only team at NPR that is doing JavaScript. We generally give every team their own ability to choose the tools that they think are the best ones for the job, with some restrictions. We have two really big legacy codebases, one that's written in PHP and the other that's written in Java, so sometimes it just kind of makes sense to stick with those. Sometimes we don't have the bandwidth to completely rewrite everything from scratch.
+**Nara Kasbergen:** Yeah, I mean, we're definitely not the only team at NPR that is doing JavScript. We generally give every team their own ability to choose the tools that they think are the best ones for the job, with some restrictions. We have two really big legacy codebases, one that's written in PHP and the other that's written in Java, so sometimes it just kind of makes sense to stick with those. Sometimes we don't have the bandwidth to completely rewrite everything from scratch.
 
-\[28:11\] Certainly, with all of the new development that we're doing though, it's pretty much all Node and JavaScript. I can't speak too much to the specifics, but we were early adopters of coa 2, so some of our back-end developers, who I think mostly actually were very hesitant about JavaScript development initially, who just kind of loved PHP and were very comfortable with it, have completely switched gears and love coa now... So I think that's a big thumbs up for the coa project.
+\{28:11\} Certainly, with all of the new development that we're doing though, it's pretty much all Node and JavScript. I can't speak too much to the specifics, but we were early adopters of coa 2, so some of our back-end developers, who I think mostly actually were very hesitant about JavScript development initially, who just kind of loved PHP and were very comfortable with it, have completely switched gears and love coa now... So I think that's a big thumbs up for the coa project.
 
 **Nick Nisi:** Yeah, that's great.
 
@@ -184,7 +184,7 @@ Basically, the one thing that they all have in common is Node... And you don't h
 
 **Nick Nisi:** Thank you.
 
-**Break:** \[30:52\]
+**Break:** \{30:52\}
 
 **Kevin Ball:** Kball here at Node+JS conf. I'm here with Nick Nisi...
 
@@ -196,11 +196,11 @@ Basically, the one thing that they all have in common is Node... And you don't h
 
 **Kevin Ball:** Awesome. So you did a talk earlier today... Can you tell us a little bit about it?
 
-**Jen Looper:** Sure. The talk was called "Build an engaging native mobile app with NativeScript and Vue.js." It was about this new custom implementation that we have in the NativeScript for Vue. Normally, with NativeScript, which is a runtime that you could be writing in JavaScript and you're building for a native mobile app, normally we would be using Angular, or no framework, or just JavaScript or TypeScript... And this lovely college student named Igor Randjelovic just decided to port it for Vue, and I went a little bit crazy... So it was really exciting moments for us.
+**Jen Looper:** Sure. The talk was called "Build an engaging native mobile app with NativeScript and Vue.js." It was about this new custom implementation that we have in the NativeScript for Vue. Normally, with NativeScript, which is a runtime that you could be writing in JavScript and you're building for a native mobile app, normally we would be using Angular, or no framework, or just JavScript or TypeScript... And this lovely college student named Igor Randjelovic just decided to port it for Vue, and I went a little bit crazy... So it was really exciting moments for us.
 
-**Kevin Ball:** That's awesome. So tell us a little bit more about NativeScript. It's JavaScript, but it's a little more than that as well, right?
+**Kevin Ball:** That's awesome. So tell us a little bit more about NativeScript. It's JavScript, but it's a little more than that as well, right?
 
-**Jen Looper:** Yeah. It's a runtime, and I think the easiest equivalent that people are making nowadays is that it's a lot like React Native. Basically, we're all trying to solve this problem of using JavaScript to build cross-platform apps... And you know, the people who started this were actually people like Appcelerator Titanium; they're all doing these runtimes, or bridges, or some way to leverage the JavaScript runtime so that you can go ahead and port your apps for these native platforms. We all have great solutions for this, and NativeScript is one of those. It's free and open source so no harm, no foul if you wanna try it.
+**Jen Looper:** Yeah. It's a runtime, and I think the easiest equivalent that people are making nowadays is that it's a lot like React Native. Basically, we're all trying to solve this problem of using JavScript to build cross-platform apps... And you know, the people who started this were actually people like Appcelerator Titanium; they're all doing these runtimes, or bridges, or some way to leverage the JavScript runtime so that you can go ahead and port your apps for these native platforms. We all have great solutions for this, and NativeScript is one of those. It's free and open source so no harm, no foul if you wanna try it.
 
 **Kevin Ball:** So if you have an existing Vue application, how hard is it to port that into Vue NativeScript?
 
@@ -214,7 +214,7 @@ I always look at Dev2 - they have rewritten pieces of their application in Preac
 
 **Kevin Ball:** Yeah, I love that about Vue in particular, and I think it is more and more something people are looking to do. I was chatting with a friend of mine who's reworking their application that was written with Knockout.js, and he's like "This is an old framework, it's kind of ghetto, but most of our application - it just works. We just want something better for the new parts, when we're doing something more complicated."
 
-**Jen Looper:** \[36:20\] Yeah, for sure. And it's nice to see that frameworks kind of can play all together. I mean, let's face it, all frameworks are trying to do the same thing, as well - they're trying to make the web fast and performant, and I think we all have different ways of doing it, but if we can all work together, then the web will be better. This is the dream.
+**Jen Looper:** \{36:20\} Yeah, for sure. And it's nice to see that frameworks kind of can play all together. I mean, let's face it, all frameworks are trying to do the same thing, as well - they're trying to make the web fast and performant, and I think we all have different ways of doing it, but if we can all work together, then the web will be better. This is the dream.
 
 **Nick Nisi:** And is there anything specific about Vue that makes it a good choice for combining with NativeScript to do native development?
 
@@ -242,7 +242,7 @@ I think that it's a great way for the community to grow, to expand... Inclusivit
 
 **Jen Looper:** Yeah, it's very interesting to watch it evolve. I'm actually in charge of -- I kind of park 24/7 on the NativeScript Slack, the community Slack... I've watched it grow from zero to 8,500 people now in general. Adoption is always our goal, we want people to adopt it. Of course, there's a lot of comp-- not competition, but there's other options out there; React Native is very, very big. So we have a little bit of a niche of people who want to use different frameworks, or who don't wanna use a framework at all...
 
-\[40:05\] So adoption is coming along, and I think where we're finding a lot of success in the Angular world is with banks; I don't know why, but banks seem to really enjoy using NativeScript, so that's kind of cool.
+\{40:05\} So adoption is coming along, and I think where we're finding a lot of success in the Angular world is with banks; I don't know why, but banks seem to really enjoy using NativeScript, so that's kind of cool.
 
 Then for Vue, the smaller shops, the agencies are looking at it as a viable option. It's great to see, and I'm there to help - help launch, help promote, help in any way that I can.
 
@@ -276,7 +276,7 @@ Right now, the way we're looking to do it is to have naming conventions - we do 
 
 **Nick Nisi:** And it's TypeScript-first, and... Yeah.
 
-**Kevin Ball:** \[44:09\] Dojo was one of the original frameworks out there. They were pushing modular JavaScript before any of the module standards existed.
+**Kevin Ball:** \{44:09\} Dojo was one of the original frameworks out there. They were pushing modular JavScript before any of the module standards existed.
 
 **Jen Looper:** Nice.
 
@@ -302,7 +302,7 @@ Right now, the way we're looking to do it is to have naming conventions - we do 
 
 **Kevin Ball:** You know, jumping on all the latest trends, and things like that.
 
-**Jen Looper:** Oh yeah, that's what we do in the JavaScript world. We're like, "Yay, frameworks...!" \[laughter\]
+**Jen Looper:** Oh yeah, that's what we do in the JavScript world. We're like, "Yay, frameworks...!" \[laughter\]
 
 **Kevin Ball:** Yay, a new trend! Woo-hoo!
 
@@ -338,15 +338,15 @@ Right now, the way we're looking to do it is to have naming conventions - we do 
 
 **Jen Looper:** Yeah... I'm gonna guess that Chris Fritz's fingerprints are all over that. He's kind of the guru of the docs, and one of the biggest strengths of Vue is the docs, and this is Chris Fritz, because he's an absolute genius at this stuff. So they tend to get together for sprints... I think they were in Poland last time doing a sprint, and that probably helps a lot getting process sorted out. It's really cool to see... It's really an organic growth of the community, and it's kind of unique, actually. It's kind of neat.
 
-**Kevin Ball:** \[48:04\] Yeah, it's gone from what felt like a single-man project that blew up, to now looking like it's gonna have the same types of community, organization and governance that any of these projects have.
+**Kevin Ball:** \{48:04\} Yeah, it's gone from what felt like a single-man project that blew up, to now looking like it's gonna have the same types of community, organization and governance that any of these projects have.
 
 **Jen Looper:** Yeah, for sure. And we're actually working across the board a little bit on code of conduct situations, so it's kind of interesting, we're kind of collaborating with folks in the Angular community and in the React community to get a kind of framework-agnostic code of conduct. That will also help with process, PRs, and with behavior on GitHub, just to make everything a little bit more calm. It'll be really cool.
 
-**Kevin Ball:** We love to do the framework A versus framework B situation, but more and more I think all of these frameworks are just growing in tandem. The JavaScript world is exploding.
+**Kevin Ball:** We love to do the framework A versus framework B situation, but more and more I think all of these frameworks are just growing in tandem. The JavScript world is exploding.
 
 **Jen Looper:** Yes, yes. As my colleague in Sun Life used to say, \[Russian accent\] "This is job security." \[laughter\]
 
-**Kevin Ball:** Yeah, if you're listening to this podcast because you work in JavaScript, you have incredible job security...
+**Kevin Ball:** Yeah, if you're listening to this podcast because you work in JavScript, you have incredible job security...
 
 **Jen Looper:** \[laughs\] Yeah, you absolutely do.
 
@@ -356,7 +356,7 @@ Right now, the way we're looking to do it is to have naming conventions - we do 
 
 **Jen Looper:** WebAssembly I think is the next thing... \[laughs\]
 
-**Kevin Ball:** Well, it's funny you should say that, because a lot of folks are like "Well, is WebAssembly gonna replace JavaScript?" I don't think it does.
+**Kevin Ball:** Well, it's funny you should say that, because a lot of folks are like "Well, is WebAssembly gonna replace JavScript?" I don't think it does.
 
 **Jen Looper:** I don't think so...
 
@@ -364,15 +364,15 @@ Right now, the way we're looking to do it is to have naming conventions - we do 
 
 **Nick Nisi:** I think so, yeah.
 
-**Jen Looper:** Yeah, I don't know very much about it, but I'm not loving the "Yippie aiyay, here comes WebAssembly, let's just throw JavaScript out the window." I don't think that's a great attitude. Let's all keep learning and make sure we're all working towards the same goal, which is making the web performant and fast.
+**Jen Looper:** Yeah, I don't know very much about it, but I'm not loving the "Yippie aiyay, here comes WebAssembly, let's just throw JavScript out the window." I don't think that's a great attitude. Let's all keep learning and make sure we're all working towards the same goal, which is making the web performant and fast.
 
 **Kevin Ball:** Yeah, exactly.
 
-**Nick Nisi:** What I've seen with asm.js and WebAssembly is taking things that aren't written in JavaScript and compiling them to JavaScript; so things that are written in C, audio codecs and things like that, and then being able to bind into them with JavaScript, so that you can run them all in the browser natively.
+**Nick Nisi:** What I've seen with asm.js and WebAssembly is taking things that aren't written in JavScript and compiling them to JavScript; so things that are written in C, audio codecs and things like that, and then being able to bind into them with JavScript, so that you can run them all in the browser natively.
 
 **Jen Looper:** Like Dart? Would that be an example, or...?
 
-**Nick Nisi:** I'm thinking more of like libraries, and such... A way to decode audio, for example; audio codecs, things like that, that are written in other languages - being able to take that, put it into JavaScript, and then bind to it with a JavaScript wrapper, and then interface with it through JavaScript...
+**Nick Nisi:** I'm thinking more of like libraries, and such... A way to decode audio, for example; audio codecs, things like that, that are written in other languages - being able to take that, put it into JavScript, and then bind to it with a JavScript wrapper, and then interface with it through JavScript...
 
 **Jen Looper:** Like TensorFlow.js.
 
@@ -406,19 +406,19 @@ Right now, the way we're looking to do it is to have naming conventions - we do 
 
 I was actually really astounded by one of the keynotes this morning, the one on IoT, so I'm kind of hoping to see more IoT type things out there, so I can catch up again, because I used to love it. Maybe this is the opportunity, I can go and see some more cool IoT talks.
 
-**Kevin Ball:** Yeah, that was actually a good highlight of exactly what we're talking about in terms of JavaScript taking over; you know, job security for all of us JavaScript developers... \[laughs\] Because here's this guy who's been in the IoT world since essentially the beginning, saying "Look, we're over-complicating it. Really, we should just be using web technologies, because they're everywhere, and they work. There's no need to be doing all this crazy, niche stuff anymore. You can be running JavaScript on the devices, you can use JavaScript-based toolkits, at JSConf we learned about Johnny-Five, so we're digging into that..."
+**Kevin Ball:** Yeah, that was actually a good highlight of exactly what we're talking about in terms of JavScript taking over; you know, job security for all of us JavScript developers... \[laughs\] Because here's this guy who's been in the IoT world since essentially the beginning, saying "Look, we're over-complicating it. Really, we should just be using web technologies, because they're everywhere, and they work. There's no need to be doing all this crazy, niche stuff anymore. You can be running JavScript on the devices, you can use JavScript-based toolkits, at JSConf we learned about Johnny-Five, so we're digging into that..."
 
 **Jen Looper:** I was gonna say, Johnny-Five is incredible.
 
-**Kevin Ball:** \[52:26\] It's amazing, and you know JavaScript - suddenly you can do robotics.
+**Kevin Ball:** \{52:26\} It's amazing, and you know JavScript - suddenly you can do robotics.
 
-**Jen Looper:** That's incredible, and I think it's huge for the learning, the people who are trying to build courseware and who are trying to teach, especially with IoT. We actually have an IoT component of Vue Vixens. I was partnering with Particle, they gave me some devices, and we did a cool, little workshop... You're running a mobile app that can control your Particle device, and it's all JavaScript. It's incredible stuff, and I think it's great for learning. People love that tangible feeling of "I made something light up with JavaScript", that's crazy!
+**Jen Looper:** That's incredible, and I think it's huge for the learning, the people who are trying to build courseware and who are trying to teach, especially with IoT. We actually have an IoT component of Vue Vixens. I was partnering with Particle, they gave me some devices, and we did a cool, little workshop... You're running a mobile app that can control your Particle device, and it's all JavScript. It's incredible stuff, and I think it's great for learning. People love that tangible feeling of "I made something light up with JavScript", that's crazy!
 
 **Kevin Ball:** Right. Now you can suddenly do these things that you used to have to do all this crazy, low-level programming, and it's a couple lines of JS.
 
 **Jen Looper:** Yeah, absolutely. That's good stuff.
 
-**Nick Nisi:** And our editors are being written in JavaScript now too, with Visual Studio Code...
+**Nick Nisi:** And our editors are being written in JavScript now too, with Visual Studio Code...
 
 **Jen Looper:** Yeah, that was another great talk; the VS Code talk was super. Coming from April's talk about compassionate coding, to have Microsoft up there, basically totally walking the walk... Because that whole project is based on compassion, and listening, and thanking, and being kind, and being cool... God love Microsoft, they're super.
 
@@ -446,7 +446,7 @@ I think about, for example, my mother, who cannot deal with change anymore. She 
 
 **Kevin Ball:** Oh, it's great for us. This actually comes back to something else that's been spinning around the industry recently - developer ergonomics versus performance, and how much we tend to make choices based on developer ergonomics, and justify those choices saying "Well, we're gonna then be able to iterate faster, we'll be able to do things better, and so it's gonna be better for the user in the end", without actually measuring that, or coming back and saying "Was it, in the end, better for the user? Was that extra 20k that we installed for this framework that's gonna speed us up a little bit, when we balance how much that's slowing folks down - did it pay for itself? Was it valuable when it comes to user endpoints?"
 
-\[56:16\] We as an industry tend to over-bias for ourselves, because we make the decisions and we see ourselves, and I think it comes back to this compassion question, and actually going out and listening to users and talking to users. The more we can get into that habit, the more we'll see the cost of some of our ergonomic decisions.
+\{56:16\} We as an industry tend to over-bias for ourselves, because we make the decisions and we see ourselves, and I think it comes back to this compassion question, and actually going out and listening to users and talking to users. The more we can get into that habit, the more we'll see the cost of some of our ergonomic decisions.
 
 **Jen Looper:** Amazing, yeah.
 
@@ -466,7 +466,7 @@ I think about, for example, my mother, who cannot deal with change anymore. She 
 
 **Jen Looper:** Yeah... Well, watch your Android stuff now, because that will change. I've just changed recently -- I was releasing PracticeBuddy for Android, and I was kind of horrified; "I think I screwed it up too, so I've gotta fix that." \[laughter\] It's all different now.
 
-**Kevin Ball:** Anything else we wanna talk about? The talk of the conference is this JavaScript Foundation merger... I don't know if that's something that you have thoughts on or opinions on, or if that touches NativeScript or Vue at all...
+**Kevin Ball:** Anything else we wanna talk about? The talk of the conference is this JavScript Foundation merger... I don't know if that's something that you have thoughts on or opinions on, or if that touches NativeScript or Vue at all...
 
 **Jen Looper:** It doesn't touch NativeScript or Vue, but it touches me really closely, because this idea of foundation - I need to talk to Jory a little bit more on what it means to be a foundation... Because we're actually in the process of turning Vue Vixens into a private foundation at Progress... So it's super-interesting to go through, and I'm working closely with Progress' legal, and I'm very grateful that they're giving me all this pro bono work; Progress legal, accounting and taxes. Basically, I'm not responsible for paying all those taxes that I'd probably have to pay if I crowdsourced everything, and had everything donated. But I'd like to have a better grasp, and maybe I will be able to after this conference, of what it means to be a foundation.
 

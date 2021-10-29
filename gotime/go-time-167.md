@@ -148,7 +148,7 @@ I think it's the same thing with reading the docs. You don't have to dedicate th
 
 But I think that's the thing you have to do for the perseverance. As Johnny said, it's not magical; we don't have access to some special information somewhere. It's literally just block out the time, do it, and do it every day, even when you don't want to.
 
-**Break:** \[34:10\]
+**Break:** \{34:10\}
 
 **Johnny Boursiquot:** I do have to acknowledge that all things being equal, if you are capable of sitting down for 30 minutes, an hour, or two, for really a decent chunk of time to consume content, that's great; then it's just a matter of -- I don't wanna call it willpower, but your motivation to sit down, like you're saying, Kris, sitting in that pain, pushing through that pain, because on the other side there's a payoff. But I do wanna acknowledge that for some it's not easy. Perhaps it's some sort of a reading disability, perhaps it's ADHD, whatever the case might be; I don't know enough about these challenges to speak to them.
 
@@ -210,7 +210,7 @@ And I think the other thing is that it's -- that's what I said before, it's just
 
 **Jerod Santo:** It's for free, and it's kind of following the example that's there.
 
-**Johnny Boursiquot:** So before we officially transition into Unpopular Opinions - get your trigger finger ready, Jerod... Perhaps one thing to also acknowledge and consider is that it is intimidating for somebody who is learning Go - or really any other language, for that matter - to just go read the code. If you're old enough to remember the first days of the web, when everybody was - at least those of us who were in tech - learning HTML, and JavaScript, and CSS, and all that stuff... You could always view source, and everything was just right there; the JavaScript was right there, the HTML was right there, the CSS was right there... A lot of us learned, or self-taught that way; we read the code, only because we didn't have anything better.
+**Johnny Boursiquot:** So before we officially transition into Unpopular Opinions - get your trigger finger ready, Jerod... Perhaps one thing to also acknowledge and consider is that it is intimidating for somebody who is learning Go - or really any other language, for that matter - to just go read the code. If you're old enough to remember the first days of the web, when everybody was - at least those of us who were in tech - learning HTML, and JavScript, and CSS, and all that stuff... You could always view source, and everything was just right there; the JavScript was right there, the HTML was right there, the CSS was right there... A lot of us learned, or self-taught that way; we read the code, only because we didn't have anything better.
 
 There were the books, and things like that, but... I don't know about you, but back in the day when I first started out, I couldn't afford a $40 book from a publisher. Stuff wasn't available online as it is now. So really, a lot of us taught ourselves by View Source.
 
@@ -228,7 +228,7 @@ If you are out there - and I'm speaking to you, listener, or watcher - and think
 
 So get over that fear, put something out there, whatever form or shape that you'd like... Just contribute your part. We want your part in the lore, especially for documentation as we're talking about here. We want your part of the story. So contribute that.
 
-**Break:** \[51:30\]
+**Break:** \{51:30\}
 
 **Johnny Boursiquot:** Good stuff... Man, I like that song. Okay, so during pre-show, Ian told us he came prepared... Like, ready to fire off a bleve of just unpopular opinions. Ian, lay one on us.
 
@@ -262,9 +262,9 @@ I've been experimenting with it off and on, and I do think it leads to some very
 
 **Kris Brandow:** I don't know if it's worth adding... Versus just writing it when you need it. I think that's kind of where I sit with this. I think there are a place where this concept of doing delayed processing makes a lot of sense, and I think that is a paradigm in Go, using goroutines and channels... And I feel like this fits with the "Please don't expose channels more than we need a nice API for promises and futures", because I think that's something that I think is kind of fraught in the Go community... Like, returning channels to people -- it's a footgun. It's definitely a footgun, because - as you brought it up: "Who's gonna close the channel? Who owns this channel?"
 
-So I think there definitely are some downsides to exposing channels... But I think just covering them up a little bit, and then kind of having the same concept is definitely a programming paradigm that's useful. I think my worry with adding an official promises or futures type of thing is that it'll encourage people not to learn goroutines and channels; it'll encourage people to "Oh, I know this from JavaScript, so I'm gonna keep doing it the way that I did in JavaScript."
+So I think there definitely are some downsides to exposing channels... But I think just covering them up a little bit, and then kind of having the same concept is definitely a programming paradigm that's useful. I think my worry with adding an official promises or futures type of thing is that it'll encourage people not to learn goroutines and channels; it'll encourage people to "Oh, I know this from JavScript, so I'm gonna keep doing it the way that I did in JavScript."
 
-Nothing against the paradigms of other languages, but this is Go. We have our idioms, and we have them for a reason... If you're gonna hang out in the Go camp, please learn our idioms. I have had my share of that Java Go, that Ruby Go, that C++ Go, and that JavaScript Go. I don't really want any more of it.
+Nothing against the paradigms of other languages, but this is Go. We have our idioms, and we have them for a reason... If you're gonna hang out in the Go camp, please learn our idioms. I have had my share of that Java Go, that Ruby Go, that C++ Go, and that JavScript Go. I don't really want any more of it.
 
 **Ian Lopshire:** And I understand that... And I would be against adding it to the standard library, or as a language feature. Just the idea of a similar concept to a future; like you said, a wrapper around channels, that just does not actually expose the channel. I've used it in a couple of places and it's worked really well.
 

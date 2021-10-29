@@ -24,7 +24,7 @@
 
 **Adam Stacoviak:** We caught up with Darcy because on our fabulous radar, and actually in Weekly - we're gonna ship Weekly tomorrow, but this is recorded in the future and you'll hear it in the past, so it's kind of weird to tell you when it'll come out... But long story short, we've found on the HTML5 Boilerplates Organization on GitHub a repo called Frontend Developer Interview Questions, so we thought that was super-awesome.
 
-\[04:00\] It's a list of helpful questions for frontend people that are interviewing potential candidates, and maybe even testing yourself... Or if you're a frontender out there and you're thinking "Well, I could probably answer some of these questions, or I can't", at least it gives you some waypoints of what you do and may not know. So we thought this might be a great time to either have this conversation ourselves, me and Jerod, or invite you on if you can come on, and luck be the draw, we've got you on the show, because... Here you are.
+\{04:00\} It's a list of helpful questions for frontend people that are interviewing potential candidates, and maybe even testing yourself... Or if you're a frontender out there and you're thinking "Well, I could probably answer some of these questions, or I can't", at least it gives you some waypoints of what you do and may not know. So we thought this might be a great time to either have this conversation ourselves, me and Jerod, or invite you on if you can come on, and luck be the draw, we've got you on the show, because... Here you are.
 
 **Darcy Clarke:** \[laughs\] Yeah. It was a quick turnaround, that's for sure.
 
@@ -48,7 +48,7 @@ But yeah, there's a number of different things in there. Originally, we even had
 
 **Darcy Clarke:** He had just reached out to me... We're really good friends, and so he had just reached out to me and asked me to give him some resources, or some tips, and try to do almost like a fake interview with him. So he was just trying to prepare himself for that Google interview, which he later wrote a blog post about his experience going through that...
 
-\[08:07\] There was a few other people who had asked me to try to give them advice or give them prep questions that I would ask, and that I had actually asked other interviewees that I had come across in my time as more of like a manager at digital agencies that I had been at.
+\{08:07\} There was a few other people who had asked me to try to give them advice or give them prep questions that I would ask, and that I had actually asked other interviewees that I had come across in my time as more of like a manager at digital agencies that I had been at.
 
 So that was sort of where my head was at... And there really wasn't anything like this, any resource that sort of basically combined everything that you should know or you should be prepared for going into a job interview for a frontend developer position. So yeah, that's sort of where it was at...
 
@@ -64,13 +64,13 @@ I kind of have a thought about a frontend developer in general - the term, the r
 
 **Darcy Clarke:** Yeah, a hundred percent. We've definitely made it a lot more objective. We got rid of any kind of answers that were in there. There's definitely a focus more -- up until a few weeks ago I think we still had questions that were specific to jQuery, and we didn't think -- sort of as an organization and the people that are helping to maintain this project now, we don't think it's a good idea to essentially point out one library over another. Essentially, we would get into a position where we'd be fraught with just an abundance of different frameworks that we have to sort of support, and say "Oh, these are the questions for Angular, and these are the questions for Ember", and things like that. So we tried to get more library-agnostic and framework-agnostic.
 
-\[12:13\] It's definitely matured. The documents definitely matured, and the questions have matured... And you can definitely see that it's more focused to concepts, or it's trying to be more focused on concepts. I think the goal here is to try to always have a question be more open-ended, so that it can be sort of left up to interpretation a little bit, and that the interviewee or the person on the other end can sort of get a chance to talk a little bit, and hopefully it starts a discussion if that's what they're using this document for, which is to actually interview someone. Hopefully, it starts a discussion between the two people in that room, or on a phone call, or wherever they are.
+\{12:13\} It's definitely matured. The documents definitely matured, and the questions have matured... And you can definitely see that it's more focused to concepts, or it's trying to be more focused on concepts. I think the goal here is to try to always have a question be more open-ended, so that it can be sort of left up to interpretation a little bit, and that the interviewee or the person on the other end can sort of get a chance to talk a little bit, and hopefully it starts a discussion if that's what they're using this document for, which is to actually interview someone. Hopefully, it starts a discussion between the two people in that room, or on a phone call, or wherever they are.
 
-**Jerod Santo:** Yeah, I think it's wise to remove implementation details, as much as you can. Obviously, when you get to the JavaScript questions, "We're gonna use JavaScript." Whereas probably back when you started with it, it was probably pretty safe to assume "Well, it's just gonna be jQuery-oriented questions", because that was such a dominant tool at the time, and the landscape has really diversified, with the different frameworks and libraries that are available...
+**Jerod Santo:** Yeah, I think it's wise to remove implementation details, as much as you can. Obviously, when you get to the JavScript questions, "We're gonna use JavScript." Whereas probably back when you started with it, it was probably pretty safe to assume "Well, it's just gonna be jQuery-oriented questions", because that was such a dominant tool at the time, and the landscape has really diversified, with the different frameworks and libraries that are available...
 
 **Adam Stacoviak:** Yeah, that original blog post has jQuery-specific questions in it, whereas the current state now has that removed; like you said, agnostic towards a particular camp.
 
-**Darcy Clarke:** Yeah, I didn't think they were that useful anyways. They really didn't add a bunch of value. Again, we're trying to hit on topics that are more objectively true, or that you can talk about at a higher level. For instance, you could talk about Sizzle, which is jQuery's selector engine, and its specific implementation, and how it returns a collection... But that kind of concept, of actually just selecting an element in JavaScript - it's ubiquitous; it's not specific to... You can talk about it in the native implementations; you can use, let's say, a native method like `getElementById` or `querySelector` or `querySelectorAll`. So we tried to remove that, and I think that just shows a maturity and a growth over the years, and of the project, too... Especially as of recent, since the project actually moved a couple months ago from originally being still a personal repo of mine to being under the HTML5 Boilerplate Organization. We made that change - me and Paul did that two months ago, I think, and there's been a huge influx in contributions... It's definitely matured, even in the last two months; it's exploded.
+**Darcy Clarke:** Yeah, I didn't think they were that useful anyways. They really didn't add a bunch of value. Again, we're trying to hit on topics that are more objectively true, or that you can talk about at a higher level. For instance, you could talk about Sizzle, which is jQuery's selector engine, and its specific implementation, and how it returns a collection... But that kind of concept, of actually just selecting an element in JavScript - it's ubiquitous; it's not specific to... You can talk about it in the native implementations; you can use, let's say, a native method like `getElementById` or `querySelector` or `querySelectorAll`. So we tried to remove that, and I think that just shows a maturity and a growth over the years, and of the project, too... Especially as of recent, since the project actually moved a couple months ago from originally being still a personal repo of mine to being under the HTML5 Boilerplate Organization. We made that change - me and Paul did that two months ago, I think, and there's been a huge influx in contributions... It's definitely matured, even in the last two months; it's exploded.
 
 **Adam Stacoviak:** Let's talk about that part there, two months ago then... So what was it like merging a personal project into an organization? And then, if you can recall, what were the stats at that time? Like forks, and watches, and stars, and stuff like that.
 
@@ -78,7 +78,7 @@ I kind of have a thought about a frontend developer in general - the term, the r
 
 So we had 25 language translations, about 10,000 stars over that three-year spin of it being a repo associated just with my name... Although I've always tried to keep liner notes for the original contributors for the other documents that were running around three years ago.
 
-\[16:07\] But yeah, essentially we went from that, and two months ago we made the changed the ownership to the HTML5 Boilerplate Organization, and we saw a huge influx in traffic. Lots more visibility. We got another 4,000 stars since then, so we're now up to 14,000 or 15,000 stars, and 2,000 forks, or something crazy like that. You know, over 100 contributors, which is another great stat. I think it's the second most starred repo for the organization, after obviously the HTML5 Boilerplate projects.
+\{16:07\} But yeah, essentially we went from that, and two months ago we made the changed the ownership to the HTML5 Boilerplate Organization, and we saw a huge influx in traffic. Lots more visibility. We got another 4,000 stars since then, so we're now up to 14,000 or 15,000 stars, and 2,000 forks, or something crazy like that. You know, over 100 contributors, which is another great stat. I think it's the second most starred repo for the organization, after obviously the HTML5 Boilerplate projects.
 
 **Adam Stacoviak:** Wow. That's huge, man. 14,048 stars, 2,126 forks, 119 contributors - that's definitely not a stat to shake a stick at. And to tee off what you'd mentioned about localization for languages, a post recently from Mikeal Rogers, who was recently on the show for io.js - he has a post out there called "How io.js built a 146-person, 27-language localization effort in one day." And one thing he talked about was how he traveled to Korea, and how there's a Node community in Korea that was sort of hidden, I guess, to the rest of the world, because they operate in these sort of localization silos that don't really go beyond their language. So having the localization that you've gotten already with multiple languages is pretty huge.
 
@@ -92,11 +92,11 @@ So it was great to see that worldwide we got some traffic, and that people were 
 
 **Adam Stacoviak:** And now, a word from our sponsor.
 
-**Break:** \[19:05\]
+**Break:** \{19:05\}
 
 **Adam Stacoviak:** You mentioned that it's just a markdown file... Any plans to take that and turn that into an actual site that's got some design behind it, and put some form to this function?
 
-**Darcy Clarke:** \[20:03\] Sure. We haven't really thought about that. I never thought about that at all. There's a GitHub page, website basically; it's just a rendered HTML/CSS version of the markdown file. So it's not much more than that... But yeah, there hasn't been talk about that. That's a good idea. I might do that, now that you suggest that.
+**Darcy Clarke:** \{20:03\} Sure. We haven't really thought about that. I never thought about that at all. There's a GitHub page, website basically; it's just a rendered HTML/CSS version of the markdown file. So it's not much more than that... But yeah, there hasn't been talk about that. That's a good idea. I might do that, now that you suggest that.
 
 **Adam Stacoviak:** Well, the readme is great, it's accessible. You've got the anchored headings, and things like that, and clearly, you've got 14,000+ stars on it, so that's not holding you back... I think that it becomes a destination once you put a URL to it and some design to it, and it sort of takes on its own life... Though I don't think it's required. You've got sort of this sync issue with localizations, but then that also provides a potential issue for the site; maybe your site can only support English, but that's not gonna scale well... You're gonna wanna support maybe a subdomain per language, potentially, or at least a slug on the URL, or something like that.
 
@@ -114,7 +114,7 @@ So yeah, we face some interesting problems with this, compared to a typical open
 
 **Jerod Santo:** What about just crazy, off-the-wall questions? Do you ever get somebody to submit something that you think "What are they talking about?" \[unintelligible 00:24:06.27\]
 
-**Darcy Clarke:** \[24:11\] \[laughs\] I think the worst stuff is maybe topics or discussions we've already had in the past, or times when I've had to guide people in the right direction, or just let them know our stance on things... We don't get too much stuff in left field, and I would never wanna point anybody out. But yeah, over the years we've had some interesting people. When it first released, the document actually got a lot of traffic on Reddit, and there were a lot of people that were saying that we were better off without something like this, and they were sort of bashing the project, or even this idea of having a list of interview questions.
+**Darcy Clarke:** \{24:11\} \[laughs\] I think the worst stuff is maybe topics or discussions we've already had in the past, or times when I've had to guide people in the right direction, or just let them know our stance on things... We don't get too much stuff in left field, and I would never wanna point anybody out. But yeah, over the years we've had some interesting people. When it first released, the document actually got a lot of traffic on Reddit, and there were a lot of people that were saying that we were better off without something like this, and they were sort of bashing the project, or even this idea of having a list of interview questions.
 
 So that's why I actually initially put this into a GitHub repo, because I was hoping that somebody like that would actually just make a pull request that deleted the entire document. And if it got enough traffic, or if enough people gave it thumbs up, then I would have just scrapped everything and we wouldn't be where we are today. But those people obviously didn't come and contribute, so... Yeah, I haven't faced anything super-odd quite yet... But anytime somebody tries to add an answer, I know it's all well-meaning, but that's probably the hardest time for me, is to tell somebody that "You know, this project isn't about giving everybody all the answers. It's more about making people think, and asking themselves whether or not they know how they would answer a question like the one that's there in front of them."
 
@@ -150,17 +150,17 @@ So that's why I actually initially put this into a GitHub repo, because I was ho
 
 **Adam Stacoviak:** That's the beauty of open source... Three years ago you read a blog post based on you and your friendship with - his name is Wes Bos, right?
 
-**Darcy Clarke:** \[28:11\] Yeah, Wes Bos.
+**Darcy Clarke:** \{28:11\} Yeah, Wes Bos.
 
 **Adam Stacoviak:** So you're trying to prepare him, and just prepare in general, and you decided to share that. That's what I love about open source, and one of the things I think stirs up so much emotion between Jerod and I and what we do here at the Changelog - because this one little act here you did three years ago has probably paid it forward for so many developers, and it's probably even impossible for you to see the ramifications of one active open source propel in such a way - 14,000 stars later, I can't recall how many forks, because I moved away from that tab, but... Just so much.
 
-Let's talk about the last three years then, since it's what you said a bit ago, and what I've just said there. If we go down to the table of contents, you've got general questions, HTML questions, CSS questions, JavaScript questions, and networking, coding, and then some fun questions to kind of round that off. I know that HTML itself hasn't changed -- I guess it kind of has changed dramatically; we've gone from xHTML to HTML5, and then we've got Sass, and we've got Less, and we've got various -- we've got CoffeeScript, we've got different frameworks for JavaScript... How has maybe the document, as well as the idea of a frontender changed over these last three years for you, and I guess the community powering this project?
+Let's talk about the last three years then, since it's what you said a bit ago, and what I've just said there. If we go down to the table of contents, you've got general questions, HTML questions, CSS questions, JavScript questions, and networking, coding, and then some fun questions to kind of round that off. I know that HTML itself hasn't changed -- I guess it kind of has changed dramatically; we've gone from xHTML to HTML5, and then we've got Sass, and we've got Less, and we've got various -- we've got CoffeeScript, we've got different frameworks for JavScript... How has maybe the document, as well as the idea of a frontender changed over these last three years for you, and I guess the community powering this project?
 
-**Darcy Clarke:** I think definitely the community -- the keyword, I've probably said a couple of times already, is "matured". The community definitely matured, and the frameworks did... We're talking about higher-level programming paradigms or theories, and how we can implement that in JavaScript; we're getting native support for a lot of things that we think are helpful in other programming languages now, with like ES6 coming out...
+**Darcy Clarke:** I think definitely the community -- the keyword, I've probably said a couple of times already, is "matured". The community definitely matured, and the frameworks did... We're talking about higher-level programming paradigms or theories, and how we can implement that in JavScript; we're getting native support for a lot of things that we think are helpful in other programming languages now, with like ES6 coming out...
 
 So I think we've seen definitely a lot of change. Preprocessors weren't even a thing in 2012, right? So it's really funny to see where we came. Maybe Less was around.
 
-**Adam Stacoviak:** \[30:27\]
+**Adam Stacoviak:** \{30:27\}
 
 **Darcy Clarke:** Well, Less was around. If you were using \[unintelligible 00:30:20.10\]
 
@@ -202,7 +202,7 @@ So I think we've seen definitely a lot of change. Preprocessors weren't even a t
 
 **Jerod Santo:** It's more of a no-brainer. I'm sure you still have your fringe people who think it's stupid, but they're fringe.
 
-**Darcy Clarke:** \[32:10\] Yeah, and I would say single-page applications weren't as big. We might have been using hashbangs back then still, or you were writing your own framework to do routing, and things like that. Now, obviously, we've got a ton, a huge variety of libraries and tools now. But again, those kinds of things we try not to talk about in this project. We talk about the concepts they bring out, like routing, and the history API, or something like that. We talk about data binding, and things like that, that are more global and can be applied across any framework, or any framework probably would need for building single-page applications... But that's definitely something that's changed in the last three years, is seeing that.
+**Darcy Clarke:** \{32:10\} Yeah, and I would say single-page applications weren't as big. We might have been using hashbangs back then still, or you were writing your own framework to do routing, and things like that. Now, obviously, we've got a ton, a huge variety of libraries and tools now. But again, those kinds of things we try not to talk about in this project. We talk about the concepts they bring out, like routing, and the history API, or something like that. We talk about data binding, and things like that, that are more global and can be applied across any framework, or any framework probably would need for building single-page applications... But that's definitely something that's changed in the last three years, is seeing that.
 
 We don't have a lot of questions about testing, which I would love to see more of, and I think that's definitely something that the community has embraced in the last three years, and is testing the code, and writing modular code... I think we can do a better job at applying TDD questions in this document... So that's maybe something that somebody can make a pull request for.
 
@@ -218,7 +218,7 @@ We don't have a lot of questions about testing, which I would love to see more o
 
 **Jerod Santo:** Is it ever gonna contract? Will it ever contract? Will it ever get easier?
 
-**Darcy Clarke:** I think that there's definitely been specialization. I think there's a lot of people that might be doing backend JavaScript work now, because Node and Io have got to a point where people trust them for production... There might be people branching out and getting more specific in their roles, in what we would have considered frontend development realm, or lives. And I think that you see designers -- the term "designer" in our industry has sort of changed, too. Designers are now expected to code, so they might know HTML and CSS, and they may be able to design in the browser, build experiences around the browser.
+**Darcy Clarke:** I think that there's definitely been specialization. I think there's a lot of people that might be doing backend JavScript work now, because Node and Io have got to a point where people trust them for production... There might be people branching out and getting more specific in their roles, in what we would have considered frontend development realm, or lives. And I think that you see designers -- the term "designer" in our industry has sort of changed, too. Designers are now expected to code, so they might know HTML and CSS, and they may be able to design in the browser, build experiences around the browser.
 
 So I don't know if the term "frontend developer" - I don't know if we're ever gonna be asked less of. I think there's always gonna be more that we're expected to know...
 
@@ -230,7 +230,7 @@ So I don't know if the term "frontend developer" - I don't know if we're ever go
 
 So Jerod and I wanted to close the call, to turn a couple of questions on you. Would you mind if we pulled a couple of our favorites out and asked you a couple of questions?
 
-**Darcy Clarke:** \[36:09\] Sure, yeah.
+**Darcy Clarke:** \{36:09\} Sure, yeah.
 
 **Adam Stacoviak:** Yeah?
 
@@ -256,17 +256,17 @@ You basically take almost like a selfie, or you can use your webcam, and it gene
 
 **Jerod Santo:** It's an algorithm, okay.
 
-**Darcy Clarke:** Yeah. If you look it up, I think there's some MIT papers around it. And I forget the developer who worked on the JavaScript implementation, but it's been around for a little while... And yeah, it's essentially like a JavaScript library that you can use, and just apply it to any kind of input that you would get from either \[unintelligible 00:37:52.08\] somebody's webcam, and you can find the data points of a user's face. So you can find their nose, their eyes, and it will track where that is. That was pretty cool.
+**Darcy Clarke:** Yeah. If you look it up, I think there's some MIT papers around it. And I forget the developer who worked on the JavScript implementation, but it's been around for a little while... And yeah, it's essentially like a JavScript library that you can use, and just apply it to any kind of input that you would get from either \[unintelligible 00:37:52.08\] somebody's webcam, and you can find the data points of a user's face. So you can find their nose, their eyes, and it will track where that is. That was pretty cool.
 
 **Adam Stacoviak:** What was that project we've recently linked up in Weekly, Jerod, that did this? I think it was actually on the blog.
 
-**Jerod Santo:** Yeah, that was a jQuery plugin that does face detection... So possibly using this technique, but specific for jQuery. That project caught my eye, because he was using anchorman as his -- he was attacking the anchormen faces, and I was like "Oh, I've gotta link that up." But yeah, Adam found the JavaScript one, the CLM tracker, so we'll link that up in the show notes. Interesting. It sounds like a fun project.
+**Jerod Santo:** Yeah, that was a jQuery plugin that does face detection... So possibly using this technique, but specific for jQuery. That project caught my eye, because he was using anchorman as his -- he was attacking the anchormen faces, and I was like "Oh, I've gotta link that up." But yeah, Adam found the JavScript one, the CLM tracker, so we'll link that up in the show notes. Interesting. It sounds like a fun project.
 
 **Darcy Clarke:** Yeah, it was a lot of fun to work on. I worked with a lot of really smart people that did a lot of the WebGL stuff, the animations. And we also worked with another great company to get all the sounds done. We sort of did all the wiring and the framework behind actually presenting all that... But yeah, it was a good project.
 
 **Adam Stacoviak:** Cool. And now, a word from our sponsor.
 
-**Break:** \[39:15\]
+**Break:** \{39:15\}
 
 **Adam Stacoviak:** Well, this one here Jerod said I'm mean. I don't know if I'm being mean when I ask this one... I think this is a good one for anybody -- who officially likes CSS? And if you put your hand up, you're somewhat crazy, and adventurous, but...
 
@@ -294,7 +294,7 @@ You basically take almost like a selfie, or you can use your webcam, and it gene
 
 **Adam Stacoviak:** Well, what I was really asking, why I wanted to ask that question was I was really hoping you'd say the word "specificity". Because two co-hosts ago -- Wynn Netherland started this podcast with me, and it was funny, because anytime we had a stylesheet-related topic on the show... And Wynn, if you're listening to this, or if anybody knows Wynn, bring it up to him, because I loved it, because he can never say "specificity". He would always say "Adam, can you say that for me?" Or I forget how it evolved, but he can never say "specificity".
 
-**Darcy Clarke:** \[44:13\] I think I can... My English is okay. Specificity... \[laughter\]
+**Darcy Clarke:** \{44:13\} I think I can... My English is okay. Specificity... \[laughter\]
 
 **Jerod Santo:** Almost perfect. Almost perfect.
 
@@ -380,7 +380,7 @@ But I really like this, because I would actually probably follow this up with "H
 
 **Darcy Clarke:** Yeah, for sure.
 
-**Adam Stacoviak:** \[47:59\] Cool.
+**Adam Stacoviak:** \{47:59\} Cool.
 
 **Jerod Santo:** Awesome. Well, now let's close with a few questions that we like to ask. The first one is "Who is your programming hero?"
 
@@ -422,7 +422,7 @@ So if you can be the spark for someone else, whether it's in your community, or 
 
 **Adam Stacoviak:** Nice!
 
-**Darcy Clarke:** \[51:52\] Something that I've seen recently, or...?
+**Darcy Clarke:** \{51:52\} Something that I've seen recently, or...?
 
 **Jerod Santo:** Yeah, something you've seen, or that's on your radar... Maybe you've used it and you like it, or maybe you can't wait for a chance to give it a try. Just anything.
 

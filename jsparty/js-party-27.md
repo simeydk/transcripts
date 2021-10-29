@@ -1,4 +1,4 @@
-**Kevin Ball:** Alright, hey there! Welcome to JS Party, where every week we are throwing a party about JavaScript. Today we're gonna be talking about JavaScript tooling with three awesome panelists. I'm Kball, I'll be your MC, so I'm gonna introduce the panelists. Each one of you say hi as I introduce you, and what your favorite or most irreplaceable piece of JavaScript tooling is.
+**Kevin Ball:** Alright, hey there! Welcome to JS Party, where every week we are throwing a party about JavScript. Today we're gonna be talking about JavScript tooling with three awesome panelists. I'm Kball, I'll be your MC, so I'm gonna introduce the panelists. Each one of you say hi as I introduce you, and what your favorite or most irreplaceable piece of JavScript tooling is.
 
 First off, we've got Nick Nisi.
 
@@ -60,13 +60,13 @@ Your MC, please to meet you. I go by KBall."
 
 **Christopher Hiller:** Woord.
 
-**Kevin Ball:** So let's kick off segment one talking about build tooling. JavaScript in particular used to be you didn't have to worry about builds, and a lot of folks who have been in this world for a long time and they want to the back and they're coming back to the front, they're like "What the hell is all this stuff?" There's so many different things.
+**Kevin Ball:** So let's kick off segment one talking about build tooling. JavScript in particular used to be you didn't have to worry about builds, and a lot of folks who have been in this world for a long time and they want to the back and they're coming back to the front, they're like "What the hell is all this stuff?" There's so many different things.
 
-We've got a few different things that go into a modern build setup - you've got Babel, you've got Webpack, Rollup, Parcel now, all these different module bundlers, people have been using Gulp and Grunt for a long time... So what are these things? What are you using, and what is it that somebody needs to know about build tooling today with JavaScript?
+We've got a few different things that go into a modern build setup - you've got Babel, you've got Webpack, Rollup, Parcel now, all these different module bundlers, people have been using Gulp and Grunt for a long time... So what are these things? What are you using, and what is it that somebody needs to know about build tooling today with JavScript?
 
 **Alex Sexton:** I don't think really anything. It should all just work out of the box, no decisions to be made, so... Maybe we may just close up shop.
 
-**Christopher Hiller:** \[03:48\] Everybody wants to use the latest and greatest JavaScript, and because you probably have to support IE 11, you're not gonna get that, so you need something like Babel to compile or transpile your code... So that's part of the build tooling.
+**Christopher Hiller:** \{03:48\} Everybody wants to use the latest and greatest JavScript, and because you probably have to support IE 11, you're not gonna get that, so you need something like Babel to compile or transpile your code... So that's part of the build tooling.
 
 Of course, people don't usually just use Babel; they will couple that with a Webpack or something, and concatenate a bunch of files together and minify them, or split them out in certain ways... So it used to be people used Gulp and Grunt to do this sort of thing, and nowadays it's all Webpack and Parcel, and that sort of thing.
 
@@ -80,9 +80,9 @@ Of course, people don't usually just use Babel; they will couple that with a Web
 
 I remember it was at version 0.4 or what have you for a couple years before it got to 1.0. So that can really hurt a project's momentum.
 
-**Nick Nisi:** Maybe let's discuss a little bit about what we used to do with Grunt and Gulp, and how that's been replaced with more modern tooling. The main benefits of a build is obviously to build your files together, to serve them in a more efficient way to the browser; that includes things like concatenating them, and the minifying them so that you have the smallest bundle possible... But maybe let's build on that and talk about how it's changed for today's JavaScript environment.
+**Nick Nisi:** Maybe let's discuss a little bit about what we used to do with Grunt and Gulp, and how that's been replaced with more modern tooling. The main benefits of a build is obviously to build your files together, to serve them in a more efficient way to the browser; that includes things like concatenating them, and the minifying them so that you have the smallest bundle possible... But maybe let's build on that and talk about how it's changed for today's JavScript environment.
 
-**Alex Sexton:** What if even we step further back - what did you guys do before Grunt, before we had JavaScript task runners? I think I was pretty onboard with makefiles, which essentially just run shell scripts eventually. Makefiles, and then to do dev watching stuff you had to kind of -- I guess it wasn't really watching things that I remember, now that I think about it... But you would use a Python simple server or something like that to get a dev server, and then there was really no transpilation, so we didn't need as much runtime build...
+**Alex Sexton:** What if even we step further back - what did you guys do before Grunt, before we had JavScript task runners? I think I was pretty onboard with makefiles, which essentially just run shell scripts eventually. Makefiles, and then to do dev watching stuff you had to kind of -- I guess it wasn't really watching things that I remember, now that I think about it... But you would use a Python simple server or something like that to get a dev server, and then there was really no transpilation, so we didn't need as much runtime build...
 
 **Nick Nisi:** I think the first thing that introduced me to the concept of watching was a CSS pre-processor, so Sass...
 
@@ -90,7 +90,7 @@ I remember it was at version 0.4 or what have you for a couple years before it g
 
 **Kevin Ball:** I was in the Ruby world, and I remember when the Rails Asset Pipeline came out, and in dev mode it would literally recompile every time you did a page load. So it would go through all of your assets and redo -- it was as all get-out -- but the idea that I could make changes and then just refresh the page and it was there was phenomenal.
 
-**Alex Sexton:** The asset pipeline was also interesting because it didn't have dependencies as a part of the system, or whatever... So no matter what, it compiled and built everything in every folder of your JavaScript app, or whatever. So if you had anything you weren't using, it still would have to run through all that stuff. I remember cleaning plenty of those up.
+**Alex Sexton:** The asset pipeline was also interesting because it didn't have dependencies as a part of the system, or whatever... So no matter what, it compiled and built everything in every folder of your JavScript app, or whatever. So if you had anything you weren't using, it still would have to run through all that stuff. I remember cleaning plenty of those up.
 
 **Kevin Ball:** When that actually gets into one of the key reasons behind the move from Gulp and Grunt to Webpack is that we now actually have true dependency management, and we can do analysis and actually build out these trees.
 
@@ -98,13 +98,13 @@ I remember it was at version 0.4 or what have you for a couple years before it g
 
 **Kevin Ball:** Only embedded in Ember CLI, and I never got that deep into Ember; I played around with it. I remember at that time one of the big pitches for Broccoli was "Well, Gulp and Grunt are actually task runners. Broccoli is specifically designed to be a build tool", and I think that's one of the big changes we've got going to Webpack, Rollup and Parcel - they're also, in a lot of ways, conceptually build tools.
 
-**Alex Sexton:** \[08:07\] Yeah. I felt like Webpack didn't really catch up to Broccoli in terms of dependencies and all that kind of stuff until much later, after it was already popular... And these days it does just fine, but I thought Broccoli was really ahead of its time; I'm kind of sad that Jo Liss kind of stopped working on it at the time. Ember eventually picked it back up, but it was fast, and it has caching down... All the stuff that HappyPack does for Webpack kind of was built into the nature of Broccoli. I think it got a lot of things right because it just stole a lot of stuff from Make, and I think that that was generally a good thing. It was a good project. Very difficult to spell. Try to spell Broccoli right on the first try; two L's, two C's... No one knows.
+**Alex Sexton:** \{08:07\} Yeah. I felt like Webpack didn't really catch up to Broccoli in terms of dependencies and all that kind of stuff until much later, after it was already popular... And these days it does just fine, but I thought Broccoli was really ahead of its time; I'm kind of sad that Jo Liss kind of stopped working on it at the time. Ember eventually picked it back up, but it was fast, and it has caching down... All the stuff that HappyPack does for Webpack kind of was built into the nature of Broccoli. I think it got a lot of things right because it just stole a lot of stuff from Make, and I think that that was generally a good thing. It was a good project. Very difficult to spell. Try to spell Broccoli right on the first try; two L's, two C's... No one knows.
 
-**Christopher Hiller:** Did it do well with non-JavaScript assets? Because one of my frustrations, at least with earlier versions of Webpack - I haven't tried this with 4, but Webpack was really slow for no apparent reason at compiling Sass. For mostly static projects, I would actually still use Gulp, because for some reason the Sass compilation was two times faster than with Webpack.
+**Christopher Hiller:** Did it do well with non-JavScript assets? Because one of my frustrations, at least with earlier versions of Webpack - I haven't tried this with 4, but Webpack was really slow for no apparent reason at compiling Sass. For mostly static projects, I would actually still use Gulp, because for some reason the Sass compilation was two times faster than with Webpack.
 
-**Alex Sexton:** Yeah, I wonder if Webpack was using the JavaScript compiler, versus the native one, or something like that. I don't know why it would be different, except for caching. But Broccoli was somewhat agnostic to exactly what you were compiling. If there was a JavaScript program that could compile something and output an asset from the thing that -- you know, the input and the output, it could cache that and then make it very fast. Because it worked on a dependency tree level, it could cache very finite parts of the dependency tree, and then when something changed, it would only recompile the things that were leaf nodes of that dependency, and because of that it was very fast. That's what HappyPack tries to implement on top of Webpack these days, which is good. If you need a speed up in your Webpack and if you work at a semi-large company and have a large app, you probably could use one, HappyPack is a pretty big win.
+**Alex Sexton:** Yeah, I wonder if Webpack was using the JavScript compiler, versus the native one, or something like that. I don't know why it would be different, except for caching. But Broccoli was somewhat agnostic to exactly what you were compiling. If there was a JavScript program that could compile something and output an asset from the thing that -- you know, the input and the output, it could cache that and then make it very fast. Because it worked on a dependency tree level, it could cache very finite parts of the dependency tree, and then when something changed, it would only recompile the things that were leaf nodes of that dependency, and because of that it was very fast. That's what HappyPack tries to implement on top of Webpack these days, which is good. If you need a speed up in your Webpack and if you work at a semi-large company and have a large app, you probably could use one, HappyPack is a pretty big win.
 
-The other big win that I think we got at Stripe for dev mode stuff is turn off minification in dev mode. I think a lot of people have that on just because you just run everything in dev mode, but you don't really need it. It's nice to test eventually, maybe run your tests against the minified version, but it takes a really long time to minify JavaScript, so don't do it in dev mode.
+The other big win that I think we got at Stripe for dev mode stuff is turn off minification in dev mode. I think a lot of people have that on just because you just run everything in dev mode, but you don't really need it. It's nice to test eventually, maybe run your tests against the minified version, but it takes a really long time to minify JavScript, so don't do it in dev mode.
 
 **Christopher Hiller:** Speaking of speed, it seemed to me that at least half of the reason that Gulp became popular and people were switching away from Grunt was the knock on Grunt was that it was very slow. There was a module that you could pull in that would make it somewhat faster, but with certain restrictions, where it would only run the plugins that you are actually going to use, instead of trying to load everything up. I think that's why it was slow; it took forever to load, because it had to find and configure all these different plugins, even if you weren't going to run any of them. And of course, the other part of that holy war was convention and configuration. Man, people got upset about that stuff.
 
@@ -112,7 +112,7 @@ The other big win that I think we got at Stripe for dev mode stuff is turn off m
 
 **Kevin Ball:** Oh, wow. I was totally the opposite... I prefer code over massive JSON files, and because the sort of piping nature of it, rather than having to figure out "How was I gonna write these things to this file, and then read them, and write them, and read them...?" The communication via the file system that Grunt had drove me bonkers.
 
-**Alex Sexton:** \[12:00\] Yeah... I mean, I get it, but I always felt like I would stream one thing into the next thing, and it would never work. I would always have to write some compatibility layer between everything -- like, the dream of just streaming seven things together was never, ever the case... For me, at least.
+**Alex Sexton:** \{12:00\} Yeah... I mean, I get it, but I always felt like I would stream one thing into the next thing, and it would never work. I would always have to write some compatibility layer between everything -- like, the dream of just streaming seven things together was never, ever the case... For me, at least.
 
 **Kevin Ball:** Coming back to today's build tools, what about the trend towards "Every framework has its own CLI?" Are those just wrappers around existing tools, or are they providing unique value?
 
@@ -128,13 +128,13 @@ So you can Npm Create React App, and there's a space there now... And then that 
 
 **Alex Sexton:** Well, complexity has to live somewhere if you're writing a complex UI... So you can choose to put that at the framework layer, or you can choose to put that at the application layer, and I think there are good use cases for both, but I don't think the complexity goes away. If you don't need those things to use your framework, but then you have to write a 500,000-line code base, you'll probably end up having to write those tools or put those tools together yourself... And there are a lot of customizations that you can do to make it specifically better for your use cases, and that's nice, but I don't think -- it shouldn't always be necessary to need to think about all those things.
 
-I think a lot of people's FUD is that they long for the days where you could just write JavaScript in a file, and then load the page, and it worked... I understand that, especially from a beginner's standpoint, that if you don't have to know about the history and release cycles and stages of TC39 specifications in order to write JavaScript, then that's probably better.
+I think a lot of people's FUD is that they long for the days where you could just write JavScript in a file, and then load the page, and it worked... I understand that, especially from a beginner's standpoint, that if you don't have to know about the history and release cycles and stages of TC39 specifications in order to write JavScript, then that's probably better.
 
 **Kevin Ball:** Jerod asked a pretty good question in the chat, which is "Is there gonna be a Webpack killer, or is Webpack gonna stay at the cutting edge?" I know when Parcel first came out and it was saying "Oh, zero config module bundling", it zoomed up to like 15,000 stars on GitHub in like a month... But I feel like with Webpack 4 they've kind of mitigated that, and I'm not hearing as much there. What do you all think - is there gonna be a Webpack killer, or is Webpack gonna stay on the bleeding edge?
 
 **Alex Sexton:** I assume that a Webpack killer already exists. It might be Metro, which is the React Native bundler, which does a lot of the same things, but way faster... But a lot fewer things. But it's pretty impressive. I think something like that will get adapted and picked up.
 
-**Christopher Hiller:** \[16:01\] I've always felt like Webpack was really low-level, and it would make sense to me for there to be tools built on top of it that would be much easier to use. Angular CLI is built on Webpack, isn't it?
+**Christopher Hiller:** \{16:01\} I've always felt like Webpack was really low-level, and it would make sense to me for there to be tools built on top of it that would be much easier to use. Angular CLI is built on Webpack, isn't it?
 
 **Kevin Ball:** They use Webpack. Vue CLI extends Webpack... I've been using Nuxt.js - which is a Vue framework - recently, and they hide away the Webpack config under their own config; so they're setting up Webpack for you, and you can get access to it if you absolutely need to, but there's no correct configuration... So they're kind of building on top, as well.
 
@@ -146,19 +146,19 @@ I think a lot of people's FUD is that they long for the days where you could jus
 
 The problem is that once you add a significant amount to your configuration, there's no way that they could anticipate breaking changes, and things like that... So it's kind of a mechanism around that. For simple apps, I absolutely encourage everyone to not eject, if you can, and just track it... But any significant application that you're working on - like at work, or something like that - you're probably gonna need to eject eventually.
 
-**Kevin Ball:** This feels like an area that has been evolving very rapidly. I think a lot of that is spurred by the adoption of modules formally in JavaScript. And more recently, it seems like there's a little bit more conversion, so it's feeling a little bit easier to manage. Do you all feel like this is gonna continue to be a big innovation area, or is it calming down, and something where build tooling is gonna become well solved and more or less disappear from something we have to worry about?
+**Kevin Ball:** This feels like an area that has been evolving very rapidly. I think a lot of that is spurred by the adoption of modules formally in JavScript. And more recently, it seems like there's a little bit more conversion, so it's feeling a little bit easier to manage. Do you all feel like this is gonna continue to be a big innovation area, or is it calming down, and something where build tooling is gonna become well solved and more or less disappear from something we have to worry about?
 
 **Alex Sexton:** Build tooling never goes away. I don't think we've seen that anywhere, in any other older ecosystem, but it becomes... For different things. Like, we take minification and concatenation for granted these days, whereas back when I was first starting, I had to run some Java program in order to minify my code; some Yahoo! thing-- whatever. So I think it just changes. The transpilation becomes transparent, or something like that, and a new, only-load-what-you-need type stuff becomes the build du jour.
 
 **Christopher Hiller:** I wonder if it's going to move away from the CLI... Maybe you're gonna have more servers, or something to do this stuff for you.
 
-**Alex Sexton:** Yeah, it would be cool to be in a world where you could have a render farm for your JavaScript-built stuff, right? You press a button and 9,200 AWS servers all calculate one equation and send back the results...
+**Alex Sexton:** Yeah, it would be cool to be in a world where you could have a render farm for your JavScript-built stuff, right? You press a button and 9,200 AWS servers all calculate one equation and send back the results...
 
-**Christopher Hiller:** Yeah, you deploy your JavaScript and the server takes care of all that crap for you and you don't have to think about it. That'd be cool.
+**Christopher Hiller:** Yeah, you deploy your JavScript and the server takes care of all that crap for you and you don't have to think about it. That'd be cool.
 
 **Alex Sexton:** That's already what CI servers do, but you still have to run it locally, generally, to develop it...
 
-**Break:** \[19:41\]
+**Break:** \{19:41\}
 
 **Kevin Ball:** We were talking a little bit and realized we should really talk a little bit about the module wars, and what has become of that, where that's going, what's happened there... So who wants to lead off on talking about SystemsJS or RequireJS or any of those fun topics?
 
@@ -170,9 +170,9 @@ The problem is that once you add a significant amount to your configuration, the
 
 **Christopher Hiller:** The difference there being that RequireJS or AMD is asynchronous, and Node require and what Browserify used is synchronous.
 
-**Alex Sexton:** Right. The CommonJS modules as we know them are synchronous and require a build in order to run them on the web, and the case for AMD asynchronous module definitions was that by default the AMD modules did not need a build tool... And I have an article on my blog that everyone can go back and read (from whatever year that was)... I think the default standards for things, and neither ended up becoming a standard, or at least by any definition of standard that -- like, browsers implementing it. But I think you shouldn't be required to run a build tool in order to use JavaScript, if that makes sense. It was a nice feature before...
+**Alex Sexton:** Right. The CommonJS modules as we know them are synchronous and require a build in order to run them on the web, and the case for AMD asynchronous module definitions was that by default the AMD modules did not need a build tool... And I have an article on my blog that everyone can go back and read (from whatever year that was)... I think the default standards for things, and neither ended up becoming a standard, or at least by any definition of standard that -- like, browsers implementing it. But I think you shouldn't be required to run a build tool in order to use JavScript, if that makes sense. It was a nice feature before...
 
-**Christopher Hiller:** Yeah, that was one of the really big benefits of AMD and why it was so nice, because you didn't have to do anything; it was just running the vanilla JavaScript files during development, and that wasn't slow for local development... So it was really nice and easy to get started with that.
+**Christopher Hiller:** Yeah, that was one of the really big benefits of AMD and why it was so nice, because you didn't have to do anything; it was just running the vanilla JavScript files during development, and that wasn't slow for local development... So it was really nice and easy to get started with that.
 
 **Alex Sexton:** Yeah. But on the other hand, everyone would run a build tool against their AMD anyways in order to ship it, so I understand the other argument, that's like "Well, if we're all actually using build tools, maybe it doesn't matter." I just didn't like that it locked you into using Node, which was not like a guaranteed thing that anyone was even allowed to run at their work, at this time. Most people were not allowed to run Node or couldn't run Node at their jobs at the time when this was happening, so it was somewhat frustrating as a web developer that we were kind of standardizing on Node as the only build tool.
 
@@ -186,19 +186,19 @@ The problem is that once you add a significant amount to your configuration, the
 
 those is fine.
 
-**Kevin Ball:** \[23:59\] Let's move on to looking at things like Prettier, and linting tools, and Flow, and all this. It feels like JavaScript is becoming a lot more formalized as a language in a lot of ways. What are you all using and what do you recommend?
+**Kevin Ball:** \{23:59\} Let's move on to looking at things like Prettier, and linting tools, and Flow, and all this. It feels like JavScript is becoming a lot more formalized as a language in a lot of ways. What are you all using and what do you recommend?
 
 **Nick Nisi:** As we discussed last week, I'm using TypeScript, which does kind of go in the opposite way and forces you into a build for everything... So the complete opposite of what Alex was saying, as a good starting point. But that's trading off to give me a bunch more helpful tooling during development, I think. We discussed that last week.
 
-**Alex Sexton:** Yeah, I'm not against having build tooling, I'm just against requiring it as part of the JavaScript standard. So Typescript is not the JavaScript standard, but if you wanna use Typescript, then by all means add the build tool. I add the Flow build tool to my chain, but I just don't wanna force other people to do that.
+**Alex Sexton:** Yeah, I'm not against having build tooling, I'm just against requiring it as part of the JavScript standard. So Typescript is not the JavScript standard, but if you wanna use Typescript, then by all means add the build tool. I add the Flow build tool to my chain, but I just don't wanna force other people to do that.
 
-**Christopher Hiller:** I used to use Jsint and JSCS in pretty much everything, until I saw that I could do the same stuff pretty much with just ESLint, so I've been using it ever since. I know the JSCS team I believe actually joined the ESLint project, so... ESLint absorbed everything JSCS was doing, so... If you're not aware, JSCS - I think that stands for JavaScript Code Style, or something. It is not a formatter, but it would (I believe) just spout out errors and warnings if the code wasn't formatted a certain way.
+**Christopher Hiller:** I used to use Jsint and JSCS in pretty much everything, until I saw that I could do the same stuff pretty much with just ESLint, so I've been using it ever since. I know the JSCS team I believe actually joined the ESLint project, so... ESLint absorbed everything JSCS was doing, so... If you're not aware, JSCS - I think that stands for JavScript Code Style, or something. It is not a formatter, but it would (I believe) just spout out errors and warnings if the code wasn't formatted a certain way.
 
 **Alex Sexton:** And they both became jQuery Foundation projects, and then later JS Foundation projects, whenever the jQuery Foundation moved over. And because of that, that was somewhat of a nice move to pick up both of them. JSCS was losing steam and losing contributors, so the JS Foundation somewhat facilitated kind of the joining of those projects. I kind of wish Prettier and ESLint were the same thing though, at this point...
 
 **Christopher Hiller:** I do as well... \[laughs\]
 
-**Alex Sexton:** Does anyone not use Prettier these days? It was one of the most quickly picked up projects I've seen, mostly I think because kind of by definition, if you have valid JavaScript, it just runs and then it's over. So it can be somewhat hard to put against an old code base or get people to adopt it on your team, but as far as running it, once you have it set up, it just runs. It's kind of nice in that it's not deeply integrated; it's hugely important and it runs on everything and changes a lot of things, but it doesn't have a lot of dependencies, if that makes sense.
+**Alex Sexton:** Does anyone not use Prettier these days? It was one of the most quickly picked up projects I've seen, mostly I think because kind of by definition, if you have valid JavScript, it just runs and then it's over. So it can be somewhat hard to put against an old code base or get people to adopt it on your team, but as far as running it, once you have it set up, it just runs. It's kind of nice in that it's not deeply integrated; it's hugely important and it runs on everything and changes a lot of things, but it doesn't have a lot of dependencies, if that makes sense.
 
 **Kevin Ball:** I have a couple projects that don't have Prettier in, just because they weren't part of the template that I started from, and I didn't bother, but I should go back and put them in... Because it's essentially free, and it removes a whole class of problems.
 
@@ -212,7 +212,7 @@ those is fine.
 
 **Alex Sexton:** At Stripe we have a repo, and I think we might even have a published module... Or maybe it's private, I don't know. But yeah, we can just pull that in. Just like you might pull in Airbnb's defaults for ESLint and Prettier, Stripe just -- you can make your own pretty easily, in the same way. You can even extend Airbnb's and just change a few things... So I would encourage everyone to do that, even if it was just a local GitHub thing.
 
-**Kevin Ball:** \[28:08\] Yeah, I start from the Airbnb, and then rip out the ones that drive me bonkers.
+**Kevin Ball:** \{28:08\} Yeah, I start from the Airbnb, and then rip out the ones that drive me bonkers.
 
 **Christopher Hiller:** Yeah, Mocha is using semistandard, and then it's--
 
@@ -241,7 +241,7 @@ So I was able to use ESLint to create some fancy custom rules to disallow use of
 
 We still want some end-to-end things, right? Just like logging in works, and doing these different things work, especially whenever there are servers involved, and you don't want mocked endpoints, and things like that... But we try to keep those to a minimum, just because they're kind of a nightmare to maintain.
 
-**Christopher Hiller:** \[31:46\] Yeah. I mean, my experience with those types of -- basically, when I say functional test, I mean you're literally scripting a browser. My experience has been those types of tests are a) difficult to write, b) difficult to not write in a flaky way, and c) a maintenance nightmare... And in the end, it's just expensive; it's expensive as a business to invest in functional tests. At some point you have to decide - is it worth it for what we're doing? I don't know. That's a tough question.
+**Christopher Hiller:** \{31:46\} Yeah. I mean, my experience with those types of -- basically, when I say functional test, I mean you're literally scripting a browser. My experience has been those types of tests are a) difficult to write, b) difficult to not write in a flaky way, and c) a maintenance nightmare... And in the end, it's just expensive; it's expensive as a business to invest in functional tests. At some point you have to decide - is it worth it for what we're doing? I don't know. That's a tough question.
 
 And there's tools -- I'm curious about Cypress.io. I haven't used it, and from what I understand, it's an alternative to the whole Selenium thing.
 
@@ -269,9 +269,9 @@ Every once in a while we'll release it to 5% of people, and that's enough to get
 
 I think for the most part in logic, they're somewhere between unit tests and functional tests. They're testing functionality of clicking through the application, but they're not really clicking through the application.
 
-\[36:06\] I just think that with our current tooling maybe one day functional testing will be fast and easy, and stuff... But there is no flakyness, essentially... Like, comparatively. There is obviously flakyness in any testing, depending on how you write it, but comparatively, the quality of tests that we get and their ability to actually catch things - this is much better, because people actually try to fix the test if they break, rather than just assume they're flaky and turn them off.
+\{36:06\} I just think that with our current tooling maybe one day functional testing will be fast and easy, and stuff... But there is no flakyness, essentially... Like, comparatively. There is obviously flakyness in any testing, depending on how you write it, but comparatively, the quality of tests that we get and their ability to actually catch things - this is much better, because people actually try to fix the test if they break, rather than just assume they're flaky and turn them off.
 
-**Break:** \[36:40\]
+**Break:** \{36:40\}
 
 **Kevin Ball:** Let's circle into another part of the testing cycle, which is continuous integration and how you run tests automatically, and maybe even lay things out to staging and production environments. Alex, I know you said you're using a lot of CI tools - or at least some CI tools - at Stripe. Do you wanna lead us in with what you're doing?
 
@@ -281,11 +281,11 @@ I think if you have a smaller project, really bordering up into pretty large, th
 
 But I think CI in the open source world is pretty different than CI in the business world. I think the business world does it pretty well... And I think the needs are different; I don't think it's like a lack of understanding.
 
-So with open source, I feel like we maybe run tests against a few different versions of Node, something like that, and then occasionally, build assets will be done at the CI level. But actually, in open source JavaScript, usually it's just down at the deploy, like whenever you ship a new version, you pull a headless branch out and commit a DIST file with a force flag, or whatever... I think that's more common than CI actually doing the building.
+So with open source, I feel like we maybe run tests against a few different versions of Node, something like that, and then occasionally, build assets will be done at the CI level. But actually, in open source JavScript, usually it's just down at the deploy, like whenever you ship a new version, you pull a headless branch out and commit a DIST file with a force flag, or whatever... I think that's more common than CI actually doing the building.
 
-\[40:25\] It's interesting that CI in the open source world is almost entirely testing, in my experience. In the business world, it's almost -- like, it runs the tests, but that's the first step. It also runs all the builds, it also helps facilitate QA, or staging, or any of those different things. So any time I submit a PR at Stripe, a server will be ready to pick it up, build the whole thing... It'll even spin up AWS servers that can run that branch, and then the bot will come in with a link to a usable instance of the application running against my pull request; there's a massive amount of stuff that you can do at the CI layer to send off resources, send requests, caching, make everything fast, spin everything up...
+\{40:25\} It's interesting that CI in the open source world is almost entirely testing, in my experience. In the business world, it's almost -- like, it runs the tests, but that's the first step. It also runs all the builds, it also helps facilitate QA, or staging, or any of those different things. So any time I submit a PR at Stripe, a server will be ready to pick it up, build the whole thing... It'll even spin up AWS servers that can run that branch, and then the bot will come in with a link to a usable instance of the application running against my pull request; there's a massive amount of stuff that you can do at the CI layer to send off resources, send requests, caching, make everything fast, spin everything up...
 
-Stripe runs a monorepo, and I think all of our tests run sub 15 minutes, sub 10 minutes sometimes, depending on the changes... Which is long, I understand, for most people, but it's thousands and thousands of tests. Some of them are functional tests... You know, JavaScript, Ruby, Go - all of that stuff is all running at once. So there are probably several workers running different parts.
+Stripe runs a monorepo, and I think all of our tests run sub 15 minutes, sub 10 minutes sometimes, depending on the changes... Which is long, I understand, for most people, but it's thousands and thousands of tests. Some of them are functional tests... You know, JavScript, Ruby, Go - all of that stuff is all running at once. So there are probably several workers running different parts.
 
 We even do things like time all the tests, and all the tests should be \[unintelligible 00:41:53.16\] from each other, and then the workers can split up certain tests into different boxes in order to balance the workers for the next run... So you can kind of do all these sorts of things to really eek out every bit of performance and value out of them. It's absolutely critical to our workflow.
 
@@ -299,7 +299,7 @@ We even do things like time all the tests, and all the tests should be \[unintel
 
 If we go down - of course, it never happens - that's an incident at Stripe... But also, if the builds go down for longer than a minute or two at a time, that's also considered an equal incident.
 
-**Kevin Ball:** \[44:17\] So you mentioned the difference between CI in open source and CI in business, and I kind of wonder - some of that is driven by the fact that open source really has teams to dedicate to that, but Chris, how are you using CI for Mocha?
+**Kevin Ball:** \{44:17\} So you mentioned the difference between CI in open source and CI in business, and I kind of wonder - some of that is driven by the fact that open source really has teams to dedicate to that, but Chris, how are you using CI for Mocha?
 
 **Christopher Hiller:** We're running CI on Travis CI, and we're running it on App There. We found there is some weirdness that will happen on Windows, so we wanted to make sure that we were getting coverage there. So every PR runs through like four versions of Node, on Travis it runs browser tests, it runs linting... Some self-promotion - I've got a recent blog post all about the changes that we made to our Travis config, that are pretty neat if you're looking to max your Travis build.
 
@@ -321,7 +321,7 @@ I haven't had to use that for quite a while, ever since we dropped support for I
 
 **Nick Nisi:** I was using that, but I like being able to just go and comment things out in my vimrc, and turn that off, rather than having to manage Git submodules.
 
-**Alex Sexton:** \[48:02\] Yeah. I always used -- I use VS Code now, for what it's worth, but I still set up my Vim as if I'm going to use it... I still use it, sometimes... But yeah, I always use spf13 as a good starting point in case anyone needs one. Just like if you wanna try Vim, it's gonna be pretty difficult to use out of the box; that's just one of its features. But if you install spf13, it'll install all the tools that we all install into our Vim anyways; maybe it might pick a side on some holy war of autocomplete, but it's a pretty good starting point if you want some plugins.
+**Alex Sexton:** \{48:02\} Yeah. I always used -- I use VS Code now, for what it's worth, but I still set up my Vim as if I'm going to use it... I still use it, sometimes... But yeah, I always use spf13 as a good starting point in case anyone needs one. Just like if you wanna try Vim, it's gonna be pretty difficult to use out of the box; that's just one of its features. But if you install spf13, it'll install all the tools that we all install into our Vim anyways; maybe it might pick a side on some holy war of autocomplete, but it's a pretty good starting point if you want some plugins.
 
 **Christopher Hiller:** I'm using VS Code now, I switched a couple months ago. I had been using... Well, first PyCharm and then WebStorm for (I don't know) five years, or something. So yeah, I thought I'd try VS Code, because I saw everybody who's giving presentations is using VS Code, and there's gotta be something to it, and people seemed to rave about it. So I tried it, and I liked it. There's still some parts that bug me, but it works well, it's quick...
 
@@ -341,7 +341,7 @@ I haven't had to use that for quite a while, ever since we dropped support for I
 
 **Alex Sexton:** I think it's rewritten in a more modern language; I can't remember even which one. Not everything is supported, but the things that are supported are faster and safer, and stuff. But also, I think it's more externally scriptable. I think you can actually run Vim mode powered by Neovim in the background; I think that might be how I have it set up... So certain things actually run against Neovim, the runtime, and then come back into VS Code. I think I have to provide my Neovim location, for some reason, at least.
 
-**Nick Nisi:** \[52:02\] Yeah, I think I've read about that; that's really cool. Neovim gives you -- well, the initial benefit was that it had async job support, so your Syntastic or whatever could run without blocking the loop in the editor and freezing the editor while it was doing that, and it also had an integrated terminal. But Vim 8 has both of those now, so...
+**Nick Nisi:** \{52:02\} Yeah, I think I've read about that; that's really cool. Neovim gives you -- well, the initial benefit was that it had async job support, so your Syntastic or whatever could run without blocking the loop in the editor and freezing the editor while it was doing that, and it also had an integrated terminal. But Vim 8 has both of those now, so...
 
 **Alex Sexton:** It also had better color support, and you didn't have to write Vim script.
 
@@ -353,7 +353,7 @@ I haven't had to use that for quite a while, ever since we dropped support for I
 
 **Alex Sexton:** Yeah, I just aliased Vim to Nvim at this point, so... I think I'm fully over to Neovim, but again, I don't commonly use it anymore. I think it's good, like, if you don't commonly use it, just switch over now, that way you don't accidentally lock yourself into something that doesn't work.
 
-**Kevin Ball:** Alright, so we've probably lost all the JavaScript fans, as we've been talking about Vim for a while, but good to know that we're on the same page here. Anything else, or last things we wanna touch on before we wrap up?
+**Kevin Ball:** Alright, so we've probably lost all the JavScript fans, as we've been talking about Vim for a while, but good to know that we're on the same page here. Anything else, or last things we wanna touch on before we wrap up?
 
 **Christopher Hiller:** How about Yarn?
 
@@ -373,7 +373,7 @@ So it wasn't so much that the code for Yarn was just brilliant compared to the c
 
 **Kevin Ball:** Chris, do you wanna chime in?
 
-**Christopher Hiller:** \[55:12\] No... I mean, I pretty much use NPM. The only thing I ran into with Yarn was that it had some issues... You had to pass a special flag or something to it, or else you could run into problems if you're trying to run it in two places at once.
+**Christopher Hiller:** \{55:12\} No... I mean, I pretty much use NPM. The only thing I ran into with Yarn was that it had some issues... You had to pass a special flag or something to it, or else you could run into problems if you're trying to run it in two places at once.
 
 **Alex Sexton:** Yeah \[unintelligible 00:55:32.01\]
 

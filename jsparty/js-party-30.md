@@ -1,4 +1,4 @@
-**Nick Nisi:** Hello and welcome to another episode of JS Party, where it's a party every week with JavaScript. I'll be your host today, Nick Nisi, and I'm joined with my fellow panelists, Suz Hinton - hey, Suz.
+**Nick Nisi:** Hello and welcome to another episode of JS Party, where it's a party every week with JavScript. I'll be your host today, Nick Nisi, and I'm joined with my fellow panelists, Suz Hinton - hey, Suz.
 
 **Suz Hinton:** Hey, how's it going? It's good to be back.
 
@@ -6,7 +6,7 @@
 
 **Jerod Santo:** Hello! Excited to chat with you all - DevTools, debugging, fun stuff!
 
-**Nick Nisi:** Yeah, lots of fun and very practical for everyone. Let's dig right into it today. We thought we'd talk about debugging and some DevTools magic and kind of how we approach that part of the job of developing with JavaScript; how we manage/deal with bugs, and some cool features that the platforms provide us.
+**Nick Nisi:** Yeah, lots of fun and very practical for everyone. Let's dig right into it today. We thought we'd talk about debugging and some DevTools magic and kind of how we approach that part of the job of developing with JavScript; how we manage/deal with bugs, and some cool features that the platforms provide us.
 
 I guess I'll start off with a basic question - how do you get into debugging? You have a bug that you don't really know much information about - what are the first steps that you take? Why don't we start with you, Suz?
 
@@ -18,7 +18,7 @@ What I love about the DevTools in every single browser that I've worked with is 
 
 So mine definitely starts super high-level, because I find that even being able to kind of pause your page execution and step through those parts of your code, that's very time-consuming, and sometimes it's super not necessary if it's a really simple problem. So that's kind of how I start - super high-level, and then go deeper from there.
 
-**Nick Nisi:** \[04:16\] That's really good. That's kind of how I start, too. I'll start really high-level, usually with -- if it's not an obvious thing, I might put console log statements in there and start going that way, and then eventually dig into actually the full-blown debugger and stepping through code.
+**Nick Nisi:** \{04:16\} That's really good. That's kind of how I start, too. I'll start really high-level, usually with -- if it's not an obvious thing, I might put console log statements in there and start going that way, and then eventually dig into actually the full-blown debugger and stepping through code.
 
 How about you, Jerod? Do you have any particular approach that you take?
 
@@ -36,13 +36,13 @@ So you can't really fix a bug until you identify it, isolate it and make sure th
 
 **Jerod Santo:** Yeah, I don't know... Just making up words over here. Yeah, isolation, identification... Once you have an actual diagnosis - and that's where I usually will use tracing tools to come to that, and then fixing it is a whole other aspect of the job.
 
-**Nick Nisi:** Sure, yeah. So I do run into a lot of issues with that. I will start with the trace debugging, as you mentioned, and start going down that route... But sometimes I get thrown into projects that I really have no idea what's actually going on... Maybe I'm just hired as support to come in and try and diagnose one specific bug in a codebase I don't know, or do other things... So I've been trying to get really efficient at isolating the bugs, isolating where things could be occurring, and then trying to set up the traces just in that piece of code, instead of the whole entire codebase, and getting smarter about that. That can be the big challenge, and especially with how complex JavaScript has gotten in recent years with all of the build tools, and Webpack, and source maps - all of that can be really hard to find... The bug is actually online 8,000 of this single JavaScript file, and stepping in through there...
+**Nick Nisi:** Sure, yeah. So I do run into a lot of issues with that. I will start with the trace debugging, as you mentioned, and start going down that route... But sometimes I get thrown into projects that I really have no idea what's actually going on... Maybe I'm just hired as support to come in and try and diagnose one specific bug in a codebase I don't know, or do other things... So I've been trying to get really efficient at isolating the bugs, isolating where things could be occurring, and then trying to set up the traces just in that piece of code, instead of the whole entire codebase, and getting smarter about that. That can be the big challenge, and especially with how complex JavScript has gotten in recent years with all of the build tools, and Webpack, and source maps - all of that can be really hard to find... The bug is actually online 8,000 of this single JavScript file, and stepping in through there...
 
 But it can be a lot of fun, too. A lot of times I like to think of myself as like Dr. House standing in front of the whiteboard, trying to figure out what the diagnosis is, crossing off a bunch of them... "It's never lupus" and just continuing on from there. \[laughter\]
 
-**Jerod Santo:** \[08:17\] It's never lupus...
+**Jerod Santo:** \{08:17\} It's never lupus...
 
-**Suz Hinton:** I feel like there's a pun coming on there with lupus and something about JavaScript loops, or something like that...
+**Suz Hinton:** I feel like there's a pun coming on there with lupus and something about JavScript loops, or something like that...
 
 **Nick Nisi:** Oh, man... That would be so clever if I had thought of that. So some things that I'll do to try and get in there is I will use the console statements, but I will also use the debugger and try and pause the debugger when the error comes. If you're really lucky, you'll be able to just set that Pause on Errors setting in Chrome or Firefox, and it will just pause on the line that is gonna throw an error... But often times it seems like the errors are being caught, so you have to enable that checkbox to tell it to break on caught errors as well.
 
@@ -58,7 +58,7 @@ And kind of following along those lines of a cool tip, I guess, is using console
 
 **Jerod Santo:** That is a cool idea, I've never done that. Is that like using -- what's that term, the new feature...? Like, decompression, or destructuring...?
 
-**Nick Nisi:** \[11:41\] Kind of the opposite of that, where if you wanna create an object where the key is the name of the value that you're putting in there, you can just wrap it... You don't have to say "foo:foo", you can just put "foo" in there.
+**Nick Nisi:** \{11:41\} Kind of the opposite of that, where if you wanna create an object where the key is the name of the value that you're putting in there, you can just wrap it... You don't have to say "foo:foo", you can just put "foo" in there.
 
 **Jerod Santo:** And it will take the variable name and assign that as the key value in an object, and the value in the variable will be the value. Is that what you're saying?
 
@@ -92,7 +92,7 @@ I'll add a link to the show notes, but one example I've seen is being able to pl
 
 **Jerod Santo:** That was exactly the use case I was considering... Easter eggs, and stuff like that, where it would actually make sense to take the time and style it to look really cool, when you're trying to have somebody find it. It could be useful if you have lots of traces, like you said, but other than that, there could be a lot of yak shaving going on if you're spending lots of time just styling the output of your console.logs.
 
-**Nick Nisi:** \[15:51\] It could also be really interesting for maybe long-running log messages that could be in development and stripped out in production... That's not something that I normally do either, but maybe having specific events that are fired in a bold font, or a certain color, that are always there during development to help you out - that could be really cool, and kind of an easy DevTools extension that you add to the code yourself.
+**Nick Nisi:** \{15:51\} It could also be really interesting for maybe long-running log messages that could be in development and stripped out in production... That's not something that I normally do either, but maybe having specific events that are fired in a bold font, or a certain color, that are always there during development to help you out - that could be really cool, and kind of an easy DevTools extension that you add to the code yourself.
 
 **Suz Hinton:** Yeah, totally. I know that debug, the module that's usually used with Node.js console applications is super popular, and that's because it just does add a little bit of style, and it sort of color-codes the timestamps, and things like that. So I'm imagining that you could do something very similar, but have it pretty lightweight, so when you are working with teams, you can actually switch that on during your development phase.
 
@@ -118,7 +118,7 @@ A library author, like you said - you want all those trace statements to exist a
 
 I've also seen in large teams where there's like trace statements similarly to what I would think in a library, but they just kind of live in the code at all times, and they're either commented out, or they have log levels, and that offends my personal sensibilities; it's like, "Get that out of there." But I see if it's a huge app and you have these recurring problems and you wanna just leave them there. Is that something you see a lot, Nick? Projects where there's like logging - specifically applications - integrated into the app and is always there?
 
-**Nick Nisi:** \[20:06\] Yeah, definitely. In some of the apps that I write, I don't typically add that, and it's stripped out at build time, as part of the build process... But yeah, I've definitely seen that; additional information about network requests is a big one I think that I can recall.
+**Nick Nisi:** \{20:06\} Yeah, definitely. In some of the apps that I write, I don't typically add that, and it's stripped out at build time, as part of the build process... But yeah, I've definitely seen that; additional information about network requests is a big one I think that I can recall.
 
 Some cool DevTools things that I've seen that are really helpful - and I'll be honest, a lot of these DevTools tips really seem like they would have been really amazing before we started building all of our code, and having complex build processes... But there are still some really good tricks to do with that. One of them is blackboxing. Firefox and Chrome both support this, where you can, while you're stepping through code - or you can set up a regular expression in the DevTools itself and you can say that "any script that has jQuery in its name, or this specific version of React, just blackbox that."
 
@@ -142,7 +142,7 @@ Pretty easy to manage now... I think it was a little bit more difficult in the e
 
 **Jerod Santo:** In terms of tips and tricks... So as I confessed to earlier, I'm very much a console.log + right-click and Store as Temporary Variable person - that being said, there are a few other things I use all the time, and these are the kind of tips that you either know and you're rolling your eyes out right now, or you haven't heard and you're like "My mind is exploding..." But they're very basic, and specifically they're shorthand references to specific things inside the DevTools... $0 will refer to the element that is currently focused in the elements panel, which is super useful for grabbing a handler to something and then running some code against it.
 
-\[24:09\] Then $\_ in the console will pull up the last returned statement, and it's basically a reference to the previous return statement. So those are small little things, but once you know them, you'll use them all day, every day.
+\{24:09\} Then $\_ in the console will pull up the last returned statement, and it's basically a reference to the previous return statement. So those are small little things, but once you know them, you'll use them all day, every day.
 
 Then the other thing I do a lot in the elements panel specifically is you can drag and drop the elements to reorder the DOM. And again, either you just haven't tried yet, and you're like "Wow, you can do that?" or you're rolling your eyes, "Yeah, I've been doing that for years." It's not a new thing, but it's super useful, especially when you have maybe like a CSS specificity problem, or you didn't necessarily do the design, but you're wanting to change the HTML and wonder "Can I put this div inside this other thing without screwing up any of the styles?" Well, you can actually just drag and drop the elements right there in the page, in and out of the tree, in order to determine if it's gonna look different, or something like that. So I use that daily...
 
@@ -172,11 +172,11 @@ That sounds very useful, I just haven't actually done it beside trying it, but..
 
 **Suz Hinton:** That is a total life-saver. You know, when you're just constantly refreshing and it's maybe a situation where you can't always faithfully reproduce it - that is huge; I actually didn't know you could do that... And you know, when it always pauses on the breakpoint and you get really annoyed and you have to click Forward, and it feels so unproductive... I'm totally gonna use this.
 
-**Nick Nisi:** Yeah, definitely. It's a big help if you are running into some kind of race condition... Because like you said, if you actually hit the breakpoint, it pauses JavaScript execution right there, and then maybe things have settled by the time you start executing again, and you won't be able to reproduce the bug in that sense. But if you're able to add logging in, sometimes you can glean more information about that without actually having to stop the execution of the JavaScript.
+**Nick Nisi:** Yeah, definitely. It's a big help if you are running into some kind of race condition... Because like you said, if you actually hit the breakpoint, it pauses JavScript execution right there, and then maybe things have settled by the time you start executing again, and you won't be able to reproduce the bug in that sense. But if you're able to add logging in, sometimes you can glean more information about that without actually having to stop the execution of the JavScript.
 
 **Suz Hinton:** I love that.
 
-**Nick Nisi:** \[28:09\] Then the other one I mentioned is DOM breakpoints. This is really cool if you have something on the page that is being updated, but you don't really know what part of the code is updating that... Maybe it's the color of a button or it's the text inside of this div, or something like that - you can right-click on the element in DevTools and then say "Break on" and there's a couple of options. There's "Subtree modification", so if any of its children are updated, attribute modifications if any of its attributes are modified, or if the node is removed, and it will stop on the line of JavaScript that caused the modification to happen to that element or to its children, and you can look at the stack trace and see maybe what part of your code triggered that node removal or modification... Which can be really helpful fi you have no idea about the code base and you're just trying to get in there and quickly find where things are going wrong.
+**Nick Nisi:** \{28:09\} Then the other one I mentioned is DOM breakpoints. This is really cool if you have something on the page that is being updated, but you don't really know what part of the code is updating that... Maybe it's the color of a button or it's the text inside of this div, or something like that - you can right-click on the element in DevTools and then say "Break on" and there's a couple of options. There's "Subtree modification", so if any of its children are updated, attribute modifications if any of its attributes are modified, or if the node is removed, and it will stop on the line of JavScript that caused the modification to happen to that element or to its children, and you can look at the stack trace and see maybe what part of your code triggered that node removal or modification... Which can be really helpful fi you have no idea about the code base and you're just trying to get in there and quickly find where things are going wrong.
 
 **Suz Hinton:** That is super cool, because what would you have to do normally to emulate that in your debugging? Would you have to do a mutation observer, or something? That would be super annoying to set up. I really wanna try this out, as well. I did know it existed, but I haven't had a good use case yet.
 
@@ -200,9 +200,9 @@ Another thing that's kind of related to that, although not really, is you can pa
 
 **Suz Hinton:** I feel like we all learned something from each other.
 
-**Break:** \[30:52\]
+**Break:** \{30:52\}
 
-**Nick Nisi:** What are some cool things that JavaScript can do that maybe aren't really apparent to others? Or going along with the topic of tips and tricks, some really cool things that JavaScript the language can do? Jerod, do you want to start off there?
+**Nick Nisi:** What are some cool things that JavScript can do that maybe aren't really apparent to others? Or going along with the topic of tips and tricks, some really cool things that JavScript the language can do? Jerod, do you want to start off there?
 
 **Jerod Santo:** Yeah, absolutely. This segment I've internally name "JS can do that?!" I like that because that's how I read -- if you guys have seen the VsCodeCanDoThat.com website, where they show off stuff that Visual Studio Code can do... Everytime I see that, I read it "...can do THAT?" \[laughter\] That's a side note.
 
@@ -216,9 +216,9 @@ But without those things, it's previously been a pain to just say "Okay, given t
 
 I'll put the actual code in the notes, as I'm describing it orally here and it's sounding ridiculous in my brain... So that way you can look at it. But it's like this really cool little shorthand where you can basically uniquify an array by passing a set with a spread operator, combining those two together. I've used that recently, and I thought "That is neat. I didn't know JS could do THAT!" \[laughter\]
 
-Last one for me - this one is really brief, but I use it all the time; anytime you have a singular falsy value - you know, those things that aren't False, but they're falsy, like null, undefined, empty string, zero, I believe... Although I might get into some of the JavaScript words there... !0==true ? I can't remember...
+Last one for me - this one is really brief, but I use it all the time; anytime you have a singular falsy value - you know, those things that aren't False, but they're falsy, like null, undefined, empty string, zero, I believe... Although I might get into some of the JavScript words there... !0==true ? I can't remember...
 
-**Nick Nisi:** \[36:11\] It's False.
+**Nick Nisi:** \{36:11\} It's False.
 
 **Jerod Santo:** It is False, very good; so 0... Things that are falsy, but you don't have the actual boolean value - you can use the BangBang operator, which is also fun to say. That will basically convert it into boolean... And the same thing on the True side. If you have something that's truthy, but you actually want True, if you do BangBang and then the variable, it's a double negation and it will booleanize it and then convert it... So you can go from falsy to False, and that's nice to have.
 
@@ -268,11 +268,11 @@ Those are my two things that JS can do, that hopefully if you didn't know, now y
 
 **Suz Hinton:** Yeah, I was like really excited but also frustrated to find out that -- I think this has been a feature since ES 2015, so I felt like I was super late to the party by only finding out about it...
 
-So JavaScript supports things like bytes in hexadecimal format, and it's supported that for a really long time. Some of you might know that I write a lot of JavaScript hardware libraries and just general projects with JavaScript hardware, so using hacks in JavaScript is pretty common for me in order to kind of send opcodes and things like that to hardware... But sometimes you just want it to be in the full binary format, so instead of having FF as the hex code, you can actually have like eight ones in a row, right? I'm pretty sure that's 255; someone correct me if it's not.
+So JavScript supports things like bytes in hexadecimal format, and it's supported that for a really long time. Some of you might know that I write a lot of JavScript hardware libraries and just general projects with JavScript hardware, so using hacks in JavScript is pretty common for me in order to kind of send opcodes and things like that to hardware... But sometimes you just want it to be in the full binary format, so instead of having FF as the hex code, you can actually have like eight ones in a row, right? I'm pretty sure that's 255; someone correct me if it's not.
 
 So that is so convenient to have that... And then the way that you write it out is you have 0b, and then you write your bits from there. And it doesn't just support a 8 bits, it supports longer than that. So it's pretty cool... I really needed it recently when I was working on a steganography project where I was trying to encode messages in images, and then I was trying to then decode the message back out of the images. And because you're working with a bit at a time, using hexadecimals is actually really frustrating, and you kind of have to write the bits out in string format, and then somehow figure out a function to then convert that properly back into hex code. That's now unnecessary, and I wish I'd known about it earlier.
 
-**Jerod Santo:** \[40:20\] Well, you need a time travel device. \[laughter\] Where did I put that time travel device...? You can go back and teach yourself that. Or you can go back and listen to this episode past you.
+**Jerod Santo:** \{40:20\} Well, you need a time travel device. \[laughter\] Where did I put that time travel device...? You can go back and teach yourself that. Or you can go back and listen to this episode past you.
 
 **Nick Nisi:** Like Jerod, I hadn't really heard or understood what these were... But is this specifically being able to write -- if you wanted to write 255 in binary you could do 0b and then eight ones - is that what you're talking about?
 
@@ -304,7 +304,7 @@ It's not something that I typically use a lot, unless I'm just quickly trying to
 
 **Nick Nisi:** Yeah. But it's a cool, quick trick. But we also have better APIs in ES 2015 to handle that. There's a find method that you can use on arrays to return -- or a Find Index that will allow you to run a function, and if it returns True at any point, then that means whatever exists in the array and you don't have to specifically be looking for the index and then figuring out if it's not negative one.
 
-**Jerod Santo:** \[43:56\] Right.
+**Jerod Santo:** \{43:56\} Right.
 
 **Suz Hinton:** Totally. I see the tilde used in a very similar fashion when working with hardware, where we don't have those nice APIs and a lot of the time what you have is C... So it is really, really a nice trick to get stuff into like a zero, or a one, or just trying to be able to treat it as a true bool which is really cool.
 
@@ -318,7 +318,7 @@ It's not something that I typically use a lot, unless I'm just quickly trying to
 
 That's really helpful for avoiding having to say "Oh, this array sub zero is this, and this array sub one is this" and having that all over it kind of lets you better name the variables and use those names throughout, so that your code is more legible.
 
-And one really cool trick that you can do with that is combine that with regular expression methods in JavaScript. One example is the match string method. On a string there's a match function - you can call that and pass an irregular expression to it, and inside of that irregular expression you can have captures (the parentheses), and then what gets returned from there is an array that contains everything that was captured... Everything that was captured from the irregular expression is the first thing in the array, and then each of the little subcaptures within there will be the next items in the array. So at sub one it will be the first thing, two will be the next thing, and so on... So you can use that destructuring to name those variables.
+And one really cool trick that you can do with that is combine that with regular expression methods in JavScript. One example is the match string method. On a string there's a match function - you can call that and pass an irregular expression to it, and inside of that irregular expression you can have captures (the parentheses), and then what gets returned from there is an array that contains everything that was captured... Everything that was captured from the irregular expression is the first thing in the array, and then each of the little subcaptures within there will be the next items in the array. So at sub one it will be the first thing, two will be the next thing, and so on... So you can use that destructuring to name those variables.
 
 One example that I think of is the ability to, for example, get the month, day and year from a date string. If you had 2018-06-14, you could match those, match the first four numbers to this variable, so capture that. Then the next two in between the dashes as the day. And you can actually -- if you want to skip the first value in the array, or skip the first n number of values, you can just put commas inside of that destructuring, so it will just skip that and give you the next item in there.
 
@@ -342,15 +342,15 @@ So you can say, for example, const [, year, month, day ] and then call that func
 
 **Jerod Santo:** Okay.
 
-**Suz Hinton:** \[48:06\] Pretty easy to check... That's cool.
+**Suz Hinton:** \{48:06\} Pretty easy to check... That's cool.
 
 **Jerod Santo:** The commas, like the \[unintelligible 00:48:10.24\] when you don't want variables there is a little bit esoteric. I prefer it to be more explicit. I've seen other languages where you'd prefix it with an underscore, or have it say "unused" or something, and that would indicate that you expect a thing there... Because when I first see this comma - and we'll put this little snippet in the notes as well, so you all can look at it... But when I see that comma, I think it was an accident. I was even gonna ask you, "Do you have a typo there?" So it's just a little bit esoteric, but super handy.
 
 **Nick Nisi:** Yeah, I agree with that. The benefit of that is it's not creating the variable, and especially if you're using something like const, you're not locking that variable in the scope to be that value... So there's one nice caveat to it. But you're right, it does look a little bit like a syntax error when you first look at it.
 
-**Break:** \[49:07\]
+**Break:** \{49:07\}
 
-**Nick Nisi:** Alright, so let's talk about clean Git history. This is an article that changelog.com actually posted I don't know when exactly, but a little while ago... It's an article from GitLab called "Keeping your Git history clean, or how and why you would want to." I thought it'd be an interesting topic to go over. While it's not JavaScript-specific, it is something that we all typically have to work with, especially if we're dealing with Git, which it seems like everyone is at this point.
+**Nick Nisi:** Alright, so let's talk about clean Git history. This is an article that changelog.com actually posted I don't know when exactly, but a little while ago... It's an article from GitLab called "Keeping your Git history clean, or how and why you would want to." I thought it'd be an interesting topic to go over. While it's not JavScript-specific, it is something that we all typically have to work with, especially if we're dealing with Git, which it seems like everyone is at this point.
 
 I thought we'd jump right into it and talk about what the article is trying to convey, and some of the useful scenarios, and maybe some opinions. When I brought this up, Jerod mentioned that this is the ultimate -- what did you say...?
 
@@ -366,7 +366,7 @@ Jerod or Suz, do you have any pros or cons, or yays or nays as you why you might
 
 **Suz Hinton:** I definitely am in favor of having a good, clean Git history in almost all cases. I will admit that when I'm working on a dumb project that I don't intend on either showing publicly or having anyone else work on it, I tend to have silly, cathartic Git messages that are silly... That's just my way of rebelling, because I do care so much about it when I'm actually working with people...
 
-\[51:55\] But I think for me the biggest advantage in having a nice, clean Git history is when you work with different people on teams -- and I know that the article mentions things like Git bisect, for example... So let's say there's a bug that's been introduced, and let's say you've got this continuous integration set up for releasing software, so you've got several team members' work all coming together, and if the CI has kind of missed something and production breaks, or there's this really weird thing that QA found, you can first look at all the Git messages where they're accurately descriptive - which I use first, because it's the fastest thing you can do... So burning down the list of stuff that actually went into that release is really useful. You can actually kind of see -- maybe there's keywords in that Git commit message that kind of points at a specific feature, and that feature might be the thing that has the bug in it. I really appreciate having descriptive, but succinct Git messages on commits.
+\{51:55\} But I think for me the biggest advantage in having a nice, clean Git history is when you work with different people on teams -- and I know that the article mentions things like Git bisect, for example... So let's say there's a bug that's been introduced, and let's say you've got this continuous integration set up for releasing software, so you've got several team members' work all coming together, and if the CI has kind of missed something and production breaks, or there's this really weird thing that QA found, you can first look at all the Git messages where they're accurately descriptive - which I use first, because it's the fastest thing you can do... So burning down the list of stuff that actually went into that release is really useful. You can actually kind of see -- maybe there's keywords in that Git commit message that kind of points at a specific feature, and that feature might be the thing that has the bug in it. I really appreciate having descriptive, but succinct Git messages on commits.
 
 Then, if you don't actually find anything, having neat commits that are very contextually heavy allows you to run Git bisect in order to jump between different pieces of work that were done in order to find that bug.
 
@@ -378,7 +378,7 @@ I've often found - actually, just recently - a circumstance where I made a chang
 
 And I went to Git blame, and I checked out the line, I checked out the commit, and the commit message was identical to the comment above the freaking line of code. And I thought, "That is a terrible job by me." Basically, past me just screwed current me out of like being able to know something. That alone -- I mean, that happens all day, every day, let alone you extrapolate to like teams, and larger things... This is me basically removing context from myself... But that's where those things need to live, and when you don't have (I'll just say specifically) high-quality commit messages... When we talk about clean history, are we talking about like not merge-commits, and keeping the actual branching clean as well? But specifically on comments, the commit messages - make those good; it's worth your time. Unless, like Suz says, it's a throw-away thing, or you just have more fun, just like say something silly, or nobody will ever see it. But if the code matters, then the commit messages should be good.
 
-**Nick Nisi:** \[56:09\] Yeah, I totally agree with that. I will go as far as to say that I really want the history to be clean as well. Typically, that means that I avoid merge commits any way that I can, and I'll just squash and rebase everything when I'm going to master, to keep things nice and linear when I'm looking at the history tree. To me, that makes more sense.
+**Nick Nisi:** \{56:09\} Yeah, I totally agree with that. I will go as far as to say that I really want the history to be clean as well. Typically, that means that I avoid merge commits any way that I can, and I'll just squash and rebase everything when I'm going to master, to keep things nice and linear when I'm looking at the history tree. To me, that makes more sense.
 
 I can see an argument where merge commits help as well, because you might just have that one commit, but then you can see a breakdown of everything that happened within there... But also, the commits within the merge should also be cleaned up, so that you don't have a bunch of superfluous commits that really don't mean anything.
 

@@ -20,7 +20,7 @@
 
 **Mat Ryer:** Welcome to the game show. We've also got Angelica Hill. Hello, Angelica.
 
-**Angelica Hill:** \[04:04\] Hello!
+**Angelica Hill:** \{04:04\} Hello!
 
 **Mat Ryer:** \[singing\] Angelicaaa...! Does everyone sing your name if they've seen Hamilton now?
 
@@ -102,7 +102,7 @@
 
 **Johnny Boursiquot:** Really? What kind of dentist do you go to?
 
-**Mark Bates:** \[08:00\] Apparently, one that likes Steve Harvey, and likes to show nothing but Steve Harvey's version of Family Feud all day long...
+**Mark Bates:** \{08:00\} Apparently, one that likes Steve Harvey, and likes to show nothing but Steve Harvey's version of Family Feud all day long...
 
 **Johnny Boursiquot:** Okay.
 
@@ -234,7 +234,7 @@ Brian, let's start with you. What's your Twitter name, Brian?
 
 **Mat Ryer:** Very good. Kris Brandow is here... Kris Brandow.
 
-**Kris Brandow:** \[11:57\] Hello.
+**Kris Brandow:** \{11:57\} Hello.
 
 **Mat Ryer:** It sounds like a movie star name, doesn't it?
 
@@ -286,7 +286,7 @@ Brian, let's start with you. What's your Twitter name, Brian?
 
 **Mat Ryer:** Yeah. Angelica, what would you say is the best HTML tag? So your divs, your spans, your p's... Which one would you go with if you had to pick one, which you definitely do?
 
-**Angelica Hill:** Probably script, just because when I was first learning software engineering I was obsessed with just shoving JavaScript in... I didn't wanna have separate files; just shove it in.
+**Angelica Hill:** Probably script, just because when I was first learning software engineering I was obsessed with just shoving JavScript in... I didn't wanna have separate files; just shove it in.
 
 **Mat Ryer:** Yeah, that's a good answer, I like that... Although it's wrong. The answer is "a", because without that, it's not--
 
@@ -376,7 +376,7 @@ Brian, let's start with you. What's your Twitter name, Brian?
 
 **Mat Ryer:** Yeah, it did. Let me just get the digital color meter up... I just wanna check to see what color your shirt actually is in Hex... 3259FE, Johnny, actually...
 
-**Johnny Boursiquot:** \[16:00\] Oh, okay. Thanks for --
+**Johnny Boursiquot:** \{16:00\} Oh, okay. Thanks for --
 
 **Mat Ryer:** Yeah, no probs. Okay... We've got Mark Bates here, too. Mark, are you on Twitter?
 
@@ -480,7 +480,7 @@ So you pass in the players, we get back the list with the one removed, and... Le
 
 **Mat Ryer:** Excellent. \[laughter\] Well, at least we have our teams from this. Team one - Erik, Natalie, Mark and Angelica. And team two is Brian, Carlisia, Johnny and Kris. There we have it. If you're not happy with the teams, you can blame \[unintelligible 00:20:12.24\]
 
-**Brian Ketelsen:** \[20:14\] Or bad for loops.
+**Brian Ketelsen:** \{20:14\} Or bad for loops.
 
 **Mark Bates:** Blame Mat Ryer, is that what you said? It sounded like Mat Ryer through my headphones...
 
@@ -596,7 +596,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Angelica Hill:** Maybe continue...?
 
-**Mat Ryer:** \[24:12\] Continue. Gophers say... \[fail sound\]
+**Mat Ryer:** \{24:12\} Continue. Gophers say... \[fail sound\]
 
 **Carlisia Thompson:** No...
 
@@ -762,7 +762,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Natalie Pistunovich:** If we had documentation, we would not have this argument at all. Just saying.
 
-**Break:** \[28:03\]
+**Break:** \{28:03\}
 
 **Mat Ryer:** Okay, it's time to go to the next round. Team one bagged themselves 66 delicious points there. Now we all understand the rules and we're not gonna argue about it anymore, we can go on to round two.
 
@@ -808,7 +808,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mat Ryer:** So Mark Bates... What do you think?
 
-**Mark Bates:** I'm gonna say most people said JavaScript.
+**Mark Bates:** I'm gonna say most people said JavScript.
 
 **Erik St. Martin:** Yeah.
 
@@ -862,7 +862,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Kris Brandow:** Yeah, it's gotta be there.
 
-**Mat Ryer:** \[32:00\] Gophers say... \[win sound\] Yes! And it's at number three, with 11 of our surveyed Gophers said C. You have a life remaining, so let's go. Natalie, it's your turn again. Pick a language. Be careful, one life left.
+**Mat Ryer:** \{32:00\} Gophers say... \[win sound\] Yes! And it's at number three, with 11 of our surveyed Gophers said C. You have a life remaining, so let's go. Natalie, it's your turn again. Pick a language. Be careful, one life left.
 
 **Natalie Pistunovich:** Pascal.
 
@@ -1030,9 +1030,9 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Carlisia Thompson:** Right?!
 
-**Mark Bates:** Yeah. JavaScript. That falls under Etc. Come on!
+**Mark Bates:** Yeah. JavScript. That falls under Etc. Come on!
 
-**Mat Ryer:** JavaScript didn't get enough to make it to the board. Any with five answers or less don't make it on the board. JavaScript had 2, C\# had three, and actually - believe it or not - ActionScript had three also. Very interesting.
+**Mat Ryer:** JavScript didn't get enough to make it to the board. Any with five answers or less don't make it on the board. JavScript had 2, C\# had three, and actually - believe it or not - ActionScript had three also. Very interesting.
 
 **Kris Brandow:** Wow.
 
@@ -1044,7 +1044,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Erik St. Martin:** So that tells us a lot about future questions...
 
-**Kris Brandow:** \[36:00\] Yeah.
+**Kris Brandow:** \{36:00\} Yeah.
 
 **Mat Ryer:** Yeah, I think so. Well, speaking of which, let's move on to round three. Jazz! Okay, the question is...
 
@@ -1194,7 +1194,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mark Bates:** You're not supposed to give the other team the answers, that's the first rule...
 
-**Johnny Boursiquot:** \[39:58\] There are two teams, and you're not on Mark's.
+**Johnny Boursiquot:** \{39:58\} There are two teams, and you're not on Mark's.
 
 **Carlisia Thompson:** Oh, Mark is not on my team...
 
@@ -1326,7 +1326,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Erik St. Martin:** I don't think we gave the people --
 
-**Mark Bates:** \[43:55\] In text speak, abbreviations - what are the text abbreviations in text speak that abbreviate the most text abbreviations...?
+**Mark Bates:** \{43:55\} In text speak, abbreviations - what are the text abbreviations in text speak that abbreviate the most text abbreviations...?
 
 **Angelica Hill:** Yeah, exactly. How is that not clear?
 
@@ -1488,7 +1488,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mat Ryer:** Okay. Gophers say, to steal... \[win sound\] Yes! You've got one. At number three, LGTM. So team one steals those delicious points; gobbles them down, eats them all up.
 
-**Angelica Hill:** \[48:19\] Num num.
+**Angelica Hill:** \{48:19\} Num num.
 
 **Mat Ryer:** Let's see what else. Number six. We're gonna go with the bottom first... Number six was... People that don't use any abbreviations. \[laughter\]
 
@@ -1560,11 +1560,11 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mat Ryer:** We've got six rounds, don't worry.
 
-**Break:** \[50:33\]
+**Break:** \{50:33\}
 
 **Mat Ryer:** Our next round - we've given it a little bit of a twist. It's time for Unpopular Opinions!
 
-**Jingle:** \[51:29\] to \[51:45\]
+**Jingle:** \{51:29\} to \{51:45\}
 
 **Mat Ryer:** There we go, Acapella edition of Unpopular Opinions there. A little treat for everyone. And I do mean treat.
 
@@ -1588,7 +1588,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Carlisia Thompson:** Oh, excuse me? \[laughs\]
 
-**Mat Ryer:** \[52:13\] Okay, well - in this round, we've given it a little bit of a twist. We're actually looking for the bottom answers. The things that made it onto the board, but they weren't high-scoring. So we're looking for the unpopular opinions this time. And the question is, if I weren't using Go to write code, I'd be using... What? There's no face-off, we're just gonna bounce between the teams. And we'll start with the trailing team. Brian, what do you think?
+**Mat Ryer:** \{52:13\} Okay, well - in this round, we've given it a little bit of a twist. We're actually looking for the bottom answers. The things that made it onto the board, but they weren't high-scoring. So we're looking for the unpopular opinions this time. And the question is, if I weren't using Go to write code, I'd be using... What? There's no face-off, we're just gonna bounce between the teams. And we'll start with the trailing team. Brian, what do you think?
 
 **Erik St. Martin:** I think you meant "losers".
 
@@ -1688,11 +1688,11 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mark Bates:** I'm gonna go with .NET.
 
-**Mat Ryer:** \[55:58\] .NET, okay. Gophers say... \[win sound\] Yes, we're gonna give you that. People said C\#. Seven people did, which gives you 20 points. What are you gonna spend your points on, Mark? Don't answer, we haven't really got time. Next up, it's Kris' turn. Kris, can you get this last one?
+**Mat Ryer:** \{55:58\} .NET, okay. Gophers say... \[win sound\] Yes, we're gonna give you that. People said C\#. Seven people did, which gives you 20 points. What are you gonna spend your points on, Mark? Don't answer, we haven't really got time. Next up, it's Kris' turn. Kris, can you get this last one?
 
-**Kris Brandow:** I'm gonna say JavaScript.
+**Kris Brandow:** I'm gonna say JavScript.
 
-**Mat Ryer:** Are you? Well, let's see what the Gophers say. \[win sound\] Excellent! You've done it! The top scorer. 25 points there, because five people said JavaScript. Very good.
+**Mat Ryer:** Are you? Well, let's see what the Gophers say. \[win sound\] Excellent! You've done it! The top scorer. 25 points there, because five people said JavScript. Very good.
 
 **Johnny Boursiquot:** Nice...!
 

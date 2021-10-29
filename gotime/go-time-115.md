@@ -114,9 +114,9 @@ There's a big political and philosophical debate around that, but the reality is
 
 **Jon Calhoun:** I think the JSON package is a good example of this, where the one in the standard library is great, but there have been ones that emerged that sort of solved a slightly different problem. If you don't wanna build a struct to get something that's like six levels nested, there's a couple packages out there that make it really easy to dive six levels in and get one specific piece of information and that's it, from the JSON. And there's other ones that maybe they try to be faster... There's different goals, depending on what you're looking for, and even though you think "Oh, the standard library has it. Nobody's ever gonna compete with that", the truth is people do compete with them because there's specific goals that they're going for.
 
-And even if you look at front-end frameworks for JavaScript, you'd think at some point one of them would have just won out and everybody would have stopped... But they all solve different goals, and if something comes along and it's unique enough and solves a different enough problem, I think we see that that tends to happen, it still tends to get some traction and move up.
+And even if you look at front-end frameworks for JavScript, you'd think at some point one of them would have just won out and everybody would have stopped... But they all solve different goals, and if something comes along and it's unique enough and solves a different enough problem, I think we see that that tends to happen, it still tends to get some traction and move up.
 
-**Break:** \[19:59\]
+**Break:** \{19:59\}
 
 **Mat Ryer:** The Context package, when that happened - that was kind of one of those shifts you talked about, Steve, where suddenly now people expected to be able to cancel things that they couldn't cancel before... For example like copying. Is there a context-aware copy operation in the standard library? If you do io.Copy(), it just copies the whole thing until the end of the file, right? Is there a cancelable one, or do you have to write that on your own?
 
@@ -324,7 +324,7 @@ If you look on pkg.go.dev and you're thinking about whether or not you should us
 
 **Jon Calhoun:** Can you talk about more of the technology? Is it an API, or are you using templates on the back-end? Can you talk a little bit about what you're using to build it all?
 
-**Julie Qiu:** Yeah, so the entire back-end is written in Go, and then the front-end is just all Go templates. The majority of it is HTML and CSS. I think for a really long time we had absolutely no JavaScript. And even now, it's pretty limited.
+**Julie Qiu:** Yeah, so the entire back-end is written in Go, and then the front-end is just all Go templates. The majority of it is HTML and CSS. I think for a really long time we had absolutely no JavScript. And even now, it's pretty limited.
 
 Then the site itself is hosted on the Google Cloud Platform. The high-level architecture is we have a system that we call our data ingestion system, which essentially extracts data from the module mirror, and then transforms it, and then puts it into a Postgres database, which is hosted on Google Cloud SQL. Then the front-end - we also just have a service that is pulling data out of this Postgres database, serving requests... We have Redis, which we use for caching, and... Yeah, that's a pretty high-level overview of it.
 
@@ -338,11 +338,11 @@ Then the site itself is hosted on the Google Cloud Platform. The high-level arch
 
 **Mat Ryer:** Yeah. And it will scale significantly as well, won't it? That's something that's nice, especially when you're not really into the operational side of things. You can sort of not worry about it, so yeah, I'm all over that... It sounds great to hear.
 
-**Break:** \[54:53\]
+**Break:** \{54:53\}
 
 **Mat Ryer:** So, actually we have a new regular part of our show, and it's gonna get its own jingle as well... It's Unpopular Opinion.
 
-**Jingle:** \[56:20\]
+**Jingle:** \{56:20\}
 
 **Mat Ryer:** So we're gonna ask "Do you have an unpopular opinion that you'd like to share?" Anyone?
 

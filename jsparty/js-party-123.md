@@ -20,7 +20,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** Browserified.
 
-**Jerod Santo:** \[03:52\] Thank you! And the fifth category is Essential Elements. Each of those has five choices, 100 points up to 500 points... And we'll start with our guest, because that's polite and kind. So Scott, you are up first, my friend.
+**Jerod Santo:** \{03:52\} Thank you! And the fifth category is Essential Elements. Each of those has five choices, 100 points up to 500 points... And we'll start with our guest, because that's polite and kind. So Scott, you are up first, my friend.
 
 **Scott Tolinski:** Oh, no.
 
@@ -156,7 +156,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** No questions allowed, sir. You can't ask questions... \[laughter\]
 
-**Scott Tolinski:** \[08:06\] I'm not asking questions here...
+**Scott Tolinski:** \{08:06\} I'm not asking questions here...
 
 **Jerod Santo:** He's talking to himself.
 
@@ -190,7 +190,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** Let's maybe do Books and Authors for 100...
 
-**Jerod Santo:** Books and Authors, okay... Here we go. YDKJS, the popular series of books diving deep into the core mechanics of JavaScript is authored by this JS Party guest.
+**Jerod Santo:** Books and Authors, okay... Here we go. YDKJS, the popular series of books diving deep into the core mechanics of JavScript is authored by this JS Party guest.
 
 **Emma Bostian:** Who is Kyle Simpson.
 
@@ -292,7 +292,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** CSS Tricks for 200. Floated objects do not add to the height of the object they reside in properly. To fix it, one must... How do you fix them?
 
-**Emma Bostian:** \[12:10\] Um... What is clear fix?
+**Emma Bostian:** \{12:10\} Um... What is clear fix?
 
 **Jerod Santo:** Clear the floats. Congratulations.
 
@@ -430,7 +430,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** He's way above, it doesn't matter anyway.
 
-**Jerod Santo:** \[16:12\] Okay, back to Scott... Please pick a category and a point value.
+**Jerod Santo:** \{16:12\} Okay, back to Scott... Please pick a category and a point value.
 
 **Scott Tolinski:** Let's do Essential Elements for $500, please.
 
@@ -500,7 +500,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Scott Tolinski:** I don't work with workers.
 
-**Jerod Santo:** Worker.post message sends a message, you send it a JavaScript object, and you pass data back and forth that way. Okay, well - it's tightening up, except for our special guest, who seems to be falling by the wayside, but... It's still early.
+**Jerod Santo:** Worker.post message sends a message, you send it a JavScript object, and you pass data back and forth that way. Okay, well - it's tightening up, except for our special guest, who seems to be falling by the wayside, but... It's still early.
 
 **Emma Bostian:** Well, he's almost at 900, just negative.
 
@@ -548,7 +548,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Scott Tolinski:** Yeah, I don't know the answer to this... What is Modern Web Design.
 
-**Emma Bostian:** \[20:09\] \[laughs\]
+**Emma Bostian:** \{20:09\} \[laughs\]
 
 **Jerod Santo:** Incorrect, sir. Emma for the steal.
 
@@ -624,7 +624,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** I will say you're on the right path. It is indeed an O'Reilly book.
 
-**Scott Tolinski:** Dang. I don't know what it's called. What is the Complete Guide to JavaScript
+**Scott Tolinski:** Dang. I don't know what it's called. What is the Complete Guide to JavScript
 
 **Jerod Santo:** I'm gonna have to call that a fail.
 
@@ -636,9 +636,9 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Nick - for the steal?
 
-**Nick Nisi:** I'm gonna say "What is JavaScript Complete Reference?" \[fail sound\] Oh, no...!
+**Nick Nisi:** I'm gonna say "What is JavScript Complete Reference?" \[fail sound\] Oh, no...!
 
-**Jerod Santo:** Ouch! Nick, you were so excited with that answer. The answer is "What is JavaScript: The Definitive Guide"?
+**Jerod Santo:** Ouch! Nick, you were so excited with that answer. The answer is "What is JavScript: The Definitive Guide"?
 
 **Emma Bostian:** Oh...!
 
@@ -654,7 +654,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** It's mine... I'm gonna do the last Books and Authors, please.
 
-**Jerod Santo:** \[24:09\] Okay. Whether it's High-performance JavaScript or Understanding ECMAScript 6 that you want to learn, grab a book by this prolific human who codes. So now we're looking for the actual name of the author of these books.
+**Jerod Santo:** \{24:09\} Okay. Whether it's High-performance JavScript or Understanding ECMAScript 6 that you want to learn, grab a book by this prolific human who codes. So now we're looking for the actual name of the author of these books.
 
 **Emma Bostian:** I feel like I know it, but I'm not 100% sure. But I lose either way, so...
 
@@ -766,7 +766,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Okay. This commonly used mixin contains methods and properties for objects that can have a parent.
 
-**Emma Bostian:** \[28:02\] Commonly used mixin, contains methods and properties for objects that can have a parent... I don't know.
+**Emma Bostian:** \{28:02\} Commonly used mixin, contains methods and properties for objects that can have a parent... I don't know.
 
 **Jerod Santo:** Is that your final answer?
 
@@ -808,7 +808,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Scott Tolinski:** Or anything.
 
-**Nick Nisi:** But also, this was the DOM Observer category, and I was thinking JavaScript... Ugh.
+**Nick Nisi:** But also, this was the DOM Observer category, and I was thinking JavScript... Ugh.
 
 **Emma Bostian:** Ugh, that's how I--
 
@@ -872,7 +872,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Yes.
 
-**Scott Tolinski:** Asynchronous JavaScript... Put the X and helped -- is it XML? What is XML?
+**Scott Tolinski:** Asynchronous JavScript... Put the X and helped -- is it XML? What is XML?
 
 **Jerod Santo:** \[fail sound\] Sorry, you're close, but no cigar. Emma, for the steal.
 
@@ -884,7 +884,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** It's related, but wrong.
 
-**Scott Tolinski:** \[31:59\] Yeah, I know what it is now.
+**Scott Tolinski:** \{31:59\} Yeah, I know what it is now.
 
 **Jerod Santo:** Nick, would you like to steal?
 
@@ -926,7 +926,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** We'll see you in round two.
 
-**Break:** \[33:14\]
+**Break:** \{33:14\}
 
 **Jerod Santo:** We are back for round two. Some people call it Double Trouble, or Double Danger, or Double Down. I don't know, you pick your favorite. Our categories for this round are "Can I use?", Frameswork, Npm-Install, Bang Important, and "What a Character". Emma, you are first up. Please choose a category and a point value.
 
@@ -982,7 +982,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** But they're all wondering about it. So the correct answer is Flexbox...
 
-**Scott Tolinski:** \[36:15\] Stop wondering about it.
+**Scott Tolinski:** \{36:15\} Stop wondering about it.
 
 **Jerod Santo:** ...but it's because it's based on what people wanna know, I guess.
 
@@ -1012,7 +1012,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** It's a good guess. And we go to Nick for the steal?
 
-**Nick Nisi:** What is \[37:05\] NBSP?
+**Nick Nisi:** What is \{37:05\} NBSP?
 
 **Jerod Santo:** \[correct sound\] That is correct.
 
@@ -1078,13 +1078,13 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** Maybe let's try "What a Character" for 200, please.
 
-**Jerod Santo:** What a Character for 200. Full of opinions, this developer rose to fame by looking at different JavaScript snippets and saying "Whaet?!"
+**Jerod Santo:** What a Character for 200. Full of opinions, this developer rose to fame by looking at different JavScript snippets and saying "Whaet?!"
 
-**Emma Bostian:** \[40:05\] Um... Define fame. \[laughter\]
+**Emma Bostian:** \{40:05\} Um... Define fame. \[laughter\]
 
 **Scott Tolinski:** I know, yeah... \[laughs\]
 
-1:Full of opinions, this developer rose to \*quote-unquote\* fame by looking at different JavaScript snippets and saying "Whaet?!"
+1:Full of opinions, this developer rose to \*quote-unquote\* fame by looking at different JavScript snippets and saying "Whaet?!"
 
 **Emma Bostian:** Um, who is Mark Dalgleish? \[correct sound\]
 
@@ -1198,7 +1198,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Good guess. We go to Nick for an opportunity to steal.
 
-**Nick Nisi:** \[44:15\] I'm gonna pass.
+**Nick Nisi:** \{44:15\} I'm gonna pass.
 
 **Jerod Santo:** We go to Scott for the steal.
 
@@ -1240,7 +1240,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** I'm so unconfident in all of these... How about "What a Character" for 300?
 
-**Jerod Santo:** Curious about style? Ask the creator and maintainer of JavaScript's standard.
+**Jerod Santo:** Curious about style? Ask the creator and maintainer of JavScript's standard.
 
 **Emma Bostian:** Uhhhh...
 
@@ -1256,7 +1256,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Scott Tolinski:** Hard pass. Double hard pass.
 
-**Jerod Santo:** Double hard pass. Well, I would say that this one is most insulting, as JavaScript's standard style maintainer is JS Party panelist Feross Aboukhadijeh.
+**Jerod Santo:** Double hard pass. Well, I would say that this one is most insulting, as JavScript's standard style maintainer is JS Party panelist Feross Aboukhadijeh.
 
 **Scott Tolinski:** Oh, no... \[laughs\]
 
@@ -1314,7 +1314,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** For 200?
 
-**Emma Bostian:** \[47:59\] Yeah, I'm just gonna keep complaining anyway. \[laughs\]
+**Emma Bostian:** \{47:59\} Yeah, I'm just gonna keep complaining anyway. \[laughs\]
 
 **Jerod Santo:** Okay. "Not allowed", "wait" and "help" are all possible values of this CSS property.
 
@@ -1436,7 +1436,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Okay, she goes for the gusto. Even Apple is experimenting with this image format, that supports lossy and lossless compression, as well as animation and alpha transparency.
 
-**Emma Bostian:** \[52:13\] Oh... I know this, because I've just read the Image Performance book... Shoot. Oh, no...
+**Emma Bostian:** \{52:13\} Oh... I know this, because I've just read the Image Performance book... Shoot. Oh, no...
 
 **Jerod Santo:** Even Apple is experimenting with this image format, that supports lossy and lossless compression, as well as animation and alpha transparency.
 
@@ -1552,7 +1552,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Yeah. \[laughs\] You can use it on 0% of browsers.
 
-**Nick Nisi:** \[56:15\] Um... This is a total shot in the dark, but I'm gonna say "What is Houdini?" \[fail sound\] I figured.
+**Nick Nisi:** \{56:15\} Um... This is a total shot in the dark, but I'm gonna say "What is Houdini?" \[fail sound\] I figured.
 
 **Jerod Santo:** Any steals? We go to Scott for the steal?
 
@@ -1574,15 +1574,15 @@ That's the end or round two. We have for round two - Scott scores 1,400...
 
 **Jerod Santo:** Emma scores -4,000. \[laughter\] And Nick scores 2,800. We'll come back for Final Trouble right after this.
 
-**Break:** \[57:21\]
+**Break:** \{57:21\}
 
 **Jerod Santo:** We are back for Final Trouble... And a couple of our contestants are in a lot of trouble. After tallying rounds one and two, we have Emma with -3,500, our special guest Scott Tolinski at -1,400, and Nick Nisi with 2,700. We now move to Final Trouble, in which I list a category, you all submit private wagers to me of how much you wager, I ask the question, and then you submit private answers for us to tally.
 
 The category of choice is Offline First. Your category for Final Trouble is Offline First. Please submit to me your wagers.
 
-Okay, the wagers are in. This is the question for Final Trouble, Offline First: This open source JavaScript database was created to help web developers build applications that work as well offline as they do online.
+Okay, the wagers are in. This is the question for Final Trouble, Offline First: This open source JavScript database was created to help web developers build applications that work as well offline as they do online.
 
-One more time - this is the question for Final Trouble, Offline First: This open source JavaScript database was created to help web developers build applications that work as well offline as they do online. Please submit to me your answers.
+One more time - this is the question for Final Trouble, Offline First: This open source JavScript database was created to help web developers build applications that work as well offline as they do online. Please submit to me your answers.
 
 **Scott Tolinski:** I've got two of them, going back and forth...
 

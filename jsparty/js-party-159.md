@@ -8,7 +8,7 @@ He then follows up and says "Not everyone can do what I've done, not everyone wo
 
 Surely, in web development land everybody's mileage varies. People learn at different paces. Some are given to it, some have to power through; we all have to power through a little bit. So it's not as if everybody can do what Sam has done, but a lot of people can really thrive in this industry, and we've seen a lot of people do it. What are your thoughts on that, and Sam's experience, Kamran?
 
-**Kamran Ahmed:** \[04:07\] Exactly. I know a lot of people who have not gone through the formal education of computer science and still are making good money... So I think anyone, if you have the clear path and you have the good mentors and if you're able to find out the correct way, you can even get started in a couple of months, 2-3 months and you're really able to get a good amount of money from the freelance work or the actual job as well. So definitely, yeah.
+**Kamran Ahmed:** \{04:07\} Exactly. I know a lot of people who have not gone through the formal education of computer science and still are making good money... So I think anyone, if you have the clear path and you have the good mentors and if you're able to find out the correct way, you can even get started in a couple of months, 2-3 months and you're really able to get a good amount of money from the freelance work or the actual job as well. So definitely, yeah.
 
 **Jerod Santo:** Yeah, and not everybody wants to freelance; some people want a full-time job. We know that once you get through that first set of hurdles with regards to your knowledge in web development, there's another set of hurdles which is organizations aren't always hiring for junior developers; everybody wants the senior developer, so there's a mismatch there.
 
@@ -26,11 +26,11 @@ I saw that after some time spent in the industry I was getting asked the same qu
 
 **Jerod Santo:** And is it all from your mind, or is it a community effort?
 
-**Kamran Ahmed:** It's a community effort, I believe. Also, it's mostly me, because there are a lot people contributing with ideas and suggestions, but I did not really want to put everything out there. So I wanted to be very focused. So I'm really picky with the stuff that I put in there, but I have the help of the community, and I run the survey, and I look at the different -- for example the State of JavaScript and a lot of different online community surveys, and stuff. I'm very aware of this every year.
+**Kamran Ahmed:** It's a community effort, I believe. Also, it's mostly me, because there are a lot people contributing with ideas and suggestions, but I did not really want to put everything out there. So I wanted to be very focused. So I'm really picky with the stuff that I put in there, but I have the help of the community, and I run the survey, and I look at the different -- for example the State of JavScript and a lot of different online community surveys, and stuff. I'm very aware of this every year.
 
 **Jerod Santo:** Very, very good. And it's worth pointing out that this roadmap is an awesome resource, but it is very much that. It is a map of choices. So in addition to this, you're gonna have to team this with the How. So this is kind of like the What. What you should learn, what order perhaps you should tackle these topics, which ones work together, which ones are set at odds, you're gonna have to choose between this and that as you work your way down the path...
 
-\[08:07\] And you've demarcated what's optional, what you think is required, things that you suggest, things that you would suggest necessarily... And that's all very useful, but none of this is really the How. Like, "Well, I'm gonna learn HTTP, but... How do I do that?" You're not trying to tackle that particular problem, right?
+\{08:07\} And you've demarcated what's optional, what you think is required, things that you suggest, things that you would suggest necessarily... And that's all very useful, but none of this is really the How. Like, "Well, I'm gonna learn HTTP, but... How do I do that?" You're not trying to tackle that particular problem, right?
 
 **Kamran Ahmed:** Yeah. One more thing I wanted to point out here is that the target audience for this roadmap is mainly the intermediate developers, the people who already have some idea, who are in the speed and are stuck in there, they don't know how to level up.
 
@@ -60,11 +60,11 @@ So it's very on-point to mention that this is for intermediate developers. This 
 
 Then look at the CSS, for example, and then try to style these pages.
 
-\[12:13\] For example, I ask them to copy the Twitter homepage, the login page. So when you have the form and all in HTML, after the two weeks when you are done with this, for example "Style this form to look like the page that you copied." So do a couple of pages like this. Then for example pick the JavaScript and try to make it interactive. For example the form that you made, try to choose a validation method; when the user clicks it, validate the login, username and password, and show the message, like for example "Invalid username or password." And do a couple of exercises like this, for example.
+\{12:13\} For example, I ask them to copy the Twitter homepage, the login page. So when you have the form and all in HTML, after the two weeks when you are done with this, for example "Style this form to look like the page that you copied." So do a couple of pages like this. Then for example pick the JavScript and try to make it interactive. For example the form that you made, try to choose a validation method; when the user clicks it, validate the login, username and password, and show the message, like for example "Invalid username or password." And do a couple of exercises like this, for example.
 
 Then once you're done with this, you have done some projects, just start looking for open source projects, or create a couple of templates on GitHub... Learn about the Git, for example, and create \[unintelligible 00:12:53.23\] on GitHub for a couple of projects in there... And then start from there; continue onwards, and then learn React, and then you can continue on with the roadmap. The same kind of path I have for the backend also, and so on.
 
-So you don't need to look at the roadmap itself, because the beginners -- whenever I get a question, mostly on Twitter, people are really scared of this roadmap. They see that I have a hundred items in there. "It would take me like two years to go through all of this. How can I speed it up?" First of all, it looks daunting, but it really is not. If you \[unintelligible 00:13:25.23\] HTML, CSS, JavaScript, the basics, and then do a couple of projects, and then for example -- like, most of the items in there, they don't really take much time, like DNS, and how it works, and what is a domain name; you can easily do it in one hour or two hours, the internet section.
+So you don't need to look at the roadmap itself, because the beginners -- whenever I get a question, mostly on Twitter, people are really scared of this roadmap. They see that I have a hundred items in there. "It would take me like two years to go through all of this. How can I speed it up?" First of all, it looks daunting, but it really is not. If you \[unintelligible 00:13:25.23\] HTML, CSS, JavScript, the basics, and then do a couple of projects, and then for example -- like, most of the items in there, they don't really take much time, like DNS, and how it works, and what is a domain name; you can easily do it in one hour or two hours, the internet section.
 
 But a lot of items in there -- so I plan on adding a timeline there also, in the future... But it really looks daunting, but it is not. And as I said, it is not for the beginner, it is for the intermediate... And I mentioned it also in the disclaimer, but people don't look at the disclaimer at the top...
 
@@ -84,7 +84,7 @@ But a lot of items in there -- so I plan on adding a timeline there also, in the
 
 **Kamran Ahmed:** Yeah, I agree with that stuff. For example, if I tell you also about my past, for the first two years when I was starting - I started in 2013 when I was in university \[unintelligible 00:15:41.25\] and I learned about Git after two years in the industry. I learned about SSH after 2-3 years also. Design patterns I never touched, because in the beginning I would create a mess of the code, looking at design patterns.
 
-\[15:58\] So most of this stuff I did not do in the beginning. As I said, I need to highlight that better in the paths. So this is merely the stuff that you pick up in the journey somehow, during the journey. So you don't need to learn it in the hierarchical format.
+\{15:58\} So most of this stuff I did not do in the beginning. As I said, I need to highlight that better in the paths. So this is merely the stuff that you pick up in the journey somehow, during the journey. So you don't need to learn it in the hierarchical format.
 
 As I said, if you look at the website, roadmap.sh, I did not mention all of this in the top. It's just in that position here because I did not know where to put them, because there's a common theme across all of these...
 
@@ -92,7 +92,7 @@ As I said, if you look at the website, roadmap.sh, I did not mention all of this
 
 **Kamran Ahmed:** But I agree with you, you don't need to learn all of these in the beginning.
 
-**Break:** \[16:31\]
+**Break:** \{16:31\}
 
 **Jerod Santo:** Alright, let's dive into the frontend roadmap. You have it laid out, and if listeners are listening along and want to have a visual, check out roadmap.sh, and also the developer-roadmap repo on GitHub, which are both in our show notes... So you can see what we're seeing as we discuss.
 
@@ -118,13 +118,13 @@ But step one - I like your step one, because I think a lot of people skip over t
 
 **Jerod Santo:** This 2017 version?
 
-**Kamran Ahmed:** \[20:14\] Yeah, click -- here is the link to the 2017 version. This one.
+**Kamran Ahmed:** \{20:14\} Yeah, click -- here is the link to the 2017 version. This one.
 
 **Jerod Santo:** There you go.
 
-**Kamran Ahmed:** So if you look, this was a super-basic one. You were just learning HTML, CSS, JavaScript.
+**Kamran Ahmed:** So if you look, this was a super-basic one. You were just learning HTML, CSS, JavScript.
 
-**Jerod Santo:** Learn the basics - HTML, CSS and JavaScript, yeah.
+**Jerod Santo:** Learn the basics - HTML, CSS and JavScript, yeah.
 
 **Kamran Ahmed:** So if you look, this is a bit not daunting as compared to the current one. The current one has a lot more stuff. But as I said, so he was having the issues, for example he didn't know what the domain is, what the hosting is, and all of this, so I just put that upfront because when someone is learning, it is easier to get into theoretical stuff before you get into the practical, the hands-on coding stuff. So that's why I put the internet and all the theory in the beginning. It's not really much, so you can easily learn it in one day, or something. And then you can continue on to the hands-on coding stuff, with HTML and so on.
 
@@ -136,11 +136,11 @@ I think knowing HTTP at like a deep level, like GETs, and POSTs, and PUTs, and D
 
 And same for the HTTP. When you open something, you need to know how to look at the console; for example if some image is being loaded, how is it being loaded? If some CSS is being loaded, how is it being loaded? And this stuff is going to be used when you look at the HTML, and when you put the link tags, and so on. So that's why just getting the basic idea of all of this in the beginning is going to be beneficial for later on.
 
-**Jerod Santo:** Yeah. Very good. So then we go from here and you go to - okay, now it's time for your three-layer cake: HTML, CSS and JavaScript, in that order. And I think I'm agreeing with you 100% that you have to build from the foundation, which is HTML. CSS is the look and feel, and then JavaScript is the interactivity... And it doesn't really make sense to learn them -- if you wanna be a frontender, there's no reason to go straight to JavaScript. Maybe if you're gonna be a backender, you'll go straight to JavaScript. You don't care about the HTML and CSS, but you wanna write backend JavaScript code. Frontender - learn these three, learn them in that order.
+**Jerod Santo:** Yeah. Very good. So then we go from here and you go to - okay, now it's time for your three-layer cake: HTML, CSS and JavScript, in that order. And I think I'm agreeing with you 100% that you have to build from the foundation, which is HTML. CSS is the look and feel, and then JavScript is the interactivity... And it doesn't really make sense to learn them -- if you wanna be a frontender, there's no reason to go straight to JavScript. Maybe if you're gonna be a backender, you'll go straight to JavScript. You don't care about the HTML and CSS, but you wanna write backend JavScript code. Frontender - learn these three, learn them in that order.
 
 We can probably skip over, for the sake of our discussion, HTML and maybe go straight to CSS. You have kind of learn the basics, making layouts (floats, positioning, box model, CSS Grid etc) and I think that's all good. I'm curious what your take is on the idea of somebody putting some rocket fuel on their CSS, or maybe kind of like skipping over, to a certain degree, with a framework... And saying "Well, I'm gonna pick up the framework and it's gonna allow me to make some websites, even if I don't totally understand exactly the way it's working", like a Tailwind or a Bootstrap, Bulma, whatever that your flavor happens to be... And actually start a little bit with the framework and learn CSS through framework usage. Do you think that's wise, or do you think that's foolhardy?
 
-**Kamran Ahmed:** \[24:12\] I would not recommend that. When you look at, for example, Bootstrap or Tailwind or something, you easily get motivated; you look at beautiful pages and then you get motivated to learn that stuff. But I think it is going to be later on beneficial for you if you know the CSS properly.
+**Kamran Ahmed:** \{24:12\} I would not recommend that. When you look at, for example, Bootstrap or Tailwind or something, you easily get motivated; you look at beautiful pages and then you get motivated to learn that stuff. But I think it is going to be later on beneficial for you if you know the CSS properly.
 
 If you look at the purple boxes, I say learn the basics, learn the layouts - so these are the items that I think you should learn beforehand, before you jump on to the frameworks... And you don't really need to learn about animation, and CSS tree stuff, and all of this deep, deep stuff... Just get the basic idea, learn how to create the basic pages and then move on to maybe the frameworks. If you look at the CSS frameworks, I have put it fifth, sixth place maybe; it's quite below there.
 
@@ -160,7 +160,7 @@ If you look at the purple boxes, I say learn the basics, learn the layouts - so 
 
 But if your goal is hireabilty, like you said, the knowledge about Flexbox, and Grid, and these things are gonna be the kind of questions that hiring managers are gonna ask you if they're hiring for a frontend position. They're not gonna say "Do you have Tailwind's classics memorized?" for example. Well said.
 
-**Kamran Ahmed:** One more thing. This roadmap gets popped up on Hacker News quite a lot, and every time I look at the comments, I get bashed for all of this... That you don't need to learn CSS that much, you don't need to learn JavaScript. Just move on to Bootstrap, or use React, and all. So this is my point - what is your end goal? If you want to be employable, then this stuff is going to be for that. If you wanna just build some stuff, you don't need to learn half of the items that are listed, and all of those roadmap items.
+**Kamran Ahmed:** One more thing. This roadmap gets popped up on Hacker News quite a lot, and every time I look at the comments, I get bashed for all of this... That you don't need to learn CSS that much, you don't need to learn JavScript. Just move on to Bootstrap, or use React, and all. So this is my point - what is your end goal? If you want to be employable, then this stuff is going to be for that. If you wanna just build some stuff, you don't need to learn half of the items that are listed, and all of those roadmap items.
 
 **Jerod Santo:** Yeah. Well, there's not very much nuance on Hacker News. There's a lot of Caps Lock writing... But I think that conversations like these help to tease out the nuance. And one of the situations that we're in culturally is that there's a fine line between somebody who's an entrepreneur/startup/freelancer, and a full-time web developer employee... Because you can toggle back and forth between those quite often. In fact, when you can't find a job, everyone's a freelancer, right? Like "Hey, I'm freelancing. Hey, I've got my own thing I'm doing." So you get into that "Ship it" mindset, the productivity/technical debt mindset, because you are trying to get something out there and show what you can build... And a framework is absolutely gonna give you a shortcut to that.
 
@@ -168,19 +168,19 @@ But if your goal is hireabilty, like you said, the knowledge about Flexbox, and 
 
 **Jerod Santo:** But then when you go to the point of hiring and interviewing and working full-time for a company, they aren't interested necessarily in specific CSS frameworks, they're interested in what you know, what you can build... And you kind of toggle back and forth, so it's an interesting dichotomy.
 
-Okay, so moving on from that... Then we come into JavaScript, and this is like -- you know, the cake gets bigger; it's like top-heavy, right? The base foundation - yeah, there's stuff to learn with HTML, but it's pretty straightforward. You can have a cheatsheet of all the elements, when to use what, and you understand the sideways tree structure... It's there, but it's not much. And the CSS is more, but then when you get into the land of JavaScript - holy cow. It's a whole new world of complexity and choices...
+Okay, so moving on from that... Then we come into JavScript, and this is like -- you know, the cake gets bigger; it's like top-heavy, right? The base foundation - yeah, there's stuff to learn with HTML, but it's pretty straightforward. You can have a cheatsheet of all the elements, when to use what, and you understand the sideways tree structure... It's there, but it's not much. And the CSS is more, but then when you get into the land of JavScript - holy cow. It's a whole new world of complexity and choices...
 
-**Kamran Ahmed:** \[28:17\] Yeah, so JavaScript - I agree, there's a lot of stuff that you can learn. I have mentioned a couple of items. If you look, there's only 3-4 items there... So in my own opinion, I think you just need to learn all of this, and you don't really need to go deep down, because that stuff you can learn while you are for example doing projects, or you're learning about frameworks in JavaScript. You can go and learn all of that stuff while you're doing that.
+**Kamran Ahmed:** \{28:17\} Yeah, so JavScript - I agree, there's a lot of stuff that you can learn. I have mentioned a couple of items. If you look, there's only 3-4 items there... So in my own opinion, I think you just need to learn all of this, and you don't really need to go deep down, because that stuff you can learn while you are for example doing projects, or you're learning about frameworks in JavScript. You can go and learn all of that stuff while you're doing that.
 
 So you can just, for example, look at learning the basics, learn how to create the variable looks, and all of this stuff, get the idea about how to make the API calls, learn about the classes, and so on... And then you can move on to the next step.
 
-So you don't really need to master everything in JavaScript. Just get the idea about it. This will help you make the projects, and then you can move on and create projects, and then learn on the way.
+So you don't really need to master everything in JavScript. Just get the idea about it. This will help you make the projects, and then you can move on and create projects, and then learn on the way.
 
-**Jerod Santo:** Right. So a lot of this starts off as actually just programming ideas, right? Variables, control flow, what are functions, how do you call a function, how do you write a function. Basic syntax of JavaScript, basic constructs... And then you add to that. So if there's four things that you say right away learn for JavaScript to get going, it's the syntax and the basic constructs. It's learn DOM manipulation, understand how JavaScript maps onto the HTML that's inside of your browser, the document object model, and then how to change things inside of that by calling these functions.
+**Jerod Santo:** Right. So a lot of this starts off as actually just programming ideas, right? Variables, control flow, what are functions, how do you call a function, how do you write a function. Basic syntax of JavScript, basic constructs... And then you add to that. So if there's four things that you say right away learn for JavScript to get going, it's the syntax and the basic constructs. It's learn DOM manipulation, understand how JavScript maps onto the HTML that's inside of your browser, the document object model, and then how to change things inside of that by calling these functions.
 
-Then you say learn the Fetch API, or Ajax... And then you say ES6+ and modular JavaScript. So you're getting more JavaScript-specific as we go down... And then finally, just understanding some of these concepts like hoisting, event bubbling, scope - which is a generic programming concept, but how that applies inside of JavaScript... Prototypes, shadow DOM... Okay, we're getting pretty complicated at that point. And Strict Mode, stuff like that.
+Then you say learn the Fetch API, or Ajax... And then you say ES6+ and modular JavScript. So you're getting more JavScript-specific as we go down... And then finally, just understanding some of these concepts like hoisting, event bubbling, scope - which is a generic programming concept, but how that applies inside of JavScript... Prototypes, shadow DOM... Okay, we're getting pretty complicated at that point. And Strict Mode, stuff like that.
 
-So it's really like "Get the foundations of programming, understand how those are laid out inside of JavaScript, learn about the DOM and how to fetch things, how to go and do Ajax calls." And then you're basically ready to move on from there. Is that what you're saying?
+So it's really like "Get the foundations of programming, understand how those are laid out inside of JavScript, learn about the DOM and how to fetch things, how to go and do Ajax calls." And then you're basically ready to move on from there. Is that what you're saying?
 
 **Kamran Ahmed:** Yes.
 
@@ -194,17 +194,17 @@ So it's really like "Get the foundations of programming, understand how those ar
 
 **Jerod Santo:** ...just like the basics. So why would we learn version control at this phase?
 
-**Kamran Ahmed:** Because now that you know about HTML, CSS and JavaScript, now you're probably building some stuff. So you can make a simple web page or a simple project of your own... Now you can learn about Git, and GitHub, and now you can learn how to collaborate with other developers. So at this point you can make a full-fledged website, the frontend at least.
+**Kamran Ahmed:** Because now that you know about HTML, CSS and JavScript, now you're probably building some stuff. So you can make a simple web page or a simple project of your own... Now you can learn about Git, and GitHub, and now you can learn how to collaborate with other developers. So at this point you can make a full-fledged website, the frontend at least.
 
 **Jerod Santo:** Yeah.
 
 **Kamran Ahmed:** So at this point, I think it is beneficial to learn Git, so that you can work with others, and share your work with the public - for example, put it on GitHub and share it with your employer, and so on.
 
-**Jerod Santo:** Yeah, start getting that public profile so that you can display to people what it is that you've created, and things that you've built. So do you think it's fair to say at this point -- so I've made it through understanding the basics of the internet, HTML and CSS, and I've got my foundations in JavaScript - of course, there's tons more to it that I will learn over time... And I can collaborate, to a certain degree. Do you think I'm hireable probably at this point by somebody out there?
+**Jerod Santo:** Yeah, start getting that public profile so that you can display to people what it is that you've created, and things that you've built. So do you think it's fair to say at this point -- so I've made it through understanding the basics of the internet, HTML and CSS, and I've got my foundations in JavScript - of course, there's tons more to it that I will learn over time... And I can collaborate, to a certain degree. Do you think I'm hireable probably at this point by somebody out there?
 
-**Kamran Ahmed:** I think you're hireable if you look at JavaScript. If you learn about HTML, CSS, JavaScript, you can easily get freelance jobs. There's a lot of people looking for freelancers who can do that. But if you're going to work for some company, I think after you learn version control, and GitHub, and Git, you should be easily hireable at a junior role at some company... Because I know a lot of people who are doing that. At my current company also we have a lot of developers who just know HTML, CSS and JavaScript and they are making the CSS pages, the frontend, the static pages.
+**Kamran Ahmed:** I think you're hireable if you look at JavScript. If you learn about HTML, CSS, JavScript, you can easily get freelance jobs. There's a lot of people looking for freelancers who can do that. But if you're going to work for some company, I think after you learn version control, and GitHub, and Git, you should be easily hireable at a junior role at some company... Because I know a lot of people who are doing that. At my current company also we have a lot of developers who just know HTML, CSS and JavScript and they are making the CSS pages, the frontend, the static pages.
 
-**Jerod Santo:** \[32:10\] Then we move into what I would consider the heavy frontend world... Package managers, pre-processors, build tools, frameworks, web components and so on.
+**Jerod Santo:** \{32:10\} Then we move into what I would consider the heavy frontend world... Package managers, pre-processors, build tools, frameworks, web components and so on.
 
 **Kamran Ahmed:** Yes.
 
@@ -238,15 +238,15 @@ But if you look at the job market right now -- I mean, all of these are great; S
 
 **Jerod Santo:** We've got a typo on that one.
 
-**Kamran Ahmed:** Yeah, the s is missing. I've found a bug now. \[laughter\] So if you look at the modern way of writing the modern JavaScript apps, whether it is React.js, Angular or Vue.js - so we are not writing the CSS in the old ways, putting the CSS inside the link tag, and all of that. Now we have CSS in JS, and so on. So for that, I have mentioned the StyledComponents, or the CSS Modules. I need to highlight this bit in the 2021 version, because I think Emotion is also getting used a lot, and also there's Chakra UI coming up also, and there's Tailwind also... So I need to highlight this section on the CSS a little bit.
+**Kamran Ahmed:** Yeah, the s is missing. I've found a bug now. \[laughter\] So if you look at the modern way of writing the modern JavScript apps, whether it is React.js, Angular or Vue.js - so we are not writing the CSS in the old ways, putting the CSS inside the link tag, and all of that. Now we have CSS in JS, and so on. So for that, I have mentioned the StyledComponents, or the CSS Modules. I need to highlight this bit in the 2021 version, because I think Emotion is also getting used a lot, and also there's Chakra UI coming up also, and there's Tailwind also... So I need to highlight this section on the CSS a little bit.
 
-But yeah, if you look at the modern way of writing JavaScript apps, like the React.js and Angular or Vue or whatever, the modern CSS is a bit different from that. So I'll have a separate section highlighting that you just need to know how to write that kind of CSS inside of the link tags.
+But yeah, if you look at the modern way of writing JavScript apps, like the React.js and Angular or Vue or whatever, the modern CSS is a bit different from that. So I'll have a separate section highlighting that you just need to know how to write that kind of CSS inside of the link tags.
 
 **Jerod Santo:** Absolutely. So then you have Web Components, which is kind of an optional path...
 
 **Kamran Ahmed:** Yeah.
 
-**Jerod Santo:** \[36:09\] CSS frameworks - here's where we bust open again, similar to JS frameworks; now we're talking about CSS frameworks, and there's lots of options there... How do you evaluate something to choose in this way? You gave the reason for React in terms of the JavaScript, but when it comes to CSS frameworks, what's your criteria for selecting, or starting somewhere?
+**Jerod Santo:** \{36:09\} CSS frameworks - here's where we bust open again, similar to JS frameworks; now we're talking about CSS frameworks, and there's lots of options there... How do you evaluate something to choose in this way? You gave the reason for React in terms of the JavScript, but when it comes to CSS frameworks, what's your criteria for selecting, or starting somewhere?
 
 **Kamran Ahmed:** For CSS my personal criteria is just looking at the community and looking at the existing projects and are other people using it. I think when it comes to CSS frameworks, there's no recommendation, no strict kind of my personal opinion on that. So whatever works for you, you can use that.
 
@@ -272,7 +272,7 @@ The nice thing about it is it's a skillset and a mindset, really, that once you 
 
 Once you understand how to do automated testing -- of course, it is contextual to the particular technology; how you go about doing unit tests versus integration tests is gonna change over time as well. Once you have that down, you can start to slot it in as you learn other things. But it is really tricky to tell somebody when they should learn how to write automated tests, because you've gotta know how to do the thing before you can learn how to test the thing, kind of.
 
-**Kamran Ahmed:** \[40:10\] Yeah, it's definitely an important thing. For me, honestly, I did not learn formally testing while I was applying for jobs. I definitely learned all of this while I was working at some company. Because this is not the stuff that is asked much. They definitely ask you what different types of testing there are, what the mocks are, all of this stuff, but they don't ask you how to write this and that.
+**Kamran Ahmed:** \{40:10\} Yeah, it's definitely an important thing. For me, honestly, I did not learn formally testing while I was applying for jobs. I definitely learned all of this while I was working at some company. Because this is not the stuff that is asked much. They definitely ask you what different types of testing there are, what the mocks are, all of this stuff, but they don't ask you how to write this and that.
 
 So definitely, you need to know about this, but once you're hired, you can definitely look, as you said, look at the people who are writing the tests and learn from them. You can learn on the job also.
 
@@ -286,15 +286,15 @@ So definitely, you don't need to learn all of this, but you need to know what th
 
 **Jerod Santo:** Yeah, fair enough. Anything else before we shift our focus to the backend on this? I know we've skipped over a bunch; we're not trying to be comprehensive here. But is there anything else on the frontend roadmap that you think is worth mentioning before we change our focus?
 
-**Kamran Ahmed:** Again, I would just say, pick HTML, CSS, JavaScript, then Git, and React. js, and learn maybe the testing. Those are the 4-5 items that you need to learn. So don't look at the roadmap if you are overwhelmed by all of this. Just pick these 4-5 items and you're good. Just start working on the projects, and do a lot of projects, and then you learn along the way. Most of the items listed here - you don't even need to spend so much time on it; you can learn it while you're building stuff.
+**Kamran Ahmed:** Again, I would just say, pick HTML, CSS, JavScript, then Git, and React. js, and learn maybe the testing. Those are the 4-5 items that you need to learn. So don't look at the roadmap if you are overwhelmed by all of this. Just pick these 4-5 items and you're good. Just start working on the projects, and do a lot of projects, and then you learn along the way. Most of the items listed here - you don't even need to spend so much time on it; you can learn it while you're building stuff.
 
 For example, I have a section for Npm \[unintelligible 00:42:34.02\] I have a section for a lot of different things that you don't need to learn. You learn it while you're building software.
 
-**Break:** \[42:42\]
+**Break:** \{42:42\}
 
 **Jerod Santo:** So as we turn our focus to the backend, one thing that's interesting right off the bat - it starts pretty much the same as the frontend roadmap. You start off with learning the internet, and learning basic frontend knowledge, and then going from there. Why did you start here, Kamran?
 
-**Kamran Ahmed:** Yeah, so I think it's the same thing - you need to learn about the internet because no matter if you are doing the frontend or the backend, you need to know how the internet is working, and the hosting, and what a domain name is, because in the end, you are building for the web, right? For the frontend or for the backend. So the internet is there; then the basic frontend knowledge - you see here, I did not mention really the items that you need to learn, because it is just a basic idea about the HTML, CSS and JavaScript... Because at some point you're going to have to do the frontend also, to be able to work with your backend. So that's why it is there, for the basic frontend knowledge you need to know.
+**Kamran Ahmed:** Yeah, so I think it's the same thing - you need to learn about the internet because no matter if you are doing the frontend or the backend, you need to know how the internet is working, and the hosting, and what a domain name is, because in the end, you are building for the web, right? For the frontend or for the backend. So the internet is there; then the basic frontend knowledge - you see here, I did not mention really the items that you need to learn, because it is just a basic idea about the HTML, CSS and JavScript... Because at some point you're going to have to do the frontend also, to be able to work with your backend. So that's why it is there, for the basic frontend knowledge you need to know.
 
 **Jerod Santo:** Yeah.
 
@@ -306,7 +306,7 @@ For example, I have a section for Npm \[unintelligible 00:42:34.02\] I have a se
 
 **Jerod Santo:** Yeah.
 
-**Kamran Ahmed:** Also, if you're for example doing JavaScript, you don't need to know about threads and concurrency, or whatever. So there's a lot of different stuff here in the OS segment that you don't really need to know in the beginning. This can come later also.
+**Kamran Ahmed:** Also, if you're for example doing JavScript, you don't need to know about threads and concurrency, or whatever. So there's a lot of different stuff here in the OS segment that you don't really need to know in the beginning. This can come later also.
 
 **Jerod Santo:** Yeah. Let me submit something to you... So I agree that these are all things to have general operating system knowledge, and really what you're talking is kind of like how a server operates.
 
@@ -334,21 +334,21 @@ But I think maybe simplifying this and moving those down to where those could be
 
 **Kamran Ahmed:** Yeah.
 
-**Jerod Santo:** Well said. This goes into a DevOps thing eventually. But then we get down to what's really interesting. Of course, you're on JS Party, so we've already made our decision - the backend is JavaScript... No. Learn a language, right? So unlike in the browser -and maybe Web Assembly will change this - you're basically writing JavaScript in the browser. Maybe you're writing TypeScript, maybe you're writing something that compiles to JavaScript... But we're executing JavaScript in the browser, at least for now, until a lot of the WASM stuff really takes over and we can write whatever language we want and run it in the browser.
+**Jerod Santo:** Well said. This goes into a DevOps thing eventually. But then we get down to what's really interesting. Of course, you're on JS Party, so we've already made our decision - the backend is JavScript... No. Learn a language, right? So unlike in the browser -and maybe Web Assembly will change this - you're basically writing JavScript in the browser. Maybe you're writing TypeScript, maybe you're writing something that compiles to JavScript... But we're executing JavScript in the browser, at least for now, until a lot of the WASM stuff really takes over and we can write whatever language we want and run it in the browser.
 
-But on the backend - choice now. Massive amounts of choice. You do not need to run JavaScript on your backend, and so now it's time to learn and pick a language.
+But on the backend - choice now. Massive amounts of choice. You do not need to run JavScript on your backend, and so now it's time to learn and pick a language.
 
-**Kamran Ahmed:** Learn a language - so as I said earlier, in the beginning, this roadmap is more of a job-oriented. If you look at the Learn a Language section, for example I have highlighted JavaScript as my recommendation, because JavaScript definitely has more jobs than just the items that I have mentioned here... But definitely they are booming also. For example, Java has a lot of jobs, Go has a lot of jobs also...
+**Kamran Ahmed:** Learn a language - so as I said earlier, in the beginning, this roadmap is more of a job-oriented. If you look at the Learn a Language section, for example I have highlighted JavScript as my recommendation, because JavScript definitely has more jobs than just the items that I have mentioned here... But definitely they are booming also. For example, Java has a lot of jobs, Go has a lot of jobs also...
 
-JavaScript I have mentioned because JavaScript is easier for the people with the frontend knowledge, for example, or the people who already are getting into web development; they know JavaScript a little bit also, so it is easier for them to learn JavaScript. So in this section I just mentioned to learn the basics of programming with the language of your choice, whatever you picked.
+JavScript I have mentioned because JavScript is easier for the people with the frontend knowledge, for example, or the people who already are getting into web development; they know JavScript a little bit also, so it is easier for them to learn JavScript. So in this section I just mentioned to learn the basics of programming with the language of your choice, whatever you picked.
 
-**Jerod Santo:** \[48:23\] Yeah. So it's very much context-dependent, right? There's a lot of good languages on the backend. They all have pros and cons. I think the job market is a good way of gauging, like "Well, I'm just getting started. I don't know how to pick the best language because I don't know what the best language might look like. Why don't you just tell me what's the best language?" And when it comes to hiring - well, you just sort by most opportunity, right? And I agree with you, JavaScript is absolutely right there at the top, and it has the benefit of saving time... Because you're already learning some frontend stuff, you're already learning JavaScript, to a certain degree...
+**Jerod Santo:** \{48:23\} Yeah. So it's very much context-dependent, right? There's a lot of good languages on the backend. They all have pros and cons. I think the job market is a good way of gauging, like "Well, I'm just getting started. I don't know how to pick the best language because I don't know what the best language might look like. Why don't you just tell me what's the best language?" And when it comes to hiring - well, you just sort by most opportunity, right? And I agree with you, JavScript is absolutely right there at the top, and it has the benefit of saving time... Because you're already learning some frontend stuff, you're already learning JavScript, to a certain degree...
 
 Let's face it, a backend developer needs to know some frontend. And I'll say it, a frontend developer needs to know some backend. They don't need to be full-stack, they're not gonna have all the knowledge about all the things, but you are more useful and more valuable and more productive as a developer if you understand the other side of the conversation that you're having. And whether you're on the client side or the server side, you need to know some of the other.
 
-So most people writing backend - they know some JavaScript, right? You've picked up some JavaScript. So it's nice not having to learn a whole other language, especially when it's already highly in demand.
+So most people writing backend - they know some JavScript, right? You've picked up some JavScript. So it's nice not having to learn a whole other language, especially when it's already highly in demand.
 
-**Kamran Ahmed:** Yeah. And also, one thing that I recommend to people mostly is to go to, for example, Stack Overflow Careers. For example, if you're targeting Germany, pick the location for Germany and look for the jobs. Sort by the skills. What is there most clear? You'll see that it's JavaScript, for example, or Go, or whatever. And pick from there.
+**Kamran Ahmed:** Yeah. And also, one thing that I recommend to people mostly is to go to, for example, Stack Overflow Careers. For example, if you're targeting Germany, pick the location for Germany and look for the jobs. Sort by the skills. What is there most clear? You'll see that it's JavScript, for example, or Go, or whatever. And pick from there.
 
 Go to LinkedIn Jobs and look at the jobs of your target area. What is the skillset that is more in demand? And pick the language from there. If you're not building your own project, it really depends on the job market.
 
@@ -356,7 +356,7 @@ Go to LinkedIn Jobs and look at the jobs of your target area. What is the skills
 
 **Kamran Ahmed:** Yeah, for example Stack Overflow releases their survey also... For example The State of JS, or the Stack Overflow Survey, and all. I normally look there also. You can look at this stuff also and see where it is going. For example, GitHub also releases like \[unintelligible 00:50:43.17\] So you can look at all of these surveys that other companies are doing and then get the idea from there also.
 
-**Jerod Santo:** Right. Another way you can do it is you can sort by the language that has the best podcast support. JavaScript has JS Party, there's Syntax, there's all these shows... Yeah, sort by then. And then also Go has GoTime, which is an awesome podcast... So like hey, maybe learn Go, because there's an awesome podcast. I'm just now being silly, but... There you go; another way you can sort your languages.
+**Jerod Santo:** Right. Another way you can do it is you can sort by the language that has the best podcast support. JavScript has JS Party, there's Syntax, there's all these shows... Yeah, sort by then. And then also Go has GoTime, which is an awesome podcast... So like hey, maybe learn Go, because there's an awesome podcast. I'm just now being silly, but... There you go; another way you can sort your languages.
 
 So you've picked a language, you've learned the language... Core details about its runtime... Really diving deep, to a certain degree. Maybe not like you are expert-level, but proficient I think is the goal here. Proficient with this language.
 
@@ -368,7 +368,7 @@ So you've picked a language, you've learned the language... Core details about i
 
 And if you go down, then I have the databases. That's where things get interesting, where you learn how to make full-fledged applications...
 
-**Jerod Santo:** \[52:10\] Yeah. So you have now databases, you have relational databases as the first step, with Postgres as your personal opinion; I share that opinion, so hey - team Postgres. But then it goes -- there is the technologies, like Postgres, versus Maria, versus Microsoft, SQL, Oracle etc. but really what you want is the concepts at this point. You have to pick one to learn on. But the point is "How do I design a database? How do I run a database? How do I make queries? How do I put stuff in the database?" That's foundational knowledge and transferable knowledge, and really what you're after, regardless of which database you're picking.
+**Jerod Santo:** \{52:10\} Yeah. So you have now databases, you have relational databases as the first step, with Postgres as your personal opinion; I share that opinion, so hey - team Postgres. But then it goes -- there is the technologies, like Postgres, versus Maria, versus Microsoft, SQL, Oracle etc. but really what you want is the concepts at this point. You have to pick one to learn on. But the point is "How do I design a database? How do I run a database? How do I make queries? How do I put stuff in the database?" That's foundational knowledge and transferable knowledge, and really what you're after, regardless of which database you're picking.
 
 **Kamran Ahmed:** Yeah. Also, at this second what I meant to say is just learn how to do \[unintelligible 00:52:52.17\] and get the basics out of the way... Because this stuff about the performance and all - this is somewhere down below on the roadmap also. So here just learn how to do the CRUD operations. And this is transferable knowledge. For example, if you learn Postgres, you already know MySQL.
 
@@ -380,9 +380,9 @@ And if you go down, then I have the databases. That's where things get interesti
 
 **Kamran Ahmed:** So yeah, that's about it. Learn about that. And then for example if you look at the More About Databases section, I have mentioned most of the performance stuff, and the database schema design, and all of this and that.
 
-**Jerod Santo:** Yeah, so one thing I've noticed as I've been in this industry for quite some time now, and have seen different people come up through different stacks and pick different technologies based on the community they're in, or just what they're exposed to, is that JavaScript backend developers do tend to get exposed to NoSQL databases, specifically MongoDB, sooner than relational databases. With other backends - I think with the Ruby community it's kind of the other way around... And I'm curious what your history is with databases. Did you start on a relational in terms of learning, or did you start with a document database like Mongo and moved to relational? What was your experience?
+**Jerod Santo:** Yeah, so one thing I've noticed as I've been in this industry for quite some time now, and have seen different people come up through different stacks and pick different technologies based on the community they're in, or just what they're exposed to, is that JavScript backend developers do tend to get exposed to NoSQL databases, specifically MongoDB, sooner than relational databases. With other backends - I think with the Ruby community it's kind of the other way around... And I'm curious what your history is with databases. Did you start on a relational in terms of learning, or did you start with a document database like Mongo and moved to relational? What was your experience?
 
-**Kamran Ahmed:** I think picking the right tool for the right job is my mantra, kind of. I started with PHP in the beginning, so I did PHP a lot for 4-5 years... And I was using mainly MySQL with that. After that I tried PostgreSQL and I went with that; I used PostgreSQL for some time. Then I moved to JavaScript and started using MongoDB. So my history is kind of that...
+**Kamran Ahmed:** I think picking the right tool for the right job is my mantra, kind of. I started with PHP in the beginning, so I did PHP a lot for 4-5 years... And I was using mainly MySQL with that. After that I tried PostgreSQL and I went with that; I used PostgreSQL for some time. Then I moved to JavScript and started using MongoDB. So my history is kind of that...
 
 I think PostgreSQL is booming. PostgreSQL has a lot of stuff that you can do with \[unintelligible 00:54:32.19\] So PostgreSQL is definitely my choice when you know about the schema and when you know what you're going to store... But MongoDB - we are using heavily MongoDB also, because we have the third-party services, so we don't really know about the schema that is going to be coming from there... So we went with MongoDB for some of the parts, and we went with Postgres for some of the internal applications where we knew what we are going to store and how the \[unintelligible 00:55:00.26\] is going to look like. So it really depends upon the use case.
 
@@ -396,7 +396,7 @@ I think PostgreSQL is booming. PostgreSQL has a lot of stuff that you can do wit
 
 **Jerod Santo:** So the more that you can learn about how a database operates, and how you can interact with a database, and optimize that, you are going to be more valuable. And after databases it's Learning About APIs. There's a lot to talk about here as well.
 
-**Kamran Ahmed:** \[56:13\] Yeah, so for the APIs I think most of the applications being built these days is just the APIs. For the past 3-4 years I have never done an application which was just an application rendering the HTML page from the backend itself. I mean, we do SSR and stuff, but this is also now built with APIs. So I think APIs are really important. Learning about the REST and JSON APIs, and the authentication, those kinds of mechanisms, is important. You just learn that, and there are different mechanisms; there's gRPC, there's SOAP, and so on. And how you write the APIs.
+**Kamran Ahmed:** \{56:13\} Yeah, so for the APIs I think most of the applications being built these days is just the APIs. For the past 3-4 years I have never done an application which was just an application rendering the HTML page from the backend itself. I mean, we do SSR and stuff, but this is also now built with APIs. So I think APIs are really important. Learning about the REST and JSON APIs, and the authentication, those kinds of mechanisms, is important. You just learn that, and there are different mechanisms; there's gRPC, there's SOAP, and so on. And how you write the APIs.
 
 **Jerod Santo:** I would tend to agree. Where does GraphQL fit into this? Because it is trending in the upward direction.
 

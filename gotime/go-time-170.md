@@ -318,7 +318,7 @@ And when I saw that, I immediately demanded in my open source friendly sort of w
 
 **Brian Ketelsen:** Why wouldn't you do that if you could?
 
-**Jon Calhoun:** I think that's probably the big appeal for any code generation. Mat, you've mentioned Oto before, and you use that to generate both Go side code and JavaScript code to connect to it... And just having that idea of the developer only has to do something once is very appealing. I suspect that's also why, when we look at code generation, there are several tools out there for generating basically models to connect to a database... And I think that's appealing to a lot of people, because they think "I don't wanna write all this code that connects to the database."
+**Jon Calhoun:** I think that's probably the big appeal for any code generation. Mat, you've mentioned Oto before, and you use that to generate both Go side code and JavScript code to connect to it... And just having that idea of the developer only has to do something once is very appealing. I suspect that's also why, when we look at code generation, there are several tools out there for generating basically models to connect to a database... And I think that's appealing to a lot of people, because they think "I don't wanna write all this code that connects to the database."
 
 And I know people have mixed feelings about using something like that versus not, but it is by far one of the more common use cases I see, and I think it's because people are just attracted to that idea of "I only have to define this stuff once, and then all the other code for it is generated."
 
@@ -338,7 +338,7 @@ I've definitely seen cases where if you have the Go stuff defining what the data
 
 **Mat Ryer:** Yes... And we're also cordial to each other, too.
 
-**Break:** \[33:51\]
+**Break:** \{33:51\}
 
 **Mat Ryer:** There's another interesting use case I've seen for this... Ernesto Jiménez did it in Testify. There's two packages in Testify for assertions. There's the Assert package, and then there's the Require package. And the only difference is one will fail immediately, and the other - you kind of carry on and collect failures up and present them all in one Go. And a lot of people prefer tests when they fail to just fail at the first thing, and then you can just address that, and then work in that way.
 
@@ -446,7 +446,7 @@ We have a tweet just come in -- not just come in; I'm just trying to make this f
 
 **Mat Ryer:** Yeah. That's why I see code generation as a dev time exercise, for that reason, and others.
 
-**Break:** \[50:53\]
+**Break:** \{50:53\}
 
 **Mat Ryer:** This just in! ...I have another one from a website called Twitter... And this is from Tobias. Tobias asks "How would you generate code split into multiple files or directory, to get you started for new projects or parts of projects?" So has anybody seen code generation for bootstrapping projects? A bit like how Rails used to have that rails generate command.
 

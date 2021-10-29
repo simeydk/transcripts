@@ -22,7 +22,7 @@
 
 **Jerod Santo:** Divya is an old pro at Frontend Feud, but I believe the rest of us are all new, even Amelia, so we should have a lot of fun. I'll quickly explain the rules. So this is a game all about the JS Party lovely listeners. We had 140 people fill out our Frontend Feud survey. We appreciate y'all for doing that. I really appreciate you, because I went back to the form at the end and realized the average take time was 37 minutes. I am so sorry. That thing took forever. And that's because we asked 25 questions, so we can play the game a few times, without having to go back and do more surveys. So I super-appreciate all of y'all for filling those out.
 
-\[04:22\] The goal of the game is to match our listeners' answers. So we have polled them on different things, and each team is gonna try to match the answer with the most answers from the survey. And as you go about doing that, you win points. If you fail to do that three times in a round, the other team can steal, and the team with the most points at the end of the game wins. Any questions?
+\{04:22\} The goal of the game is to match our listeners' answers. So we have polled them on different things, and each team is gonna try to match the answer with the most answers from the survey. And as you go about doing that, you win points. If you fail to do that three times in a round, the other team can steal, and the team with the most points at the end of the game wins. Any questions?
 
 **Chris Coyier:** It's not the most correct answer, right? I used to play Apples to Apples with my super-pedantic uncle, and he was always like "But my answer is more correct" and you're like "Dennis! It's not about correctness!" \[laughter\]
 
@@ -112,7 +112,7 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Dave Rupert:** Wow, number three?!
 
-**Jerod Santo:** \[08:05\] So we have one strike against you. You have Chrome at number one, Firefox at two, Brave at three... We also said Safari at five. Did you say the number four? You did, you said Edge, at number four. So there's one left.
+**Jerod Santo:** \{08:05\} So we have one strike against you. You have Chrome at number one, Firefox at two, Brave at three... We also said Safari at five. Did you say the number four? You did, you said Edge, at number four. So there's one left.
 
 **Chris Coyier:** That's nuts.
 
@@ -266,7 +266,7 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Scott Tolinski:** Use, but don't understand... I am going to say it is -- I have a lot of options here. \[laughter\] Let's just say... Let's say WebPack.
 
-**Wes Bos:** \[12:19\] That's a good answer.
+**Wes Bos:** \{12:19\} That's a good answer.
 
 **Jerod Santo:** Show me WebPack. Number one answer.
 
@@ -390,11 +390,11 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Amelia Wattenberger:** I had Git, too. I also have Bash...
 
-**Chris Coyier:** JavaScript is a troll answer, too...
+**Chris Coyier:** JavScript is a troll answer, too...
 
 **Dave Rupert:** Bash, okay...
 
-**Amelia Wattenberger:** JavaScript is good, Bash... And Babel, which I don't know about.
+**Amelia Wattenberger:** JavScript is good, Bash... And Babel, which I don't know about.
 
 **Divya:** Oh, I just thought of one...!
 
@@ -408,7 +408,7 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Amelia Wattenberger:** I like Git.
 
-**Chris Coyier:** \[15:58\] Okay, we're gonna go with Git.
+**Chris Coyier:** \{15:58\} Okay, we're gonna go with Git.
 
 **Jerod Santo:** Alright. For the steal, show me Git. \[win sound\]
 
@@ -462,7 +462,7 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Divya:** Nice!
 
-**Break**: \[17:26\]
+**Break**: \{17:26\}
 
 **Jerod Santo:** Alright, let's move to round three, which is gonna be Dave versus Wes. Now, Team Syntax got to guess first last round, so we'll go to Dave for the first guess. We asked 140 brilliant JS Party listeners "What's something you do to reach a state of dev flow?" Yes, Dave.
 
@@ -482,7 +482,7 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Jerod Santo:** Show me "Drink coffee." Number four answer, good job.
 
-**Scott Tolinski:** \[20:07\] Wow, four...
+**Scott Tolinski:** \{20:07\} Wow, four...
 
 **Jerod Santo:** That's generally drinking things. Drink coffee, people said drink tea, drink energy drinks... That's worth nine points, so good one. And now it is Chris' turn.
 
@@ -584,7 +584,7 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Wes Bos:** Yeah. I was gonna say, noise-cancelling headphones, white noise...
 
-**Scott Tolinski:** \[24:10\] White noise, yeah...
+**Scott Tolinski:** \{24:10\} White noise, yeah...
 
 **Wes Bos:** Exercise...
 
@@ -716,7 +716,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Jerod Santo:** And we will have no conferring during this time.
 
-**Wes Bos:** \[28:11\] Yeah, but you don't want the ones that are so far gone... You want the six most popular elements.
+**Wes Bos:** \{28:11\} Yeah, but you don't want the ones that are so far gone... You want the six most popular elements.
 
 **Jerod Santo:** That's right. Four, five and six are the sweet spot.
 
@@ -788,7 +788,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Jerod Santo:** Show me "a". \[fail sound\]
 
-**Dave Rupert:** That checks out. It's a JavaScript podcast. \[laughter\] \[unintelligible 00:30:12.02\]
+**Dave Rupert:** That checks out. It's a JavScript podcast. \[laughter\] \[unintelligible 00:30:12.02\]
 
 **Jerod Santo:** I'll just say, personally, "a" is my favorite element, personally...
 
@@ -834,7 +834,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Scott Tolinski:** All that default styling...
 
-**Dave Rupert:** I forgot it's a JavaScript podcast!
+**Dave Rupert:** I forgot it's a JavScript podcast!
 
 **Divya:** It's a React podcast now.
 
@@ -862,7 +862,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Jerod Santo:** 45 respondents' answer was div. Okay. We now have number one, div, number two, marquee... I can't remember the other ones. Number five, "p" tag.
 
-**Divya:** \[32:15\] I think it was like button and "p".
+**Divya:** \{32:15\} I think it was like button and "p".
 
 **Wes Bos:** Button is number three, marquee is number two.
 
@@ -956,7 +956,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Divya:** That's true.
 
-**Jerod Santo:** And the number six most popular... Hey, it is a JavaScript podcast after all - script.
+**Jerod Santo:** And the number six most popular... Hey, it is a JavScript podcast after all - script.
 
 **Divya:** Oh, what...?!
 
@@ -970,7 +970,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Jerod Santo:** I counted that towards the div, so they got their points. Alright, so in that round, ShopTalk scored 20 and Syntax scored 90. So we have a game here... It's going back and forth, and after four rounds, syntax is in the lead with 227, and ShopTalk trails with 193. It's anybody's game at this point.
 
-**Break:** \[35:40\]
+**Break:** \{35:40\}
 
 **Jerod Santo:** We now go to round five, and I'll tell you, in round five all scoring is doubled, so it's certainly anybody's match... Let's get back to the face-off. And everybody has faced off at this point, correct?
 
@@ -1080,7 +1080,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Scott Tolinski:** All the things on my list are X'es. Yeah, this is crazy.
 
-**Divya:** \[40:19\] I know. I was like, "Come on."
+**Divya:** \{40:19\} I know. I was like, "Come on."
 
 **Jerod Santo:** So ShopTalk can steal... There's still three things on the board. We only have number one.
 
@@ -1226,7 +1226,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Jerod Santo:** Alright, round six is also a double score round, so this is ShopTalk's big chance to make a comeback. Step right up. Chris versus Scott. Now, which one of you two got the first guess last time around? Was it Scott? We'll let Chris take the first guess here.
 
-**Scott Tolinski:** \[44:12\] I did.
+**Scott Tolinski:** \{44:12\} I did.
 
 **Jerod Santo:** Round six, a double round... We asked 140 intelligent JS Party listeners "Name an organization that helps push the web forward." Chris.
 
@@ -1360,7 +1360,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Divya:** Well, GitHub is Microsoft at this point...
 
-**Jerod Santo:** \[48:14\] That's true. So that was a huge round for ShopTalk. That was round six, the final round. It was also a double round...
+**Jerod Santo:** \{48:14\} That's true. So that was a huge round for ShopTalk. That was round six, the final round. It was also a double round...
 
 **Wes Bos:** Oh, man...
 
@@ -1428,7 +1428,7 @@ I will back up what Amelia said and say CSS-Tricks is definitely pushing web dev
 
 **Jerod Santo:** It got one mention, I believe...
 
-**Wes Bos:** \[51:08\] And Level Up Tutorials...
+**Wes Bos:** \{51:08\} And Level Up Tutorials...
 
 **Dave Rupert:** Yup.
 

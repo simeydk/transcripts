@@ -1,4 +1,4 @@
-**Mikeal Rogers:** Welcome to JS Party, where it's a party every week with JavaScript! I'm Mikeal Rogers...
+**Mikeal Rogers:** Welcome to JS Party, where it's a party every week with JavScript! I'm Mikeal Rogers...
 
 **Rachel White:** I'm Rachel White.
 
@@ -40,7 +40,7 @@ Sometime mid early last year we decided that we're just gonna bite the bullet an
 
 **Kat Marchán:** If you figure out what happened tell us, because I have no idea! \[laughter\]
 
-**Mikeal Rogers:** \[03:57\] So it's much faster... I don't think that's the only performance update though, right? There's a couple other things that you did to improve the performance around this time.
+**Mikeal Rogers:** \{03:57\} So it's much faster... I don't think that's the only performance update though, right? There's a couple other things that you did to improve the performance around this time.
 
 **Rebecca Turner:** Yeah... I mean, that got us a 5x speed increase over older npms, and then it was like "Wow... That was a lot faster!" and now other improvements start to actually seem meaningful. What before would have been like "Well, that's like a 10% improvement in speed", but it was taking so long anyway that it wasn't a big win, and now it was. So yeah, we did a bunch of other things.
 
@@ -66,7 +66,7 @@ When we were working on designing npm@5, one of the things we wanted to do was t
 
 **Rebecca Turner:** We have a number of ideas; we think we'll make that better. Incidentally, internally, npm's own website has moved towards a monorepo, so we're getting to dogfood that pretty strongly now.
 
-**Alex Sexton:** \[07:58\] That's encouraging.
+**Alex Sexton:** \{07:58\} That's encouraging.
 
 **Mikeal Rogers:** Yeah, I have to say my favorite feature actually probably is the default save stuff. I think the first bug in most of my packages that I've received from other people is "You forgot to actually add this dependency" because I use save for, --save for half of the things that I installed, and then not one of them... This just completely solves that, I'm so excited about it.
 
@@ -106,7 +106,7 @@ When we were working on designing npm@5, one of the things we wanted to do was t
 
 Another aspect of npm@5 is that it is probably our most significant step in a while towards breaking npm down into significant chunks, with the intention of -- like, the dream here is to (the platonic idea, if you will) be able to take all the components that npm uses right now, pick only the ones that you like and need, and then cook up your own package manager for your particular community.
 
-\[12:24\] All the work that you don't have to change, you won't have to rewrite. We have several new packages that are meant to be used by the community more generally.
+\{12:24\} All the work that you don't have to change, you won't have to rewrite. We have several new packages that are meant to be used by the community more generally.
 
 We're talking about "How the heck will you yank out parts of the installer so that people can make decisions about how they install the tree?" A really good example of things that npm isn't gonna sacrifice is npm has a very -- I guess we're sacrificing it maybe in like some distant future, but right now it is a very core tenet at npm that we do not do dependency hell. Npm is the package manager you use when you never, ever want to run into dependency hell. That's why we did the peer dependencies change.
 
@@ -134,7 +134,7 @@ It's why we never integrated any kind of flat install like Bower would do. We're
 
 **Alex Sexton:** It's a Canadian cache...
 
-**Rebecca Turner:** \[16:01\] But it's super fast and it has a very nice API, and all of the npm@5 cache access is built on that. And then there's pacote which is a... We'll provide links.
+**Rebecca Turner:** \{16:01\} But it's super fast and it has a very nice API, and all of the npm@5 cache access is built on that. And then there's pacote which is a... We'll provide links.
 
 **Kat Marchán:** It's a manifest in tarball-fetching library. It does all the resolution of identifiers and stuff like that, identical to what npm does; in fact, it's what npm uses now. So you can say pacote.extract and then you give it like npm@5 and it will extract the contents of the npm@5 tarball according to semver resolution rules into a local directory. So it's a very generic tool for doing that, and it also gives you access to manifest information; you can ask for a manifest to see what dependencies you're gonna have to install.
 
@@ -170,7 +170,7 @@ The npm lockfile stores exactly how your Node modules should look when it's done
 
 **Kat Marchán:** I think every single person who's ever run CI that runs on Node 4, Node 6 and Node 7 at the same time has run into something at some point where they forget to set up a dependency or something happens with the tree, and suddenly only Node 4 breaks, because Node 4 still defaults to NPM 2, which is before our flattening change. People do the darndest things that rely--
 
-**Alex Sexton:** \[20:07\] So they're grabbing into the Node modules folder directly, you mean... With the fs.read...
+**Alex Sexton:** \{20:07\} So they're grabbing into the Node modules folder directly, you mean... With the fs.read...
 
 **Kat Marchán:** They do that. Sometimes they just mess up their tree in some way, but they've been testing on one platform... So being able to recreate that exactly is really important.
 
@@ -214,7 +214,7 @@ This is something that affects pretty much every package manager in existence pr
 
 **Kat Marchán:** We do have some stuff on the pipeline which I actually don't know if I can talk about, because that's registry stuff and that's not my circus, not my monkeys, but we do have stuff to prevent the infamous worms that people are worried about. So at least automated self-publishing worms will be mitigated. They might rimraf your read directory, but it will only be your read directory, and that's great.
 
-**Alex Sexton:** \[24:05\] I think that might be the thing that I was thinking of specifically. There's something to be said if you're only using it as a frontend tool; maybe you're not actually executing any code, in which case there could be a world where there's no scripts that run and you could still -- I don't know; not super important. But it is an interesting part of this that I think people don't think about a ton... I didn't know any good solutions other than throw everything in a container. That seems to be...
+**Alex Sexton:** \{24:05\} I think that might be the thing that I was thinking of specifically. There's something to be said if you're only using it as a frontend tool; maybe you're not actually executing any code, in which case there could be a world where there's no scripts that run and you could still -- I don't know; not super important. But it is an interesting part of this that I think people don't think about a ton... I didn't know any good solutions other than throw everything in a container. That seems to be...
 
 **Kat Marchán:** We semi-regularly re-visit to see if there's anything new that we could do, but it's something that we've known about and tried to deal with since the early days. There's issues about this going back a long time, and it's just like "Well, what do you do?" You can break the ecosystem, but we don't wanna break the ecosystem. We don't wanna get rid of scripts altogether, because people find them useful.
 
@@ -244,7 +244,7 @@ The thing to note is if you keep it called npm-shrinkwrap, older versions of npm
 
 **Mikeal Rogers:** Yeah, thanks for coming on, this has been fantastic. When we come back, we are gonna get into Sheetsee with Jessica Lord.
 
-**Break:** \[28:10\]
+**Break:** \{28:10\}
 
 **Rachel White:** We're back with Jessica Lord and we're gonna talk about Sheetsee. Sheetsee is a really cool library that lets you use Google Spreadsheets for visualizing info, and it's really awesome. Jessica, you should tell us about it better than I can.
 
@@ -256,9 +256,9 @@ Every time someone is visiting your site, it's hitting the spreadsheet and getti
 
 **Jessica Lord:** This came out of my Code for America project that I did. Code for America is a non-profit based in San Francisco that pairs designers, developers and civic people with city governments to build open source software for them. I did that fellowship; I had come from the city of Boston previously, and I was really keen on not creating new bottlenecks for city IT departments which have to do everything. I felt like there are so many tools we take for granted on the web that would enable departments to manage and update their own websites without needing to go through IT for everything. That was what was kind of my guiding principle and what lead me to pick spreadsheets in general.
 
-I started building it out that year, and it started off as a bunch of JavaScript built into a Wordpress theme. Then when the fellowship year was over, I got a grant from Mozilla OpenNews, which is a branch of the Mozilla Foundation that focuses on open source tools for journalism. I got a CodeSprint grant from them to spend two months pulling out all the JavaScript and making it a standalone library. That's when it really became Sheetsee. Then I just recently rewrote it, a couple months ago.
+I started building it out that year, and it started off as a bunch of JavScript built into a Wordpress theme. Then when the fellowship year was over, I got a grant from Mozilla OpenNews, which is a branch of the Mozilla Foundation that focuses on open source tools for journalism. I got a CodeSprint grant from them to spend two months pulling out all the JavScript and making it a standalone library. That's when it really became Sheetsee. Then I just recently rewrote it, a couple months ago.
 
-**Rachel White:** \[31:57\] Yay! That's awesome. I like that I'm saying "Yay!" What are some cool uses that you've seen people use Sheetsee for?
+**Rachel White:** \{31:57\} Yay! That's awesome. I like that I'm saying "Yay!" What are some cool uses that you've seen people use Sheetsee for?
 
 **Jessica Lord:** People have done it for meetups and schedules... Not everyone tells me what they do. Really, I have no idea what people are doing with it unless they specifically go out of their way to show me. But what is also cool about it is you can use it with GitHub Pages, which is GitHub's free hosting service. Then people can just fork your site and just make a few changes and quickly then have their own site going.
 
@@ -300,7 +300,7 @@ Earlier this year in January I tried to make a site myself where I thought that 
 
 **Alex Sexton:** It's like I've added up every number in this row, and it's the "=SUM(A1:A15)"
 
-**Jessica Lord:** \[36:07\] Right, yes. Anything that lives in a cell in your spreadsheet gets pulled out.
+**Jessica Lord:** \{36:07\} Right, yes. Anything that lives in a cell in your spreadsheet gets pulled out.
 
 **Alex Sexton:** The data though, not the formula...?
 
@@ -328,7 +328,7 @@ If you remix this Glitch site, you get a blank Sheetsee setup and it just writes
 
 **Jessica Lord:** Yeah. I also have another Glitch that -- because one thing that was annoying is if you just wanted JSON from your spreadsheet, it wasn't super easy to get, and basically you would have to just set up a little Node thing with Tabletop and fetch your spreadsheet, but that was... I don't know; I love spreadsheets, so it was an annoying thing that I kept having to do... So I made another Glitch that is Sheetsee.glitch.me, that you can just pass your spreadsheet key into and it creates a single API endpoint and it returns your JSON to you.
 
-**Mikeal Rogers:** \[40:25\] That's really nice
+**Mikeal Rogers:** \{40:25\} That's really nice
 
 **Alex Sexton:** That is cool.
 
@@ -362,7 +362,7 @@ If you remix this Glitch site, you get a blank Sheetsee setup and it just writes
 
 **Jessica Lord:** Yeah.
 
-**Mikeal Rogers:** One of the things that I love about this is I feel like all JavaScript tooling that I've used in the last 2-3 years has been a giant compile chain and it integrates into a giant compile chain, and this was like "Oh, back in the days..." where you could just insert a "script include" and then do stuff in the body. It's like, "Oh yeah, there's actually cases where this is just so much simpler..."
+**Mikeal Rogers:** One of the things that I love about this is I feel like all JavScript tooling that I've used in the last 2-3 years has been a giant compile chain and it integrates into a giant compile chain, and this was like "Oh, back in the days..." where you could just insert a "script include" and then do stuff in the body. It's like, "Oh yeah, there's actually cases where this is just so much simpler..."
 
 **Jessica Lord:** Yeah...
 
@@ -374,7 +374,7 @@ Then I would have to go calculate everybody's stats, and then I would update a w
 
 I remember very specifically searching in Altavista and saying "Way to get information from a computer spreadsheet and put into..." -- and I never found... I ended up running - I swear this is true - Macromedia Cold Fusion on my local computer, thinking that would solve the issue somehow, and then it didn't work once I deployed the site... It was a nightmare, and if someone would have just had this when I was 10, it would have been really useful... So thanks a lot.
 
-**Jessica Lord:** \[44:09\] \[laughs\] Sorry... I don't know if Google Docs existed when you were 10, so...
+**Jessica Lord:** \{44:09\} \[laughs\] Sorry... I don't know if Google Docs existed when you were 10, so...
 
 **Mikeal Rogers:** \[laughs\] Google didn't exist when you were 10... \[laughter\]
 
@@ -396,7 +396,7 @@ I guess IIT reminds me of TwitchPlaysPokemon or like TwitchBuildsAComputer or Tw
 
 **Mikeal Rogers:** This is a very interesting experiment. I'm reading this now and I'm actually like fascinated by it. \[laughs\]
 
-**Jessica Lord:** I think when I looked at it, it did not even have a ton of this stuff, and now there's like containerization, it's got Vagrant up, and... If you can look at all the open issues and pull requests... It's interesting how -- I feel like it was originally JavaScript maybe... Maybe not. Like I said, I ignored it at first, because I'm a jerk. Now it's just a ton of Python. It's pretty cool.
+**Jessica Lord:** I think when I looked at it, it did not even have a ton of this stuff, and now there's like containerization, it's got Vagrant up, and... If you can look at all the open issues and pull requests... It's interesting how -- I feel like it was originally JavScript maybe... Maybe not. Like I said, I ignored it at first, because I'm a jerk. Now it's just a ton of Python. It's pretty cool.
 
 **Mikeal Rogers:** I think my favorite thing here is that they have a death counter... People hack it to merge things that actually break it with the voting mechanism, and they're really upfront about how many times the trunk has died because of this...
 
@@ -416,7 +416,7 @@ Yeah, I don't know... If you look at the issues, or -- I think it's in the main 
 
 **Alex Sexton:** Wait, I just wanted to mention that I searched for Chaosbot and the first result is on the Sonic News Network - as in Sonic the Hedgehog - Wikipedia... They have their own wiki on sonic.wikia.com, and apparently there's a Chaosbot in Sonic X \#28, which is a comic... So that's the true Chaosbot.
 
-\[48:16\] My pick for this week is [Babili](https://www.npmjs.com/package/babili). I believe that's that how it's pronounced... If you type its name into the say command, it will pronounce it correctly, apparently. It is Babel-Minify. Stripe, for instance, likes on its website only to ship ES6 code that works in all the browsers that everyone visits our site it, and it's kind of like a fun thing where you can push just real ES6 out without compiling it down with Babel, or anything like that, and it's cool. But the bad thing about shipping ES6 code is none of the current minifiers support ES6, so if you throw ES6 code, it will fail. So you have to compile down to ES5 and then you can minify.
+\{48:16\} My pick for this week is [Babili](https://www.npmjs.com/package/babili). I believe that's that how it's pronounced... If you type its name into the say command, it will pronounce it correctly, apparently. It is Babel-Minify. Stripe, for instance, likes on its website only to ship ES6 code that works in all the browsers that everyone visits our site it, and it's kind of like a fun thing where you can push just real ES6 out without compiling it down with Babel, or anything like that, and it's cool. But the bad thing about shipping ES6 code is none of the current minifiers support ES6, so if you throw ES6 code, it will fail. So you have to compile down to ES5 and then you can minify.
 
 So I think Babili is the first attempt at an ES6 minifier. It will minify down to the same syntax, just smaller, and whatever. It's still in beta 0.0.1, which is pretty beta... But for small things, I think it's probably pretty safe. They have some tests against some common open source things that appear to work still as well. So if you are interested in shipping ES 2015 to the browser, it's a good thing to start looking into. I imagine this type of thing will get much more popular.
 
@@ -438,7 +438,7 @@ Jessica, do you have a pick for us?
 
 **Jessica Lord:** I saw it come through my Twitter feed this week. It's just a site someone built... I guess it came out of some procedural generation subreddit. You can choose if you want a small town, large town, small city, large city, and it will just keep generating you medieval cities... Like, in plan. They're really cool-looking maps.
 
-**Mikeal Rogers:** \[52:16\] That's really cool...
+**Mikeal Rogers:** \{52:16\} That's really cool...
 
 **Rachel White:** Oh, I saw that! It's like top-down view of the architectural diagram.
 
@@ -468,4 +468,4 @@ Thanks for tuning in, that's all for today. We're out. Thanks, Jessica, for comi
 
 **Jessica Lord:** Bye!
 
-**Break:** \[53:22\]
+**Break:** \{53:22\}

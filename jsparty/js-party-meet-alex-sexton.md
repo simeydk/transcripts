@@ -34,7 +34,7 @@
 
 **Alex Sexton:** It will come back... I've just had babies and lived in San Francisco for a summer, and those kinds of things, so it can be tough. But anyway, that's how I know Mikeal, and I used to be a crew with Paul Irish, Adam Sontag and Rebecca Murphey back in the days when jQuery was a little more popular. Not that that podcast was much about jQuery at all, but it was kind of a good basis for discussion back in the day for general frontend fun stuff.
 
-I've been doing JavaScript for like 12 years now, which is kind of crazy... It's a long time to be doing anything, so JavaScript is definitely what I've spent the bulk of my career working on.
+I've been doing JavScript for like 12 years now, which is kind of crazy... It's a long time to be doing anything, so JavScript is definitely what I've spent the bulk of my career working on.
 
 I worked at a few consultancies... I worked at a place called Bazaarvoice, which was a big job I had, and now I work at Stripe. Those are, I guess, the most interesting parts of my working history.
 
@@ -50,11 +50,11 @@ I worked at a few consultancies... I worked at a place called Bazaarvoice, which
 
 **Alex Sexton:** No, it's creepy, but it's fine. \[laughter\] Stripe has been a pretty cool company to be a part of. I work remotely from Austin, Texas, and Stripe has grown quite a bit. Since I don't work in the office, every time I go back I don't recognize anyone, because it's growing so fast. But I know their Slack handles and such, so it usually works out.
 
-**Adam Stacoviak:** \[04:11\] That works out, yeah.
+**Adam Stacoviak:** \{04:11\} That works out, yeah.
 
 **Alex Sexton:** I'm not sure exactly what you guys want me to know; I can talk for a long time, so if you have specific questions about my past, I think maybe that would be more courteous to the audience members who want to listen to me speak.
 
-**Jerod Santo:** Well, let's just give a little bit of your JavaScript background. Like you said, you were involved with jQuery, you were on the board of directors, you also have a lot of work put in the Modernizr, so thank you for that. Maybe give your open source background, some of the stuff that you're involved in, kind of like your angle into JavaScript.
+**Jerod Santo:** Well, let's just give a little bit of your JavScript background. Like you said, you were involved with jQuery, you were on the board of directors, you also have a lot of work put in the Modernizr, so thank you for that. Maybe give your open source background, some of the stuff that you're involved in, kind of like your angle into JavScript.
 
 **Alex Sexton:** I went to -- I think it was the jQuery Conf, because the ones before were jQuery Camp... But I guess if you scroll even further back, I joined the jQuery IRC channel on FreeNode way back in the day... I don't remember how long ago. That's where I met Paul Irish and Rebecca Murphey and Adam Sontag, which eventually turned into yayQuery. But we all decided to go to that conference together, and that's where I met John Resig and all the different jQuery folks back then and kind of got involved in jQuery.
 
@@ -66,7 +66,7 @@ Ben didn't necessarily stick around on the team, but Paul and I - we were pretty
 
 The goal of yepnope was that you only developed the code that the browser can either run or use, rather than every possible version of your code. I've since killed that project, because there are new, better techniques, like using HTTP/2 server and the build tools that exist today to load bundles and do things; there are better tools, so I don't think in order asynchronous loading of dependencies is always the fastest thing anymore.
 
-\[08:06\] Other open source stuff - probably my other most popular project... There's this CSS color checker that got a lot of press and tweets and things, but actually doesn't do anything; I don't think anyone uses it. It was a very popular project that everyone starred one time and then never used, so I won't talk about it too much. \[laughter\]
+\{08:06\} Other open source stuff - probably my other most popular project... There's this CSS color checker that got a lot of press and tweets and things, but actually doesn't do anything; I don't think anyone uses it. It was a very popular project that everyone starred one time and then never used, so I won't talk about it too much. \[laughter\]
 
 **Adam Stacoviak:** That's funny.
 
@@ -82,16 +82,16 @@ The goal of yepnope was that you only developed the code that the browser can ei
 
 **Adam Stacoviak:** You are. I like it.
 
-**Alex Sexton:** \[laugh\] It's kind of a fun thing... So this thing just pulls out every color, and it finds colors that are different than each other in value, but that a human could not perceive the difference of within some range. And so, there's an algorithm for this, the CIEDE2000 algorithm. It's used in compression, and that way they can use less colors and then be able to compress better. The human can detect differences in blues different than they can in reds and yellows, so it's a somewhat complex algorithm. But someone actually already wrote that algorithm and put it in NPM, so I did not port that to JavaScript, I just used it in a post CSS plugin that finds things that are within a threshold and then says, "Hey, these should probably just be the same color", and that's the whole thing.
+**Alex Sexton:** \[laugh\] It's kind of a fun thing... So this thing just pulls out every color, and it finds colors that are different than each other in value, but that a human could not perceive the difference of within some range. And so, there's an algorithm for this, the CIEDE2000 algorithm. It's used in compression, and that way they can use less colors and then be able to compress better. The human can detect differences in blues different than they can in reds and yellows, so it's a somewhat complex algorithm. But someone actually already wrote that algorithm and put it in NPM, so I did not port that to JavScript, I just used it in a post CSS plugin that finds things that are within a threshold and then says, "Hey, these should probably just be the same color", and that's the whole thing.
 
-The actual value that I think I've added since jQuery Modernizr days is in internalization tooling, which I got pretty deep into at the end of my time at Bazaarvoice, and do a bunch of work on at Stripe as well. MessageFormat JS is something -- if you've ever used GetText or tried to do pluralization or interpolation of variables into messages or text in your website, then MessageFormat is a very good solution. It's a standard, but it didn't really exist in JavaScript outside of a few Google things that were very googly, that you couldn't get it out of... So I wrote a parser for that, as well as an implementation.
+The actual value that I think I've added since jQuery Modernizr days is in internalization tooling, which I got pretty deep into at the end of my time at Bazaarvoice, and do a bunch of work on at Stripe as well. MessageFormat JS is something -- if you've ever used GetText or tried to do pluralization or interpolation of variables into messages or text in your website, then MessageFormat is a very good solution. It's a standard, but it didn't really exist in JavScript outside of a few Google things that were very googly, that you couldn't get it out of... So I wrote a parser for that, as well as an implementation.
 
 There is another competing library, React Intel, that we actually at Stripe, and it uses my parser underlying, kind of; it's kind of been changed a little bit since then. So a lot of the internationalization tooling that people are using today actually kind of came out of some stuff that I did, and I think it's a very good solution and I would advocate for it very heavily, so that's the only reason I talk about, not necessarily because I did it.
-\[11:59\] I really think that internationalization is super undervalued and the tooling needs years of work in order to get good; the thing I wrote is just a very basic start to the ecosystem of tools that you would need to do that well. How's that?
+\{11:59\} I really think that internationalization is super undervalued and the tooling needs years of work in order to get good; the thing I wrote is just a very basic start to the ecosystem of tools that you would need to do that well. How's that?
 
 **Jerod Santo:** That's good.
 
-**Adam Stacoviak:** Clearly, you've got some opinions, which is great. I mean, that's the whole point of the show, just to kind of bring some different perspective towards this JavaScript web platform landscape and discuss the various things that are going on - both current events, to a degree, but then also some tried and true arguments that haven't been fleshed out enough or could use different perspectives. So clearly, you're bringing some opinions here... But I'm curious why this show for you? What exactly about the prospect of this show gets you excited?
+**Adam Stacoviak:** Clearly, you've got some opinions, which is great. I mean, that's the whole point of the show, just to kind of bring some different perspective towards this JavScript web platform landscape and discuss the various things that are going on - both current events, to a degree, but then also some tried and true arguments that haven't been fleshed out enough or could use different perspectives. So clearly, you're bringing some opinions here... But I'm curious why this show for you? What exactly about the prospect of this show gets you excited?
 
 **Alex Sexton:** I guess you picked up on the fact that I have opinions, and when someone offers you a platform for advocating for those opinions, it can be tempting. I mean, I'm very excited to do it; I think that Mikeal and Rachel also have very unique perspectives.
 
@@ -101,7 +101,7 @@ I'm not necessarily excited for the listeners, right? I think they can make up t
 
 **Alex Sexton:** Well, sure, yeah. That's the default, I think. I'm not doubtful, but there wouldn't be a great reason to do it if I was just making people angry, or annoying them, or something like that. I'm very excited at the potential for having discussions with people that are valuable, and I hope they're valuable.
 
-**Jerod Santo:** I absolutely agree, and that's our hope, to have a shared discussion amongst all the people in the greater JavaScript/frontend/web community in a place where it's like the watercooler; that's why we wanted to do a live show. We want to have interaction with the chat room, because there's more people adding to the show than just the three panelists, or in some cases maybe four panelists who happen to have microphones that day.
+**Jerod Santo:** I absolutely agree, and that's our hope, to have a shared discussion amongst all the people in the greater JavScript/frontend/web community in a place where it's like the watercooler; that's why we wanted to do a live show. We want to have interaction with the chat room, because there's more people adding to the show than just the three panelists, or in some cases maybe four panelists who happen to have microphones that day.
 
 But one of the reasons why I'm so excited, Alex, to have you on, is because Mikeal has convinced me that you are excellent at arguing with him. I love a good debate - I think we all do - so I think we'll have not just a shared discussion, but hopefully some entertaining discourse as well, as I hear you're pretty good at taking the other side of the argument, regardless of what it is that Mikeal has to say that day. Is that the case?
 
@@ -116,7 +116,7 @@ But one of the reasons why I'm so excited, Alex, to have you on, is because Mike
 **Adam Stacoviak:** Ruffle the feathers.
 
 **Alex Sexton:** As someone who knew Mikeal and knew that he would know that it was coming from a place of love, I took it upon myself to try to call out anything I thought was potentially, let's say, unfair. So Mikeal and I go back a long time, of comfortable, but heated discourse.
-\[16:05\] Now that you say that, that is an also very exciting aspect of this... \[laughter\] In the past - a year or so - we've tended to agree on a lot of stuff, so it maybe hasn't been on the forefront of my mind, but I'm sure if you bring up some topics we'll have some different opinions. He's softening at his age, I think.
+\{16:05\} Now that you say that, that is an also very exciting aspect of this... \[laughter\] In the past - a year or so - we've tended to agree on a lot of stuff, so it maybe hasn't been on the forefront of my mind, but I'm sure if you bring up some topics we'll have some different opinions. He's softening at his age, I think.
 
 **Jerod Santo:** If you had to characterize your perspective, just with regard to frontend in the browser - progressive enhancement, graceful degradation... Are you a single-page app? Do you believe in frameworks? Do you not believe in frameworks? Give us a taste of where Alex stands in some of the hot topics, in the frontend at least.
 
@@ -138,7 +138,7 @@ I wrote an article a while back, and ran a conference called Frontend Ops. It's 
 
 **Jerod Santo:** It's a mashup.
 
-**Alex Sexton:** \[20:04\] Yeah, a mashup. There you go. So a lot of the work I do is actually in the frontend operations world. It's less writing the end UIs these days, and a lot of it is the infrastructure parts or the build tooling or the measurement, internationalization, things like that. Or measuring performance - that's another part of frontend operations.
+**Alex Sexton:** \{20:04\} Yeah, a mashup. There you go. So a lot of the work I do is actually in the frontend operations world. It's less writing the end UIs these days, and a lot of it is the infrastructure parts or the build tooling or the measurement, internationalization, things like that. Or measuring performance - that's another part of frontend operations.
 
 I guess single-page apps... There's a big war -- if you can even call something a single-page app... Or something's document vs. app-based, and I don't really care what you call it... I think server rendering is a good solution for lots of pages that people talk about. Anything that you're gonna read or you'd want to be SEO-ed. But as soon as you add a login and put something behind a login, then need for server rendering -- like, do I need to server-render my SVG graphs or the lists of customers in the Stripe dashboard, or something like that? No one hits the customers list page from the server; it's always navigated to that. I don't know... I think there are so many tradeoffs that it's silly to say, "If you're not server-rendering, you're doing something wrong." Measure the actual experience, rather than the technology behind it. As long as the experience is good, then I really don't care what the implementation is.
 
@@ -160,7 +160,7 @@ I'm a pretty big proponent of progressive enhancement... I think more so than so
 
 **Jerod Santo:** So that will be fun. This kind of leads us into our next question for you. When you mentioned you believed in the openness and links and the web fundamentals, what's your favorite thing about JS or about the web platform?
 
-**Alex Sexton:** \[24:01\] The accessibility of everything -- not necessarily in the handy, capable sense... Just the fact that there's no app store, it's federated, it's fully open, the specs are open. People can kind of break away from those things... Pragmatism-wise, browsers can do their own thing a little bit and see if other people will wanna go along that path, rather than do some pure "Alright, let's sit down with the specs organization for the next three years and try to figure out how we wanna do X, Y or Z."
+**Alex Sexton:** \{24:01\} The accessibility of everything -- not necessarily in the handy, capable sense... Just the fact that there's no app store, it's federated, it's fully open, the specs are open. People can kind of break away from those things... Pragmatism-wise, browsers can do their own thing a little bit and see if other people will wanna go along that path, rather than do some pure "Alright, let's sit down with the specs organization for the next three years and try to figure out how we wanna do X, Y or Z."
 
 I like how the web moves forward. It's slower than the proprietary platforms, but I think it's outlasted every single one of them by a triple at this point. You even see with the iOS App Store - the ten most popular apps of 2016 were made by three companies, or something like that.
 
@@ -180,7 +180,7 @@ On the flipside of that, you kind of alluded to a little bit and you said it's f
 
 **Alex Sexton:** Oh, cool... \[laughter\] The people who take from the web, but don't give back to the web, or things like Safari -- it's not Safari itself; Safari is pretty good because Apple's so currently good at what they do that it ends up not mattering a whole bunch... But anytime the web tries to innovate and Safari doesn't agree, they can almost always automatically stifle that innovation, and that is really upsetting to me. Things like service workers... The whole web is behind, and just no one knows whether Safari intends on doing it or not, or whether they think it will cannibalize their other marketplaces. That stuff's really frustrating to me, because they very much profit from the web and they don't necessarily give back in the ways that I'd want them to. They always give back in the ways that help their other platforms, which can be sometimes extremely useful, but also not friendly to openness.
 
-**Adam Stacoviak:** \[28:19\] This is a little meta, but are you a listener of Request For Commits?
+**Adam Stacoviak:** \{28:19\} This is a little meta, but are you a listener of Request For Commits?
 
 **Alex Sexton:** Not currently.
 
@@ -198,7 +198,7 @@ On the flipside of that, you kind of alluded to a little bit and you said it's f
 
 **Alex Sexton:** Yeah, I'd be interested.
 
-**Adam Stacoviak:** On that note then, we look at the future of this show... We asked you a couple questions like, "Where do you stand on certain controversial issues? What are your favorite/least favorite things about the web, JavaScript?" things like that, but I'm kind of curious on what particular topics you may be excited to talk about in the near future.
+**Adam Stacoviak:** On that note then, we look at the future of this show... We asked you a couple questions like, "Where do you stand on certain controversial issues? What are your favorite/least favorite things about the web, JavScript?" things like that, but I'm kind of curious on what particular topics you may be excited to talk about in the near future.
 
 **Alex Sexton:** Current stuff? Service workers have been around for a while, but that world of the web is very interesting... I also do a lot of work on a large application at a company where people use something a lot, so frameworks are something I think that Rachel and Mikeal are a little less interested in and that I have some experience about, and there tends to be a revolution every two or three years, so we're kind of due; Fiber could be it, in React...
 
@@ -212,7 +212,7 @@ Also, people reach for React and they need the modification of the onchange even
 
 What else... Build tooling is also something I care a lot about that I think we're due for another revolution on. I don't know how much people care about that, but things like Webpack and those systems...
 
-\[31:54\] I was a contributor to RequireJS back in the day with James Burke -- I mean, James Burke did 99.9999% of it. I added a little bit to the spec on behalf of the jQuery team, but that's since been mostly dead, and now Node is working on implementing ES6 modules in an asynchronous way, which is kind of full circle, which is fine...
+\{31:54\} I was a contributor to RequireJS back in the day with James Burke -- I mean, James Burke did 99.9999% of it. I added a little bit to the spec on behalf of the jQuery team, but that's since been mostly dead, and now Node is working on implementing ES6 modules in an asynchronous way, which is kind of full circle, which is fine...
 
 Those two things I guess are pretty boring frameworks and build tools, but that's probably why Mikeal had chosen me for those opinions, because they weren't necessarily represented between him with Node stuff and Rachel with robotics.
 
@@ -228,7 +228,7 @@ Those two things I guess are pretty boring frameworks and build tools, but that'
 
 **Alex Sexton:** Yeah, we're down to like maybe 10-15 people or so... You could also hate-listen, though; I think that audience could be quite large. No, I think if you're the class of person who has a Twitter account but can't keep up with every possible piece of drama, or doesn't care to, or wants it distilled down... If you're someone who likes the newsletters that come once a week that says, "Here's what happened in CSS this week", and if you also drive to work, I think this could be a good compromise.
 
-\[34:55\] And also, possibly if you're only interested in currently a single section - you're coming in from Node or robotics, it could also be good to kind of reach out your mind into the other sections and find the cross-sections between you and the other portions of the community.
+\{34:55\} And also, possibly if you're only interested in currently a single section - you're coming in from Node or robotics, it could also be good to kind of reach out your mind into the other sections and find the cross-sections between you and the other portions of the community.
 
 I think anyone's a potentially good listener, I don't think we're precluding too many people. Also, you've heard me talk for the last hour, so you have a certain type of person to be able to fully enjoy my mumbles. \[laughter\]
 

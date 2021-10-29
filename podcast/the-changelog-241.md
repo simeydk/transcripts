@@ -2,7 +2,7 @@
 
 We've got three sponsors today - Linode, Hired and Compose.
 
-**Break:** \[01:02\]
+**Break:** \{01:02\}
 
 **Adam Stacoviak:** Alright, Jerod, this is a show... I think we've been a year and a half-ish planning on this, to some degree. What do you think?
 
@@ -28,7 +28,7 @@ It was a logical model, so he was basically programming in first-order logic, an
 
 **Jerod Santo:** It's way over my head. I started reading it and I felt like I should go make a CRUD app, or something.
 
-**Nathan Sobo:** \[04:02\] Yeah, and it was way over my head for the most part at the time, but some of it I understood, and all that was interesting to me. They talked about this formalism called parsing expression grammars, which was top-down, recursive descent parsers with memorization. So I ended up grabbing a framework that was based on that - there were a couple at the time - and it was such a mind-blowing distinction between that and the lex and yacc situation that was going on in my compilers class a couple years prior to that, that I got really excited about parsing expression grammars.
+**Nathan Sobo:** \{04:02\} Yeah, and it was way over my head for the most part at the time, but some of it I understood, and all that was interesting to me. They talked about this formalism called parsing expression grammars, which was top-down, recursive descent parsers with memorization. So I ended up grabbing a framework that was based on that - there were a couple at the time - and it was such a mind-blowing distinction between that and the lex and yacc situation that was going on in my compilers class a couple years prior to that, that I got really excited about parsing expression grammars.
 
 Somewhere along the line I came up with this idea that it would be really cool to have a text editor that had one of these parsing expression grammar engines baked into it, so that in a really convenient way you'd be able to express the grammar for any language, and then the editor would give you a parse tree, and you'd always have access to that.
 
@@ -42,7 +42,7 @@ A couple days later I met him and Cory Johnson (another GitHub employee) for cof
 
 **Jerod Santo:** I'm just looking at the libraries.io page for your Treetop project; you said it just stayed the library, but never became the text editor that you wanted it to be. We shouldn't discount what a success story it really is if you look at the dependent repositories on this: you have Chef, you have Less, you have some Basecamp projects depending upon it, you have Andrew Cantino's Huginn, which was previously on the Changelog... A lot of projects using Treetop, so no surprise that Chris would know you from that. Interesting how you built yourself a little bit of a resume of somebody that can do this kind of work.
 
-**Nathan Sobo:** \[08:11\] Yeah, I never really intended it to be anything other than a text editor, so it's kind of weird how that worked out. And the weird thing was that I never really worked on it. I wrote it, gave a talk about it, and then this guy in Australia, Clifford Heath, took over maintenance of it and I never touched it again.
+**Nathan Sobo:** \{08:11\} Yeah, I never really intended it to be anything other than a text editor, so it's kind of weird how that worked out. And the weird thing was that I never really worked on it. I wrote it, gave a talk about it, and then this guy in Australia, Clifford Heath, took over maintenance of it and I never touched it again.
 
 **Jerod Santo:** Wow. That's the beauty of open source right there - worldwide, somebody in Australia you never met, and he can pick up the ball and run with it. That's really cool.
 
@@ -60,7 +60,7 @@ So he pitched me on this web thing, they showed me this video with the cool La R
 
 **Nathan Sobo:** It probably does, somewhere... Yeah. I can probably try to dig it up and see if it's in my email, or something. Chris probably has it. But it was this demo of the prototype that he and Cory had cooked together using Ace, which they had already been using on DotCom. Ace is another web-based editor interface, and they were doing it in a Safari or Webkit window on the Mac, with this very primitive bridging to the Objective-C layer. They cobbled together something pretty cool pretty quickly, actually.
 
-That was sort of my intro to it, doing interesting things with just online (if I recall correctly) and then they booted up some little JavaScript with like an asteroid ship flying around inside the DOM and like shooting DOM nodes... \[laughter\]
+That was sort of my intro to it, doing interesting things with just online (if I recall correctly) and then they booted up some little JavScript with like an asteroid ship flying around inside the DOM and like shooting DOM nodes... \[laughter\]
 
 **Adam Stacoviak:** I think I recall that... You could plug in a page and destroy a page with this thing. Is that what you're talking about?
 
@@ -74,7 +74,7 @@ So then they sat me down and showed me the code, and it was kind of funny... It 
 
 **Jerod Santo:** Good plan, don't tell them.
 
-**Nathan Sobo:** \[11:52\] So in pretty short order, it was like I had an offer to -- I mean, it went from my plan to move to Boulder and work on it six months a year and then consult six months a year... And that plan was a bad plan, because it involved underestimating the cost of living in Boulder and the cost of building a text editor. But anyway, I went from that to getting hired to just build open source stuff full-time. It kind of blew my mind, and I was incredibly excited.
+**Nathan Sobo:** \{11:52\} So in pretty short order, it was like I had an offer to -- I mean, it went from my plan to move to Boulder and work on it six months a year and then consult six months a year... And that plan was a bad plan, because it involved underestimating the cost of living in Boulder and the cost of building a text editor. But anyway, I went from that to getting hired to just build open source stuff full-time. It kind of blew my mind, and I was incredibly excited.
 
 But my girlfriend at the time (now wife) - I had already kind of told her, "Yeah, we're moving to Boulder, we're doing this", so she was so enamored with the idea of moving to Boulder that we still ended up moving to Boulder and I just worked remotely for GitHub... Which was a mixed bag. It was really lonely for a while, just working on this secret project, kind of all by myself out in Colorado. Anyway...
 
@@ -96,7 +96,7 @@ The key bindings were sort of the first thing that came to mind. The idea of ass
 
 And there were APIs that were missing that I remember wanting... I don't remember honestly the specifics of what lead to that probably hasty decision. From there it was like, "Okay, let's load a file and get in on screen. Now let's get a cursor. Now let's move the cursor around." It was very "feature at a time", and we probably worked on it for maybe a year, or multiple months before we started working on it full-time.
 
-\[16:01\] What drove us is basically what we were used to from other editors that we were dying not having... That was kind of forcing us out of Atom, back into Vim (the editor I was using at the time), and just taking those features off one by one.
+\{16:01\} What drove us is basically what we were used to from other editors that we were dying not having... That was kind of forcing us out of Atom, back into Vim (the editor I was using at the time), and just taking those features off one by one.
 
 That was sort of what drove the agenda, and it was pretty fluid. Of course, we couldn't spend that much time on any one thing. It was like, "Get something quick, working." I think Atom, especially right after we launched, before 1.0, but even to this day -- although I think we've either dealt with the worst of the issues or have a few, but performance was not anywhere close to the top of my mind during this early period. It was just like, "Get something working."
 
@@ -120,7 +120,7 @@ And NERD Tree, and plugins that are slowing things down and breaking up... I've 
 
 **Jerod Santo:** It sounds like it started very experimentally. Of course you were gonna experiment with architecture early on, but even the features were very -- I don't know what you would call them... Organic? Or maybe even call them ad-hoc? Just like, "What do we love from these other things?" or "What are we missing from these other things?" Did you have an idea, like "We need to hit this"? Did you have milestones, or was it like Chris would email you guys every once in a while and say, "How's it going?" and then you'd give him an update? I'm just curious on the internal structure of how you go about building something like this, because it took a while, and so far it's turned out really well. Maybe we can learn some new things from you.
 
-**Nathan Sobo:** \[20:13\] So I'd worked for Pivotal previously, and it was... Pivotal is all about XP, so you sort of have this backlog of individual things you wanna make happen, and you do the minimum thing that could make that thing happen. I mean, there's probably more sophistication to it than that, but that was my attitude.
+**Nathan Sobo:** \{20:13\} So I'd worked for Pivotal previously, and it was... Pivotal is all about XP, so you sort of have this backlog of individual things you wanna make happen, and you do the minimum thing that could make that thing happen. I mean, there's probably more sophistication to it than that, but that was my attitude.
 
 So to start with, it's like, "Okay, if you don't have a cursor, you can't edit text", right? Those features just wrote themselves. "Get text on the screen, get a cursor moving around, get the text editable", but then there were some things that we planned. I was like, "Okay, we wanna have multi-cursor support - let's do that early, because if we don't, then everything's gonna assume one cursor and it will evolve in the wrong direction."
 
@@ -135,7 +135,7 @@ It was like, "Chris told us to just build something awesome. He gave us no timel
 
 **Adam Stacoviak:** It seemed to me like a big R&D situation where you've got a lot of dreams, you've got a lot of talent to bring this to fruition, but you really had to poke at various different things in terms of features or ways to go to catch your ground. In a lot of ways it seems like you were very much in R&D, rather than knowing exactly what you wanna build. Because if you know exactly what you wanna build, you can build it faster.
 
-**Nathan Sobo:** \[24:05\] I don't know... I had a pretty strong sense of what I wanted to build. I think the trouble is how to build it. I don't know, maybe we should have built it faster. A lot of times when I'm in a bad state, I'm like "Oh I suck... This is taking me so long, and it's still not even where I want it to be."
+**Nathan Sobo:** \{24:05\} I don't know... I had a pretty strong sense of what I wanted to build. I think the trouble is how to build it. I don't know, maybe we should have built it faster. A lot of times when I'm in a bad state, I'm like "Oh I suck... This is taking me so long, and it's still not even where I want it to be."
 
 The plan for me, the rough, back of the envelope plan - a lot of this still isn't even done - was this hyper-social, hyper-collaborative editor, and with the syntax awareness stuff which also isn't in yet, (although it's in progress, and we can talk about that later).
 
@@ -153,7 +153,7 @@ I honestly don't even think Atom was exceptionally usable the day we made it pub
 
 **Adam Stacoviak:** Yeah, that's it. That's exactly it. And on that note, that's a great place to pause, because we have our first break coming up. So let's take this break, and when we come back we're gonna dive much deeper. I love the direction we're going... We'll be right back.
 
-**Break:** \[26:28\]
+**Break:** \{26:28\}
 
 **Adam Stacoviak:** Alright, we're back with Nathan... We were talking about this awesome text editor, Atom. Nathan, you've got a great history with this project. I love how serendipitous it was that this all came to be. We've been talking about the direction it's gone, how you've gotten there, the feature set, the R&D, the initial inspiration, but now you've got some years behind you... The current version is 1.14, I believe - is that correct?
 
@@ -171,7 +171,7 @@ I honestly don't even think Atom was exceptionally usable the day we made it pub
 
 He kind of merged into the team, and for the longest time it was us three. Then at some point we acquired another company, Easel.io. Ben Ogle is the head of that. That was like a cool, web-based graphics tool that I think went through Ycombinator, and we acquired them. So he joined their project and he brought a brand facing -- I mean, I've always been really end of the brand too, but he actually executed on it, and that was as we were getting closer to being launched publicly, so kind of defining our user-facing story, changing us from kind of a project to a product... A lot of that, I think, had to do with Ben, and he made a huge contribution there.
 
-So then we launched, and -- God, I'm worried I'm gonna forget people; also the chronology... At some point, Cory left the project to do some other stuff, and it was smaller for a while. Then, interestingly, my sister's boyfriend multiple years earlier had wanted to work on this other project with me, and he was a physicist and had only ever programmed in Fortran. I just gave him basically access to the repo and was like, "Okay..." He started making contributions. He taught himself JavaScript, and Ruby, and started going to town.
+So then we launched, and -- God, I'm worried I'm gonna forget people; also the chronology... At some point, Cory left the project to do some other stuff, and it was smaller for a while. Then, interestingly, my sister's boyfriend multiple years earlier had wanted to work on this other project with me, and he was a physicist and had only ever programmed in Fortran. I just gave him basically access to the repo and was like, "Okay..." He started making contributions. He taught himself JavScript, and Ruby, and started going to town.
 
 Right before I joined GitHub, that year before I'd spent multiple months... I was working on this other project, so he joined me. He was just out of college at that point, and we worked together and I sort of mentored him. Then, one of the last things we worked on together in sort of this mentorship phase was my idea for an incremental parser.
 
@@ -181,7 +181,7 @@ He got really intrigued by the idea, read a bunch of papers from Berkeley, and w
 
 **Nathan Sobo:** Yeah, great name, great guy. He opened a pull request -- actually, I think it was an issue where we didn't support... Our soft wrap lines didn't support preserving the indentation level on the soft wrap segment of the line, which in retrospect was terrible, but we hadn't gotten around implementing that. So he had pinged me on an issue and was like, "Hey, I'm using Atom. I wanna fix this problem. Do you have any guidance about how to fix it?" and I brought up this idea about phantom tokens... We went back and forth one or two times, and then he had a pull request that was super high quality that he opened, and he sort of just committed himself to building stuff for us for multiple months.
 
-\[32:23\] I don't remember what string I had to pull, but we finally hired him as a contractor and then eventually as a full-timer. So he joined the team.
+\{32:23\} I don't remember what string I had to pull, but we finally hired him as a contractor and then eventually as a full-timer. So he joined the team.
 
 In the past year and a half we've hired Katrina, \[unintelligible 00:32:40.07\], Michelle Tilley and Ash Wilson to work on GitHub integration, which is something that we've always wanted to do, it's just been a really long time coming. So those three are working on that, and I'm really excited about what's coming together on that front.
 
@@ -207,11 +207,11 @@ Then we have another team of three people that are working full-time on this Git
 
 **Jerod Santo:** That's what I would have done.
 
-**Nathan Sobo:** Yeah, so I remember just trying to figure out "How the hell are we gonna do this?" I'd done some C++ in college, but it definitely did not equip me to dig into the Chromium codebase and figure out... Our original integration with the underlying operating system all went through this Objective-C to JavaScript bridge; that was something enabled by the Webkit API, only on the Mac.
+**Nathan Sobo:** Yeah, so I remember just trying to figure out "How the hell are we gonna do this?" I'd done some C++ in college, but it definitely did not equip me to dig into the Chromium codebase and figure out... Our original integration with the underlying operating system all went through this Objective-C to JavScript bridge; that was something enabled by the Webkit API, only on the Mac.
 
-\[36:00\] And it was all synchronous because we didn't have an event loop, and it was just cobbled together... And for the longest time I was like, "We've gotta have access to the NPM ecosystem", and if we were gonna have access to the NPM system, that meant we had to have Node APIs, because all those modules use Node APIs, top to bottom.
+\{36:00\} And it was all synchronous because we didn't have an event loop, and it was just cobbled together... And for the longest time I was like, "We've gotta have access to the NPM ecosystem", and if we were gonna have access to the NPM system, that meant we had to have Node APIs, because all those modules use Node APIs, top to bottom.
 
-So if we were gonna have Node APIs, that meant it had to be V8, and if it was V8, that meant it had to be Chromium. So I really quickly set my sights on getting this dream of this mashup between Node.js and Chrome working, because what we had wasn't cross-platform. They knew it was a priority for all of us, and it didn't have an event loop and the library ecosystem was tiny and the whole point of having that thing in JavaScript was to tap into this huge library ecosystem.
+So if we were gonna have Node APIs, that meant it had to be V8, and if it was V8, that meant it had to be Chromium. So I really quickly set my sights on getting this dream of this mashup between Node.js and Chrome working, because what we had wasn't cross-platform. They knew it was a priority for all of us, and it didn't have an event loop and the library ecosystem was tiny and the whole point of having that thing in JavScript was to tap into this huge library ecosystem.
 
 So we started with this Chromium embedded framework, which was like a step in the direction of Chrome, but it sort of abstracted us away from Chrome. Then I started poking around and researching, trying to dig up what I could find on who did Node and Chrome integration, and I found this project from the Intel research laboratory in China, Node Webkit. You may have heard of it; it's like a competitor to Electron.
 
@@ -239,7 +239,7 @@ So we didn't really know it was gonna become Electron. We called it Atom Shell. 
 
 **Nathan Sobo:** Great.
 
-**Jerod Santo:** \[40:05\] It sounds like you had a lot of -- I mean, obviously you had a lot of challenges, and it sounds like even harder than I was thinking it was, so... Trying to build a desktop class and a desktop app with web technologies post-Electron, like I said, is a relatively straightforward endeavor. In fact, you even empowered other people who were competitors - in the sense of competing text editors - to get to where they wanna go much faster than you all could, because the platform wasn't there yet.
+**Jerod Santo:** \{40:05\} It sounds like you had a lot of -- I mean, obviously you had a lot of challenges, and it sounds like even harder than I was thinking it was, so... Trying to build a desktop class and a desktop app with web technologies post-Electron, like I said, is a relatively straightforward endeavor. In fact, you even empowered other people who were competitors - in the sense of competing text editors - to get to where they wanna go much faster than you all could, because the platform wasn't there yet.
 
 I'm thinking about performance, but I'm sure there's probably other ways, as well... Have you found even today, even with Electron, now that it's abstracted and stabilized and worked on by many people - have you found that there's an uncanny valley or major drawbacks still with using web technologies in building desktop apps? What are your thoughts on that?
 
@@ -255,11 +255,11 @@ Anyway, that API that now will let us do that is this thing called intersection 
 
 To me, that's probably one of the key frustrations - just hitting places where still as amazing as they are, and as many amazing things as web APIs enable, there are sometimes these holes where there's something I need and I can't get it. Measurement - another one. At this particular character, what pixel position is that at horizontally, considering ligatures etc. There's really not a good API to answer that question efficiently, short of putting the content on the DOM and asking it the question.
 
-**Jerod Santo:** \[44:06\] Right. We definitely hit up against that one as well. Let's go one last question on the technical side and we'll hit up into our next break. We have lots more to talk about, including your favorite packages and themes and must-haves, and we also wanna talk about the future - I'll ask you to project a little bit into the future for us for Atom. But on a technical level - this is the superficial technical level... Because just looking at the repository, you have 75% CoffeeScript and 25% JavaScript. Now, CoffeeScript has fallen out of flavor with many developers, especially with ES6 and such things adding many of its features... I'm curious about the history on CoffeeScript and the current team's opinion of it.
+**Jerod Santo:** \{44:06\} Right. We definitely hit up against that one as well. Let's go one last question on the technical side and we'll hit up into our next break. We have lots more to talk about, including your favorite packages and themes and must-haves, and we also wanna talk about the future - I'll ask you to project a little bit into the future for us for Atom. But on a technical level - this is the superficial technical level... Because just looking at the repository, you have 75% CoffeeScript and 25% JavScript. Now, CoffeeScript has fallen out of flavor with many developers, especially with ES6 and such things adding many of its features... I'm curious about the history on CoffeeScript and the current team's opinion of it.
 
 **Nathan Sobo:** The history was when I showed up, n weeks into Atom's development, they were using CoffeeScript (Chris and Cory). At that point in time, I think all of GitHub.com's codebase was then in CoffeeScript. You've gotta kind of transport yourself back to what 2009 or whatever point this decision was made. I mean, ES5 was - for a Ruby programmer, at least - "Ugh, god... I gotta assign crap on the prototype... What is this?!" So CoffeeScript to Ruby programmers - which is what we all were - seemed so appealing; it seemed to fix a lot of problems, it made things more convenient, and it seemed like a cool idea.
 
-Fast forward five years-ish, JavaScript's evolved tremendously, and you're right, CoffeeScript has kind of... To me, it feels a little like a dead end. It's not standard, it's worked on by way fewer people than JavaScript; every feature that it offers that's a positive is now in JavaScript and there are plenty of things that it does that drive me up the wall. So our official policy is no new CoffeeScript. Now, there's instances when we have to dig into some stuff that's written in CoffeeScript, and it's a small change and I'm not down to run this Decaffeinate script and clean up the output to get it converted over; it's just not what I'm up for that day. But slowly but surely, we are gradually converting everything to standards-conformant JavaScript. That's the official policy at the moment.
+Fast forward five years-ish, JavScript's evolved tremendously, and you're right, CoffeeScript has kind of... To me, it feels a little like a dead end. It's not standard, it's worked on by way fewer people than JavScript; every feature that it offers that's a positive is now in JavScript and there are plenty of things that it does that drive me up the wall. So our official policy is no new CoffeeScript. Now, there's instances when we have to dig into some stuff that's written in CoffeeScript, and it's a small change and I'm not down to run this Decaffeinate script and clean up the output to get it converted over; it's just not what I'm up for that day. But slowly but surely, we are gradually converting everything to standards-conformant JavScript. That's the official policy at the moment.
 
 **Jerod Santo:** It was kind of a file-by-file basis.
 
@@ -273,7 +273,7 @@ Fast forward five years-ish, JavaScript's evolved tremendously, and you're right
 
 **Nathan Sobo:** So the original name of Chris' project was Atomicity, and I do not know why he named it that... I don't really get it; I should ask him. But it was Atomicity, and I believe before I was hired they'd made a command line script to launch it from the terminal. And they're like, "Atomicity is really long", and they just made it Atom. Because remember, at the time you could launch Textmate with 'mate', you could launch Sublime with 'subl', so the simplest shortening of Atomicity was Atom, and then that name was like "Oh, that's a much better name."
 
-\[47:58\] So right around the time I was hired I think we renamed the repo to Atom, and just did the rename. And then the branding just kind of grew out of that, because we were interested in the atomic era... Atom, it's this physics thing. So the '50s kind of came to mind, and retro-futurism isn't exactly new, but we really liked that angle of the atomic era. From that, I think we hired an illustrator at some point. It didn't really pan out, but he did some really cool Atom graphics - wallpaper and stuff, that were sort of in this retro-futuristic theme.
+\{47:58\} So right around the time I was hired I think we renamed the repo to Atom, and just did the rename. And then the branding just kind of grew out of that, because we were interested in the atomic era... Atom, it's this physics thing. So the '50s kind of came to mind, and retro-futurism isn't exactly new, but we really liked that angle of the atomic era. From that, I think we hired an illustrator at some point. It didn't really pan out, but he did some really cool Atom graphics - wallpaper and stuff, that were sort of in this retro-futuristic theme.
 
 I remember making Pinterest boards with all these posters from general dynamics from the '50s... You know, those cheesy advertisements that were hand-drawn, about how the world has a better tomorrow, the house of tomorrow etc.
 
@@ -297,7 +297,7 @@ I actually have to talk to designers to get a sense of how intentional all this 
 
 Well, I teed up a break earlier and we didn't take it because we wanted to ask you about the name, so let's take that break now, and on the other side - Nathan's favorite packages, we'll talk about themes, we'll talk about the ecosystem and the future of Atom. We'll be right back.
 
-**Break:** \[50:57\]
+**Break:** \{50:57\}
 
 **Jerod Santo:** Alright, we are back with Nathan. So we were having a fun conversation about Atom. Nathan, I'd like you to talk a little bit about where we are today and where we are going. You probably have thousands, maybe a million -- I don't know, you have lots of users, you have people who love Atom; you also have a lot of people who are holding out. They love their Vim, perhaps their Sublime Text, and they're waiting for X, Y or Z feature or performance to improve, or these other things. So tell us the lay of the land in terms of where Atom is moving.
 
@@ -311,7 +311,7 @@ Then, transitioning out of that to basically add some of the first real big feat
 
 **Nathan Sobo:** That's definitely something I wanna do; that's not really in progress yet. I did a bunch of research in that area, so that I can't really put a timeline on. I can definitely say that more async style traditional GitHub collaboration will be happening this year. I think there will be a natural outgrowth from that into the real-time stuff. There's been a huge debate in the team of just even how real-time is presented - are you like full-on pair programming? And if that's true, what do we do about things like the app that you're working on is on one person's computer; when you run that app, what happens? Etc.
 
-\[56:09\] So when it gets into real-time - and it's definitely somewhere I wanna go - I see it as maybe to start with this little flirtatious outgrowth from some async collaboration like you're already having on a pull request or something, if that makes sense. You're going back and forth in comments, you're seeing that stuff come in, and then you're like, "Alright, why don't I just code with you" and then for a more limited scope working together. But that's all a twinkle in my eye right now.
+\{56:09\} So when it gets into real-time - and it's definitely somewhere I wanna go - I see it as maybe to start with this little flirtatious outgrowth from some async collaboration like you're already having on a pull request or something, if that makes sense. You're going back and forth in comments, you're seeing that stuff come in, and then you're like, "Alright, why don't I just code with you" and then for a more limited scope working together. But that's all a twinkle in my eye right now.
 
 **Jerod Santo:** The GitHub integration is, as you said, underway...
 
@@ -371,7 +371,7 @@ Our budget is about 16 milliseconds for any action to happen in order to feel re
 
 **Jerod Santo:** I agree. That's the Holy Grail. It's like, "Give me the power features when I want them or know I need them, but don't feel like they're your huge, honking IDE. Keep it light, keep it fast."
 
-**Nathan Sobo:** \[01:04:04.28\] Right. Another thing we're working on right now actively is startup time. The technology we're using is this thing called V8 Snapshots where you can, with some limitations, run a bunch of JavaScript Load and run a bunch of JavaScript, and then tell V8, "Hey, serialize your state", and you get this blob of binary. Then, when the Atom is born, it can be born with this blob of already evaluated JS just there, in memory.
+**Nathan Sobo:** \[01:04:04.28\] Right. Another thing we're working on right now actively is startup time. The technology we're using is this thing called V8 Snapshots where you can, with some limitations, run a bunch of JavScript Load and run a bunch of JavScript, and then tell V8, "Hey, serialize your state", and you get this blob of binary. Then, when the Atom is born, it can be born with this blob of already evaluated JS just there, in memory.
 
 So we're actively working on that right now. We had to go through every package that was still using jQuery from the good old days, and remove jQuery because it does all this DOM interaction when it's evaluated. That was breaking our snapshotting, but that's finally done.
 
@@ -381,7 +381,7 @@ I don't know, I still have this pretty big passion, and people may doubt it beca
 
 **Nathan Sobo:** Utter world domination really doesn't matter to me. If people are happy using whatever they use, I'm happy for them, and as a programmer I would never wanna, like -- yeah, whatever; it's fine... Use what works. So world domination doesn't matter, but my goal with Atom has always been to build the editor that I wanna use for the rest of my career. And until it is that definitively, I'm not gonna stop. Honestly, it is gonna probably take another five years, at least.
 
-One big dream is "an IDE-but-not feel" - a text editor, but have the same power as an IDE, but then also democratize that experience. Use a simple JavaScript DSL to define the grammar for some newcomer language, and you've got really awesome facilities that are the foundation for doing refactoring or further semantic analysis etc. So definitely moving into those kinds of language-aware capabilities - that's one pillar of it.
+One big dream is "an IDE-but-not feel" - a text editor, but have the same power as an IDE, but then also democratize that experience. Use a simple JavScript DSL to define the grammar for some newcomer language, and you've got really awesome facilities that are the foundation for doing refactoring or further semantic analysis etc. So definitely moving into those kinds of language-aware capabilities - that's one pillar of it.
 
 The other pillar is never having to leave Atom to do your day-to-day work, in programming land at least. I don't know if everybody at GitHub agrees with me on this (I haven't asked), but I would like Atom to almost feel - if you wanted it, if you opted into that layer - collaborative, to feel like an extension of the GitHub experience, if that makes sense. A collaborative development environment is my thought. An environment for developing that inherently acknowledges that there are multiple people working on whatever you're doing at the same with you, and exposes valuable information about what's going on, and puts you in touch with those people at appropriate times; it keeps you away from that information when it would be distracting, as you brought up...
 

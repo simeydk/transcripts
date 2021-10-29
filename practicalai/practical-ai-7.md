@@ -26,7 +26,7 @@
 
 **Daniel Whitenack:** Awesome. Well, what are you working on right now? I understand you have your own business, right?
 
-**Jared Lander:** \[04:03\] Yes, I do. It's Lander Analytics. We are a data science consulting, training and events company. So at any given moment, we have many different things happening, whether it's client projects, we're teaching people how to use R, or we're putting on events.
+**Jared Lander:** \{04:03\} Yes, I do. It's Lander Analytics. We are a data science consulting, training and events company. So at any given moment, we have many different things happening, whether it's client projects, we're teaching people how to use R, or we're putting on events.
 
 **Daniel Whitenack:** Awesome. And actually, it was at one of those events that I met you... It was a great event, the NYC R Conference, or The R Conference NYC - which one of those is right? I forget...
 
@@ -64,7 +64,7 @@ The meetup was actually founded back in 2009 by Josh Reich. Shortly thereafter, 
 
 After running it for about two years and growing it to 1,800 members, Drew asked me to take over the meetup. I actually took over at the time with Wes McKinney, who's technically my co-organizer. The New York R Meetup, which is now called the Open Statistical Programming Meetup, so that it is welcome to all languages - and indeed, we've had Python, we've had Go, we've had SQL... We've done a number of different languages, as long as they're open source. It is primarily focused on R, but we do allow R and friends, and same with the conference.
 
-\[07:58\] It started in a room at NYU back in 2009, founded by Josh Reich, and was quickly organized by Drew Conway... And everyone knows him, he's one of the old guards of data science. So after about two years of running it and growing it to about 1,800 members, he turned over the reins, and I am very proud to say we are now about to cross 10,000 members.
+\{07:58\} It started in a room at NYU back in 2009, founded by Josh Reich, and was quickly organized by Drew Conway... And everyone knows him, he's one of the old guards of data science. So after about two years of running it and growing it to about 1,800 members, he turned over the reins, and I am very proud to say we are now about to cross 10,000 members.
 
 **Daniel Whitenack:** That's crazy.
 
@@ -104,7 +104,7 @@ So we've had some comments in our Slack, the Changelog Slack, about wanting to g
 
 **Jared Lander:** Absolutely. One of the key things about learning - that's what I've seen from teaching both private clients and at the Columbia is that - you have to disambiguate terminology, and people often just drown in the different terminology. In fact, the talk I gave at the most recent New York R Conference was comparing ML to deep learning, in R... And the first thing I started with was just the vocab, because different people from different fields will call the same exact thing with different words... Like an intercept versus a bias, or coefficients versus weights.
 
-**Daniel Whitenack:** \[12:07\] Yeah, that was actually super-confusing to me when I started to get in data science. I was like "Oh, if I just would have known this was an intercept, then that would have made things so much easier."
+**Daniel Whitenack:** \{12:07\} Yeah, that was actually super-confusing to me when I started to get in data science. I was like "Oh, if I just would have known this was an intercept, then that would have made things so much easier."
 
 **Jared Lander:** Exactly, exactly. It's almost as if you have people at different universities doing the research not reading each other's papers and not knowing that these other terms exist.
 
@@ -146,7 +146,7 @@ I've been attending a number of Capitol Hill events about AI, and I heard someon
 
 **Jared Lander:** So the next step up from this automation is learning from data to make decisions for you. First, we have our linear models, our generalized linear models including binary regression, Poisson regression, whatever you may have, to learn and do things not just based on hard set rules, but to learn from context.
 
-\[15:55\] Now, linear models were simplifications to make the math easy, because they were invented 100 years ago or so. Then you get into non-linear models, which at first were similar to linear models, but had a non-linear construction... But then they got into trees and tree-based models, whether they are random forests or boosted trees. And boosted trees, especially XGBoost, were the darling of the machine learning community for years.
+\{15:55\} Now, linear models were simplifications to make the math easy, because they were invented 100 years ago or so. Then you get into non-linear models, which at first were similar to linear models, but had a non-linear construction... But then they got into trees and tree-based models, whether they are random forests or boosted trees. And boosted trees, especially XGBoost, were the darling of the machine learning community for years.
 
 **Daniel Whitenack:** And Kaggle.
 
@@ -180,7 +180,7 @@ The ability to capture these non-linear relationships, regardless of the method,
 
 When you're going from your input to your first hidden layer, and then on to subsequent hidden layers, there are two steps. There is a matrix multiplication of the inputs by their weights (or coefficients) - and that's linear. If you just did that, a deep learning model would just be a linear model. You could even stack many more layers, and if you just did these multiplications by the weights, it would just be a series of linear models, which would become one large linear model. Then you essentially have a straight line or a curvy linear line.
 
-\[20:24\] But it's that next step at each layer - the activation function. That is a non-linear function you are applying. So whether it is a tanh, or it's a ReLU, or a sigmoid, which is just a fancy word for inverse logit, regardless of which one you're doing, you're doing a non-linear transformation, and that puts a non-linearity in your model, which allows you to capture more complex relationships; if you do more layers, you have more non-linearities, so you can capture really interesting separations between your data.
+\{20:24\} But it's that next step at each layer - the activation function. That is a non-linear function you are applying. So whether it is a tanh, or it's a ReLU, or a sigmoid, which is just a fancy word for inverse logit, regardless of which one you're doing, you're doing a non-linear transformation, and that puts a non-linearity in your model, which allows you to capture more complex relationships; if you do more layers, you have more non-linearities, so you can capture really interesting separations between your data.
 
 **Daniel Whitenack:** Yeah, that's a really great context. Sometimes when I'm thinking about these problems solved by deep learning, I think about them in terms of, you know, I know that there must be these relationships between what I'm putting in and what I want to get out, but I have a really hard time understanding what those relationships are.
 
@@ -200,7 +200,7 @@ So yes, we are losing more that interpretation with a deep learning model, but d
 
 **Jared Lander:** R was written from the ground up as a data language. It was meant for handling data of different types, whether they're numbers, or text, or dates, or logicals... It was designed for data. And beyond that, it was designed for statistics, which is data science, ML, AI by another name. It was meant for doing matrix algebra, it was meant for mathematical programming. So anything involving data just comes so naturally to the R language that it's a joy to work with.
 
-**Daniel Whitenack:** \[23:59\] So with respect to that - I mean, I think my kind of stereotypes before I was involved with the R community was that R was used by these people at universities, and they wrote kind of one-off things to do nifty visualization stuff and data munging, but it wasn't really like a production language that people are using for AI in production at companies... But that's not quite true, is it?
+**Daniel Whitenack:** \{23:59\} So with respect to that - I mean, I think my kind of stereotypes before I was involved with the R community was that R was used by these people at universities, and they wrote kind of one-off things to do nifty visualization stuff and data munging, but it wasn't really like a production language that people are using for AI in production at companies... But that's not quite true, is it?
 
 **Jared Lander:** Not true at all. There's a number of companies that I know are using it in production, which I can't name here; they are my clients. But I've also seen other companies not my clients who do use R in production on a daily basis, and it is a full robust language, just like any other.
 
@@ -228,7 +228,7 @@ So yes, we are losing more that interpretation with a deep learning model, but d
 
 If you need something that's blazing fast, then you're going to do C++ or Go. If you need something that is out of your wheelhouse in R, that is more... Let's say building a web server - you could do that in R; you might go do that in a language that's more natural for a web server. So in my mind, it's really what is your goal, what is your broader ecosystem? It depends -- how does your company work? Do you have a pipelining tool that can pull from different resources, or does everything have to be monolithic? So it really depends on all those factors around you, and what the task at hand really is.
 
-**Daniel Whitenack:** \[28:11\] Yeah, and I think even to that point, there's a lot of interaction with other communities and programming languages as well. I know that you're pretty good friends with Wes McKinney, right
+**Daniel Whitenack:** \{28:11\} Yeah, and I think even to that point, there's a lot of interaction with other communities and programming languages as well. I know that you're pretty good friends with Wes McKinney, right
 
 **Jared Lander:** Yes, we are very good friends.
 
@@ -272,7 +272,7 @@ Even deeper than that, all of these interpreted languages - particularly R and P
 
 **Daniel Whitenack:** We'll for sure put that link in the show notes. I even have evidence - I've seen the lines at conferences to get Jared's signature on his book, and it must be awesome if the lines are that long.
 
-**Jared Lander:** \[32:12\] It's always very flattering when I see a long line of people lined up to come get my autograph; I'm like "I could do this all day long."
+**Jared Lander:** \{32:12\} It's always very flattering when I see a long line of people lined up to come get my autograph; I'm like "I could do this all day long."
 
 Beyond that, if you wanna start getting more specifically into ML, of course you have to show up to the meetups and the conferences; that's your in-person experience... And that's not just for the knowledge, which you do get a lot of knowledge, but it's to be around other like-minded people.
 
@@ -312,7 +312,7 @@ You mentioned TensorFlow, Jared... What is the state of interaction between R an
 
 **Jared Lander:** It's really amazing. Now, it has TensorFlow as the default, but you can plug in other compatible Keras frameworks. So it really gives you a broad spectrum what you can do, though I would say that 99% of the people using Keras and R are using TensorFlow as the framework underneath.
 
-**Daniel Whitenack:** \[36:11\] Makes sense.
+**Daniel Whitenack:** \{36:11\} Makes sense.
 
 **Chris Benson:** That's pretty cool. So I guess as you look forward in R at this point, and as we are surging forward for the years to come in AI and ML and stuff, what are you excited about right now in the R community, and in your own projects, for that matter, where R is intersecting AI and ML?
 
@@ -320,9 +320,9 @@ You mentioned TensorFlow, Jared... What is the state of interaction between R an
 
 **Daniel Whitenack:** They're already onto better things...
 
-**Jared Lander:** Not necessarily better things, but different fun things. We're all super-excited about using R Markdown to automate slideshows and reports, or HTML widgets to have interactive JavaScript embedded in your R report... Or different types of graphics, or data manipulation, or network analysis - all this other fun stuff... Like, "Yeah, we've been doing machine learning forever, and look at all this other cool, fun stuff!"
+**Jared Lander:** Not necessarily better things, but different fun things. We're all super-excited about using R Markdown to automate slideshows and reports, or HTML widgets to have interactive JavScript embedded in your R report... Or different types of graphics, or data manipulation, or network analysis - all this other fun stuff... Like, "Yeah, we've been doing machine learning forever, and look at all this other cool, fun stuff!"
 
-**Daniel Whitenack:** Yeah, and I guess at this point you have awesome support for things like TensorFlow, like you already said... Those sorts of interactions with JavaScript widgets or whatever it might be are really -- I think they're really interesting.
+**Daniel Whitenack:** Yeah, and I guess at this point you have awesome support for things like TensorFlow, like you already said... Those sorts of interactions with JavScript widgets or whatever it might be are really -- I think they're really interesting.
 
 **Jared Lander:** And they're really cool and fun stuff, because let's be honest, the vast majority of time a data scientist spends is not doing all the really cool modeling that we all wanna do, it's doing the data prep, the manipulation, reporting, graphing... That's 80%-90% of the job now. Now this becomes so easy to do the modeling, to do the true AI part, that everything else takes up so much time.
 
@@ -336,11 +336,11 @@ You mentioned TensorFlow, Jared... What is the state of interaction between R an
 
 **Chris Benson:** I'll tell you what, I know! I don't know whether to praise you, Daniel, or just to say "Wow, that's a little bit crazy!" Or both.
 
-**Daniel Whitenack:** Yeah, well, pair me with one of you guys and I'll do the data cleaning, and you can add an awesome JavaScript widget powered by TensorFlow, or something... \[laughter\]
+**Daniel Whitenack:** Yeah, well, pair me with one of you guys and I'll do the data cleaning, and you can add an awesome JavScript widget powered by TensorFlow, or something... \[laughter\]
 
-**Jared Lander:** It's funny you make that joke, but there's now JavaScript bindings for TensorFlow.
+**Jared Lander:** It's funny you make that joke, but there's now JavScript bindings for TensorFlow.
 
-**Daniel Whitenack:** Yeah, that's a really interesting topic, and I think that there's some very subtle, but really important implications of things like that... That's around privacy and other stuff like that. If you're actually embedding a model in JavaScript and running it on someone's device, in their browser or wherever it might be, and maybe even updating a model in the browser, then data never has to leave that person's device. I think that's a really important and interesting implication of stuff like that.
+**Daniel Whitenack:** Yeah, that's a really interesting topic, and I think that there's some very subtle, but really important implications of things like that... That's around privacy and other stuff like that. If you're actually embedding a model in JavScript and running it on someone's device, in their browser or wherever it might be, and maybe even updating a model in the browser, then data never has to leave that person's device. I think that's a really important and interesting implication of stuff like that.
 
 **Chris Benson:** I sense a show coming up on that topic.
 
@@ -350,7 +350,7 @@ You mentioned TensorFlow, Jared... What is the state of interaction between R an
 
 **Daniel Whitenack:** It's probably not a game that you're gonna want to play all night... Jared, so that's a lot of interesting stuff, but before we go too far down the PacMan hole, is there anything else that you wanted to mentioned that you're excited about, or things coming up?
 
-**Jared Lander:** \[40:10\] Something I'm seeing a lot in the data science community in general, but particularly the R community, is what to do with these models after you've built them. In the past, I came up with all sorts of workarounds; I'd take a model, save it as a binary, and then have an R session running, and people would have to interact with that using R Script... And now it's becoming so easy, through various different tools, for other people to now consume the results of the model, particularly with predictions - or scoring, depending on the words you wanna use... Or even inference, as the deep learning community uses, even though that means something else in the stats community... It's now become so easy with different tools such as the Plumber API package in R, which turns your R scripts into APIs, or even third-party solutions... There's a company out there called Algorithmia, and they take your models, regardless of the language, then you build an API that anyone can hit.
+**Jared Lander:** \{40:10\} Something I'm seeing a lot in the data science community in general, but particularly the R community, is what to do with these models after you've built them. In the past, I came up with all sorts of workarounds; I'd take a model, save it as a binary, and then have an R session running, and people would have to interact with that using R Script... And now it's becoming so easy, through various different tools, for other people to now consume the results of the model, particularly with predictions - or scoring, depending on the words you wanna use... Or even inference, as the deep learning community uses, even though that means something else in the stats community... It's now become so easy with different tools such as the Plumber API package in R, which turns your R scripts into APIs, or even third-party solutions... There's a company out there called Algorithmia, and they take your models, regardless of the language, then you build an API that anyone can hit.
 
 With these tools we can productionalize our models so easily... I can write my code in R, I could use either Algorithmia or Plumber to create a simple RESTful API, have it running on a server or even a microservice, then someone else can go hit that and get the results of my model. So it really creates this accessibility, and it's so exciting seeing this happening faster and faster these days.
 

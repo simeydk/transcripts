@@ -6,7 +6,7 @@
 
 **Kevin Ball:** Hello! I am currently an internet friend, but hopefully someday we'll go back to being friends in person. One day we'll be able to travel.
 
-**Jerod Santo:** Someday... One of these days we'll visit all five continents together, and do JS Parties on all five continents. Fact-check - false. We are also joined by an impostor from our sister program over there. He's a gopher, but he secretly likes JavaScript. Shh... Don't tell the Go Time listeners. It's Mat Ryer. What's up, Mat?
+**Jerod Santo:** Someday... One of these days we'll visit all five continents together, and do JS Parties on all five continents. Fact-check - false. We are also joined by an impostor from our sister program over there. He's a gopher, but he secretly likes JavScript. Shh... Don't tell the Go Time listeners. It's Mat Ryer. What's up, Mat?
 
 **Mat Ryer:** Hello! We're more of internet acquaintances, aren't we, Jerod?
 
@@ -26,7 +26,7 @@
 
 Today we are going to do a few things, maybe even four things, which is we are going to do our recurrent segment Story of the Week, we are going to do TIL (Today I Learned), we're also gonna sneak in, if we have time, an unpopular opinion segment... And then finally, again, if we have time, shout-outs to people doing cool stuff in the industry.
 
-\[04:03\] So let's do Story of the Week, shall we? This is a fun game we play, where everybody takes turns sharing what they believe is the most important, or the biggest, or the most interesting (or at least the one that they could find) story of the week, and we discuss.
+\{04:03\} So let's do Story of the Week, shall we? This is a fun game we play, where everybody takes turns sharing what they believe is the most important, or the biggest, or the most interesting (or at least the one that they could find) story of the week, and we discuss.
 
 Now, we like to have jingles for our segments... And you may remember that Nick came up with this excellent jingle for Pro Tip Time.\[jingle 00:04:25.28\]
 
@@ -78,7 +78,7 @@ And apparently, in New York, according to New York law, if you make a wire trans
 
 **Jerod Santo:** So whose fault was this? Is there any insight onto the process that created this, the systems in place? Or was it just kind of like an ongoing story...? Because it's easy to just blame the designer or the developer... But surely, there's systemic failures that have allowed these things to go out, right?
 
-**Mat Ryer:** \[08:07\] Yeah. It'll definitely the fault of the project manager, won't it? We would never blame the developers, of course. But no -- and actually, it went through like three people who had to confirm it, because it's such a big number that they're dealing with... And they all just, by looking at the UI, they all inferred the wrong thing, they all assumed the wrong thing. And it was apparently a very reasonable thing to assume as well, when you look at what they put... So I don't know... Whose fault -- I don't know... I don't know if we have to blame, do we? Yeah, we do. It's 500 million dollars.
+**Mat Ryer:** \{08:07\} Yeah. It'll definitely the fault of the project manager, won't it? We would never blame the developers, of course. But no -- and actually, it went through like three people who had to confirm it, because it's such a big number that they're dealing with... And they all just, by looking at the UI, they all inferred the wrong thing, they all assumed the wrong thing. And it was apparently a very reasonable thing to assume as well, when you look at what they put... So I don't know... Whose fault -- I don't know... I don't know if we have to blame, do we? Yeah, we do. It's 500 million dollars.
 
 **Jerod Santo:** That's right. Someone's gotta pay for that.
 
@@ -116,7 +116,7 @@ It kind of reminds me of a similar story - it was either Venmo, or Cash App... S
 
 **Kevin Ball:** There's so many things like that in the crypto space, where it's like, we can replace everything with the assumption that once it's in code, it's infallible... Forgetting that "No, wait - actually, humans have to write that code. And humans create bugs."
 
-**Jerod Santo:** \[12:00\] Right. What we do is we make our bugs immutable, we put them into an immutable system. So yeah, when money in involved, and life or death is involved, things need to be taken more seriously than the typical web developer mindset.
+**Jerod Santo:** \{12:00\} Right. What we do is we make our bugs immutable, we put them into an immutable system. So yeah, when money in involved, and life or death is involved, things need to be taken more seriously than the typical web developer mindset.
 
 **Mat Ryer:** Yeah. I had a manager once, who in my performance review said "We don't want to have any code that's got any errors in it." That was the thing.
 
@@ -162,9 +162,9 @@ It kind of reminds me of a similar story - it was either Venmo, or Cash App... S
 
 **Jerod Santo:** Okay. \[laughs\]
 
-**Kevin Ball:** However, I thought it was really interesting. I recently saw a release announcement for a JavaScript framework called Blitz.js. And what made it interesting to me is not the framework itself, which looks like another take on trying to do kind of an all-inclusive JavaScript framework, kind of similar to what Redwood tries to do, things like that... But what made it interesting is that they are touting that they're built on top of Next.js. We've had this trend for a while, where - okay, React and Vue and all these frameworks, they become a base layer, and then people are building these higher-level frameworks on top of them, like Next, and Nuxt, and Redwood, and whatever.
+**Kevin Ball:** However, I thought it was really interesting. I recently saw a release announcement for a JavScript framework called Blitz.js. And what made it interesting to me is not the framework itself, which looks like another take on trying to do kind of an all-inclusive JavScript framework, kind of similar to what Redwood tries to do, things like that... But what made it interesting is that they are touting that they're built on top of Next.js. We've had this trend for a while, where - okay, React and Vue and all these frameworks, they become a base layer, and then people are building these higher-level frameworks on top of them, like Next, and Nuxt, and Redwood, and whatever.
 
-This is the first time I've seen someone explicitly going yet another layer, and saying "Okay, that first layer of additional abstraction configuration etc. - that's good, but that's not good enough. We're gonna go even further." And it made me wonder... I mean, this is a common pattern in the tech industry - you build an abstraction, once it gets solid enough you build another abstraction on top of it, once it gets solid enough you build another one on top of it... So I'm wondering if this is an outlier, or if that's the phase we're in now, where we're actually going up yet one more layer in the JavaScript framework space.
+This is the first time I've seen someone explicitly going yet another layer, and saying "Okay, that first layer of additional abstraction configuration etc. - that's good, but that's not good enough. We're gonna go even further." And it made me wonder... I mean, this is a common pattern in the tech industry - you build an abstraction, once it gets solid enough you build another abstraction on top of it, once it gets solid enough you build another one on top of it... So I'm wondering if this is an outlier, or if that's the phase we're in now, where we're actually going up yet one more layer in the JavScript framework space.
 
 **Jerod Santo:** I think the key phrase there was "Once it gets solid enough", and I just wonder, if things are so moving, and at a certain point when you're playing Jenga, the top of the Jenga just gets so wobbly, because it's built on these layers that have lost some of their footing... So yes, we always wanna be adding layers on top, because that brings functionality to more and more people, which is the goal... But it's definitely a challenge to do that.
 
@@ -180,7 +180,7 @@ I don't know... Next.js feels pretty high-level, but... Is this where they start
 
 **Kevin Ball:** Interesting.
 
-**Jerod Santo:** \[16:13\] I'm curious what Mat or Nick says about Kball's question there.
+**Jerod Santo:** \{16:13\} I'm curious what Mat or Nick says about Kball's question there.
 
 **Nick Nisi:** Yeah, it's interesting that we're seeing these, and a lot of them tend to be built on top of React. Next is, obviously, and then Redwood is too, right?
 
@@ -224,15 +224,15 @@ So is Blitz.js - is that like a server-side thing as well? Is it kind of a backe
 
 **Kevin Ball:** Of course.
 
-**Jerod Santo:** That's why he was surprised when I said we had the creator on the show, because he just didn't remember being a guest... This was from the V8 team, specifically written by Victor Gomes; the frame shredder - is that what he calls himself? He does. So on this piece, which I'll link in the show notes, he calls himself Victor Gomes, the frame shredder, which is a pretty sweet moniker if you ask me... If self-proclaimed. Maybe somebody gave him that. But his post was called "Faster JavaScript calls", and he's detailing some amazing work that he and the V8 team have done to make function calls in V8 quite a bit faster. I'm trying to pull up the numbers here...
+**Jerod Santo:** That's why he was surprised when I said we had the creator on the show, because he just didn't remember being a guest... This was from the V8 team, specifically written by Victor Gomes; the frame shredder - is that what he calls himself? He does. So on this piece, which I'll link in the show notes, he calls himself Victor Gomes, the frame shredder, which is a pretty sweet moniker if you ask me... If self-proclaimed. Maybe somebody gave him that. But his post was called "Faster JavScript calls", and he's detailing some amazing work that he and the V8 team have done to make function calls in V8 quite a bit faster. I'm trying to pull up the numbers here...
 
-\[20:21\] So when they're able to pull this off, they have 11% performance improvement in JIT-less mode, when you do not have a just-in-time compiler... And when using TurboFan - which I did not click through on TurboFan to see what it is; TurboFan is one of V8's optimizing compilers leveraging a concept called "Sea of Nodes". I'm just reading this off the website... So this is like another level of performance improvements that V8 can do. They get up to 40% speed-up doing this interesting trick.
+\{20:21\} So when they're able to pull this off, they have 11% performance improvement in JIT-less mode, when you do not have a just-in-time compiler... And when using TurboFan - which I did not click through on TurboFan to see what it is; TurboFan is one of V8's optimizing compilers leveraging a concept called "Sea of Nodes". I'm just reading this off the website... So this is like another level of performance improvements that V8 can do. They get up to 40% speed-up doing this interesting trick.
 
 I will just read a little bit from it, because he explains it pretty well. He writes:
 
-"JavaScript allows calling a function with a different number of arguments than the expected number of parameters, as in one can pass fewer or more arguments than the declared formal parameters. The former case is called under-application and the latter is called over-application."
+"JavScript allows calling a function with a different number of arguments than the expected number of parameters, as in one can pass fewer or more arguments than the declared formal parameters. The former case is called under-application and the latter is called over-application."
 
-So this is a feature of JavaScript that allows you to do this. And he says:
+So this is a feature of JavScript that allows you to do this. And he says:
 
 "In the under-application case, the remaining parameters get assigned the undefined value. In the over-application case, the remaining arguments can be accessed by using the rest parameter and the arguments property", which is the arguments keyword. "Or they are simply superfluous and they can be ignored." So lots of cases, they don't really matter.
 
@@ -240,9 +240,9 @@ And V8 has this special machinery in place to deal with this argument size misma
 
 And he goes through, in the blog post, details on how they're changing the way things get put on the stack and off the stack. It's way over my head - or way underneath, in terms of its depth - for me to completely understand, but it's really awesome work. I just love when lower-level things get improved, and just everything in the world benefits... Because that's the power of leverage in software development. You can do this tiny little thing, which was a lot of work for them... But at the end of the day, the change they made in code I think is probably minuscule, compared to the entirety of the V8 codebase... And it can just squeeze out performance for everybody who uses V8 all around the world. It's pretty cool.
 
-**Mat Ryer:** Yeah. So that case you mentioned - would that only work if there's the wrong or different number of arguments? Or is it like the check that it has to do that was expensive? How often do you send the wrong number of arguments to a function in JavaScript?
+**Mat Ryer:** Yeah. So that case you mentioned - would that only work if there's the wrong or different number of arguments? Or is it like the check that it has to do that was expensive? How often do you send the wrong number of arguments to a function in JavScript?
 
-**Kevin Ball:** Well, we're talking JavaScript developers, so...
+**Kevin Ball:** Well, we're talking JavScript developers, so...
 
 **Jerod Santo:** I was gonna say I never do... \[laughs\] But that's because my code is always perfect. I don't know.
 
@@ -256,11 +256,11 @@ And he goes through, in the blog post, details on how they're changing the way t
 
 **Jerod Santo:** Right.
 
-**Kevin Ball:** So this is the mechanism by which both of those are implemented within JavaScript.
+**Kevin Ball:** So this is the mechanism by which both of those are implemented within JavScript.
 
 **Jerod Santo:** Yeah. Which doesn't scale very well, but is a feature that's been there for a very long time. Lots of people, when you have optional number of arguments, they'll just pass an object... And you can set defaults... There's better stuff you can do. I think the use of arguments as a keyword or as a -- I think it's a keyword inside of a function... Which represents that and returns you a list, is not something that I use very often. Maybe some library authors have to deal with in order to provide a nice API to some of their functions... But I think in many cases that pattern has been replaced by objects in terms of optional arguments, or variable parity, basically.
 
-**Nick Nisi:** \[24:16\] Yeah. And I don't even think arguments exists anymore in things like arrow functions.
+**Nick Nisi:** \{24:16\} Yeah. And I don't even think arguments exists anymore in things like arrow functions.
 
 **Jerod Santo:** Oh, really? So Mat's question stands though, is it improving all function calls, or only the ones -- well, I guess, is it the check that improves the...? I don't know the answer to that, Mat - is it the check that improves the speed, or is it the process once you get into that that deals with it. I don't know, I'll have to grok the blog post better than I did to answer that one.
 
@@ -272,7 +272,7 @@ And he goes through, in the blog post, details on how they're changing the way t
 
 **Mat Ryer:** Yeah. And people like the frame shredder, they really measure -- you know, when they're doing optimizations like this, they're really measuring this stuff. It's often very data-driven, so they probably wouldn't waste their time if it's not gonna have a big benefit.
 
-And you know, you just imagine, at your job, the thing you do makes JavaScript a bit better, and then the whole of the internet just gets a bit better. That must be quite good for job satisfaction, don't you think?
+And you know, you just imagine, at your job, the thing you do makes JavScript a bit better, and then the whole of the internet just gets a bit better. That must be quite good for job satisfaction, don't you think?
 
 **Jerod Santo:** One hundred percent. I think if you want to maximize impact, one of the thing you can do is go work for a large B2C platform. You could work for a Twitter or a Facebook. If you wanna maximize effect, like "I wanna affect the most people this way", something with a lot of users, the other way you can do it is go the other direction and work on the platforms that people create the apps with. You could work on Apple's Swift and -- what's the name of their frameworks? I'm forgetting, because I haven't done Apple stuff a long time...
 
@@ -292,7 +292,7 @@ And you know, you just imagine, at your job, the thing you do makes JavaScript a
 
 **Mat Ryer:** Yeah.
 
-**Nick Nisi:** Could you just resign to calling V8 the web, as in THE JavaScript engine?
+**Nick Nisi:** Could you just resign to calling V8 the web, as in THE JavScript engine?
 
 **Jerod Santo:** No, I didn't mean to, but... \[laughs\]
 
@@ -304,7 +304,7 @@ And you know, you just imagine, at your job, the thing you do makes JavaScript a
 
 So you find these micro-optimizations and then you scale them out over the fact that you're running this on however many billion copies, or machines, or what have you... And I agree that doing it for something like Chrome, V8, what have you, is one of the widest scale-outs you're gonna see on that... But for me, that's actually not very satisfying, because it's focusing on these tiny little pieces, and you have to scale it out. The actual impact on any one individual is very small... And it's having massive overall impact, you're probably saving hundreds and thousands of CPU hours, and yadda-yadda, spread out across the entire world, but no individual is likely to notice the difference. I'd prefer to swing the other way, where there's a set of individuals for whom the work that I'm doing is extremely impactful, even if that set of individuals is smaller.
 
-**Mat Ryer:** \[28:10\] So you'd rather make a few people very happy, rather than loads of people a little bit happy.
+**Mat Ryer:** \{28:10\} So you'd rather make a few people very happy, rather than loads of people a little bit happy.
 
 **Kevin Ball:** I mean, ideally I'd make many people very happy, but I'm gonna start at the first part of that. And this is one of the reasons I'm kind of a startup/small company guy for a long time... You start with figuring out something that makes at least a subset of people very happy, and then you try to gradually expand the set of people that's it's applicable to.
 
@@ -324,7 +324,7 @@ I definitely appreciate your perspective, Kball, being represented, because I do
 
 **Jerod Santo:** \[laughs\]
 
-**Break:** \[29:48\]
+**Break:** \{29:48\}
 
 **Jerod Santo:** Alright, we are now ready to share things that we have learned recently. This is our "Today I Learned" segment, or TIL. We have an awesome jingle for TIL. Wait, no we don't... But we would love if Mat could provide one on the spot. Mat...
 
@@ -338,7 +338,7 @@ I definitely appreciate your perspective, Kball, being represented, because I do
 
 **Mat Ryer:** Okay. \[live jingle 00:32:07.29\] "Today I learned." Yeah? I mean, I didn't know where that was going, but... Is that right?
 
-**Jerod Santo:** \[32:16\] \[laughs\] It started great... And it ended great.
+**Jerod Santo:** \{32:16\} \[laughs\] It started great... And it ended great.
 
 **Kevin Ball:** And it wasn't very long, so there wasn't much of a middle.
 
@@ -416,7 +416,7 @@ I definitely appreciate your perspective, Kball, being represented, because I do
 
 **Jerod Santo:** You're saying that because you're brunette, Kball. Alright, let's move on. Add a break right here... \[laughter\] TIL. Nick, hit us up. You've learned lots of things. I heard there might be even more than one that you might be sharing, so... Please do.
 
-**Nick Nisi:** Alright. Well, this is something that I actually learned yesterday, and I used yesterday, which is pretty awesome... Have you heard of this cool thing called optional chaining? It's a new operator in JavaScript...
+**Nick Nisi:** Alright. Well, this is something that I actually learned yesterday, and I used yesterday, which is pretty awesome... Have you heard of this cool thing called optional chaining? It's a new operator in JavScript...
 
 **Jerod Santo:** I have.
 
@@ -426,7 +426,7 @@ I definitely appreciate your perspective, Kball, being represented, because I do
 
 **Jerod Santo:** I did not know that.
 
-**Kevin Ball:** Because methods are properties in JavaScript, right?
+**Kevin Ball:** Because methods are properties in JavScript, right?
 
 **Nick Nisi:** Yeah.
 
@@ -442,7 +442,7 @@ I definitely appreciate your perspective, Kball, being represented, because I do
 
 **Kevin Ball:** I would imagine it depends on if your function is returning an object itself that's gonna have a method on it, right? Because it's still using the same question of "Does this property exist on this object?" But in that case the property is a method. So in like a jQuery style API you could use it indefinitely. You could ?. to your heart's content.
 
-**Jerod Santo:** \[36:09\] That sounds fun. That sounds like a good way of taking back that new optimization they've put in V8 and just wiping it out. \[laughter\] "Oh, you saved us 40%? I'm gonna cost us infinite percent."
+**Jerod Santo:** \{36:09\} That sounds fun. That sounds like a good way of taking back that new optimization they've put in V8 and just wiping it out. \[laughter\] "Oh, you saved us 40%? I'm gonna cost us infinite percent."
 
 Anything else you learned recently, Nick?
 
@@ -462,11 +462,11 @@ Nick, are you going for the trifecta, or should we pass it on to Kball?
 
 **Jerod Santo:** Let's do it.
 
-**Nick Nisi:** Alright. I've been playing around with template literal types in TypeScript 4.1. And the new type -- it's using template literals how you would use them normally in JavaScript, but you can use that to dynamically build types... Specifically like string literal types, where you can say "This value can be the string Jerod, or Kball", and if it's anything other than that, you get a type error. Well, you can dynamically create that, so I could have a list of all of the guests on JS Party, and then create a type, meaning that the current speaker is one of these three types, and it's Mat, Jerod, or Kball... And combining that with the ability to import only types where you just say "import type" and it's just a regular import statement after that, but when it goes to build, it won't actually have a binding to that library. So it's only importing the values to be used as types in your local code, so that you won't accidentally massively increase your bundle size. And the ability to call recursive types, so putting three things together.
+**Nick Nisi:** Alright. I've been playing around with template literal types in TypeScript 4.1. And the new type -- it's using template literals how you would use them normally in JavScript, but you can use that to dynamically build types... Specifically like string literal types, where you can say "This value can be the string Jerod, or Kball", and if it's anything other than that, you get a type error. Well, you can dynamically create that, so I could have a list of all of the guests on JS Party, and then create a type, meaning that the current speaker is one of these three types, and it's Mat, Jerod, or Kball... And combining that with the ability to import only types where you just say "import type" and it's just a regular import statement after that, but when it goes to build, it won't actually have a binding to that library. So it's only importing the values to be used as types in your local code, so that you won't accidentally massively increase your bundle size. And the ability to call recursive types, so putting three things together.
 
 So putting all of those together you can create some really cool combinations of dynamic types. And the specific one that I've been playing around with is - for all of our internationalization, we have this massive JSON file, and it's nested. So you can have like this page is the account preferences, and that is an object that contains subkeys, and there might be subkeys in there, but they all end up becoming a string at some point, and that's your English translation of whatever, and then you can have a French file, a Chinese file, all of those.
 
-\[39:57\] And the way we reference that by using \[unintelligible 00:39:59.21\] to get that. But that's just a string in my code. But using recursive types and template literal types, and using import type to import the shape of the JSON file, I can then create a dynamic type that is the dot notation, so I can just get an array back, or a union type back of all of the possible combinations of combining account preferences \[unintelligible 00:40:30.16\] and it will all be perfectly typed... Which is really cool.
+\{39:57\} And the way we reference that by using \[unintelligible 00:39:59.21\] to get that. But that's just a string in my code. But using recursive types and template literal types, and using import type to import the shape of the JSON file, I can then create a dynamic type that is the dot notation, so I can just get an array back, or a union type back of all of the possible combinations of combining account preferences \[unintelligible 00:40:30.16\] and it will all be perfectly typed... Which is really cool.
 
 **Kevin Ball:** I feel like you need to write this up... \[laughter\] Because I was trying to hold that all in my head as you were saying it, and completely and utterly failed.
 
@@ -492,9 +492,9 @@ I'm a long-time huge fan of SVGs, but they do have this pain point of like it's 
 
 **Jerod Santo:** Yeah, you win.
 
-**Mat Ryer:** Yeah. I'll tell you what - I mentioned earlier the APIs now in browsers, and this might be old news to people that do a lot more JavaScript than I do... But there's a WebAuthn API that lets you use the fingerprint or Face ID stuff in your JavaScript code for authentication, things like this... Which is kind of what you need, isn't it? It's what you expect. But you see, when I started doing this, everything was sandboxed so tightly... The world was so different, the JavaScript world was just so different. You didn't really interact much with the device at all. And increasingly, as they open all these APIs, I think we're just gonna see more and more powerful things being built... And I kind of love seeing that.
+**Mat Ryer:** Yeah. I'll tell you what - I mentioned earlier the APIs now in browsers, and this might be old news to people that do a lot more JavScript than I do... But there's a WebAuthn API that lets you use the fingerprint or Face ID stuff in your JavScript code for authentication, things like this... Which is kind of what you need, isn't it? It's what you expect. But you see, when I started doing this, everything was sandboxed so tightly... The world was so different, the JavScript world was just so different. You didn't really interact much with the device at all. And increasingly, as they open all these APIs, I think we're just gonna see more and more powerful things being built... And I kind of love seeing that.
 
-I remember when I first discovered about local storage, and there's IndexedDB in the browser... It is kind of amazing to see that... But yeah. So I learned that. That's what I TIL-ed today, was that you can use fingerprint auth in your JavaScript.
+I remember when I first discovered about local storage, and there's IndexedDB in the browser... It is kind of amazing to see that... But yeah. So I learned that. That's what I TIL-ed today, was that you can use fingerprint auth in your JavScript.
 
 **Nick Nisi:** That is awesome. You can access sensors as well on the device... GPS coordinates I guess have been around a while... But also things like the battery. So maybe don't do some things; turn off animations if the user's battery is low, or something. Be a nice citizen for them. It's a good one.
 
@@ -512,7 +512,7 @@ I remember when I first discovered about local storage, and there's IndexedDB in
 
 **Jerod Santo:** \[laughs\]
 
-**Mat Ryer:** \[44:16\] I've never had dinner with Saddam Hussein, or any dictator...
+**Mat Ryer:** \{44:16\} I've never had dinner with Saddam Hussein, or any dictator...
 
 **Jerod Santo:** We need to back that one off...
 
@@ -538,7 +538,7 @@ I remember when I first discovered about local storage, and there's IndexedDB in
 
 **Mat Ryer:** Okay, thank you. \[laughter\] See what I mean? I'm kind of nervous now... I don't wanna upset the king.
 
-**Break:** \[44:52\]
+**Break:** \{44:52\}
 
 **Jerod Santo:** Okay, we are back... And did you know that Go Time has a regular slot called Unpopular Opinion? You may have known that, because we've stolen that slot once before, and did better on Unpopular Opinions than they generally come up with... But we actually have the man, the myth, the legend -- Mat Ryer sings the jingle for that. He went in the studio, he produced it, it took weeks... Didn't it, Mat?
 
@@ -550,13 +550,13 @@ I remember when I first discovered about local storage, and there's IndexedDB in
 
 **Jerod Santo:** One thing I've noticed as the producer of Go Time is that you like to cue up other people's unpopular opinions, but you rarely turn the spotlight back on yourself and share your own thoughts. I feel like it's a cowardly move, to be honest... But now here you are, you're the guest, and you've obviously shown you have the bravado to rock'n'roll a theme song... Can you share with us an unpopular opinion?
 
-**Mat Ryer:** Yes, I can. And it's about JavaScript, too.
+**Mat Ryer:** Yes, I can. And it's about JavScript, too.
 
 **Jerod Santo:** Okay, let's hear it.
 
-**Mat Ryer:** \[47:30\] I think there's too much stuff in JavaScript. When I write JavaScript, I use a tiny little subset of the things you can do, really tiny. And I try and shrink that as small as possible. And I feel like that improves readability. I don't have to learn all the new features... Because there's lots of really cool stuff. The ?. thing - I loved that. I'm definitely gonna be using that one. That's extremely useful. But I try and use just a really small, little -- I almost have like a subset of JavaScript that I use. It could almost have its own name...
+**Mat Ryer:** \{47:30\} I think there's too much stuff in JavScript. When I write JavScript, I use a tiny little subset of the things you can do, really tiny. And I try and shrink that as small as possible. And I feel like that improves readability. I don't have to learn all the new features... Because there's lots of really cool stuff. The ?. thing - I loved that. I'm definitely gonna be using that one. That's extremely useful. But I try and use just a really small, little -- I almost have like a subset of JavScript that I use. It could almost have its own name...
 
-But yeah, that's my unpopular opinion. I think JavaScript has too many language features, and should be smaller. What do you think of that?
+But yeah, that's my unpopular opinion. I think JavScript has too many language features, and should be smaller. What do you think of that?
 
 **Jerod Santo:** Well, what do you think about food options? Do you feel like there's too many choices of what you might eat out there in the world, and you'd prefer if there were less? Or would you like to just select the subset of food options that you appreciate and use those?
 
@@ -580,17 +580,17 @@ Yeah, it's a very common case to say, in dynamic languages and with dynamic data
 
 **Jerod Santo:** There might be some backwards-compatibility reason why that couldn't be the case.
 
-**Nick Nisi:** So you said that you would prefer to only use a smaller subset of JavaScript... Could you give a name to that?
+**Nick Nisi:** So you said that you would prefer to only use a smaller subset of JavScript... Could you give a name to that?
 
 **Kevin Ball:** Go.js? \[laughter\]
 
 **Nick Nisi:** How would you enforce that?
 
-**Mat Ryer:** Well, you could do a linter. You could actually have a compiler that only understood a subset of JavaScript. You could do away with older patterns, or older languages features that you don't wanna support. There's projects that do this kind of thing sometimes, but... I don't know really exactly what it is, but... You know, when junior devs come to a project, if it's trivial for them to get going, I feel like that's kind of a good property to have in a project.
+**Mat Ryer:** Well, you could do a linter. You could actually have a compiler that only understood a subset of JavScript. You could do away with older patterns, or older languages features that you don't wanna support. There's projects that do this kind of thing sometimes, but... I don't know really exactly what it is, but... You know, when junior devs come to a project, if it's trivial for them to get going, I feel like that's kind of a good property to have in a project.
 
 **Jerod Santo:** Sure. Isn't that what a linter provides though? Or a style guide, like ESLint and/or Style Guide. Doesn't that provide that guard rails?
 
-**Kevin Ball:** \[51:55\] This is the kind of thing that some languages do it in the language, some languages do it by adoption... Perl is infamous for TMTOWTDI (there's more than one way to do it); you do it however you want. You do you, and you have write-only code. And then Python, which is a similarly flexible language, has the Python way, and there's a right way to do it, and there's a wrong way to do it, and those are both pervasive throughout the communities... And I feel like JavaScript - it's very fragmented. There's some parts of the JavaScript world that are very much in the Perl camp - "Do what you wanna do, write it however you wanna write it..." and then there are subsets of the communities where they have very tight linting, they have various other things to assert a subset of a language.
+**Kevin Ball:** \{51:55\} This is the kind of thing that some languages do it in the language, some languages do it by adoption... Perl is infamous for TMTOWTDI (there's more than one way to do it); you do it however you want. You do you, and you have write-only code. And then Python, which is a similarly flexible language, has the Python way, and there's a right way to do it, and there's a wrong way to do it, and those are both pervasive throughout the communities... And I feel like JavScript - it's very fragmented. There's some parts of the JavScript world that are very much in the Perl camp - "Do what you wanna do, write it however you wanna write it..." and then there are subsets of the communities where they have very tight linting, they have various other things to assert a subset of a language.
 
 **Nick Nisi:** Or a superset.
 
@@ -612,7 +612,7 @@ Yeah, it's a very common case to say, in dynamic languages and with dynamic data
 
 **Nick Nisi:** No, that wasn't actually mine. Go ahead, Kball.
 
-**Kevin Ball:** My unpopular opinion is that it really doesn't matter at all which JavaScript framework you're using... Whether you're using React, or Vue, or Svelte, or even Angular, Ember, or vanilla JavaScript, or what have you. They're all tools; they make some things easier, they make some things harder. What really matters is that you pick something consistent across your entire team, and that you're all working within that and being consistent within that.
+**Kevin Ball:** My unpopular opinion is that it really doesn't matter at all which JavScript framework you're using... Whether you're using React, or Vue, or Svelte, or even Angular, Ember, or vanilla JavScript, or what have you. They're all tools; they make some things easier, they make some things harder. What really matters is that you pick something consistent across your entire team, and that you're all working within that and being consistent within that.
 
 I have worked in mixed codebases, where this team picked this thing and that team picked that thing, and that sucks. But if you're consistent within your team and your codebase, I don't really think it matters at all which framework you're using.
 
@@ -628,7 +628,7 @@ Tailwind is a great example of -- we're almost going back to... Do you remember 
 
 **Jerod Santo:** Exactly. \[laughs\] That's the problem. Are you gonna write about how you rewrote your blog platform? Those are the two blog posts that we write as developers; we write the one where we rewrote out blog platform, and we write the other one where we switched from one thing to the other. That's pretty much it in a nutshell. Alright, Nick, your turn.
 
-**Nick Nisi:** \[55:54\] Yeah. So I probably should have gone after you, Mat, because this does kind of tie into yours a little bit, now that I think about it... I think that ESLint is out of control, and it's just kind of ridiculous. There are some good rules to have in there, and linting overall is pretty good, but then I just look at all of the rules that are added to the main project I work on, and it is so constraining, and for no good reason, because I just end up writing the eslint-disable-next-line comment above it, and every time I run across an issue like this, like using that optional chaining to call a method, like I mentioned in the first segment - that is disallowed by my ESLint. And if I just did the foo and the long-form of that, where I just check to see if that value exists before calling it, that's also disabled, for the same rule.
+**Nick Nisi:** \{55:54\} Yeah. So I probably should have gone after you, Mat, because this does kind of tie into yours a little bit, now that I think about it... I think that ESLint is out of control, and it's just kind of ridiculous. There are some good rules to have in there, and linting overall is pretty good, but then I just look at all of the rules that are added to the main project I work on, and it is so constraining, and for no good reason, because I just end up writing the eslint-disable-next-line comment above it, and every time I run across an issue like this, like using that optional chaining to call a method, like I mentioned in the first segment - that is disallowed by my ESLint. And if I just did the foo and the long-form of that, where I just check to see if that value exists before calling it, that's also disabled, for the same rule.
 
 ESLint rules are out of control. They don't actually help beyond a certain limit - there's definitely diminishing returns with that - and they completely slow down your editor, because it has to chug through all of those rules and process everything.
 
@@ -654,7 +654,7 @@ So stick to something a little more -- I won't say standard. Standard is good, b
 
 **Nick Nisi:** Yes, to an extent. But still, it's very small in what you can configure... And it's really nice having that. Like you said, I can go look at code and it looks like I wrote it... I use that as a shorthand to write code, because I know that I can write things as terse as possible, and then hit Save, and Prettier just takes care of it for me and it looks nice, which I really like.
 
-But kind of to that, we are kind of in a very roundabout way getting that in JavaScript, sort of, through Deno. Deno has a fmt command as well, that allows you to do that in a built-in way, where you don't bring in any external dependencies, which is pretty cool.
+But kind of to that, we are kind of in a very roundabout way getting that in JavScript, sort of, through Deno. Deno has a fmt command as well, that allows you to do that in a built-in way, where you don't bring in any external dependencies, which is pretty cool.
 
 **Jerod Santo:** Nice.
 
@@ -684,7 +684,7 @@ But kind of to that, we are kind of in a very roundabout way getting that in Jav
 
 **Mat Ryer:** Yeah.
 
-**Jerod Santo:** \[59:48\] Alright... That's an unpopular opinion right there. We're running short on time. I'll just do mine really fast. I think software developers spend too much time on Twitter... And that's my unpopular opinion. And myself included. I also think we write too much on Twitter. I've seen too many blog posts that are tweetstorms, and don't exist anywhere else. That basically goes into the ephemera and disappears, or Twitter gets your Google juice in eternity, or whatever...
+**Jerod Santo:** \{59:48\} Alright... That's an unpopular opinion right there. We're running short on time. I'll just do mine really fast. I think software developers spend too much time on Twitter... And that's my unpopular opinion. And myself included. I also think we write too much on Twitter. I've seen too many blog posts that are tweetstorms, and don't exist anywhere else. That basically goes into the ephemera and disappears, or Twitter gets your Google juice in eternity, or whatever...
 
 So I'm cool with like the one-offs, and the jokes, and all that... But if you're gonna write a blog post, write it on your blog, and then maybe tweet some quotes out of it and get the socials going around there. Just don't write for Twitter for free, because you should write for yourself.
 

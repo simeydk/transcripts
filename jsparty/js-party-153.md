@@ -1,4 +1,4 @@
-**Nick Nisi:** Hello! Welcome to JS Party, a party every week with JavaScript. I'll be your host today; I'm Nick Nisi. Hoy-hoy! Joining me as well is Kball. Kball, what's up?!
+**Nick Nisi:** Hello! Welcome to JS Party, a party every week with JavScript. I'll be your host today; I'm Nick Nisi. Hoy-hoy! Joining me as well is Kball. Kball, what's up?!
 
 **Kevin Ball:** Hey, hey! Life is good... I guess... For 2020 standards.
 
@@ -30,7 +30,7 @@
 
 First off, why don't you tell us what Ionic is, Mike?
 
-**Mike Hartington:** \[04:08\] Cool, yeah. So Ionic is kind of a UI framework for building cross-platform apps. If you wanna build a native iOS app, or a native Android app, or desktop Electron progressive web apps, Ionic gives you the UI and interactions for building that up, all based on Web technology, so HTML, CSS and JavaScript.
+**Mike Hartington:** \{04:08\} Cool, yeah. So Ionic is kind of a UI framework for building cross-platform apps. If you wanna build a native iOS app, or a native Android app, or desktop Electron progressive web apps, Ionic gives you the UI and interactions for building that up, all based on Web technology, so HTML, CSS and JavScript.
 
 **Nick Nisi:** Very cool. Looking at it - and I'll be honest, I haven't really used it yet, but... It is a framework, but not in a traditional sense of the way we typically think about frameworks, like a Vue or an Angular... It's more of like -- is it something that can sit on top of those?
 
@@ -46,21 +46,21 @@ As that's kind of evolved, you know, desktop, largest form factors, traditional 
 
 **Kevin Ball:** And why would somebody go for an Ionic, rather than for example just packaging up - let's use the Bootstrap example - use Bootstrap, maybe one of the React or Vue integrations, and then packaging it yourself with Cordoba?
 
-**Mike Hartington:** Right. So I think the big reason why you would want to use Ionic is the big focus on modern browsers, modern CSS and JavaScript, and having that deeper integration to the native design systems. So how a button works on iOS is very different from how a button works on Android with Material Design. Bootstrap gives you yet another option for how these interactions work, but it's not necessarily at home to these platforms. Ionic gives you the platform integrations that you would expect to get, so users of your apps don't feel like "What am I using here? This doesn't feel right." It feels obviously not native. Ionic would be a great case here, because it just gives you that native experience... Because we've built it to be an exact clone of how these platforms behave.
+**Mike Hartington:** Right. So I think the big reason why you would want to use Ionic is the big focus on modern browsers, modern CSS and JavScript, and having that deeper integration to the native design systems. So how a button works on iOS is very different from how a button works on Android with Material Design. Bootstrap gives you yet another option for how these interactions work, but it's not necessarily at home to these platforms. Ionic gives you the platform integrations that you would expect to get, so users of your apps don't feel like "What am I using here? This doesn't feel right." It feels obviously not native. Ionic would be a great case here, because it just gives you that native experience... Because we've built it to be an exact clone of how these platforms behave.
 
-**Kevin Ball:** \[07:58\] And when you describe that as an exact clone - so is it still implementing it in HTML, CSS and JavaScript, or are you calling out to native components and using an integration like a React Native style thing would?
+**Kevin Ball:** \{07:58\} And when you describe that as an exact clone - so is it still implementing it in HTML, CSS and JavScript, or are you calling out to native components and using an integration like a React Native style thing would?
 
-**Mike Hartington:** No, we are still using HTML, CSS and JavaScript. Web developers don't have to learn a subset of CSS, or some custom way of integrating in code; they just have the building blocks of the web.
+**Mike Hartington:** No, we are still using HTML, CSS and JavScript. Web developers don't have to learn a subset of CSS, or some custom way of integrating in code; they just have the building blocks of the web.
 
 **Nick Nisi:** That translates -- is it like a translation layer between Ionic and React, or Ionic and Vue? Is there like just bindings to an Ionic component to make it a React component, or how does that work?
 
-**Mike Hartington:** The way that works is that we have this core package... So we build everything as Web Components; we ship them as standard Web Components that people can use without any framework... And it includes core styles and interactions for the JavaScript.
+**Mike Hartington:** The way that works is that we have this core package... So we build everything as Web Components; we ship them as standard Web Components that people can use without any framework... And it includes core styles and interactions for the JavScript.
 
 Then as we want to adopt other frameworks, we provide framework shims, I would say, to make that integration feel like what you would expect if you were working in React. So for React we have our own set of React-branded components, that just gives you the functional import statement, provides the correct type information, makes sure that it can pass events and props correctly to the actual web component and manage that... But really, once it is done with the React aspect of it and it is just rendering it to the DOM, you just have a core web component being rendered out there. Angular has the same thing, where it's just passing the types to the Angular type system. Vue does the same thing; it just makes sure that the components are recognized as Vue components, and it understands the different types and props and events that can be emitted on the component itself.
 
 **Nick Nisi:** Nice. And you mentioned Angular - I think that when I first hear of Ionic, I heard of it in terms of being like an Angular project, but it's obviously grown a lot since then. Do you maybe wanna describe a little bit of the timeline of that?
 
-**Mike Hartington:** Yeah. So we started it off wanting to be framework-agnostic, mostly because AngularJS was still getting its foot off the ground, and jQuery was the big framework that everyone used. Ember was a thing, Knockout... It was still the early days of JavaScript frameworks, and we were like "Oh, wouldn't it be cool if we could just support all of them?" So we tried to do that, realized that AngularJS probably gave the best option at the time, with directives, and it was a custom component idea... We sat on that for a little bit; we were very successful. Angular 2 came out, and we were upgraded to the newest version of Angular, rode that for a little bit... And then we kind of saw all these frameworks just get to a point where there is no real difference in which one is better, it's just what is the mental model that you want to work in.
+**Mike Hartington:** Yeah. So we started it off wanting to be framework-agnostic, mostly because AngularJS was still getting its foot off the ground, and jQuery was the big framework that everyone used. Ember was a thing, Knockout... It was still the early days of JavScript frameworks, and we were like "Oh, wouldn't it be cool if we could just support all of them?" So we tried to do that, realized that AngularJS probably gave the best option at the time, with directives, and it was a custom component idea... We sat on that for a little bit; we were very successful. Angular 2 came out, and we were upgraded to the newest version of Angular, rode that for a little bit... And then we kind of saw all these frameworks just get to a point where there is no real difference in which one is better, it's just what is the mental model that you want to work in.
 
 We were thinking, "Okay, can we actually do this cross-framework stuff now?" And we ended up building a couple tools along the way to make it possible. But I think around 2018 we released that first version of Ionic, that was built on Web Components and supported Angular.
 
@@ -70,7 +70,7 @@ A few months afterwards we released the React version. Then earlier this year, a
 
 **Kevin Ball:** How heavy are those integration layers? I think this is the dream, right? You build in one place and you're able to integrate with whatever folks are in... And I'd love to see more people doing that. But I'm kind of curious -- that feels challenging. So are those layers pretty heavy, are they hard? Are they needing to be updated a lot as the frameworks churn? How is that working?
 
-**Mike Hartington:** \[12:04\] I wouldn't say that they're heavy. Most of the things that each integration layer does is kind of set and forget. For Angular specifically it's just making sure that the Angular compiler knows about the component types, and we're mapping the Angular events back down to the native element under the hood.
+**Mike Hartington:** \{12:04\} I wouldn't say that they're heavy. Most of the things that each integration layer does is kind of set and forget. For Angular specifically it's just making sure that the Angular compiler knows about the component types, and we're mapping the Angular events back down to the native element under the hood.
 
 What's really been helpful here is the way that we author those core components. We have our own toolchain called Stencil, which helps out in generating the Web Components. They're all written as TypeScript components, and we have all that type information at build time, so we can extract all that out, and basically automate the entire integration layer.
 
@@ -88,9 +88,9 @@ If you want to overhaul the component - and honestly, I would suggest building y
 
 **Nick Nisi:** Cool, yeah. I definitely wanna dig more into the underlying Web Components piece of that, and Stencil that you mentioned, but first I wanted to ask how did you get involved with the Ionic project?
 
-**Mike Hartington:** So many, many moons ago, before the Covid times, I was a low graphic designer at a company, who was put in charge of writing a web app, because I was the only one who knew anything regarding programming... And it was ActionScript in Flash. So I did that, my boss got an iPad and was like "Why can't I load your stuff on an iPAd?" Because iPads don't run Flash. So I learned JavaScript, found stuff that I needed to do to build a mobile app, which was Cordova at the time... I didn't wanna make my own components, I found Ionic, and I just started doing that work more than doing my real job.
+**Mike Hartington:** So many, many moons ago, before the Covid times, I was a low graphic designer at a company, who was put in charge of writing a web app, because I was the only one who knew anything regarding programming... And it was ActionScript in Flash. So I did that, my boss got an iPad and was like "Why can't I load your stuff on an iPAd?" Because iPads don't run Flash. So I learned JavScript, found stuff that I needed to do to build a mobile app, which was Cordova at the time... I didn't wanna make my own components, I found Ionic, and I just started doing that work more than doing my real job.
 
-\[16:18\] I would join their developer forum, help people out, answer their questions, try to do free customer support for them at the very beginning. I saw that they were hiring, I reached out and I was like "Hey, can I have a job?", not knowing that that would actually work. So I reached out to them, I was like "I see you're all hiring. I think I do a lot of stuff; I think it would be cool to work." That was a contract that ended three months later, and they hired me full-time, and it's been like 6,5 years or so with them... Kind of just, you know, growing through the ranks of community member, semi-official person on the team, to official person on the team, and now dev rel and representing the team.
+\{16:18\} I would join their developer forum, help people out, answer their questions, try to do free customer support for them at the very beginning. I saw that they were hiring, I reached out and I was like "Hey, can I have a job?", not knowing that that would actually work. So I reached out to them, I was like "I see you're all hiring. I think I do a lot of stuff; I think it would be cool to work." That was a contract that ended three months later, and they hired me full-time, and it's been like 6,5 years or so with them... Kind of just, you know, growing through the ranks of community member, semi-official person on the team, to official person on the team, and now dev rel and representing the team.
 
 **Nick Nisi:** Yeah, I'd like to know a little bit more about that, too. I'm always intrigued by dev rel and what y'all do... What does a typical day look like for a dev rel?
 
@@ -104,7 +104,7 @@ If you want to overhaul the component - and honestly, I would suggest building y
 
 **Mike Hartington:** Yeah... I think another \[unintelligible 00:18:14.20\] I fight for the users. So when our team, or our engineering taem, or our framework team was just like "Oh, well we can't really do that", it's my job to internally explain to them what problems they are trying to solve, and how changing this one thing could be beneficial for not just this one person, but "Here's like 20 people who have the same issue, and asking the same thing over and over. We should probably make this change and make this fix."
 
-**Break:** \[18:51\]
+**Break:** \{18:51\}
 
 **Nick Nisi:** So in the last section you talked about using Web Components as the underlying technology for the Ionic components that you're creating. What's it like working with Web Components in 2020?
 
@@ -134,7 +134,7 @@ So it does raise the question of "Are they intended to be worked on directly, or
 
 **Mike Hartington:** I guess it really just depends... I would say that they are meant to be something that you build on top of, or that you are creating some sort of abstraction, a Stencil, a lit-html, something that's based on Web Components, but you have some niceties on top of it to make it fun to work with?
 
-\[24:00\] Depending on who you ask, some people would also say "No, the primitives are perfect, and we can always use those", but in real teams that we talked with - not always the case.
+\{24:00\} Depending on who you ask, some people would also say "No, the primitives are perfect, and we can always use those", but in real teams that we talked with - not always the case.
 
 **Nick Nisi:** So tell us how you approached that then, with Stencil. How does Stencil simplify that API?
 
@@ -160,7 +160,7 @@ And then it's authored all in JSX... So they'll use JSX, and there's like a smal
 
 **Nick Nisi:** Does the shadow DOM change that at all? I'm not super-familiar with how that works, but would that be its own self-contained environment that needs its own runtime?
 
-**Mike Hartington:** \[27:47\] No, because the scope in which our stuff works in - really, we're only paying attention to the host. So as the component gets authored, we are just listening for how our properties or how our events methods being figured on this host element. Then we can compute the inner elements in the shadow DOM programmatically, and just update all of that. So we kind of remove -- we're using shadow DOM, but that just becomes an artifact of how the components get built. It all gets updated programmatically, internal to how Stencil and the components work. So the users don't really pay attention to all that. It's just an implementation detail that we know.
+**Mike Hartington:** \{27:47\} No, because the scope in which our stuff works in - really, we're only paying attention to the host. So as the component gets authored, we are just listening for how our properties or how our events methods being figured on this host element. Then we can compute the inner elements in the shadow DOM programmatically, and just update all of that. So we kind of remove -- we're using shadow DOM, but that just becomes an artifact of how the components get built. It all gets updated programmatically, internal to how Stencil and the components work. So the users don't really pay attention to all that. It's just an implementation detail that we know.
 
 And I kind of mentioned it quickly at the end there, \[unintelligible 00:28:30.27\] all those components get lazy-loaded on the fly. So you're not having to reference them if you're just using the raw Web Components. Once you import that main runtime, it knows what components it should be using, and as it gets parsed out, it'll lazy-load each component on the fly. So it ends up being very small.
 
@@ -222,7 +222,7 @@ And I kind of mentioned it quickly at the end there, \[unintelligible 00:28:30.2
 
 **Kevin Ball:** That's actually more even than I would have expected, given how long you had Angular only... Cool.
 
-**Mike Hartington:** \[32:22\] Yeah, people were asking for React support for years, even before we wanted to do the whole cross-framework thing... So I think once we added that, people were like "Yes, this is what I wanted. React makes sense for me." And... Okay. It seems like a similar thing happened with Vue right now. I would say let's come back in 2021 and hopefully the world will be back to normal, and the numbers would be a third, a third, a third, for each of them.
+**Mike Hartington:** \{32:22\} Yeah, people were asking for React support for years, even before we wanted to do the whole cross-framework thing... So I think once we added that, people were like "Yes, this is what I wanted. React makes sense for me." And... Okay. It seems like a similar thing happened with Vue right now. I would say let's come back in 2021 and hopefully the world will be back to normal, and the numbers would be a third, a third, a third, for each of them.
 
 **Kevin Ball:** I don't know if we can count on the world being back to normal for much of 2021, but... Maybe 2022. I think 2022 is gonna be a banner year for in-person events. Everybody's gonna be so sick of just being on your own, and when we finally pass things, everybody's like "PARTY!!"
 
@@ -242,11 +242,11 @@ And I kind of mentioned it quickly at the end there, \[unintelligible 00:28:30.2
 
 **Kevin Ball:** Okay, so you're not actually building inside of Cordova anymore? Because once again, my Ionic background is years old, and it used to be that you were using that as a toolchain. But this is a different toolchain.
 
-**Mike Hartington:** Let's kind of rewind the clock a little bit. We were, again, built all on top of Cordova from the early days, because that was the best solution at the time... But as time has gone on, we wanted to do our own things, and we were developing our own opinions on how should this native cross-platform library stuff be done. Pretty haphazardly, we hacked together some demos, and over six months or so of time we solidified something that took a lot of inspiration from things like React Native, a competitor of ours, NativeScript, how they approached managing the native projects. And we were like "Okay, what can we do that takes inspiration from that and is still part of Cordova in spirit?" So we have full-native project access, no components inside of it; you're using things like Android libraries, CocoaPods for managing native dependencies, and just getting a JavaScript API that you can reference in your projects to call these native APIs.
+**Mike Hartington:** Let's kind of rewind the clock a little bit. We were, again, built all on top of Cordova from the early days, because that was the best solution at the time... But as time has gone on, we wanted to do our own things, and we were developing our own opinions on how should this native cross-platform library stuff be done. Pretty haphazardly, we hacked together some demos, and over six months or so of time we solidified something that took a lot of inspiration from things like React Native, a competitor of ours, NativeScript, how they approached managing the native projects. And we were like "Okay, what can we do that takes inspiration from that and is still part of Cordova in spirit?" So we have full-native project access, no components inside of it; you're using things like Android libraries, CocoaPods for managing native dependencies, and just getting a JavScript API that you can reference in your projects to call these native APIs.
 
 **Kevin Ball:** And just so that I understand - it looks like this is an open source project; is it entirely managed and run by Ionic the company? Because y'all are a company; you have a business model and all that. You're not just doing open source. So is it a company-run open source project at this point?
 
-**Mike Hartington:** \[35:54\] Yes and no. We have a team from Ionic who are maintaining it, working on it, adding features, but we do have a pretty nice community that is sending some commits, sending some patches here and there, building out third-party plugins and APIs... But it is something that is kind of corporate stewardship... But we want the community to --
+**Mike Hartington:** \{35:54\} Yes and no. We have a team from Ionic who are maintaining it, working on it, adding features, but we do have a pretty nice community that is sending some commits, sending some patches here and there, building out third-party plugins and APIs... But it is something that is kind of corporate stewardship... But we want the community to --
 
 **Kevin Ball:** Okay. From a governance model, y'all are running the governance, but you haven't engaged \[unintelligible 00:36:21.15\]
 
@@ -262,9 +262,9 @@ So for us, being all on GitHub, being open source, but we kind of can dictate ho
 
 **Mike Hartington:** I will say that we are making a lot of leeway and putting a lot of effort into making sure the project is very successful, because it is a big factor in how our company is successful. If Capacitor is successful, Ionic is successful. If Ionic framework is successful, Ionic the company is successful. So it kind of helps us make sure that we are investing the right time and energy into maintaining these projects, and growing a community voice around it.
 
-**Break**: \[39:00\]
+**Break**: \{39:00\}
 
-**Kevin Ball:** So let's dig in a little bit more about Capacitor and Ionic and how you make life good for developers... Because I think, looking back at experience with Cordova, setting up a build environment, a build chain, dealing with it, getting all of the different integrations set up so that you've got... Because often when you're doing native stuff, or you're having to work in many different languages - it's not just a JavaScript environment anymore, or a web environment; you've also got an iOS environment, you've gotta deal with Xcode, you've got an Android environment, Google's whole build chain, all these other things... So maybe talk to us a little bit about the developer tooling you've built out around these areas.
+**Kevin Ball:** So let's dig in a little bit more about Capacitor and Ionic and how you make life good for developers... Because I think, looking back at experience with Cordova, setting up a build environment, a build chain, dealing with it, getting all of the different integrations set up so that you've got... Because often when you're doing native stuff, or you're having to work in many different languages - it's not just a JavScript environment anymore, or a web environment; you've also got an iOS environment, you've gotta deal with Xcode, you've got an Android environment, Google's whole build chain, all these other things... So maybe talk to us a little bit about the developer tooling you've built out around these areas.
 
 **Mike Hartington:** Yeah, so the developer tooling aspect is, I think, closer to the native chain than trying to abstract it away. If you're building a native Android app - yeah, Android Studio might be a lot to download and might look confusing at first, but it's like WebStorm, with just a different coat of paint on it. It also gives you probably the best step forward for building something that is going to follow the best practices, support the most platforms, be less error-prone to user configuration error... Basically, building a native app in Android Studio is like I press a Play button, it tells me to fill in this sign in information, and I don't really need to manage it myself, which - I can't count on both hands how many times I've had that issue with Cordova, because I would run out of fingers.
 
@@ -284,13 +284,13 @@ Having that kind of configuration and maintaining it across these platforms in a
 
 **Nick Nisi:** Yeah. So I actually came to know about you because of your nvim-typescript plugin. You've actually developed several plugins for Vim. What got you into that?
 
-**Mike Hartington:** \[43:54\] So we can get pretty recursive here... I watched a talk from a meetup by Eunuch...
+**Mike Hartington:** \{43:54\} So we can get pretty recursive here... I watched a talk from a meetup by Eunuch...
 
 **Nick Nisi:** Really...?
 
 **Mike Hartington:** ...about how to do modern development in Vim. Because I saw a co-worker using Vim, and I thought it was the coolest thing I had ever seen. I was like "Wow! What are you doing?!" He was like "Oh, I'm just in Vim." I was like "What's Vim?!" And I'm on like a two-year spiral of just like how to set Vim up and how to configure Vim to be great for a web developer. I saw your talk, learned a whole lot, and I was like "Okay, I think I have something set up."
 
-I found this project called Neovim, I got involved with that, I started helping maintain a Node.js binding, so it could write Vim plugins in JavaScript... And then I was like "Well, I've gotta write a TypeScript plugin for Neovim, because there isn't one that works and is asynchronous and fast." And I ended up writing one.
+I found this project called Neovim, I got involved with that, I started helping maintain a Node.js binding, so it could write Vim plugins in JavScript... And then I was like "Well, I've gotta write a TypeScript plugin for Neovim, because there isn't one that works and is asynchronous and fast." And I ended up writing one.
 
 **Nick Nisi:** Nice! You took it way further than I have. I haven't really written anything.
 
@@ -312,7 +312,7 @@ It's basically recreating a Node runtime inside of Neovim, so I was like "I know
 
 **Mike Hartington:** Trust me, it was tough having to go from like "Alright, well I can run my build", I've run Capacitor commands, and I was like "I have to reach for my mouse... Ugh. My hands are hurting already, just thinking about it." Now that it's all CLI-based, creating a plugin should be not problem.
 
-\[47:47\] Other plugins I've created - I've built a theme based on this thing called Oceanic Next. So Dan Abramov had this really cool, slightly blue theme that he would always use for his talks, and I was like "What theme is that? What theme is that?" And then I found it, and I was like "Cool. It's for Sublime." I don't use Sublime, so I made a Vim color scheme for it.
+\{47:47\} Other plugins I've created - I've built a theme based on this thing called Oceanic Next. So Dan Abramov had this really cool, slightly blue theme that he would always use for his talks, and I was like "What theme is that? What theme is that?" And then I found it, and I was like "Cool. It's for Sublime." I don't use Sublime, so I made a Vim color scheme for it.
 
 More recently I've made a code formatting plugin. There is one right now called Neoformat, but it's all written in Vimscript, and I want to try this new language called Lua, so I wrote a code formatter for Neovim, written in Lua, that just generates and automatically will format your code, basically all async.
 

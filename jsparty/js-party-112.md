@@ -1,4 +1,4 @@
-**Emma Bostian:** Welcome to JS Party, JS Jeopardy edition! Yaay, we're so excited! This should be super-fun. I'm really pumped. It's more than just JavaScript, so don't get too excited, but JS Jeopardy sounded way better than Miscellaneous Web Frontend Question Jeopardy.
+**Emma Bostian:** Welcome to JS Party, JS Jeopardy edition! Yaay, we're so excited! This should be super-fun. I'm really pumped. It's more than just JavScript, so don't get too excited, but JS Jeopardy sounded way better than Miscellaneous Web Frontend Question Jeopardy.
 
 I'm gonna explain the rules really quickly, and then we'll just go ahead and jump right in. The way this is gonna work is I have put together a Google presentation that no one else can see... Which is fine, because we're gonna be talking. I'm gonna share this with you now, so you'll be able to see the categories on the screen and see which ones have been taken already... So let me get this up...
 
@@ -6,11 +6,11 @@ I'm gonna explain the rules really quickly, and then we'll just go ahead and jum
 
 **Emma Bostian:** Yeah I put way too much effort into this. I should have had this all worked out, but you know... Last-minute preparations. So while I'm getting this up, we'll start with Jake, since Jake is our guest... Really quickly, Jake, do you wanna introduce yourself while I get my life together over here?
 
-**Jake Dohm:** Sure. I am Jake Dohm, web developer at Good Work Software Consultancy out of Dallas. I build websites and tweet about JavaScript at @JakeDohm. Don't come troll me, or do... Yeah.
+**Jake Dohm:** Sure. I am Jake Dohm, web developer at Good Work Software Consultancy out of Dallas. I build websites and tweet about JavScript at @JakeDohm. Don't come troll me, or do... Yeah.
 
 **Emma Bostian:** Awesome. We're super-excited to have you on, and I'm just gonna wish you the best of luck. So here are the categories for round one. We're gonna start off with five categories, in increments of 100 points. So they start at 100, they go all the way up to 500, and there are five questions in each category.
 
-The first category is CSS, the second is JavaScript level 1, the third is JavaScript level 2, and those levels have no semantic meaning. They're just miscellaneous JavaScript questions... But I did try to grade them, so that the 100 questions should be maybe a little bit easier than the 500's. Then we've got the Web as the fourth category, and lastly, I'm Feeling Lucky.
+The first category is CSS, the second is JavScript level 1, the third is JavScript level 2, and those levels have no semantic meaning. They're just miscellaneous JavScript questions... But I did try to grade them, so that the 100 questions should be maybe a little bit easier than the 500's. Then we've got the Web as the fourth category, and lastly, I'm Feeling Lucky.
 
 **Kevin Ball:** Which is about Google?
 
@@ -32,9 +32,9 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Emma Bostian:** Yeah, double steal. So if Kball gets it wrong and Jake gets it wrong, Chris has the chance to get it right. Alright, so Jake, pick your poison!
 
-**Jake Dohm:** Let's go JavaScript level one.
+**Jake Dohm:** Let's go JavScript level one.
 
-**Emma Bostian:** \[04:04\] JavaScript level one, for what point value, sir?
+**Emma Bostian:** \{04:04\} JavScript level one, for what point value, sir?
 
 **Jake Dohm:** I'm gonna start off easy, let's go 100.
 
@@ -46,7 +46,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Kevin Ball:** Woo-hoo!
 
-**Emma Bostian:** I'm also low-key gonna be having to do math in my head while we do this, because I'm gonna be keeping a score in PowerPoint... So just watch my math, please. Alright, so JavaScript Level 1 complete. Alright, Kball, you are up.
+**Emma Bostian:** I'm also low-key gonna be having to do math in my head while we do this, because I'm gonna be keeping a score in PowerPoint... So just watch my math, please. Alright, so JavScript Level 1 complete. Alright, Kball, you are up.
 
 **Kevin Ball:** Alright, let's go with CSS for 500.
 
@@ -100,9 +100,9 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Emma Bostian:** I think I got that question on a job interview once; I was fresh out of college and I just had no idea... So I'll never forget that. Alright, Jake, we are back to you.
 
-**Jake Dohm:** Well, I'm gonna stick with JavaScript. We'll go level 1 for 500.
+**Jake Dohm:** Well, I'm gonna stick with JavScript. We'll go level 1 for 500.
 
-**Emma Bostian:** For 500... JavaScript level 1, for 500... Okay. I'm just scrolling to the section on my iPad if I'm singing, that's why. When trying to access a property of an object, the property will not only be sought in the object, but on this.
+**Emma Bostian:** For 500... JavScript level 1, for 500... Okay. I'm just scrolling to the section on my iPad if I'm singing, that's why. When trying to access a property of an object, the property will not only be sought in the object, but on this.
 
 **Jake Dohm:** It will not only what?
 
@@ -128,7 +128,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Emma Bostian:** Absolutely. This is a conceptual model and is a set of communication protocols used in the internet and similar computer networks.
 
-**Kevin Ball:** \[07:57\] The conceptual model... Interesting. Huh. 
+**Kevin Ball:** \{07:57\} The conceptual model... Interesting. Huh. 
 
 **Jake Dohm:** Doo doo doo doo...
 
@@ -182,7 +182,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Emma Bostian:** Oh, then it's Chris' turn.
 
-**Christopher Hiller:** So everybody's picking these big ones, so I'll do JavaScript level 2 or 500, please.
+**Christopher Hiller:** So everybody's picking these big ones, so I'll do JavScript level 2 or 500, please.
 
 **Emma Bostian:** You've got it. This gives you access to an outer function's scope from an inner function.
 
@@ -250,7 +250,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Jake Dohm:** Let me get those sweet, sweet points. I've gotta see my score all tied up with Kevin here...
 
-**Emma Bostian:** \[12:00\] After we finish this round I'll say out loud the point values again, don't worry.
+**Emma Bostian:** \{12:00\} After we finish this round I'll say out loud the point values again, don't worry.
 
 **Jake Dohm:** Sweet.
 
@@ -276,7 +276,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Kevin Ball:** \[laughs\]
 
-**Christopher Hiller:** God, do you wanna trade? Alright, so... JavaScript level 1 for 400.
+**Christopher Hiller:** God, do you wanna trade? Alright, so... JavScript level 1 for 400.
 
 **Emma Bostian:** Alright, for 400. This is a primitive value automatically assigned to variables that have just been declared, or the formal arguments for which there are no actual arguments.
 
@@ -284,7 +284,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Emma Bostian:** Correct, yay! 400 points. Chris is now at 500. Alright, Jake, you're up.
 
-**Jake Dohm:** Alright, let's go JavaScript level 2 for 400.
+**Jake Dohm:** Alright, let's go JavScript level 2 for 400.
 
 **Emma Bostian:** Okay. This is a function passed into another function as an argument, and then invoked inside the outer function.
 
@@ -336,7 +336,7 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Emma Bostian:** Alright, Kball...
 
-**Kevin Ball:** Alright, let's go with JavaScript level 1 for 300.
+**Kevin Ball:** Alright, let's go with JavScript level 1 for 300.
 
 **Emma Bostian:** Alrighty. This determines the accessibility of variables.
 
@@ -348,9 +348,9 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Emma Bostian:** Yeah. It's really hard for me to remember nine plus-- well, nine's not so bad, but other simple numbers... Seven - forget about it. Anyway... Alright, Chris, you're up.
 
-**Christopher Hiller:** \[16:08\] JavaScript, level 2 for 300.
+**Christopher Hiller:** \{16:08\} JavScript, level 2 for 300.
 
-**Emma Bostian:** Alright, JavaScript level 2 for 300. Guess what - this is double Jeopardy! I don't have any noises, so... That's my noise.
+**Emma Bostian:** Alright, JavScript level 2 for 300. Guess what - this is double Jeopardy! I don't have any noises, so... That's my noise.
 
 **Jake Dohm:** \[laughs\]
 
@@ -404,7 +404,7 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Emma Bostian:** Correct. So Kball is still in the lead by 500 points. Alright, Chris...
 
-**Christopher Hiller:** Give me JavaScript level 1 for 200.
+**Christopher Hiller:** Give me JavScript level 1 for 200.
 
 **Emma Bostian:** Alright. This is used to declare a block-scoped element and can be redeclared.
 
@@ -412,7 +412,7 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Emma Bostian:** Correct. Alright, Jake, you are up.
 
-**Jake Dohm:** Let's do JavaScript level 2 for 200.
+**Jake Dohm:** Let's do JavScript level 2 for 200.
 
 **Emma Bostian:** Alright, this represents the eventual completion or failure of an asynchronous operation and its resulting value.
 
@@ -446,7 +446,7 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Jake Dohm:** I love Flexbox Zombies too, the gamified thing by David Geddes So good. Yeah, that's how I really learned it.
 
-**Emma Bostian:** \[19:58\] Awesome. Well, we're gonna have all these in the show notes if you wanna check them out later. Alright, we've got five questions left before we take a break, so with that I think it's over to Chris now, right? Or are we on Kball?
+**Emma Bostian:** \{19:58\} Awesome. Well, we're gonna have all these in the show notes if you wanna check them out later. Alright, we've got five questions left before we take a break, so with that I think it's over to Chris now, right? Or are we on Kball?
 
 **Kevin Ball:** No, I just went. It's Chris.
 
@@ -476,17 +476,17 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Emma Bostian:** Perfect. That is correct. Awesome. Kball, you are up.
 
-**Kevin Ball:** Alright, let's see... I've got CSS, JavaScript Level 2 or the Web. Let's do CSS for 100.
+**Kevin Ball:** Alright, let's see... I've got CSS, JavScript Level 2 or the Web. Let's do CSS for 100.
 
 **Emma Bostian:** Alright, CSS for 100. This display property allows you to set a width and height on an in-line element.
 
 **Kevin Ball:** A width and a height on an in-line element. What is in-line block?
 
-**Emma Bostian:** Correct. Display in-line block. I mean, I feel like half the answer was in the question, but it's fine. Alright, Chris - pick your poison. Are we going JavaScript or are we going the Web?
+**Emma Bostian:** Correct. Display in-line block. I mean, I feel like half the answer was in the question, but it's fine. Alright, Chris - pick your poison. Are we going JavScript or are we going the Web?
 
-**Christopher Hiller:** JavaScript.
+**Christopher Hiller:** JavScript.
 
-**Emma Bostian:** Alrighty, JavaScript level 2 for 100. This represents the intentional absence of any object value.
+**Emma Bostian:** Alrighty, JavScript level 2 for 100. This represents the intentional absence of any object value.
 
 **Christopher Hiller:** What is null?
 
@@ -506,9 +506,9 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Emma Bostian:** So in third place we have Chris at 1,900, in second place - a close second place - we've got Jake with 2,500, and Kball is leading with 2,800. We're gonna take a break, but when we come back we've got round two with some other really fun topics.
 
-**Break:** \[23:01\]
+**Break:** \{23:01\}
 
-**Emma Bostian:** Welcome back to JS Jeopardy! Just to recap, we've got Chris in third place with 1,900 points, but he's doing really well and we're really proud of him. In second we've got Jake with 2,500, and in the lead we've got Kball with 2,800. This round the points are doubled, and we've got some new categories, kind of. The first category is HTML, the second one is CSS Part II, the third is JavaScript, the fourth is Even More JavaScript, and the last one is JavaScript frameworks.
+**Emma Bostian:** Welcome back to JS Jeopardy! Just to recap, we've got Chris in third place with 1,900 points, but he's doing really well and we're really proud of him. In second we've got Jake with 2,500, and in the lead we've got Kball with 2,800. This round the points are doubled, and we've got some new categories, kind of. The first category is HTML, the second one is CSS Part II, the third is JavScript, the fourth is Even More JavScript, and the last one is JavScript frameworks.
 
 I don't remember who -- Jake, you answered last last time...
 
@@ -518,7 +518,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** Alright, let's see... Let's go with JS Frameworks for 1,000.
 
-**Emma Bostian:** JS Frameworks for 1,000. This framework follows the model vue Vue model (MVVM) pattern, was created in 2011, and was just ranked the least interesting JavaScript framework in the State of JavaScript survey.
+**Emma Bostian:** JS Frameworks for 1,000. This framework follows the model vue Vue model (MVVM) pattern, was created in 2011, and was just ranked the least interesting JavScript framework in the State of JavScript survey.
 
 **Jake Dohm:** Oh, shade...
 
@@ -546,7 +546,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Jake Dohm:** Okay, can I get the question one more time?
 
-**Emma Bostian:** You're just stalling... \[laughter\] This framework follows the model vue Vue model (MVVM) pattern, was created in 2011, and was just ranked the least interesting JavaScript framework in the State of JavaScript survey.
+**Emma Bostian:** You're just stalling... \[laughter\] This framework follows the model vue Vue model (MVVM) pattern, was created in 2011, and was just ranked the least interesting JavScript framework in the State of JavScript survey.
 
 **Jake Dohm:** 2011 is early... MVVM... Honestly, 2011 is a little before my time, but I'm gonna go with -- so it's a framework... Was Angular around all the way back then? That's pre-Angular...
 
@@ -570,9 +570,9 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Alright, Kball, you're getting all technical; you still would have gotten it wrong... \[laughter\] Alright, spicy... Chris, you're up. \[laughter\]
 
-**Christopher Hiller:** I'll get JavaScript again for 1,000.
+**Christopher Hiller:** I'll get JavScript again for 1,000.
 
-**Emma Bostian:** JavaScript again for 1,000. Okay, this is the way to opt into a restricted variant of JavaScript.
+**Emma Bostian:** JavScript again for 1,000. Okay, this is the way to opt into a restricted variant of JavScript.
 
 **Christopher Hiller:** What is the use strict directive?
 
@@ -582,9 +582,9 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Alright, Jake, go for it.
 
-**Jake Dohm:** Let's see... I'll do Even More JavaScript for 1,000.
+**Jake Dohm:** Let's see... I'll do Even More JavScript for 1,000.
 
-**Emma Bostian:** Even More JavaScript for 1,000. This is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
+**Emma Bostian:** Even More JavScript for 1,000. This is a JavScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
 **Jake Dohm:** What is hoisting?
 
@@ -610,7 +610,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** This combines other selectors in a way that gives them a useful relationship to each other, and the location of content in the document.
 
-**Kevin Ball:** \[28:18\] Ooh...
+**Kevin Ball:** \{28:18\} Ooh...
 
 **Emma Bostian:** It is a hard one.
 
@@ -646,9 +646,9 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** And that was even the second word in that question, "This combines...", so it was similar. It's a combinator. But yeah, most people definitely do not know. That was definitely a hard one. Alright, Chris, it is your chance.
 
-**Christopher Hiller:** I'll do JavaScript again for 800.
+**Christopher Hiller:** I'll do JavScript again for 800.
 
-**Emma Bostian:** JavaScript again for 800. This is the process of building software by composing pure functions, avoiding shared state, mutable data and side effects. This is declarative, rather than imperative, and application state flows through pure functions.
+**Emma Bostian:** JavScript again for 800. This is the process of building software by composing pure functions, avoiding shared state, mutable data and side effects. This is declarative, rather than imperative, and application state flows through pure functions.
 
 **Christopher Hiller:** What is functional programming?
 
@@ -704,7 +704,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** What is an iFrame?
 
-**Emma Bostian:** \[32:09\] That is correct, what is an iFrame.
+**Emma Bostian:** \{32:09\} That is correct, what is an iFrame.
 
 **Kevin Ball:** Speaking of being old, have y'all ever used non-iFrames, like the old frames?
 
@@ -722,11 +722,11 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Well, now it is actually your turn, Chris.
 
-**Christopher Hiller:** Can I get Even More JavaScript for 800?
+**Christopher Hiller:** Can I get Even More JavScript for 800?
 
-**Emma Bostian:** Even More JavaScript for 800... Okay - this is a hard one, I'm sorry. This refers to the process of using event propagation or bubbling to handle events at a higher level in the DOM than the element on which the event originated. I would not have gotten this right...
+**Emma Bostian:** Even More JavScript for 800... Okay - this is a hard one, I'm sorry. This refers to the process of using event propagation or bubbling to handle events at a higher level in the DOM than the element on which the event originated. I would not have gotten this right...
 
-**Christopher Hiller:** Yeah, I'm not sure... What does this have to do with JavaScript? \[laughter\] Yeah, I don't know. Pass.
+**Christopher Hiller:** Yeah, I'm not sure... What does this have to do with JavScript? \[laughter\] Yeah, I don't know. Pass.
 
 **Emma Bostian:** It's okay. Jake, you're up. Do you have any idea?
 
@@ -754,7 +754,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Jake Dohm:** Okay, let's go -- as scared as I am of this category, let's go JS Frameworks for 800.
 
-**Emma Bostian:** JS Frameworks for 800. This is a JavaScript library designed to simplify the HTML DOM tree traversal and manipulation, and was created in 2006.
+**Emma Bostian:** JS Frameworks for 800. This is a JavScript library designed to simplify the HTML DOM tree traversal and manipulation, and was created in 2006.
 
 **Jake Dohm:** What is the best library ever made, jQuery?
 
@@ -794,7 +794,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** That is correct. Pseudo-element. There's no selector. So it's just pseudo-element.
 
-**Kevin Ball:** \[36:06\] I'm gonna dispute that... \[laughs\] So pseudo-elements - would you argue that they're actually styling a part of that thing? They're a way to select without -- no, I guess that makes sense... Never mind.
+**Kevin Ball:** \{36:06\} I'm gonna dispute that... \[laughs\] So pseudo-elements - would you argue that they're actually styling a part of that thing? They're a way to select without -- no, I guess that makes sense... Never mind.
 
 **Jake Dohm:** The description is a little mind-bendy.
 
@@ -808,9 +808,9 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Okay... Glad to hear it, because I don't think I had a case. \[laughter\] Okay. Chris, you're up.
 
-**Christopher Hiller:** JavaScript again for 600.
+**Christopher Hiller:** JavScript again for 600.
 
-**Emma Bostian:** JavaScript again for 600. This is a type of event propagation where the event first triggers on the inner-most element, and then successively triggers on the ancestors of the target element in the hierarchy, until it reaches the outer-most element.
+**Emma Bostian:** JavScript again for 600. This is a type of event propagation where the event first triggers on the inner-most element, and then successively triggers on the ancestors of the target element in the hierarchy, until it reaches the outer-most element.
 
 **Christopher Hiller:** What is event bubbling?
 
@@ -878,7 +878,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Please do.
 
-**Kevin Ball:** \[39:58\] So that inclines me to believe it is a meta attribute of some sort, because of both the examples given, and there was the word meta in there... So it's some sort of meta attribute, and I'm actually gonna just go with the meta element, because the other examples were elements.
+**Kevin Ball:** \{39:58\} So that inclines me to believe it is a meta attribute of some sort, because of both the examples given, and there was the word meta in there... So it's some sort of meta attribute, and I'm actually gonna just go with the meta element, because the other examples were elements.
 
 **Emma Bostian:** That is correct. And yeah, it was a little obvious if you listened to the definition... \[laughs\] But you know, I just went with it anyway.
 
@@ -886,9 +886,9 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Okay. Well, it does if you know the answers... \[laughter\] It's funny how that works; I'd be a terrible interviewer. Alright, Chris, you're up.
 
-**Christopher Hiller:** Can I get Even More JavaScript for 600?
+**Christopher Hiller:** Can I get Even More JavScript for 600?
 
-**Emma Bostian:** Yeah, Even More JavaScript for 600. This tests whether the prototype property of a constructor appears anywhere in the prototype chain of an object. I would not get this...
+**Emma Bostian:** Yeah, Even More JavScript for 600. This tests whether the prototype property of a constructor appears anywhere in the prototype chain of an object. I would not get this...
 
 **Christopher Hiller:** Are you looking for a function?
 
@@ -918,7 +918,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Yeah, that's a hard one. Alright, so with that we'll take one more quick break, and then when we come back, we've just got a few more questions, and our final question, and we'll see where everyone stands.
 
-**Break:** \[41:58\]
+**Break:** \{41:58\}
 
 **Emma Bostian:** Alright, so we are back with the final wrap-up for JS Jeopardy. Unfortunately, Chris had to leave, but we have given him an honorary medal of survival, because he survived... And I think he hates me now. But in any case, Chris, you did a great job. And let's just continue... I don't remember who we left off with?
 
@@ -952,7 +952,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** I know exactly where it is, what it looks like... Oh, gosh. I have no idea what that's called. I'm gonna say "What is the page directive?"
 
-**Emma Bostian:** \[44:05\] That is incorrect. I'm looking for a very specific word.
+**Emma Bostian:** \{44:05\} That is incorrect. I'm looking for a very specific word.
 
 **Jake Dohm:** What is doctype?
 
@@ -970,7 +970,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Jake Dohm:** Let's go with JS Frameworks for 400.
 
-**Emma Bostian:** This is an open source JavaScript framework created by Evan Yu in 2014, and is very quickly gaining popularity.
+**Emma Bostian:** This is an open source JavScript framework created by Evan Yu in 2014, and is very quickly gaining popularity.
 
 **Jake Dohm:** What is the second-best framework/library after jQuery - Vue. \[laughter\]
 
@@ -984,7 +984,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Alright. Kball, you're up.
 
-**Kevin Ball:** Let's go with JavaScript again for 400.
+**Kevin Ball:** Let's go with JavScript again for 400.
 
 **Emma Bostian:** Okay. This data type lets you store unique values of any type, whether primitive values or object references.
 
@@ -1062,15 +1062,15 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** That's actually a really good -- you should call them out. If you're getting asked these questions, call out your interviewer. Be like "What are you testing for? You're not testing for my ability to code."
 
-**Emma Bostian:** \[47:50\] Yeah... That's really hard though. It's really hard in the moment, when you're the -- "subordinate" is not the right word, but you're not in a position of interviewing, so it's really uncomfortable to just call someone out and be like "Well, actually, it's a terrible question..." "I can explain how it works and I can show you what it's useful for, but I can't give you a definition."
+**Emma Bostian:** \{47:50\} Yeah... That's really hard though. It's really hard in the moment, when you're the -- "subordinate" is not the right word, but you're not in a position of interviewing, so it's really uncomfortable to just call someone out and be like "Well, actually, it's a terrible question..." "I can explain how it works and I can show you what it's useful for, but I can't give you a definition."
 
 **Kevin Ball:** Yeah. And hopefully, at some point you flip into the mode or there's enough abundance for you or there's enough opportunities for you where you're also interviewing them, to be like "Is this a place I wanna work?" and if they're asking questions like these, the answer is probably no. So yeah... I mean, there's lots of good ways to do interviews, there's lots of bad ways to do interviews, and we should be having this conversation -- I think we talked about this in the All Things Open episode and a few other things. This type of interview question is not helpful for interviewing... But it's fun. So let's keep rolling out, I don't wanna detour us too far.
 
 **Emma Bostian:** Correct, yeah. And as a last note, these are really good topics to know about. You don't need to know their definitions, but understanding pseudo-selectors is really important, understanding CSS specificity is important, and understanding scope, closure, all those things. In any case...
 
-**Kevin Ball:** Oh, absolutely. And they are valuable topics, and these are really useful -- this would be really good as a way to like "Oh, I don't know anything about that. Let me go study it." But yeah, don't be using them in interview questions. Alright, last 400, Even More JavaScript.
+**Kevin Ball:** Oh, absolutely. And they are valuable topics, and these are really useful -- this would be really good as a way to like "Oh, I don't know anything about that. Let me go study it." But yeah, don't be using them in interview questions. Alright, last 400, Even More JavScript.
 
-**Emma Bostian:** Even More JavaScript for 400. Do you know how hard it is to find things on an iPad when things aren't organized...? Okay. Even More JavaScript for 400. This operator returns a string indicating the type of the unevaluated operant--
+**Emma Bostian:** Even More JavScript for 400. Do you know how hard it is to find things on an iPad when things aren't organized...? Okay. Even More JavScript for 400. This operator returns a string indicating the type of the unevaluated operant--
 
 **Kevin Ball:** What is the type of operator?
 
@@ -1098,7 +1098,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Jake Dohm:** Okay, I'll take JS Frameworks for 200.
 
-**Emma Bostian:** I somehow knew you were going there. I hope you get this one right... This library was developed by Facebook in 2013, and is still the most popular JavaScript library.
+**Emma Bostian:** I somehow knew you were going there. I hope you get this one right... This library was developed by Facebook in 2013, and is still the most popular JavScript library.
 
 **Jake Dohm:** What is React?
 
@@ -1120,15 +1120,15 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** ...being used... I don't know. I've been having to use React recently, and I'm telling you, it's making Vue look better every day.
 
-**Emma Bostian:** Yeah, it is. Kball, we've got two categories left. Do you want JavaScript again, or Even More JavaScript?
+**Emma Bostian:** Yeah, it is. Kball, we've got two categories left. Do you want JavScript again, or Even More JavScript?
 
-**Kevin Ball:** Well, let's go with Even More JavaScript then.
+**Kevin Ball:** Well, let's go with Even More JavScript then.
 
 **Emma Bostian:** \[laughs\] Let's do it... Okay, your last question - this method tells the user agent that if the event is not explicitly handled, its default action should not be taken as normally would be.
 
 **Kevin Ball:** What is prevent default?
 
-**Emma Bostian:** \[51:59\] That is correct, prevent default. I don't know if it's default or default. I never know how to pronounce it... Alright. Okay, Jake, take it home - JavaScript again, for 200. This is the very last question before we get to the super-final round, which is literally just one question. Okay, JavaScript again for 200.
+**Emma Bostian:** \{51:59\} That is correct, prevent default. I don't know if it's default or default. I never know how to pronounce it... Alright. Okay, Jake, take it home - JavScript again, for 200. This is the very last question before we get to the super-final round, which is literally just one question. Okay, JavScript again for 200.
 
 **Jake Dohm:** Alright.
 
@@ -1184,7 +1184,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** We've gotta write it to you, so that we can't change it, and then we each read our answer?
 
-**Emma Bostian:** Okay, yeah. Alright. So Kball, you send me your answer in Slack; Jake, you send your answer to me in the Zoom chat. Here's the final question - this is the year that JavaScript was created.
+**Emma Bostian:** Okay, yeah. Alright. So Kball, you send me your answer in Slack; Jake, you send your answer to me in the Zoom chat. Here's the final question - this is the year that JavScript was created.
 
 **Jake Dohm:** Unbelievable. This is hard.
 
@@ -1196,11 +1196,11 @@ I don't remember who -- Jake, you answered last last time...
 
 **Jake Dohm:** I'll bet the whole of them. I'm betting all of them.
 
-**Emma Bostian:** \[55:07\] Alright. Welcome to the game where the rules don't matter. That's a different game.
+**Emma Bostian:** \{55:07\} Alright. Welcome to the game where the rules don't matter. That's a different game.
 
 **Jake Dohm:** \[laughs\]
 
-**Emma Bostian:** Alright, I need your answers, please. What year was JavaScript invented?
+**Emma Bostian:** Alright, I need your answers, please. What year was JavScript invented?
 
 **Kevin Ball:** Alright, we'll try that.
 
@@ -1212,7 +1212,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Jake Dohm:** Not bad.
 
-**Emma Bostian:** Alright, here's where we landed. The question was "This is the year JavaScript was created." The answer was 1995. Which means Kball has won...
+**Emma Bostian:** Alright, here's where we landed. The question was "This is the year JavScript was created." The answer was 1995. Which means Kball has won...
 
 **Jake Dohm:** No...
 

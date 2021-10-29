@@ -8,7 +8,7 @@
 
 **Jerod Santo:** Great, great. Well, as you may or may not know, we take listener requests around here, just like any good wedding DJ... And if you have requests for the show, of course, you can drop them into our Slack channel, or you can tweet at us. There's lots of ways, but there's an official way at Changelog.com/request, select JS Party in the dropdown there, and you can let us know if there's a specific guest you'd like us to have on, if there's a topic you'd like us to talk about... You can pick your panelists; we may or may not listen to your request, but you can throw in "Hey, I really wanna hear from Feross on this topic." We would love to hear from you.
 
-The reason why I throw all that out at the top is because this topic we're about to take up was one such listener request, Bryan Vestey. He wanted to know about how we evolve alongside the JavaScript syntax. Let me go ahead and read what Brian had to say, and we'll get right into it. Brian says:
+The reason why I throw all that out at the top is because this topic we're about to take up was one such listener request, Bryan Vestey. He wanted to know about how we evolve alongside the JavScript syntax. Let me go ahead and read what Brian had to say, and we'll get right into it. Brian says:
 
 "I noticed recently that there are a lot of people who see the new shiny and try to fit in all the holes. A good example of this is the traditional function syntax and arrow functions, and how a lot of people will try to use an arrow function for everything. Personally, I feel that arrow functions are best when you need an anonymous function, or you need to keep the 'this' keyword constant while passing it around and the traditional syntax is nicer for top-level functions. I think it would be nice to hear everyone's thoughts on the changing syntax and how it relates to older syntax for the same thing."
 
@@ -16,7 +16,7 @@ I agree that that was a good topic of conversation; I'd love to hear what you tw
 
 **Feross Aboukhadijeh:** Well, I don't adopt it right away, personally. I'm pretty conservative when it comes to adopting new syntax, mainly because I personally prefer not having to require a build tool to process the code before my browser can understand it... So I'm pretty conservative with what new stuff I use.
 
-\[04:07\] One rough metric for when something is ready that I like to use is if ESLint can parse it out of the box. If my linter can understand it without having to do any kind of Babel shenanigans, then I'm like "Okay, I'll use this now." Usually, by then it's in enough browsers that if you have an aggressive user base who always keeps their browsers up to date, then it's fine to ship that out... That's my approach. But I'm pretty anti compilation, if possible. I'm a little weird like that.
+\{04:07\} One rough metric for when something is ready that I like to use is if ESLint can parse it out of the box. If my linter can understand it without having to do any kind of Babel shenanigans, then I'm like "Okay, I'll use this now." Usually, by then it's in enough browsers that if you have an aggressive user base who always keeps their browsers up to date, then it's fine to ship that out... That's my approach. But I'm pretty anti compilation, if possible. I'm a little weird like that.
 
 **Nick Nisi:** I'll say... \[laughter\]
 
@@ -26,9 +26,9 @@ I agree that that was a good topic of conversation; I'd love to hear what you tw
 
 **Jerod Santo:** Right. I'm somewhere in the middle, because I don't mind the tooling; I shouldn't say "I like the tooling." I think any tooling you can get away with not having is nice. I don't mind the tooling; it's usually there, or it takes some setup at first, but now it's there... So for many projects there's that bootstrap moment, which I agree is nice to skip if you can... But for most projects, it's already existing, so you're just like slotting in something.
 
-That being said, I don't adopt this stuff just because it's there necessarily... Like "Well, here's a new way of doing the same thing", especially syntactic sugar, which some of these things are; we'll talk about maybe some features that aren't' just syntax... But I'm somewhat curmudgeonly - or maybe the right word is "habitual" in the way I write my code. So I'm not going to just change for change's sake. I'm going to change when I'm compelled to by some sort of new thing I can do, or readability improvements... I think we'll get into some of that, because I think readability is subjective; each person reads it with their own eyes, and they're the subject, right? So we'll get into some of that... But I wanted to talk a little bit about the history real quick, because it seemed like the JavaScript syntax was static for so long... And then it's been changing what we feel as like somewhat dramatically or quickly, maybe just in comparison, not really all that fast anyways...
+That being said, I don't adopt this stuff just because it's there necessarily... Like "Well, here's a new way of doing the same thing", especially syntactic sugar, which some of these things are; we'll talk about maybe some features that aren't' just syntax... But I'm somewhat curmudgeonly - or maybe the right word is "habitual" in the way I write my code. So I'm not going to just change for change's sake. I'm going to change when I'm compelled to by some sort of new thing I can do, or readability improvements... I think we'll get into some of that, because I think readability is subjective; each person reads it with their own eyes, and they're the subject, right? So we'll get into some of that... But I wanted to talk a little bit about the history real quick, because it seemed like the JavScript syntax was static for so long... And then it's been changing what we feel as like somewhat dramatically or quickly, maybe just in comparison, not really all that fast anyways...
 
-So I did pull up a real quick document that Mozilla did in their reintroduction to JavaScript; so just a little bit of history on how it all played out. The ECMAscript, which is the official term for JavaScript, ES edition 3 was updated in 1999. I think that's the one that we all probably knew for so long. Well, maybe it became 5... Anyways, \[unintelligible 00:06:58.10\] The fourth edition was abandoned due to political differences concerning language complexity - so that's kind of funny, because there's definitely political differences regarding language complexity with some of the newer features as well. I'm not sure what exactly the details were on ES4. Do either one of you know that history, why it was abandoned?
+So I did pull up a real quick document that Mozilla did in their reintroduction to JavScript; so just a little bit of history on how it all played out. The ECMAscript, which is the official term for JavScript, ES edition 3 was updated in 1999. I think that's the one that we all probably knew for so long. Well, maybe it became 5... Anyways, \[unintelligible 00:06:58.10\] The fourth edition was abandoned due to political differences concerning language complexity - so that's kind of funny, because there's definitely political differences regarding language complexity with some of the newer features as well. I'm not sure what exactly the details were on ES4. Do either one of you know that history, why it was abandoned?
 
 **Nick Nisi:** There's a lot of things that have resurrected...
 
@@ -54,7 +54,7 @@ So I did pull up a real quick document that Mozilla did in their reintroduction 
 
 **Jerod Santo:** Yeah, exactly.
 
-**Feross Aboukhadijeh:** \[07:57\] Yeah. Pretty ambitious.
+**Feross Aboukhadijeh:** \{07:57\} Yeah. Pretty ambitious.
 
 **Jerod Santo:** Yeah. Maybe it was too big, too much... I'd be interested to go back and read some of those discussions, like why did they can it.
 
@@ -100,7 +100,7 @@ But yeah, otherwise I just kind of tend to use it pretty much everywhere. I was 
 
 **Jerod Santo:** Yeah. Lambdas, blocks and procs.
 
-**Feross Aboukhadijeh:** \[12:05\] Okay, there we go. Yeah, and so now we have two in JavaScript. But fortunately, they're not that different. The way that this keyword works is different in the arrow functions, and then the normal function with the keyword function hoists, which means that you can actually define the function at the bottom of the file, and then use it at the top of the file. If people aren't familiar, the way you can imagine it working is you just sort of -- wherever you have a function where you've written out the `function`, and then the name, and you've done that sort of syntax, it sort of takes all those functions and moves them to the top of the file. So anywhere else afterwards you can sort of just use those. That's one way to think about it... And I kind of like that.
+**Feross Aboukhadijeh:** \{12:05\} Okay, there we go. Yeah, and so now we have two in JavScript. But fortunately, they're not that different. The way that this keyword works is different in the arrow functions, and then the normal function with the keyword function hoists, which means that you can actually define the function at the bottom of the file, and then use it at the top of the file. If people aren't familiar, the way you can imagine it working is you just sort of -- wherever you have a function where you've written out the `function`, and then the name, and you've done that sort of syntax, it sort of takes all those functions and moves them to the top of the file. So anywhere else afterwards you can sort of just use those. That's one way to think about it... And I kind of like that.
 
 I like to write my code where when you open the file the thing that I think as the writer that you should see first is at the top... Not the thing that has to be defined first, like the utility functions and these random helpers. I like to have it sort of inverted, so all the utilities are at the bottom. And you can't really do that with arrow functions. So it's one downside... I actually have to say I struggle with knowing when to use each. I wish there was one way, one sort of magic "Always do it this way." So I'm kind of tempted to just make arrow functions be that way, because I very much prefer them when you're doing a map operation or foreach or any kind of in-line situation... But then there's those few places where I really want the hoisting, so I'm still using the `function` keyword... And I wish I could just use the one in all places and keep it simple.
 
@@ -116,9 +116,9 @@ So that's another argument for maybe just go all in on arrow functions... And I'
 
 **Nick Nisi:** I just remember watching Dan Abramov's Redux class (on EggHead, I think), and like an arrow function that returns an arrow function, maybe even another level deep, and I was just like "What is going on here? I do not understand..." \[laughs\]
 
-**Jerod Santo:** Yeah... There's still some code that I read, because there's so many optional aspects of that syntax - you know, like implicit return - and you can drop the parentheses if you want to, and this kind of stuff, which to the uninitiated, to somebody who writes JavaScript more casually -- like, I'm a JavaScript sprinkles frontender, so I write JavaScript all the time, but I'm not primarily writing JavaScript, if that makes any sense. When I revisit this thing, or when I'm reading somebody else's code who has different levels -- like, they'll use different levels of syntax. It's still foreign to me. I'll have to stop, and it makes it less readable. I think if you're super-initiated, it becomes more readable. But for the casual author, it's like "What's going on here?" because there's so much optionality in that syntax.
+**Jerod Santo:** Yeah... There's still some code that I read, because there's so many optional aspects of that syntax - you know, like implicit return - and you can drop the parentheses if you want to, and this kind of stuff, which to the uninitiated, to somebody who writes JavScript more casually -- like, I'm a JavScript sprinkles frontender, so I write JavScript all the time, but I'm not primarily writing JavScript, if that makes any sense. When I revisit this thing, or when I'm reading somebody else's code who has different levels -- like, they'll use different levels of syntax. It's still foreign to me. I'll have to stop, and it makes it less readable. I think if you're super-initiated, it becomes more readable. But for the casual author, it's like "What's going on here?" because there's so much optionality in that syntax.
 
-**Feross Aboukhadijeh:** \[16:25\] Yeah. There's actually five different versions. When we were adding rules to Standard JS for this, we were like "Can we eliminate some of these? Because they seem like there's too many variants."
+**Feross Aboukhadijeh:** \{16:25\} Yeah. There's actually five different versions. When we were adding rules to Standard JS for this, we were like "Can we eliminate some of these? Because they seem like there's too many variants."
 
 **Jerod Santo:** Yeah.
 
@@ -144,13 +144,13 @@ But if you want multiple lines, then you have to include the curly braces, but t
 
 **Nick Nisi:** I would, but I'd be too busy moving my mouse around, so I don't know... \[laughter\]
 
-**Jerod Santo:** Well, let's move our mouse around to a different subject, which is still on the evolving landscape of JavaScript, which is variables. One thing that got much more complicated in recent editions is, in addition to `var` as a way of declaring variables, we now have `let`, and we have `const`. And this has been a topic of many Stack Overflow questions - "When do I use which one, and why?" Again, it's not syntax; these have significantly different meanings and different scopes etc. But do you guys have rules of thumb about which keyword to pick when you're declaring a variable?
+**Jerod Santo:** Well, let's move our mouse around to a different subject, which is still on the evolving landscape of JavScript, which is variables. One thing that got much more complicated in recent editions is, in addition to `var` as a way of declaring variables, we now have `let`, and we have `const`. And this has been a topic of many Stack Overflow questions - "When do I use which one, and why?" Again, it's not syntax; these have significantly different meanings and different scopes etc. But do you guys have rules of thumb about which keyword to pick when you're declaring a variable?
 
 **Feross Aboukhadijeh:** I can say what I do - I just go `const` all the way. And it's funny, because at first, when people were suggesting that we enforce `const` in standard, I said "I don't like the name `const`, I think it's misleading." It actually doesn't const an object; so if you have a const object, you can still change the object, you can go in there and change the properties... So you have to really understand what is actually being consted, or made constant, which is the reference, the binding between the variable name and the particular object or primitive that you're referencing. Once you understand that, then it actually is quite useful... Because 99% of my variables are const. That makes the places where I'm using `let` stand out a lot, and it makes me go "Oh, okay, this is gonna be changing. Where is this gonna change?" If I accidentally try to change a const thing, I'm gonna get warned. I don't know, it feels safer to just use const everywhere. I really like how my code feels when I know that I'm just sort of explicitly allowing those references to change whenever it's required. And I like to use tooling to help me with that - my linter, I mean.
 
 So if I'm ever using a variable and it doesn't change, that's gonna force me to use `const` and tell me if I accidentally use `let`, and vice-versa. So if I'm using `let` and it notices it doesn't change, it's gonna say "Hey, go and make that `const`." That's my take.
 
-**Nick Nisi:** \[20:01\] Yup, I a hundred percent agree with you on that, Feross... And I'll go one step further in that with TypeScript using `const` also narrows the type down. So if you're setting the string literal Foo and you use `const`, then that variable can only ever be the string literal Foo. Whereas if I use `let`, then the type can only ever be a string, but not the exact explicit string literal Foo. So there's a little bit more type safety that you get by using `const` over `let` whenever you can.
+**Nick Nisi:** \{20:01\} Yup, I a hundred percent agree with you on that, Feross... And I'll go one step further in that with TypeScript using `const` also narrows the type down. So if you're setting the string literal Foo and you use `const`, then that variable can only ever be the string literal Foo. Whereas if I use `let`, then the type can only ever be a string, but not the exact explicit string literal Foo. So there's a little bit more type safety that you get by using `const` over `let` whenever you can.
 
 **Feross Aboukhadijeh:** If you use `let`, then the type has to be the same always, but if you use `const`, then you also get that it can't change... Is that it?
 
@@ -172,13 +172,13 @@ So if I'm ever using a variable and it doesn't change, that's gonna force me to 
 
 **Jerod Santo:** We'll break right there... \[laughter\] I'm gonna break it right before you said "The future." \[laughter\] See, the nice thing about being the editor of this show is I get the last word.
 
-**Break:** \[22:19\]
+**Break:** \{22:19\}
 
-**Jerod Santo:** So there's a lot of other goodies in newer versions of JavaScript - there's classes, there's template literals, there's default params and whatnot... What else do you guys wanna talk about? What do you like, and what do you not like? Not everybody at once...
+**Jerod Santo:** So there's a lot of other goodies in newer versions of JavScript - there's classes, there's template literals, there's default params and whatnot... What else do you guys wanna talk about? What do you like, and what do you not like? Not everybody at once...
 
 **Feross Aboukhadijeh:** Yeah, I find myself using almost everything in ES6 now. Pretty much all of it is good stuff. I don't think there's anything that was a mistake to add... And that's in contrast to what I used to believe. Back when I was writing ES5, I was like "Why are you complicating my language? I understand everything, don't add more stuff." I kind of liked the fact that the syntax was quite limited. That's actually one of the reasons I really like C as a language, actually; you can buy the Kernighan/Ritchie book on C and it's like 50 pages. You can understand the entire language.
 
-\[24:04\] Now, there's a lot of ways of combining those features to do all kinds of crazy things when you're manipulating memory raw, and you have pointers, and all this kind of stuff, but it's all emergent based on a really simple set of rules, a simple set of possible things you can put into the syntax. But then they came and started adding all this stuff to ES6, and I was like "No... Now JavaScript is gonna become like C++, where you're gonna have to decide what subset of the language you use at your company, or in your codebase", and you're gonna have to have like half the language is off-limits, because that conflicts with these other features... And then you get this sort of situation potentially where a person can come into a codebase and they're actually a JavaScripter, but then they look at this code and they're like "I don't know what's going on, because you used a different part of the language than I've ever seen." That was my big fear.
+\{24:04\} Now, there's a lot of ways of combining those features to do all kinds of crazy things when you're manipulating memory raw, and you have pointers, and all this kind of stuff, but it's all emergent based on a really simple set of rules, a simple set of possible things you can put into the syntax. But then they came and started adding all this stuff to ES6, and I was like "No... Now JavScript is gonna become like C++, where you're gonna have to decide what subset of the language you use at your company, or in your codebase", and you're gonna have to have like half the language is off-limits, because that conflicts with these other features... And then you get this sort of situation potentially where a person can come into a codebase and they're actually a JavScripter, but then they look at this code and they're like "I don't know what's going on, because you used a different part of the language than I've ever seen." That was my big fear.
 
 But I have to say, I do really think that what seems to have happened with this ES6 stuff and all the new syntax is that people actually have just sort of fully shifted over to the new stuff, and we have left the old stuff behind... And it doesn't seem like we're in that situation where there's these two worlds as much as I had feared. So I'm a big fan of all the new stuff now, I have to say. I'm one of those people who like -- it takes me a while to wanna get there, and I'm very conservative about how quickly I adopt that stuff in my code, just because I'm trying to get stuff done. I don't wanna spend my time fiddling with syntax. I'll use it once it's all figured out. I wanna innovate in other areas, I don't wanna innovate in how I syntactically represent my code; I wanna actually make a thing that's cool, if that makes sense. But I'm a fan now.
 
@@ -190,7 +190,7 @@ That being said, some of the new features I really like, so... Such as destructu
 
 **Nick Nisi:** But it's not just TMTOWTDI for TMTOWTDI's sake. It's to achieve their goal of being as backwards-compatible as possible. There have been features that have been added to the language that had to be renamed because they would clash with MooTools from ten years ago.
 
-\[27:55\] There's such a pervasive mindset and goal of "We do not wanna break the web, but we also don't wanna be writing this archaic code anymore, so we need to add more features to the language." And from that perspective, it's pretty elegant, the way that you can adapt these features, opt into them or out of them, at your will.
+\{27:55\} There's such a pervasive mindset and goal of "We do not wanna break the web, but we also don't wanna be writing this archaic code anymore, so we need to add more features to the language." And from that perspective, it's pretty elegant, the way that you can adapt these features, opt into them or out of them, at your will.
 
 **Feross Aboukhadijeh:** Totally. Yeah, I don't think that people think that there's a use case for `var` and `let` and `const`, all in the same codebase. `var` just has irreparable problems with how it works, and the idea was "If we could do it again, we would do `let` and `const`. But we have to keep `var` there for the old code." It's not like there was an explicit desire to have all three. It's not like they wanna give you more than one way to do it; there is more than one way to do it just because of history.
 
@@ -208,7 +208,7 @@ That being said, some of the new features I really like, so... Such as destructu
 
 **Jerod Santo:** I use it all the time.
 
-**Nick Nisi:** I think that that fundamentally changed the way that a lot of us write JavaScript... Specifically destructuring. Because now, it's pretty common to have method signatures that accept "named parameters", right? Because you can just pass an object and then you can destructure them right in the argument assignment. You can also technically have multiple return values, where you might return a \[unintelligible 00:29:36.18\] or an object named "objects", and then you can just destructure those off and use whatever you need in there... So that's the biggest change that I see across all of the code - destructuring everywhere for that.
+**Nick Nisi:** I think that that fundamentally changed the way that a lot of us write JavScript... Specifically destructuring. Because now, it's pretty common to have method signatures that accept "named parameters", right? Because you can just pass an object and then you can destructure them right in the argument assignment. You can also technically have multiple return values, where you might return a \[unintelligible 00:29:36.18\] or an object named "objects", and then you can just destructure those off and use whatever you need in there... So that's the biggest change that I see across all of the code - destructuring everywhere for that.
 
 **Jerod Santo:** Totally.
 
@@ -226,7 +226,7 @@ You mentioned -- well, there's modules... \[laughs\] I'm going through a list of
 
 **Feross Aboukhadijeh:** So I can say what I did on the \[unintelligible 00:31:46.06\] project. We just kind of agreed as a project that we wanted to move to ES6 syntax, and we were using this tool called Lebab (it's just Babel backwards) to convert ES5 code to ES6... And it's a little finicky, you have to pass in all these flags saying what you want to convert... But once you decide how you want that to happen, you can just sort of go to all your different files and sort of run that tool on the file, with the same arguments that you figured out the first time. It's way better than doing it by hand, in my experience; it basically doesn't mess up. So that's been a really easy way to get everything up to speed.
 
-\[32:26\] And the other thing that I do is when a new version of standard mandates new syntax, then usually there's an automatic fix command that can go and also update everything to the new way; that's pretty helpful. That forces the hand of the projects that are using Standard to keep at least somewhat up to date. Standard is very conservative, by the way; it doesn't force you to go all-in. It is moving along, forcing people to eventually transition a little bit here and there, when they can.
+\{32:26\} And the other thing that I do is when a new version of standard mandates new syntax, then usually there's an automatic fix command that can go and also update everything to the new way; that's pretty helpful. That forces the hand of the projects that are using Standard to keep at least somewhat up to date. Standard is very conservative, by the way; it doesn't force you to go all-in. It is moving along, forcing people to eventually transition a little bit here and there, when they can.
 
 **Jerod Santo:** Tell Nick what Standard is, because when we played JS Danger he didn't know Standard...
 
@@ -262,7 +262,7 @@ A lot of people are using Prettier now though, because they mostly wanted the co
 
 **Feross Aboukhadijeh:** With the exception of one thing, by the way... If you're ever doing this, remember that classes, when you switch from function style prototypes, making your classes using ES5m to switching to the class syntax, you're forced to use the new keyword when you're initializing the class. And previously, a lot of code that was written in the ES5 style would do this thing where in the constructor it checks to see "Did you call this without new? If so, we'll call new for you", so that you as a user don't have to know whether it's new or not new. With classes it's all new, and you can't not use new.
 
-**Jerod Santo:** \[36:00\] It's all new. Nick, do you have similar transitions - run some tools against it, or slowly spruce things up as you go? I definitely have done both in my experience... And this kind of depends on the team, it depends on the project... Some places I'll just slowly evolve functions as I refactor, or as I add functionality. Sometimes you pick file by file, and say "I'm gonna upgrade this file to this."
+**Jerod Santo:** \{36:00\} It's all new. Nick, do you have similar transitions - run some tools against it, or slowly spruce things up as you go? I definitely have done both in my experience... And this kind of depends on the team, it depends on the project... Some places I'll just slowly evolve functions as I refactor, or as I add functionality. Sometimes you pick file by file, and say "I'm gonna upgrade this file to this."
 
 I know years ago when I was big on CoffeeScript -- it's funny that I'm a bit of a curmudgeon on new syntax, because I hopped on the CoffeeScript train immediately...
 
@@ -276,7 +276,7 @@ I know years ago when I was big on CoffeeScript -- it's funny that I'm a bit of 
 
 **Nick Nisi:** Sorry, I keep becoming that guy. But if it's a little bit bigger, then relying on tools to do it, or code mods, or even writing your own code mods to do pieces of it is a good way to do that, and to also learn about the AST.
 
-**Jerod Santo:** The AST. Powerful thing. So back to features real quick, and then we'll wrap up this part of the conversation... But I think another huge boon to JavaScript developers all around the world is template strings. I can't see any reason why you'd be like "These things stink." Constructing a string the old school way, with pluses in between the string literals was terrible. Now you can just inject variables right in there, and I just think that's an unadulterated win. Is there any reason why somebody would not like this feature?
+**Jerod Santo:** The AST. Powerful thing. So back to features real quick, and then we'll wrap up this part of the conversation... But I think another huge boon to JavScript developers all around the world is template strings. I can't see any reason why you'd be like "These things stink." Constructing a string the old school way, with pluses in between the string literals was terrible. Now you can just inject variables right in there, and I just think that's an unadulterated win. Is there any reason why somebody would not like this feature?
 
 **Feross Aboukhadijeh:** I mean, now you have three ways of making strings; before you had two. It's the same thing as the other argument.
 
@@ -328,7 +328,7 @@ I know years ago when I was big on CoffeeScript -- it's funny that I'm a bit of 
 
 **Jerod Santo:** Yeah, I'm a spaces guy myself, but... You can do what you're gonna do.
 
-**Feross Aboukhadijeh:** \[40:03\] Have you all used common tags? Do you know what that is?
+**Feross Aboukhadijeh:** \{40:03\} Have you all used common tags? Do you know what that is?
 
 **Nick Nisi:** No.
 
@@ -368,17 +368,17 @@ But it's cool, it has a way of -- you could say "strip the indent out of it", or
 
 **Feross Aboukhadijeh:** I know that there's a use case if you really want to make stuff private and have people -- a symbol is basically a string that you can't type unless you have a reference to the symbol, if that makes sense. It's a way to make a private property.
 
-The thing that annoys me about this feature is that JavaScript has always been very open and very flexible, and I don't like the idea of somebody saying that I can't access a thing... I'm also against private properties and classes for the same reason. It's like, I don't want to be limited from shooting myself in the foot if I really want to, you know?
+The thing that annoys me about this feature is that JavScript has always been very open and very flexible, and I don't like the idea of somebody saying that I can't access a thing... I'm also against private properties and classes for the same reason. It's like, I don't want to be limited from shooting myself in the foot if I really want to, you know?
 
 **Nick Nisi:** Yeah.
 
-**Feross Aboukhadijeh:** That's one of the things that made JavaScript a good language for so long - even without a lot of support in the language directly for doing things the right way, people could hack in the fixes to the language; that's what we did for all the years before JavaScript got these good features - we would fix problems with the language. Now they're saying "Well, we should be able to make things that are not fixable by the user, not hackable", and I don't like what that trend signifies for the future of the language.
+**Feross Aboukhadijeh:** That's one of the things that made JavScript a good language for so long - even without a lot of support in the language directly for doing things the right way, people could hack in the fixes to the language; that's what we did for all the years before JavScript got these good features - we would fix problems with the language. Now they're saying "Well, we should be able to make things that are not fixable by the user, not hackable", and I don't like what that trend signifies for the future of the language.
 
 **Nick Nisi:** Yeah. In terms of the symbols, it seems like most of the symbols that might be used by the language, or by features in the language, are well-known, so you can access them... But yeah, I totally agree with that, and privates at runtime.
 
 **Jerod Santo:** So you just don't appreciate what the symbols feature symbolizes? \[laughter\] Oh, I killed the segment... Alright, we'll be right back.
 
-**Break:** \[43:49\]
+**Break:** \{43:49\}
 
 **Jerod Santo:** So these are interesting times we're living in; maybe we shouldn't call them exciting times. It's tough to be excited about lots of things right now, but we can be, and we can distract ourselves... And we're gonna talk about some stuff that we're excited about. This segment is called "I'm excited by X, where X is literally anything." Feross, you've been hard at work building a new app here during the pandemic, that you seem to be excited about... Do you wanna tell us about Virus Cafe?
 
@@ -404,7 +404,7 @@ And then there's some fun ones in there, like weird, out-there questions, like "
 
 The way the reporting works is if you're reported at a certain rate - basically, if you get reported twice within the first 15 minutes of joining, you're insta-banned. So even if there's no active moderation, you're just gonna get kicked off. But the active moderation is also my plan to kind of keep the site top-quality, even though it's open to anyone, basically. It's a difficult trade-off. I wanna keep it open, I don't wanna force people to have an account, I want it to be anonymous, but I also want it to be welcoming.
 
-**Jerod Santo:** \[48:23\] Exactly.
+**Jerod Santo:** \{48:23\} Exactly.
 
 **Feross Aboukhadijeh:** It's so interesting - just the UI/UX stuff that comes into these social apps... A lot of social apps are really -- if you think about them, they're just feeds of photos; if you think about Instagram, it's just a feed of photos. There's hundreds of thousands of these kinds of apps. But what differentiates them is these really subtle social cues; things in the UI that make you or encourage you to behave a certain way in this app, which gives that app kind of its own culture.
 
@@ -438,7 +438,7 @@ Think about the difference between Tumblr and Facebook. They're kind of the same
 
 **Feross Aboukhadijeh:** But this conversation I had, by the way, with somebody, was really wild. I can repeat it, because I don't know who she was... But first of all, one really interesting behavior is people blocking their cameras. That's been really interesting to see. I think what they're saying is they want an audio mode, so I'm actually building an audio-only mode right now... But at first, my original instinct was "These people are blocking their camera because they're trying to be sketchy, and I should ban them, or they should get reported..." But then I started using the app a little bit and talked to some of these people... And some of them had been on the app for several hours and they had not been reported even once; so they're behaving perfectly well, they're great users, but they just don't wanna show their face... And I learned that, and I'm like "Okay, so actually there's a real reason here."
 
-\[52:00\] And then I actually realized that I felt more comfortable -- I tried blocking my own camera and using the app for a little bit, and I felt more comfortable sharing stuff, because I just felt like I was on an anonymous phone/confessional line, or something like that, and it felt more freeing to be able to do that.
+\{52:00\} And then I actually realized that I felt more comfortable -- I tried blocking my own camera and using the app for a little bit, and I felt more comfortable sharing stuff, because I just felt like I was on an anonymous phone/confessional line, or something like that, and it felt more freeing to be able to do that.
 
 **Jerod Santo:** Right.
 
@@ -468,7 +468,7 @@ So I use Next.js; it forces you to use React. I've been using Hooks in React, an
 
 And I think that's pretty much the most interesting stuff. There's a web socket server involved for doing the signaling between the peers, to get the peers connected. But then once you're actually fully-connected, it's a peer-to-peer connection, so your browser is connected to their browser... And then there's also a relay server, which is really important if you're building a WebRTC app... Because if your peers can't directly connect to each other over a peer-to-peer connection, which happens sometimes if you're on a really restrictive network, like an incorporation where they have a firewall, and it blocks random people from connecting into the network - then you need to have what's called a TURN server or a relay server, which can help facilitate those two users conecting to each other. And the way that works is that they both just connect to the server, and then they send their traffic through the server, and it's encrypted, but the server helps basically that traffic get tunneled between the two peers, if that makes sense. I set up a server for that. You just install a thing called Coturn, and it does that for you. But yeah, that's pretty much the stack.
 
-**Jerod Santo:** \[56:22\] Awesome. Open source, or no?
+**Jerod Santo:** \{56:22\} Awesome. Open source, or no?
 
 **Feross Aboukhadijeh:** No, not yet.
 
@@ -496,7 +496,7 @@ It's just interesting to me the story that goes along with that, the way that th
 
 **Jerod Santo:** Very cool. Well, I'm excited for the very first time about a coding font... Well, maybe just the second time. Thinking about things we like to bikeshed or change often - it's our fonts, and our themes in our editors. In fact, an unpopular opinion of mine is that we do too much of that... So I haven't changed my font for years. I've been using Ubuntu Mono pretty much since it came out. I just like that font. Before that I think I was using Monaco, or something that was built into TextMate back in the day... And Ubuntu Mono has been out for about a decade now, and I liked Ubuntu Mono, so I just have used it for a decade, and I'm very familiar with it.
 
-That being said, there is a new font that I've recently found. We just did an interview with Nikita Prokopov on The Changelog; it's not out yet, it's coming out soon... It's a maintainer spotlight with him. He has been maintaining FiraCode, which is a really cool monospace programming font that supports ligatures. Ligatures, for the uninitiated, are when there are specific glyphs in your language, such as the arrow function in JavaScript, and you're used to writing these things with a combination of ASCII characters, like the = and the &gt;. Fonts with ligatures actually have specific glyphs that represent that combination of ASCII characters. Fira Mono is one of those...
+That being said, there is a new font that I've recently found. We just did an interview with Nikita Prokopov on The Changelog; it's not out yet, it's coming out soon... It's a maintainer spotlight with him. He has been maintaining FiraCode, which is a really cool monospace programming font that supports ligatures. Ligatures, for the uninitiated, are when there are specific glyphs in your language, such as the arrow function in JavScript, and you're used to writing these things with a combination of ASCII characters, like the = and the &gt;. Fonts with ligatures actually have specific glyphs that represent that combination of ASCII characters. Fira Mono is one of those...
 
 \[01:00:10.29\] So you'll be typing along, and you'll type your = and your &gt; or whatever happens to be the ligature supported in the language that you're currently editing in, and it will replace those two characters with a custom character.
 
@@ -542,6 +542,6 @@ It's pretty seamless, and for those who are curious, it doesn't actually change 
 
 **Nick Nisi:** Yeah... I had to do -- I can't remember the name of it. I had to run a `tick` command to enable a specific terminfo file that would support cursive in italics... I don't use it anymore, but I've spent a long time doing that.
 
-**Jerod Santo:** Case in point. You've made my case for my unpopular opinion from a few weeks back. Alright, those are the things that we're excited about. What are you excited about? What are you using in the new JavaScript syntax? What do you not like? We would love to hear from you. We are on Twitter at @jspartyFM. You can of course comment right on changelog.com; pop open your show notes, click the Discuss button... All three of us will be notified of what you have to say. We'd love to hear from the listeners. If you've been hanging out in the Slack chat, we appreciate you all live listeners...
+**Jerod Santo:** Case in point. You've made my case for my unpopular opinion from a few weeks back. Alright, those are the things that we're excited about. What are you excited about? What are you using in the new JavScript syntax? What do you not like? We would love to hear from you. We are on Twitter at @jspartyFM. You can of course comment right on changelog.com; pop open your show notes, click the Discuss button... All three of us will be notified of what you have to say. We'd love to hear from the listeners. If you've been hanging out in the Slack chat, we appreciate you all live listeners...
 
 That's JS Party for this week. We'll talk to you next time!

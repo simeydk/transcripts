@@ -20,13 +20,13 @@
 
 **Kevin Ball:** Yeah. I've been tuning in a lot to this recently, but I know some of our listeners may or may not have had the chance to play around with JAMstack, and since you literally wrote the book on JAMstack, recently published - last year? Late last year?
 
-**Phil Hawksworth:** \[03:57\] Earlier this year.
+**Phil Hawksworth:** \{03:57\} Earlier this year.
 
 **Kevin Ball:** Earlier this year... Maybe you can do a great one or two-minute explanation of what JAMstack is and why it matters right now.
 
 **Phil Hawksworth:** Sure, yeah. I'll do my best without reciting an entire book's worth of stuff... Some people might think of "Well, is JAMstack the new word for static sites?" And yeah, kind of... But yes and no, because it's much broader than that. We've been building things with static assets for a really long time. Before things were dynamic, we were putting files on web servers and serving those directly, and that was nice and simple. Things got more complicated as we got more dynamic, and that's been great... But this is kind of a return to simplification, and that's possible because the environment - the ecosystem, as you put it - has grown up, the tooling around this has gotten so much richer.
 
-So JAMstack - JAM stands for JavaScript, APIs and Markup, and it really is trying to find a good way to build modern web applications and sites using prerendered Markup, and served without web servers... And that sounds really counter-intuitive, the "served without web servers" thing... Because really, one of the huge attributes of JAMstack sites is that since they're pre-generated, prerendered, you can serve them in their entirety form a CDN. I mean, realistically, they're very portable; you could serve them from anything. You prerender a bunch of assets and you put them wherever is convenient, so that's a really portable, nice thing... But their superpower is that they can be entirely served from a CDN. So whereas previously you might have thought "Well, I'll pre-generate some of the things, but I'll have some dynamic aspects as well. Some of my things I can put on a CDN" - you've gotta manage that slight headache of "What goes to the CDN? When? How do I update all of these things?" and you're in kind of mixed territory.
+So JAMstack - JAM stands for JavScript, APIs and Markup, and it really is trying to find a good way to build modern web applications and sites using prerendered Markup, and served without web servers... And that sounds really counter-intuitive, the "served without web servers" thing... Because really, one of the huge attributes of JAMstack sites is that since they're pre-generated, prerendered, you can serve them in their entirety form a CDN. I mean, realistically, they're very portable; you could serve them from anything. You prerender a bunch of assets and you put them wherever is convenient, so that's a really portable, nice thing... But their superpower is that they can be entirely served from a CDN. So whereas previously you might have thought "Well, I'll pre-generate some of the things, but I'll have some dynamic aspects as well. Some of my things I can put on a CDN" - you've gotta manage that slight headache of "What goes to the CDN? When? How do I update all of these things?" and you're in kind of mixed territory.
 
 **Kevin Ball:** Yeah.
 
@@ -56,7 +56,7 @@ So JAMstack - JAM stands for JavaScript, APIs and Markup, and it really is tryin
 
 **Phil Hawksworth:** Yeah. That's the thing... Sometimes when I talk about JAMstack, I have this diagram where I compare the traditional or a dynamic stack, and all of the lines and boxes that are in there, the bits of infrastructure, and then a JAMstack site, which is served directly from the CDN... And it's a bit of an oversimplification, but it does show how much complexity there is in one versus the other. I sometimes kind of make this slightly smart ass comment that there's no server more secure than the one that doesn't exist.
 
-**Kevin Ball:** \[08:08\] Yes!
+**Kevin Ball:** \{08:08\} Yes!
 
 **Phil Hawksworth:** If you take infrastructure out of the equation, there's less surface area to attack, there's fewer things to have to scale, fewer things to deploy to... All of these moving parts - if you can get them out of the equation, it just makes everything go much faster, and as you say, much more secure. So I love the fact that you're encouraging people to try and hack your site on Netlify. I should introduce you to our infrastructure team around the corner and see if they raise an eyebrow...
 
@@ -84,21 +84,21 @@ So you take out some of the maybe more exotic skills and the exotic complexity a
 
 **Kevin Ball:** I just push a site.
 
-**Phil Hawksworth:** Kubernetes is a wonderful thing, but I never want to have to deal with it. In the background of the infrastructure, in things like Netlify, that all exists, but I never need to touch it, thank you very much. So it means that we can find developers. So it means that we can find developers who are really talented at front-end things. We can find talented front-end engineers with JavaScript, HTML, CSS skills, brilliant SVG animators, all of those people who can now become so much more empowered and have much more impact. We don't have to worry about them shoe-horning their technologies and their codes into the output of some other big monolith, which sometimes can be a bit of a frustration...
+**Phil Hawksworth:** Kubernetes is a wonderful thing, but I never want to have to deal with it. In the background of the infrastructure, in things like Netlify, that all exists, but I never need to touch it, thank you very much. So it means that we can find developers. So it means that we can find developers who are really talented at front-end things. We can find talented front-end engineers with JavScript, HTML, CSS skills, brilliant SVG animators, all of those people who can now become so much more empowered and have much more impact. We don't have to worry about them shoe-horning their technologies and their codes into the output of some other big monolith, which sometimes can be a bit of a frustration...
 
 So it kind of takes the shackles off a little bit, and it means that engineers can be so much more impactful and so much more rapid about it. And when you start to pull at that particular thread, it means that we can start building things that we can put in front of clients in a realistic way, much sooner. We can start to share the work as it's being developed in a real context, and it just increases the confidence in what we're building, and reduces lead time. So it's really an exciting thing as a developer, and I know that a lot of people here at the conference are developers who are enthusiastic, as they enjoy the experience of building in this way.
 
-**Break:** \[11:02\]
+**Break:** \{11:02\}
 
-**Kevin Ball:** Let's talk a little bit about the A in the JAMstack, because what we've talked about a lot here is the J, the JavaScript, and M, the Markup... And we can do some things in a pre-computed way; I could move my CMS from being in WordPress to being in Git, or something like that... But sometimes you still do need some sort of interaction, interactivity, authentication, things like that... So how does that play in?
+**Kevin Ball:** Let's talk a little bit about the A in the JAMstack, because what we've talked about a lot here is the J, the JavScript, and M, the Markup... And we can do some things in a pre-computed way; I could move my CMS from being in WordPress to being in Git, or something like that... But sometimes you still do need some sort of interaction, interactivity, authentication, things like that... So how does that play in?
 
 **Phil Hawksworth:** Well, that's such an excellent question. Actually, you remind me of a very important point, and that is that even though there's the J, the A and the M in JAMstack, you don't need to use all three...
 
 **Kevin Ball:** Right.
 
-**Phil Hawksworth:** ...in the same way as you might be building on the LAMP stack, but actually you didn't use a database... You might not have been using MySQL, but you're still on the LAMP stack if you're using those other technologies. That's very much the case with JAMstack as well, because I consider a site that maybe doesn't hit any APIs, or maybe doesn't have any JavaScript at all, but it's prerendered from a CDN - that fits perfectly for me in the JAMstack world. However, when you're talking about APIs and the things that you might want to leverage there, the world is your oyster a little bit... Because you can be calling APIs, maybe getting content from content services, or pricing engines, or goodness knows what else... Like image optimization services, like Cloudinary You could be pulling content in through those APIs at build time if you want, so you kind of compile things and you're consuming APIs then, and then prerendering everything, and then maybe serving things that have no JavaScript and no API usage in the front-end. Or you can push the lever a little bit further, and maybe you're doing that, but maybe you're wanting to add some interactions with some third-party services from the front-end that make sense to happen at interaction time.
+**Phil Hawksworth:** ...in the same way as you might be building on the LAMP stack, but actually you didn't use a database... You might not have been using MySQL, but you're still on the LAMP stack if you're using those other technologies. That's very much the case with JAMstack as well, because I consider a site that maybe doesn't hit any APIs, or maybe doesn't have any JavScript at all, but it's prerendered from a CDN - that fits perfectly for me in the JAMstack world. However, when you're talking about APIs and the things that you might want to leverage there, the world is your oyster a little bit... Because you can be calling APIs, maybe getting content from content services, or pricing engines, or goodness knows what else... Like image optimization services, like Cloudinary You could be pulling content in through those APIs at build time if you want, so you kind of compile things and you're consuming APIs then, and then prerendering everything, and then maybe serving things that have no JavScript and no API usage in the front-end. Or you can push the lever a little bit further, and maybe you're doing that, but maybe you're wanting to add some interactions with some third-party services from the front-end that make sense to happen at interaction time.
 
-That's when JavaScript and APIs start to come into play, where you can use things like progressive enhancement, to start to say "Okay, now we've got this level of interactivity, and we can be calling on this huge suite of content APIs or other services", and they're just popping up all the time now; it's becoming so much more popular. I really think that is kind of inheriting a superpower, because in the same way that you didn't want to be managing Kubernetes, I don't want to be managing authentication services. I'll screw that up. I don't want to be managing database services for the same reason. So being able to have vendors and services that provide that through APIs, and they've got teams who specialize in just that, and they've got SLAs that say "This is gonna be the uptime for this. This is how secure it's gonna be..." They've got expertise there. You get to onboard that through using their APIs, without having to become an expert in the deeper, gnarly business under the covers of that, and just get to be proficient in using their APIs, and that's just like inheriting these superpowers, and that excites me a great deal.
+That's when JavScript and APIs start to come into play, where you can use things like progressive enhancement, to start to say "Okay, now we've got this level of interactivity, and we can be calling on this huge suite of content APIs or other services", and they're just popping up all the time now; it's becoming so much more popular. I really think that is kind of inheriting a superpower, because in the same way that you didn't want to be managing Kubernetes, I don't want to be managing authentication services. I'll screw that up. I don't want to be managing database services for the same reason. So being able to have vendors and services that provide that through APIs, and they've got teams who specialize in just that, and they've got SLAs that say "This is gonna be the uptime for this. This is how secure it's gonna be..." They've got expertise there. You get to onboard that through using their APIs, without having to become an expert in the deeper, gnarly business under the covers of that, and just get to be proficient in using their APIs, and that's just like inheriting these superpowers, and that excites me a great deal.
 
 **Kevin Ball:** Yeah, yeah. So there are two pieces of that that I'd like to dig in. One that I think is really insightful and really important is the APIs don't have to be at client-side. I love the idea, and I think Gatsby has probably gone the farthest in this direction...
 
@@ -110,7 +110,7 @@ That's when JavaScript and APIs start to come into play, where you can use thing
 
 **Kevin Ball:** And as you say, the user doesn't have to see that complexity, or that time lag, or anything along those lines. So there's a ton there, and I'd be curious of your thoughts on the direction that's going, and where the boundaries of that are.
 
-**Phil Hawksworth:** Yeah... And it's such a tricky one, because there are so many wonderful tools available to us now that do incredibly powerful things client-side, and there are so many JavaScript frameworks and libraries that do really powerful and exciting things... And it's tempting to use them for everything.
+**Phil Hawksworth:** Yeah... And it's such a tricky one, because there are so many wonderful tools available to us now that do incredibly powerful things client-side, and there are so many JavScript frameworks and libraries that do really powerful and exciting things... And it's tempting to use them for everything.
 
 **Kevin Ball:** Yup.
 
@@ -118,7 +118,7 @@ That's when JavaScript and APIs start to come into play, where you can use thing
 
 **Kevin Ball:** Preach...
 
-**Phil Hawksworth:** \[15:52\] Yeah, do as much as you can upfront is kind of where I start from, and I think that's a really sensible place to begin - "How much can we do ahead of time, so we don't have to do it later?" is a great way to approach it. But then you still have the ability to enhance things later on.
+**Phil Hawksworth:** \{15:52\} Yeah, do as much as you can upfront is kind of where I start from, and I think that's a really sensible place to begin - "How much can we do ahead of time, so we don't have to do it later?" is a great way to approach it. But then you still have the ability to enhance things later on.
 
 I think on projects that I've worked in years ago, when I'd be working on maybe a traditional stack, you just assumed that everything was gonna be dynamic by default; cogs would be turning at request time, always. But then, as you start to think "Well, how can we scale it? How can we make it more resilient, and all these things?", you start to look for opportunities of things that "Oh, maybe I can take that and make that static, and start to cache certain things, and what have you." And you start to do that. But that does leave you in the position where you have to figure out what's dynamic and what's static all the time, and you have to figure out how you balance those two. So what I prefer to do is invert that, and say "Okay, this project will be static...", and by static I mean pre-generated and then served from a CDN, "...and that's gonna be my default."
 
@@ -138,7 +138,7 @@ Then you start to think about every feature, "Can this work in that way, or can 
 
 **Kevin Ball:** Though I do find myself wondering, "Are there ways to pre-generate some of even that?"
 
-**Phil Hawksworth:** Yeah, and I absolutely think there are... But that moment of authenticating - that's the perfect place to start to think about using JavaScript and APIs. And again, there are these services now that we don't have to roll our own; there are identity services, authentication providers that you can use, with things like JavaScript web tokens, and different authentication methods that can then unlock either access to routes to things that have been pre-generated - that's a common path... Because sometimes you and I might visit a URL and after authenticating get things that are personalized just to us. And maybe those have been generated at request time, or embellished at request time through some kind of progressive enhancement.
+**Phil Hawksworth:** Yeah, and I absolutely think there are... But that moment of authenticating - that's the perfect place to start to think about using JavScript and APIs. And again, there are these services now that we don't have to roll our own; there are identity services, authentication providers that you can use, with things like JavScript web tokens, and different authentication methods that can then unlock either access to routes to things that have been pre-generated - that's a common path... Because sometimes you and I might visit a URL and after authenticating get things that are personalized just to us. And maybe those have been generated at request time, or embellished at request time through some kind of progressive enhancement.
 
 But you might equally find that you and I might visit the same URL, which is private, and maybe has targeted content for us after we've logged in, rather than very individual content... So in that case you can start segmenting the content, pre-generating that, and then all you're doing - and I should be careful saying "all you're doing" and using words like "just"... But what's happening there is you're doing the authentication that then allows people access to the URLs which would be pre-generated for them.
 
@@ -148,13 +148,13 @@ But you might equally find that you and I might visit the same URL, which is pri
 
 **Kevin Ball:** Yeah, yeah.
 
-**Phil Hawksworth:** So it's another one of these scenarios where it's a use case thing. It is very easy to default to "Oh, it's targeted content, so it has to be dynamic." But if you look at your project closely, often you'll find that the level of personalization is actually maybe six different variants, or something of that nature. Well, I can pre-generate that, and then I can have the authentication and the rooting be something which is dynamic and happening at request time through JavaScript and APIs.
+**Phil Hawksworth:** So it's another one of these scenarios where it's a use case thing. It is very easy to default to "Oh, it's targeted content, so it has to be dynamic." But if you look at your project closely, often you'll find that the level of personalization is actually maybe six different variants, or something of that nature. Well, I can pre-generate that, and then I can have the authentication and the rooting be something which is dynamic and happening at request time through JavScript and APIs.
 
 **Kevin Ball:** Interesting.
 
 **Phil Hawksworth:** And that's a path that we see very often.
 
-**Kevin Ball:** \[19:58\] Yeah. Okay, to dive into that specifically... Most because I want it, right...?! That's something I am looking at right now with my new site, "How do I handle this case?"
+**Kevin Ball:** \{19:58\} Yeah. Okay, to dive into that specifically... Most because I want it, right...?! That's something I am looking at right now with my new site, "How do I handle this case?"
 
 **Phil Hawksworth:** Yeah, yeah.
 
@@ -164,7 +164,7 @@ But you might equally find that you and I might visit the same URL, which is pri
 
 **Kevin Ball:** ...how would I do that gated route?
 
-**Phil Hawksworth:** Right. There's a number of options for you there. I don't want to turn this into a Netlify advert, but what the heck, I'm closer to that than other things... So Netlify do provide an identity service, so that you can turn that on and you can start to introduce gates through to your content... And that can leverage a bunch of different identity providers as well. Or you can use one that's rolled right into Netlify. But that ultimately gives you - for want of a better word - a JavaScript widget, that will set an authentication cookie for you at the point you go through that login flow. And at that point, you can use that to enable access to different parts of the site.
+**Phil Hawksworth:** Right. There's a number of options for you there. I don't want to turn this into a Netlify advert, but what the heck, I'm closer to that than other things... So Netlify do provide an identity service, so that you can turn that on and you can start to introduce gates through to your content... And that can leverage a bunch of different identity providers as well. Or you can use one that's rolled right into Netlify. But that ultimately gives you - for want of a better word - a JavScript widget, that will set an authentication cookie for you at the point you go through that login flow. And at that point, you can use that to enable access to different parts of the site.
 
 **Kevin Ball:** Got it. So I know we don't wanna just be all in Netlify, but essentially I think of Netlify as I'm pushing up a bunch of files.
 
@@ -198,7 +198,7 @@ The other thing that happens in this redirects API is that we can conditionally 
 
 **Kevin Ball:** That's a topic that I wanna dig in more. Everything you say, I'm like "Oh, I wanna dig more into that."
 
-**Break:** \[24:30\]
+**Break:** \{24:30\}
 
 **Kevin Ball:** One of the big questions in my mind is essentially how much can we push out to the edge? What can be there? Because it's not just content. You can have authentication out there, you can have some amount of routing out there...
 
@@ -220,7 +220,7 @@ The other thing that happens in this redirects API is that we can conditionally 
 
 **Phil Hawksworth:** Well, I don't know... I'm focusing so much on trying to do that, that--
 
-**Kevin Ball:** \[28:03\] Yeah... Or flipping that around - as you have pushed more and more things, and you come from this perspective of "default push it out", and then ask yourself "Is there something that I can't?", where else have you run into (even if it's not impossible) friction in moving to this paradigm?
+**Kevin Ball:** \{28:03\} Yeah... Or flipping that around - as you have pushed more and more things, and you come from this perspective of "default push it out", and then ask yourself "Is there something that I can't?", where else have you run into (even if it's not impossible) friction in moving to this paradigm?
 
 **Phil Hawksworth:** I think it's content that updates very, very frequently. When people are keen to do things like push notifications, and opening WebSockets, and those kinds of things - that gets to be a bit more challenging. When you need to centrally manage state somewhere, that gets to be kind of tricky, because you need some central resource for that. So that starts to get a little bit more challenging.
 
@@ -256,7 +256,7 @@ Different static site generators strive differently for this, and get closer to 
 
 **Phil Hawksworth:** Right. I've been having quite a lot of fun playing with things in this territory a little bit... Mostly in the kind of "What do I cache between builds?" situation. I guess it's a lesser-known, kind of secret - don't tell anyone; this is between you and I...
 
-**Kevin Ball:** \[32:08\] \[laughs\]
+**Kevin Ball:** \{32:08\} \[laughs\]
 
 **Phil Hawksworth:** ...that in Netlify there is a means to cache things between builds. Now, this is not a thing that we've documented, but we use it, and you could use it, too. For instance...
 
@@ -276,7 +276,7 @@ Different static site generators strive differently for this, and get closer to 
 
 **Phil Hawksworth:** Exactly. It's very much a "buyer beware" kind of scenario. However, you absolutely can use that. I've built a few proof concepts, just exploring that a little bit, so that I could shard my site. I've built a site which was a Hugo build, which is already very fast in terms of its generation speed... But I've kind of segmented. I was like "Well, I've got a new section, and I've got a blog section...", so depending on which parts of the site I updated, I ran a slightly different build, and then I cached things into this layer, between the builds. It's a little bit clunky, but it's absolutely possible. And I think once we start seeing ways to ease that use of the cache in between builds, then this becomes a little bit more approachable. And the reason I mention this now is that just yesterday we announced build plugins for Netlify at the conference... And those allow programmatic access to different parts of the build lifecycle.
 
-So whereas before all you could say is "Here's what I'd like you to execute during the build", there's lots of things that go on outside of that. There's getting the cache, initializing the build, all the way through to the post-processing. Now what we're gonna say is "You can write plugins which are just bits of JavaScript, they're just Node, that you can either dispute as Npm modules, or you can keep privately, but ultimately you can hook into different parts of the lifecycle."
+So whereas before all you could say is "Here's what I'd like you to execute during the build", there's lots of things that go on outside of that. There's getting the cache, initializing the build, all the way through to the post-processing. Now what we're gonna say is "You can write plugins which are just bits of JavScript, they're just Node, that you can either dispute as Npm modules, or you can keep privately, but ultimately you can hook into different parts of the lifecycle."
 
 One of the aspects of that is exposing the cache. So having a plugin which could, for example, make requests to where your data sources are, and stash those into cache, so that then when your build gets to run, that's already there. That's really nice, because it's convenient, but also it means that we can start to say "We'll cache that for however many seconds you like." So content that you know doesn't update very often - you don't need to request that every time you run your build. So we can start to squeeze down the length of the build and optimize for that, and you can start to do all kinds of things with getting things in and out of the build cache, and... It's a fun playground. I'm really excited about building stuff with that.
 
@@ -286,11 +286,11 @@ One of the aspects of that is exposing the cache. So having a plugin which could
 
 **Kevin Ball:** Essentially, rather than thinking of it top-down, of "I'm going to figure out how to do it", I'm gonna observe it empirically, and say "Okay, I have observed that these files influence these things, so until I change something about my site structure, I can make these assumptions."
 
-**Phil Hawksworth:** \[36:06\] You absolutely could do that. We're not gonna give you the code to do that, but...
+**Phil Hawksworth:** \{36:06\} You absolutely could do that. We're not gonna give you the code to do that, but...
 
 **Kevin Ball:** But the hooks are there.
 
-**Phil Hawksworth:** The hooks are there. The important thing is that if you can write a JavaScript function to consider what's changed when, think about what the dependencies are, if you can inspect that through the JavaScript function that you've written, you can absolutely introduce that into your build logic, so that before you actually execute the build, you can have that level of introspection beforehand, that says "Okay, now I need to run this build command, or maybe this build command, which is different, depending on what's changed." That's an interesting use case.
+**Phil Hawksworth:** The hooks are there. The important thing is that if you can write a JavScript function to consider what's changed when, think about what the dependencies are, if you can inspect that through the JavScript function that you've written, you can absolutely introduce that into your build logic, so that before you actually execute the build, you can have that level of introspection beforehand, that says "Okay, now I need to run this build command, or maybe this build command, which is different, depending on what's changed." That's an interesting use case.
 
 You see, every time I talk to someone about build plugins, another idea kind of springs forth... And yeah, if you can build it, it can be run as part of the build lifecycle now.
 
@@ -332,7 +332,7 @@ So yes, I expect the plugin to be done and finished by -- I don't know, this tim
 
 **Phil Hawksworth:** Yeah, it's great. But a content author never wants to touch Git. And frankly, a content author should never even need to know that Git exists. So one of the things that kind of came along a bit later were tools like Git-based content management systems, and one of the talks actually here at the conference was by Shawn Erquhart, who's the lead for Netlify CMS. The Netlify CMS is by no means the only Git-based CMS that exists... But what tools like that do is they're aiming to close this gap between writing markdown and submitting it to Git, and then having your continuous integration do all of its magic... Closing that gap between that and the content authoring experience.
 
-\[40:11\] Netlify CMS, for an example, gives you an authoring experience that looks like what you'd expect, can give you an instant render of what your page will look like - is it gonna apply the same templates for that page in real time, as you're typing? But behind the scenes, all it's doing is it's poking content into your Git repository. So as a content author, you're writing content in a structured way, you're seeing the result immediately, but when you hit "Give me a preview of that", you don't know that behind the scenes it's making a pull request, pushing that to a repo, making sure that your content is managed and version-controlled with your code, and all of those things. You're just working seamlessly on top of that. And more and more tools are arriving to make it feel like "Oh, it's the context that I want to work in as an author or a marketing person, or what have you." So that's one example.
+\{40:11\} Netlify CMS, for an example, gives you an authoring experience that looks like what you'd expect, can give you an instant render of what your page will look like - is it gonna apply the same templates for that page in real time, as you're typing? But behind the scenes, all it's doing is it's poking content into your Git repository. So as a content author, you're writing content in a structured way, you're seeing the result immediately, but when you hit "Give me a preview of that", you don't know that behind the scenes it's making a pull request, pushing that to a repo, making sure that your content is managed and version-controlled with your code, and all of those things. You're just working seamlessly on top of that. And more and more tools are arriving to make it feel like "Oh, it's the context that I want to work in as an author or a marketing person, or what have you." So that's one example.
 
 I think another real strength of JAMstack sites is how immediate you can get a real-life, real context preview into the hands of stakeholders.
 

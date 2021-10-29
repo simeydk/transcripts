@@ -10,7 +10,7 @@
 
 **Adam Wathan:** Hey! Thanks for having me on the show.
 
-**Jerod Santo:** \[04:17\] Glad to have you, for sure. The way I like to start this show out - we'll get into the nitty-gritty of Tailwind and what you've been building, and why people are so interested... It seems like everywhere I go on the internet these days, I see people talking about Tailwind, which is exciting, I'm sure... But I wanted to open up the panel for a question. This is not specifically for Adam, it's for any of us; even maybe I'll answer it. No, I probably won't... But I'll let you guys go. And the question is "Why do people complain so much about CSS?" One of the things that you hear all the time - there's memes and jokes about CSS, there's all sorts of tooling for CSS... On our Frontend Feud episode, when we asked "Name something that frontend devs complain about", CSS was the number three answer, which was pretty high up the list... So it seems like it is a thing that people struggle with, complain about etc. I'm just curious, why do people think that is?
+**Jerod Santo:** \{04:17\} Glad to have you, for sure. The way I like to start this show out - we'll get into the nitty-gritty of Tailwind and what you've been building, and why people are so interested... It seems like everywhere I go on the internet these days, I see people talking about Tailwind, which is exciting, I'm sure... But I wanted to open up the panel for a question. This is not specifically for Adam, it's for any of us; even maybe I'll answer it. No, I probably won't... But I'll let you guys go. And the question is "Why do people complain so much about CSS?" One of the things that you hear all the time - there's memes and jokes about CSS, there's all sorts of tooling for CSS... On our Frontend Feud episode, when we asked "Name something that frontend devs complain about", CSS was the number three answer, which was pretty high up the list... So it seems like it is a thing that people struggle with, complain about etc. I'm just curious, why do people think that is?
 
 **Feross Aboukhadijeh:** Who's gonna bite?
 
@@ -20,7 +20,7 @@
 
 **Jerod Santo:** Alright, Feross. Thanks for biting.
 
-**Feross Aboukhadijeh:** I think the number one reason is that people don't bother to learn it, and they just expect to figure it out. And this is also true of JavaScript; when you hear people complaining about JavaScript, oftentimes they're just winging it, because it looks like another language that they may know... And it's not surprising that if you don't learn the fundamental concepts, then you're gonna struggle to understand the interactions between the different parts of CSS. So that's my number one reason, I think, why people are hating on it.
+**Feross Aboukhadijeh:** I think the number one reason is that people don't bother to learn it, and they just expect to figure it out. And this is also true of JavScript; when you hear people complaining about JavScript, oftentimes they're just winging it, because it looks like another language that they may know... And it's not surprising that if you don't learn the fundamental concepts, then you're gonna struggle to understand the interactions between the different parts of CSS. So that's my number one reason, I think, why people are hating on it.
 
 **Jerod Santo:** I think that might be on point. And there might be more to it, as well. Nick, what do you think?
 
@@ -30,15 +30,15 @@
 
 **Jerod Santo:** Haah! \[laughter\] I like that. So people don't learn it, and it's also very general or very free; you can do almost anything with it, so it's hard to focus in. Adam, what are your thoughts?
 
-**Adam Wathan:** I've got a few... I think one of the things is that it's actually really hard to get really good at CSS. I think HTML is funnily similar, too... It's one of these things that everybody knows a bit of, but there's actually not a huge number of people who invest that much time and effort into becoming real experts in it, the way that they do with JavaScript or other things.
+**Adam Wathan:** I've got a few... I think one of the things is that it's actually really hard to get really good at CSS. I think HTML is funnily similar, too... It's one of these things that everybody knows a bit of, but there's actually not a huge number of people who invest that much time and effort into becoming real experts in it, the way that they do with JavScript or other things.
 
-I think a lot of people - they sort of start with HTML and CSS, get into JavaScript, and then they feel like they sort of graduated to JavaScript from there, and they don't level up their CSS and HTML knowledge the same way... Because in some ways it's not as exciting, because it feels like the potential for creating crazy stuff just isn't really there the same way that it is with JavaScript. So I think that's one thing.
+I think a lot of people - they sort of start with HTML and CSS, get into JavScript, and then they feel like they sort of graduated to JavScript from there, and they don't level up their CSS and HTML knowledge the same way... Because in some ways it's not as exciting, because it feels like the potential for creating crazy stuff just isn't really there the same way that it is with JavScript. So I think that's one thing.
 
 I think another is that even though as a language -- simple isn't the right word, but learning the language is different from learning how to apply it in a maintainable codebase and come up with a system for writing CSS that feels like it scales with your application, and that you can go back and maintain it... And there's been so many competing philosophies for doing that over the years that it feels like there's no one true answer. We get things like Bootstrap that come out, or Tailwind, or any framework it feels like it's trying to be like the Rails for CSS as Rails is to Ruby; trying to provide some conventions and happy paths and best practices, and stuff... I think people are craving that a lot in the CSS world.
 
 I think the other thing is that it hasn't been until somewhat recently that we've gotten the tools that we need in CSS to write things in a way where it's even possible for them to be maintainable.
 
-\[08:12\] Before Flexbox, it was basically impossible to describe a lot of the layout stuff that we had to do in any sort of declarative way. There was always just like magic, like hardcoded numbers to make this height over here match this thing over here, because you had -- even just that simple pattern that you see all the time, where it's like a bar with a thing on the left and then a thing on the right; that's so trivial to do in Flexbox in a way where one of those gets bigger, like the container gets bigger... But if you do that -- back in the day, when we had to use floats for things, and maybe the thing on the right was floated right, if that thing got bigger because it was user-submitted content and the text wrapped, or something, now the container isn't gonna grow, unless you've... You know, there was just all sorts of -- it was hard to connect things in a way where they actually were built in such a way that they were related to each other, and not just borderline absolute-positioned on the screen...
+\{08:12\} Before Flexbox, it was basically impossible to describe a lot of the layout stuff that we had to do in any sort of declarative way. There was always just like magic, like hardcoded numbers to make this height over here match this thing over here, because you had -- even just that simple pattern that you see all the time, where it's like a bar with a thing on the left and then a thing on the right; that's so trivial to do in Flexbox in a way where one of those gets bigger, like the container gets bigger... But if you do that -- back in the day, when we had to use floats for things, and maybe the thing on the right was floated right, if that thing got bigger because it was user-submitted content and the text wrapped, or something, now the container isn't gonna grow, unless you've... You know, there was just all sorts of -- it was hard to connect things in a way where they actually were built in such a way that they were related to each other, and not just borderline absolute-positioned on the screen...
 
 **Jerod Santo:** Right.
 
@@ -50,13 +50,13 @@ I think the other thing is that it hasn't been until somewhat recently that we'v
 
 But yeah, I think part of that is just using a tool for more than it was originally intended to be used for, so it's taken a while for the spec to catch up to what people wanna do with it.
 
-**Nick Nisi:** Yeah. I think it just really must have been cold there, in the shadow, for CSS and the tooling around it... Yeah, just in the shadow of JavaScript and HTML.
+**Nick Nisi:** Yeah. I think it just really must have been cold there, in the shadow, for CSS and the tooling around it... Yeah, just in the shadow of JavScript and HTML.
 
 **Jerod Santo:** That's true. I was gonna say, there's like an inside-out problem too, where it's easy to conflate your frustration with the technology, when your actual frustration is your lack of design skills. Now I'm just speaking personally... I can get mad at the tool that I'm using -- sometimes you know what you want to design, and implementing with this tool is difficult, for whatever reason, so that you get frustrated on that side. But then on the other side of the equation you don't know what you wanna design, or you're struggling with the actual design decisions, and there's nobody to take that out on but yourself, or the tool that you're using to do the design, so it's easy to use it as kind of a scapegoat.
 
 **Feross Aboukhadijeh:** CSS has to be flexible enough to support any kind of design that you wanna do. You as a developer might just be interested in building an app that looks like 90% of other apps out there. So a lot of the elements that you might wanna include in your app are sort of basic component-type things... You know, I wanna stick border-radius on this thing, and there's probably like four or five different border radius sizes that I might wanna use... But CSS can't build in constructs at that level of granularity, because it needs to be flexible enough for a lot more than that.
 
-\[12:12\] So if you're just trying to get stuff done, it actually is helpful to have more constraints to save you from shooting yourself in the foot if you aren't the best designer... So I think that's kind of where Tailwind comes in.
+\{12:12\} So if you're just trying to get stuff done, it actually is helpful to have more constraints to save you from shooting yourself in the foot if you aren't the best designer... So I think that's kind of where Tailwind comes in.
 
 **Jerod Santo:** Yeah, so Adam, here's a good primer for you to hop in to Tailwind and why you started it in the first place... Because there's lots of frameworks out there; you mentioned a few of them. Some are popular, some are less popular, there's different approaches... One of the things that you find often with a Bootstrap or a foundation is you start to have websites that all look somewhat similar, or at least widgets and components where you're like "Oh, this is a bootstrap site", and so that's one of the complaints with frameworks... But what were your thoughts around frameworks? Whenever you were like "I'm gonna start something brand new", surely you're not happy with what's currently available... So where were you when you decided for Tailwind?
 
@@ -70,7 +70,7 @@ So I found this set of CSS files that I was dragging around from project to proj
 
 My friend, David Hemphill, had made a CSS framework called Beard CSS, that was the same sort of thing... And there was Tachyons, and Base CSS, and I think Ted had shed.css. It was all these different things that all looked terrible, just like Tailwind looks... But I found that I had just sort of like landed in the same place that a lot of these other people had, that had built some of these other frameworks, and realized that this is actually kind of a fun way to work.
 
-\[16:07\] Around that time, a friend of mine Jonathan Reinink, who worked with me early on on Tailwind CSS - and this is kind of where we started working on it together - mentioned to me that he was about to start doing a redesign of the Sass app that he maintains, and wanted to know more about how I'd been doing CSS stuff lately. I told him I'm doing it this way, and he's like "That looks ridiculous, but I trust you, so I wanna try it." So he tried it out, and he was like "This is awesome."
+\{16:07\} Around that time, a friend of mine Jonathan Reinink, who worked with me early on on Tailwind CSS - and this is kind of where we started working on it together - mentioned to me that he was about to start doing a redesign of the Sass app that he maintains, and wanted to know more about how I'd been doing CSS stuff lately. I told him I'm doing it this way, and he's like "That looks ridiculous, but I trust you, so I wanna try it." So he tried it out, and he was like "This is awesome."
 
 Then we worked together to figure out "How can we--" because we both had separate copies of this copy and paste framework, essentially, that we're just like editing for our own projects... So him using it on his project and me using it on the projects me and Steve were working on was like the impetus for trying to figure out "How can we extract a shared core and create something where there's one source of truth that we're both leveraging in some way?" and that's when we just started working on trying to extract it into something that could be installed as a dependency for someone, essentially.
 
@@ -84,11 +84,11 @@ Then my friend David, who had built Beard CSS, suggested trying to write it in P
 
 **Adam Wathan:** And he kind of explained to me some of the tricks that people had been using, where you can take an @ rule, like a media query or an imports statement and you can make custom ones using your own keywords, and PostCSS will parse them just fine... Because all it's trying to do is parse CSS-ish stuff; it's not like it has a hardcoded list of what's allowed to come after an @ sign.
 
-So people were doing stuff like creating custom properties, for example; LostGrid is a PostCSS plugin that adds its own CSS properties that when you crawl that AST with PostCSS, it finds those and sort of expands them into multiple properties, or creates multiple rules from it. And that's when we realized "Maybe we can do an @Tailwind rule that is a spot for Tailwind to just inject a bunch of styles generated from some configuration once it finds that rule." So when I realized what you could do and what the tricks were for injecting CSS that was generated elsewhere, I started porting everything over to PostCSS in JavaScript, where I could actually write tests and make sure that the thing actually worked... And it was awesome.
+So people were doing stuff like creating custom properties, for example; LostGrid is a PostCSS plugin that adds its own CSS properties that when you crawl that AST with PostCSS, it finds those and sort of expands them into multiple properties, or creates multiple rules from it. And that's when we realized "Maybe we can do an @Tailwind rule that is a spot for Tailwind to just inject a bunch of styles generated from some configuration once it finds that rule." So when I realized what you could do and what the tricks were for injecting CSS that was generated elsewhere, I started porting everything over to PostCSS in JavScript, where I could actually write tests and make sure that the thing actually worked... And it was awesome.
 
 So that's how it came to be... And we released a very, very first version on Halloween night 2017, I think, so a little over three years ago. People were excited about it, and it kind of started slowly growing after that. Then in 2019 I went full-time working on it, after we had released the Refactoring UI book a couple months before... And then since January 2019 I've been working full-time on Tailwind-related stuff, and now we have a team of six people, including me and Steve, all working full-time on this sort of stuff... And it just keeps growing and growing and growing, which I think has been awesome, and I think just because of the fact that most open source projects don't get to have teams of six people working on them full-time... But yeah, so that's what we do every day now, is work on stuff related to Tailwind, and it's been really fun.
 
-**Break:** \[20:20\]
+**Break:** \{20:20\}
 
 **Jerod Santo:** So Adam, you mentioned it was 2017 when it first came out... How long were you working on it beforehand? Because to never have sunlight on your face for all that time - it's gotta be a while. You wanna release it, right?
 
@@ -100,7 +100,7 @@ The most common question that came up on the livestreams was like "What CSS fram
 
 **Adam Wathan:** It's definitely exciting. I didn't know what I expected, I guess. I didn't really intend to build a business around it. But what seems to happen was the CSS framework was taking off, and it felt like "This is the thing that I've worked on that has had the highest potential for impact", you know, in terms of how many people can benefit from it, and stuff. So of all the things I'd worked on, this was the thing that I'm most likely to be known for.
 
-\[24:07\] Unlike a lot of other open source type tools, there are established precedents for people making money on CSS framework-related stuff. Bootstrap has a theme store; ThemeForest is an enormous business on its own. So there's a pretty straightforward path to trying to do some sort of commercial stuff around it... So it felt like we should try to do that.
+\{24:07\} Unlike a lot of other open source type tools, there are established precedents for people making money on CSS framework-related stuff. Bootstrap has a theme store; ThemeForest is an enormous business on its own. So there's a pretty straightforward path to trying to do some sort of commercial stuff around it... So it felt like we should try to do that.
 
 I think the approach that we ended up taking - we've released this product called Tailwind UI, which is designed to just be like a giant directory of examples of different UI patterns and components built with Tailwind CSS. It's a little bit different than some other traditional theme store approach, I think, but it's kind of rooted in the same sort of idea. People who are building stuff are not always good at design, or not even always good at taking a design and converting it into real code... And there's history proving that people will pay for that sort of thing, so that seems like a good way to try and fund the development of our open source stuff.
 
@@ -114,7 +114,7 @@ But for the most part, out of the six people that work at the company, 90% of th
 
 **Nick Nisi:** Yeah, that's great. I've looked at that Refactoring UI book and gone through it; I've spent a lot of time going through it, and I really like that -- it seems to tie back a lot to Tailwind and how you might do things with that, but also some of the theory behind... You know, colors is the one -- colors and white space are the ones that really stuck out to me, and it was really helpful... Because that's the thing, kind of like I said, going into CSS - I could do anything; I could have 40 pixels of white space over here and 27 over here, and no real rhyme or reason for that... But this kind of helps me understand the theory of it, and then Tailwind kind of helps you stay consistent within that. So through that book and that open source work, your content is really content to let me shine, and that's your way...
 
-**Adam Wathan:** \[28:16\] That's awesome. Thanks, man. I really appreciate that.
+**Adam Wathan:** \{28:16\} That's awesome. Thanks, man. I really appreciate that.
 
 **Feross Aboukhadijeh:** It's a really good example of sustainable open source that works. There's a lot of reasons why open source struggles to get funding; that's something I'm really interested in... You check a lot of the boxes that I think make it a little bit easier to build a business on top of what you're doing, because you have an end user-facing project, so people actually know that they're using Tailwind, because they chose to use it, or someone on their team chose to use it... So a lot of open source is like a dependency, if it's somewhere deep in the tree and no one even knows that it exists...
 
@@ -146,7 +146,7 @@ But for the most part, out of the six people that work at the company, 90% of th
 
 **Adam Wathan:** Yeah, at the end of the day we're definitely selling design more than anything else, which I think -- yeah, like we've been talking about, lots of precedent for that... And also, just a pretty in-demand skill. Yeah, it's been nice to be able to tie those two things together, to have a design co-founder, so that we're able to even do that... Because not every open source tool has on-staff designers... \[laughs\]
 
-**Jerod Santo:** \[32:15\] So were there other people building competitors to your business side? I don't wanna say competitors, but are there other widget libraries, are there other UIs where you can say "It's Tailwind-based, but here's our philosophy" or "We're doing this", so that there's selection. Or is it "Build all your own stuff or use Tailwind UI"?
+**Jerod Santo:** \{32:15\} So were there other people building competitors to your business side? I don't wanna say competitors, but are there other widget libraries, are there other UIs where you can say "It's Tailwind-based, but here's our philosophy" or "We're doing this", so that there's selection. Or is it "Build all your own stuff or use Tailwind UI"?
 
 **Adam Wathan:** There's definitely other stuff out there. There are people who sell Tailwind UI kits, or Tailwind themes, and stuff like that... That's totally cool. I'm happy to see other people doing stuff like that, and for there to be other things existing, for sure.
 
@@ -178,7 +178,7 @@ Even like -- you know, something has a padding left of 13 pixels, Windy will fig
 
 **Jerod Santo:** That's right.
 
-**Break:** \[36:20\]
+**Break:** \{36:20\}
 
 **Feross Aboukhadijeh:** Adam, I'm so glad we have you here. For a long time I had just heard about Tailwind, and it was merely a beautiful face without a name for so long, but now we can actually ask you all of our questions about the nitty-gritty. So let's get into it. Maybe we could start with talking about the editor integrations...
 
@@ -218,7 +218,7 @@ I know that JetBrains just added official -- well, first-class Tailwind CSS supp
 
 **Feross Aboukhadijeh:** And you didn't mention that Neovim is like a variant of Vim, which is a variant of Vi. So there's so many layers here...
 
-**Nick Nisi:** \[40:21\] Right. \[laughs\] There's Ex in there somewhere...
+**Nick Nisi:** \{40:21\} Right. \[laughs\] There's Ex in there somewhere...
 
 **Jerod Santo:** Nick, I know I pick on you a lot for this Vim stuff, but did you ever know that you're my hero?
 
@@ -260,7 +260,7 @@ One of the projects that I wanna tackle soon is building -- the way that playgro
 
 **Adam Wathan:** Yeah, it's cool. It's been so helpful for us for troubleshooting things for people in our Discord, and stuff. Before, it used to be like "Well, send us a link to a code sandbox" or something, and it's kind of hard to set up, because there's a build time thing with Tailwind, especially if someone's having an issue with some custom configuration... You need to be able to recreate that. So all that stuff works in our playground. Someone could just send us a quick link and we can figure it out right there. So that's made customer support way easier; that's been definitely worth it.
 
-**Jerod Santo:** \[44:05\] Do you advocate for people to learn Tailwind and use Tailwind forever? Or is there like an educational graduation where at a certain point you won't need it anymore? Or is it a utility framework? Like, even as an expert carpenter, I still use my utilities. Is that more like that? What would you think?
+**Jerod Santo:** \{44:05\} Do you advocate for people to learn Tailwind and use Tailwind forever? Or is there like an educational graduation where at a certain point you won't need it anymore? Or is it a utility framework? Like, even as an expert carpenter, I still use my utilities. Is that more like that? What would you think?
 
 People will eventually be like "I used to use Tailwind, but then I learned how it worked, and now I have my own little thing that I use, that's lighter, or better customized." What do you think about that?
 
@@ -284,9 +284,9 @@ It's so slow, compared to just like "Well, I know I need to make this display fl
 
 **Adam Wathan:** There's only a couple situations I'll do it. One is for typography/content stuff. Say you're working on a blog, and all your blog content comes from markdown; obviously, you can't go and litter your markdown with all these utility classes. You have to be able to target it from a higher level. I'll always create some sort of class like that; we've released a Tailwind plugin that kind of gives you some sensible defaults to this. It gives you this prose class, so you just slap prose on whatever div has the markdown-rendered content, and it's just gonna look pretty good. That's a situation where I would have written custom CSS, and still sometimes do...
 
-\[48:12\] And then the only other time I really do it is when I find that I'm missing a feature in Tailwind. The other day I was rebuilding the Alberts.com website on the livestream, and they have this horizontal scrolling nav bar. By default, the scroll bar is visible, and this thing that's like 15 pixels high, and that just looks awful. So in theirs they hide the scroll bars, and we don't have utilities in Tailwind for hiding the scroll bar. So my approach is always like "Okay, I need to hide the scrollbars... I'm not gonna go create a CSS class for nav bar and add the scroll bar CSS there. I'm gonna figure out what feature do I wish Tailwind had already, which is some sort of class for hiding scroll bars." A very evil, unsemantic class name, you know? \[laughs\]
+\{48:12\} And then the only other time I really do it is when I find that I'm missing a feature in Tailwind. The other day I was rebuilding the Alberts.com website on the livestream, and they have this horizontal scrolling nav bar. By default, the scroll bar is visible, and this thing that's like 15 pixels high, and that just looks awful. So in theirs they hide the scroll bars, and we don't have utilities in Tailwind for hiding the scroll bar. So my approach is always like "Okay, I need to hide the scrollbars... I'm not gonna go create a CSS class for nav bar and add the scroll bar CSS there. I'm gonna figure out what feature do I wish Tailwind had already, which is some sort of class for hiding scroll bars." A very evil, unsemantic class name, you know? \[laughs\]
 
-So whenever I end up writing custom CSS, a lot of the time it's more from that perspective. It's kind of extending Tailwind with Tailwindy type of things; not just writing custom, project-specific CSS. It's surprisingly rare how often I need to write custom CSS for things. I'll reach for JavaScript before I'll reach for custom CSS a lot of the time, just because I wanna avoid opening that Pandora's box of like "Now there is custom CSS in this project." I just wanna resist that as long as possible.
+So whenever I end up writing custom CSS, a lot of the time it's more from that perspective. It's kind of extending Tailwind with Tailwindy type of things; not just writing custom, project-specific CSS. It's surprisingly rare how often I need to write custom CSS for things. I'll reach for JavScript before I'll reach for custom CSS a lot of the time, just because I wanna avoid opening that Pandora's box of like "Now there is custom CSS in this project." I just wanna resist that as long as possible.
 
 I'm already writing HTML, no matter what. A website cannot exist without HTML. So that is foregone. I must write HTML. But do I need to write CSS? I don't know... If I don't have to, but I do have to write HTML, then maybe I can just do it all there.
 
@@ -306,7 +306,7 @@ Yeah, CSS Zen Garden I think has demonstrated that you can do crazy things witho
 
 **Jerod Santo:** \[laughs\] Exactly.
 
-**Adam Wathan:** \[51:53\] It's like, "How can I get from this side of the room to the other side of the room without touching the floor?" It's a fun challenge, I think, but I don't know that it should be the default way that we actually try to write things. I always make this joke with CSS Zen Garden -- obviously, it's a cool project, and a really cool demo of what's possible; I'm definitely not slagging on it in any way... But people always say "Look how different you can make this site look, without changing the HTML, just by changing the style sheet." It's like, man, you should see how different I can make a site look by just changing the HTML, and not changing the CSS file at all. \[laughs\]
+**Adam Wathan:** \{51:53\} It's like, "How can I get from this side of the room to the other side of the room without touching the floor?" It's a fun challenge, I think, but I don't know that it should be the default way that we actually try to write things. I always make this joke with CSS Zen Garden -- obviously, it's a cool project, and a really cool demo of what's possible; I'm definitely not slagging on it in any way... But people always say "Look how different you can make this site look, without changing the HTML, just by changing the style sheet." It's like, man, you should see how different I can make a site look by just changing the HTML, and not changing the CSS file at all. \[laughs\]
 
 **Jerod Santo:** Right.
 
@@ -326,7 +326,7 @@ Yeah, CSS Zen Garden I think has demonstrated that you can do crazy things witho
 
 **Adam Wathan:** Yeah, I know there's definitely some people who are doing that stuff with Tailwind... I haven't actually ever done that on any of my own sites, like done a critical CSS thing... But I know there's this guy Andrew that's in the Tailwind community that's super into that sort of thing and he's shared solutions before. I don't think it's particularly different than the way that you do it with any CSS... At the end of the day, what you get from Tailwind is still just a regular CSS file... I don't know enough about how similar solutions work... Because I think the challenges would be the same. One of the challenges -- I guess this wouldn't actually be a real issue in practice, because I guess what you do is you inline all the critical CSS, and then you put the actual CSS file after the critical CSS, so that it overrides all those same declarations and maintains the same CSS order, since the class order is sort of important for specificity stuff... But the same tools should work. I'm not sure what the most popular tools are for that. I think there's a tool called Critical CSS, or something.
 
-**Jerod Santo:** \[56:25\] How do you do it, Feross?
+**Jerod Santo:** \{56:25\} How do you do it, Feross?
 
 **Feross Aboukhadijeh:** There's one that I've used before on BitMidi. I think it's called PurgeCSS...
 
@@ -344,7 +344,7 @@ A problem people run into with Purge, after just using it manually, for example,
 
 But yes, that's built right into Tailwind now, and all you have to do is provide an array of paths to your templates, which is just like a glob syntax... So for Next.js it's like .pages/\*\*/\*.js sort of thing. And in production, it'll strip everything out automatically.
 
-\[58:40\] So when you do that, most sites will be, after a Brotli compression, like 4-5 kb of CSS, instead of 3 megs of CSS, which is pretty wild. Even the Tailwind website, which I think has gotta be the biggest production Tailwind CSS file, just because - how could it not be, because the whole point of the website is to demo the framework... Even that is like -- let's see... It's 24 kb compressed, and that demo is like -- every feature in Tailwind is demoed, you know what I mean? But not every single class is demoed, because you don't need to use every single class to demonstrate each feature. I don't have to show you how margin left 2 works on every single breakpoint for you to understand how it works, you know what I mean? So there's lots of stuff that we can strip out.
+\{58:40\} So when you do that, most sites will be, after a Brotli compression, like 4-5 kb of CSS, instead of 3 megs of CSS, which is pretty wild. Even the Tailwind website, which I think has gotta be the biggest production Tailwind CSS file, just because - how could it not be, because the whole point of the website is to demo the framework... Even that is like -- let's see... It's 24 kb compressed, and that demo is like -- every feature in Tailwind is demoed, you know what I mean? But not every single class is demoed, because you don't need to use every single class to demonstrate each feature. I don't have to show you how margin left 2 works on every single breakpoint for you to understand how it works, you know what I mean? So there's lots of stuff that we can strip out.
 
 **Jerod Santo:** What's a typical site then? If that's like all, with the kitchen sink. Would you say like 10 kb, or what?
 

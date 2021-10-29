@@ -20,7 +20,7 @@
 
 **Emma Bostian:** No. I mean, sure... Why not? \[laughs\]
 
-**Jerod Santo:** You can... But unless you think most people who took the survey answered in a question, I would not advise it. Okay... Just let Emma go first on this one, Kball; you'll learn the ropes. \[laughter\] Alright, are you ready? Name a JavaScript function that most frontenders know.
+**Jerod Santo:** You can... But unless you think most people who took the survey answered in a question, I would not advise it. Okay... Just let Emma go first on this one, Kball; you'll learn the ropes. \[laughter\] Alright, are you ready? Name a JavScript function that most frontenders know.
 
 **Emma Bostian:** Buzz...
 
@@ -30,7 +30,7 @@
 
 **Jerod Santo:** I'm sorry, that is not on the list.
 
-**Nick Nisi:** A JavaScript function... That's so broad.
+**Nick Nisi:** A JavScript function... That's so broad.
 
 **Kevin Ball:** Buzz.
 
@@ -44,15 +44,15 @@
 
 **Mikeal Rogers:** Oh, I thought that it was the whole team.
 
-**Jerod Santo:** Well, so he's up to win the board, and then his team will full partake... So hold on there, even though you know the answer. Kball, name a JavaScript function that most frontenders know.
+**Jerod Santo:** Well, so he's up to win the board, and then his team will full partake... So hold on there, even though you know the answer. Kball, name a JavScript function that most frontenders know.
 
 **Kevin Ball:** Hm... `encodeURIComponent( )`.
 
-**Jerod Santo:** \[fail sound\] You're making this way harder than it needs to be... \[laughter\] Back to Emma. Emma, please name a JavaScript -- you already know the question. What have you got?
+**Jerod Santo:** \[fail sound\] You're making this way harder than it needs to be... \[laughter\] Back to Emma. Emma, please name a JavScript -- you already know the question. What have you got?
 
 **Emma Bostian:** How about `addEventListener( )`? \[fail sound\] I don't know... This is such a weird question, Jerod.
 
-**Jerod Santo:** We've surveyed 112 JS Party listeners... 27 of them said the exact same thing. Kball, what is a JavaScript function that most frontenders know? Frontend Feud off to a hot start... \[laughter\]
+**Jerod Santo:** We've surveyed 112 JS Party listeners... 27 of them said the exact same thing. Kball, what is a JavScript function that most frontenders know? Frontend Feud off to a hot start... \[laughter\]
 
 **Emma Bostian:** Can you at least tell us if either one of us was like hot?
 
@@ -80,7 +80,7 @@
 
 **Jerod Santo:** Good point.
 
-**Kevin Ball:** A JavaScript function... No hints about like is it scoped, or on an object, or anything like that. Hm...
+**Kevin Ball:** A JavScript function... No hints about like is it scoped, or on an object, or anything like that. Hm...
 
 **Emma Bostian:** No, you don't get a hint if I don't get a hint. That ain't fair.
 
@@ -96,7 +96,7 @@
 
 **Kevin Ball:** Given how this started, I'm gonna pass.
 
-**Jerod Santo:** You're gonna pass, okay. So team Emma is going to play the board, and we're gonna start with Abenezer, because Emma has had plenty of guesses already. Abenezer, name a JavaScript function that most frontenders know.
+**Jerod Santo:** You're gonna pass, okay. So team Emma is going to play the board, and we're gonna start with Abenezer, because Emma has had plenty of guesses already. Abenezer, name a JavScript function that most frontenders know.
 
 **Abenezer Abebe:** `getElementById( )`? \[win sound\]
 
@@ -120,7 +120,7 @@
 
 **Jerod Santo:** That's right. Think about the kids. Abenezer, back to you. You have one strike. There's two strikes left; there's two more answers on the board, number two and number three.
 
-**Abenezer Abebe:** Geez... So the question is still the same, right? It's a popular JavaScript function.
+**Abenezer Abebe:** Geez... So the question is still the same, right? It's a popular JavScript function.
 
 **Jerod Santo:** Yes, that's right.
 
@@ -426,7 +426,7 @@
 
 **Jerod Santo:** The Hypertext Assassins have won both the first two rounds, and they have currently 106 points. Team Kball sitting at zero.
 
-**Break:** \[16:41\]
+**Break:** \{16:41\}
 
 **Jerod Santo:** Let's move now to round three. We're gonna call up Nick and Mikeal. Are you guys ready?
 
@@ -806,7 +806,7 @@
 
 **Emma Bostian:** That's the best part about this game. This game - you can get whatever answers people dream up.
 
-**Break:** \[29:57\]
+**Break:** \{29:57\}
 
 **Jerod Santo:** Okay, so after the regular rounds -- team Kball wins that round, but there's only a few points. It totals up to 62 points. And team Emma has 106 points. So team Emma wins, and now we move on to our Fast Money round. Emma, the three of you can decide which of the two of you -- or maybe just decide who's gonna sit out and not play Fast Money round.
 
@@ -904,7 +904,7 @@
 
 **Abenezer Abebe:** Section.
 
-**Jerod Santo:** Name a JavaScript library that you use often.
+**Jerod Santo:** Name a JavScript library that you use often.
 
 **Abenezer Abebe:** React.
 
@@ -950,7 +950,7 @@
 
 **Emma Bostian:** Div. Dammit, sorry. \[laughter\]
 
-**Jerod Santo:** Name a JavaScript library that you use often.
+**Jerod Santo:** Name a JavScript library that you use often.
 
 **Emma Bostian:** jQuery.
 
@@ -1022,7 +1022,7 @@
 
 **Mikeal Rogers:** You've got a savvy survey crew here...
 
-**Jerod Santo:** Yeah, we do. We have very smart listeners. Okay, the next one - name a JavaScript library that you use often. We had React, which was the number one answer, 29 points, and we had jQuery, which was the number four answer, with 6 points. So you both did very well there.
+**Jerod Santo:** Yeah, we do. We have very smart listeners. Okay, the next one - name a JavScript library that you use often. We had React, which was the number one answer, 29 points, and we had jQuery, which was the number four answer, with 6 points. So you both did very well there.
 
 **Emma Bostian:** I don't use jQuery, but it was the only thing I remembered...
 
@@ -1098,7 +1098,7 @@ Name something that you associate with Google Chrome. Abenezer, you said DevTool
 
 **Jerod Santo:** So we'll leave you with the visual thought of Kball dancing to reggaetoni... That's JS Party for this week, we'll talk to you next time.
 
-**Outro:** \[41:21\]
+**Outro:** \{41:21\}
 
 **Jerod Santo:** Alright... I didn't have my normal JS Party \[unintelligible 00:42:20.17\] No, that's JS Danger. There it is... Now it's the chill beats. Everybody can relax...
 

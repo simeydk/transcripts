@@ -52,7 +52,7 @@ So we'll have the Yeps first, team Amal, two minutes on the board. Who's going f
 
 **Nick Nisi:** Alright. Web apps are fundamentally different than websites. Now, my opponents here are probably going to say that to an end user it probably is no different, because you're just hitting them from a browser, you're going to a URL, and you're using whatever is there... And I'm going to say that I disagree with that, because they are fundamentally different. And when you look at it from the perspective of actually building them, they're really fundamentally different, or they can be fundamentally different.
 
-But first, I'll start by trying to define what each one is, and I'll just say quickly that a website is informational, it's defined by its content, and it can be minimal on scripting, although that doesn't necessarily have to be the case. The content is typically static. In a web app, it's defined by its interaction with the user, so it's more "What can the user do with this?" and it definitely expects interaction, which means it probably has scripting on the heavier side, so a lot of JavaScript, a lot of other scripting languages in there, potentially, doing things.
+But first, I'll start by trying to define what each one is, and I'll just say quickly that a website is informational, it's defined by its content, and it can be minimal on scripting, although that doesn't necessarily have to be the case. The content is typically static. In a web app, it's defined by its interaction with the user, so it's more "What can the user do with this?" and it definitely expects interaction, which means it probably has scripting on the heavier side, so a lot of JavScript, a lot of other scripting languages in there, potentially, doing things.
 
 So I think that they are fundamentally different, just in that definition, because a web app is something that you're going to interact with, and a website is going to be something that you're just going to look at and consume the data. Some examples of that is -- I think that GitHub is a really good website to look at my code, and to see what's going on there, and to do a little bit of minimal interaction. I can press a button to do a pull request, as long as everything is green, and I can't really change things, like resolve conflicts or anything, because it's just a website that's giving me a lot of information and letting me interact with it in a minimal way. But if I wanna go in and change my code, I'm going to load the Codespaces web app and use that to change my code. Or Vim, if I wanna actually be productive. \[laughter\]
 
@@ -138,7 +138,7 @@ So you know, if we were debating whether native apps and web apps are different,
 
 **Jerod Santo:** With that fact, we will take a break and we'll begin round two right after this.
 
-**Break:** \[14:05\]
+**Break:** \{14:05\}
 
 **Jerod Santo:** Round two of Yep/Nope. We are debating "Are web apps and websites fundamentally different? Yep? Nope?" We're here to find out. Divya, it is now your turn. You have two minutes to state a case or refute something that your opponent said. Go ahead.
 
@@ -200,7 +200,7 @@ And I think if we were debating the difference between websites and native apps,
 
 **Jerod Santo:** And the winner of this debate is me, because the only way to win is by not participating. And I'm the only one here who did not actually play, so... I win. congratulations to me. After this break we're gonna come back and we're gonna peel back the veil; we're gonna talk about what our participants actually believe, maybe get into a real-world debate around the nuances here... Because there's no nuance in that premise, but there's a lot of nuance in this discussion. So we'll return and we will see what everybody really thinks right after this.
 
-**Break:** \[25:10\]
+**Break:** \{25:10\}
 
 **Jerod Santo:** Okay, so let's talk about what we really think about this. The premise was web apps and websites are fundamentally different, and that's worded in such a way that it is defensible from either side. I think Feross keyed in on the word "fundamental", which I thought was the strong argument myself, even though he still lost at the end of the day, but... \[laughter\] Remember, I was the only one that won, so... Sorry, but you participated, which was foolish. But what do you all really think? Do you make distinguishments? Are they different but not fundamentally different? If we can just relax and chat, what do you all really think about this?
 
@@ -256,13 +256,13 @@ Actually, I think a really interesting argument that we can have later, like ano
 
 Okay, final thoughts before we call it a day. This was a lot of fun... I always enjoy the argumentation, whether or not I agree or disagree, and I always enjoy declaring myself the winner. Nick, you've been quiet recently. Do you have any thoughts on the distinguishments, the usefulness, and what you really believe in this context?
 
-**Nick Nisi:** Yeah, coming back to what Feross was saying about how everything is being built as a web app nowadays - that's totally true. My blog, that I really haven't posted on since 2015 - I just redid it with Eleventy, and it's all JavaScript... But at the end of the day it's no JavaScript at all running on the page. So it feels like an app that I'm working on, but it's served like a site. And to an end user, I don't think that there's any difference. I think that's the most important takeaway.
+**Nick Nisi:** Yeah, coming back to what Feross was saying about how everything is being built as a web app nowadays - that's totally true. My blog, that I really haven't posted on since 2015 - I just redid it with Eleventy, and it's all JavScript... But at the end of the day it's no JavScript at all running on the page. So it feels like an app that I'm working on, but it's served like a site. And to an end user, I don't think that there's any difference. I think that's the most important takeaway.
 
 **Amal Hussein:** I have to say, to that point, Nick... People who can write or build web apps - we tend to kind of over-engineer everything. So you don't need React running your blog, for example, or even an Npm dependency toolchain, for example. Obviously, you can do whatever you want; you're an engineer, you can do it. But I think it's important for us to really think about the future of the web, and for me, the future of the web needs to include more web authors and content creators, and what does that world look like. And not just like folks posting content through social media platforms like TikTok. You see the engagement level there for people who are interested in putting things out there onto the web... But I think it would be nice for people to be able to put content onto the open web without that intermediary. And for that, we're gonna need to have a more distinct, simpler, more accessible class of tools than -- you know, \[unintelligible 00:38:54.02\] That's actually really why I think the distinguishment between sites and apps can help define those boundaries for people on the other side of the spectrum.
 
 **Nick Nisi:** Maybe if we can quantify the level of over-engineering that's going into something, we can distinguish it on a scale between website and web app...
 
-**Jerod Santo:** And maybe we can do it on page size... Like, if it's 3 MB of JavaScript bundle, then it's a web app, right? \[laughter\]
+**Jerod Santo:** And maybe we can do it on page size... Like, if it's 3 MB of JavScript bundle, then it's a web app, right? \[laughter\]
 
 **Nick Nisi:** But if it's 10 MB of images, then it's a website.
 
@@ -350,7 +350,7 @@ I don't take it as speaking down to me to call me a developer versus an engineer
 
 **Jerod Santo:** Yes. So you win, Thomas. So thanks everybody for listening. This is our show for this week, and we'll talk to you next time.
 
-**Outro:** \[45:44\]
+**Outro:** \{45:44\}
 
 **Jerod Santo:** I had to fact-check you, because you'd just stated that one of your arguments is the other team got fact-checked... \[laughter\]
 
@@ -398,7 +398,7 @@ I don't take it as speaking down to me to call me a developer versus an engineer
 
 **Jerod Santo:** Pick it back up. \[laughter\] The show's not over.
 
-**Jingle:** \[48:22\]
+**Jingle:** \{48:22\}
 
 **Divya:** I love how Nick just said "Websites have content, and web apps..." \[laughter\]
 
