@@ -8,7 +8,7 @@
 
 **Rachel White:** Cool! We have a lot of cool, fun things -- I don't know cool, we have exciting... Semi-exciting, semi-cool, semi-fun things to talk to you about today. We're gonna talk about documentation, what makes for good documentation, non-blocking UI rendering, and then we're gonna talk to Tracy about the current state of Node.js and what is being a community/education person like, and what's going on this year with Node.
 
-Cool, let's jump right into the documentation. We're gonna talk about what makes good documentation to you; how do you prefer to go about adding documentation to your projects, what are some best practices, what are projects that you like...? Who wants to start?
+Cool, let's jump right into the documentation. We're gonna talk about what makes good documentation to you; how do you prefer to go about adding documentation to your projects, what are some best practices, what are projects that you like...? Who wants to start? javascript
 
 **Tracy Hinds:** I'll jump into it a little bit, because this is something that's just been this wonderful, sort of serendipitous week of hearing a lot about documentation. I was doing research for learning Node and kind of looking at the survey stuff that we had gotten from last winter's survey... As I was reading through all of this data that we had it was really odd, because I kept reading about what docs people were using to help learn Node. Some people were saying like, "Oh yeah, these docs are great!" and then I'm seeing other people saying, "Docs are terrible, they're substandard. What's going on?" and I was just like "What docs -- they're being really vague about it."
 

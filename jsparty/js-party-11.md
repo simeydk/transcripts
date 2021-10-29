@@ -12,8 +12,7 @@ Today we have Wes Bos and Mike Taylor. Wes, introduce yourself.
 
 **Alex Sexton:** I also work from home in Austin, Texas. Wes, do you sometimes work from home? Is that true?
 
-**Wes Bos:** I always work from home. I'm in Hamilton.
-
+**Wes Bos:** I always work from home. I'm in Hamilton. javascript
 **Alex Sexton:** What's the HackerYou stuff that you do?
 
 **Wes Bos:** The HackerYou stuff is I teach twice a week part-time classes in Toronto at HackerYou. So I guess I do go in to teach there, but everything else is from home.

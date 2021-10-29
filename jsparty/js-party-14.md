@@ -6,7 +6,7 @@
 
 **Mikeal Rogers:** Jessica is filling in for Rachel this week, because she's at the conference. It's awesome.
 
-**Jessica Lord:** I've already failed! \[laughter\]
+**Jessica Lord:** I've already failed! \[laughter\] javascript
 
 **Mikeal Rogers:** We're lucky enough to have her back. And our first topic today is the release of Node.js version 8 - not to be confused with V8 the engine - and to talk about that we've got a guest on, James Snell. Why don't you say hello, James?
 
