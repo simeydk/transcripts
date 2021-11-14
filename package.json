@@ -6,7 +6,8 @@
     "contributors:generate": "all-contributors generate",
     "test": "jest",
     "format": "node scripts/format.js",
-    "commitMessage": "node scripts/commitMessage.js"
+    "commitMessage": "node scripts/commitMessage.js",
+    "unintelligibles": "node scripts/unintelligibles.js"
   },
   "repository": {
     "type": "git",
